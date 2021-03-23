@@ -1,0 +1,29 @@
+{
+  "name": "madosel",
+  "description": "The most and fast advanced responsive html front-end framework.",
+  "homepage": "https://www.madosel.com/",
+  "author": "Kenan Gündoğan",
+  "main": "scss/madosel.scss",
+  "license": "MIT",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kenangundogan/madosel.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kenangundogan/madosel/issues"
+  },
+  "keywords": [
+    "madosel",
+    "css",
+    "sass",
+    "scss",
+    "style",
+    "framework",
+    "css-framework",
+    "sass-framework"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
