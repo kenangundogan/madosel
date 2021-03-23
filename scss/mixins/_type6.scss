@@ -1,0 +1,21 @@
+@mixin type6($type, $sub-property, $screen-n){
+    @if($type == 6){
+        $list: map-get($sub-property, list);
+        $values: map-get($sub-property, values);
+        @each $key, $value in $values {
+            $status: map-get($value, status);
+            $class: map-get($value, class);
+            $extension: map-get($value, extension);
+            $start: map-get($value, start);
+            $end: map-get($value, end);
+            @for $var from $start through $end {
+                @each $list-n, $list-v in $list {
+                    .#{$screen-n}#{$list-n}-#{$var}\/#{$end}{
+                       #{$list-v}:#{$var * 100 / $end + $extension};
+                    }
+                }
+            }
+        }
+    }
+}
+

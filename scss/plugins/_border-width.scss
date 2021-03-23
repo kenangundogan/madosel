@@ -1,0 +1,42 @@
+$border-width:(
+    "border-width": (
+        type: 2,
+        status: $border-width-status,
+        responsive: $border-width-responsive,
+        property: (
+            name: border-width,
+            class: null
+        ),
+        sub-property: (
+            list:(
+                border: border-width,
+                border-t: border-top-width,
+                border-r: border-right-width,
+                border-b: border-bottom-width,
+                border-l: border-left-width
+            ),
+            values: (
+                percent:(
+                    status: true,
+                    class: px,
+                    extension: px,
+                    start: 0,
+                    end: 10,
+                    rate: 1
+                )
+            )
+        )
+    ),
+    "border-width-other": (
+        type: 5,
+        status: $border-width-status,
+        responsive: $border-width-responsive,
+        property: (
+            name: border-width,
+            class: null,
+            list:(
+                border-none: (border-width, 0px),
+            )
+        )
+    ),
+);

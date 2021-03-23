@@ -1,0 +1,34 @@
+$height: (
+    "height": (
+        type: 2,
+        status: $height-status,
+        responsive: $height-responsive,
+        property: (
+            name: height,
+            class: null
+        ),
+        sub-property: (
+            list:(
+                h: height
+            ),
+            values: (
+                percent:(
+                    status: true,
+                    class: null,
+                    extension: '%',
+                    start: 0,
+                    end: 20,
+                    rate: 5
+                ),
+                px:(
+                    status: true,
+                    class: px,
+                    extension: 'px',
+                    start: 0,
+                    end: 30,
+                    rate: 10
+                )
+            )
+        )
+    )
+);

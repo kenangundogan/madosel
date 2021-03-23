@@ -1,0 +1,16 @@
+$overflow-wrap:(
+    "overflow-wrap": (
+        type: 1,
+        status: $overflow-wrap-status,
+        responsive: $overflow-wrap-responsive,
+        property: (
+            name: overflow-wrap,
+            class: null,
+            list: (
+                normal: normal,
+                anywhere: anywhere,
+                break-word: break-word
+            )
+        )
+    )
+)

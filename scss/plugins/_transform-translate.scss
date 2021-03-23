@@ -1,0 +1,27 @@
+$transform-translate: (
+    "transform-translate": (
+        type: 2,
+        status: $transform-translate-status,
+        responsive: $transform-translate-responsive,
+        property: (
+            name: transform,
+            class: null
+        ),
+        sub-property: (
+            list:(
+                translate-x: --translate-x,
+                translate-y: --translate-y,
+            ),
+            values: (
+                percent:(
+                    status: true,
+                    class: null,
+                    extension: '%',
+                    start: 0,
+                    end: 20,
+                    rate: 5
+                )
+            )
+        )
+    )
+);

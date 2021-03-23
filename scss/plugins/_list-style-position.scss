@@ -1,0 +1,15 @@
+$list-style-position:(
+    "list-style-position": (
+        type: 1,
+        status: $list-style-position-status,
+        responsive: $list-style-position-responsive,
+        property: (
+            name: list-style-position,
+            class: null,
+            list: (
+                inside: inside,
+                outside: outside
+            )
+        )
+    )
+)

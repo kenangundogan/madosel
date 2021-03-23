@@ -1,0 +1,17 @@
+$text-align:(
+    "text-align": (
+        type: 1,
+        status: $text-align-status,
+        responsive: $text-align-responsive,
+        property: (
+            name: text-align,
+            class: null,
+            list: (
+                left: left,
+                center: center,
+                right: right,
+                justify: justify
+            )
+        )
+    )
+)

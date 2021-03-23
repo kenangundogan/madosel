@@ -1,0 +1,32 @@
+@mixin type3($type, $property, $screen-n){
+    @if($type == 3){
+        $list: map-get($property, list);
+        $colors: map-get($property, color);
+        $value: map-get($property, value);
+        $light: map-get($value, light);
+        $dark: map-get($value, dark);
+        $color-percent-light : 8%;    
+        $color-percent-dark : 5%;    
+
+        @each $class, $property in $list {
+            @each $name, $color in $colors {
+                @for $var from 1 through $dark {
+                    .#{$screen-n}#{$class}-#{$name}-#{($var + $dark + 1) * 100}{
+                        --#{$class}-opacity: 1;
+                        #{$property}:rgba(darken($color, ($color-percent-dark * ($var))), var(--#{$class}-opacity));
+                    }
+                }
+                .#{$screen-n}#{$class}-#{$name}-#{($light + 1) * 100}{
+                    --#{$class}-opacity: 1;
+                    #{$property}:rgba($color, var(--#{$class}-opacity));
+                }
+                @for $var from 1 through $light {
+                    .#{$screen-n}#{$class}-#{$name}-#{(($light + 1) - $var) * 100}{
+                        --#{$class}-opacity: 1;
+                        #{$property}:rgba(lighten($color, ($color-percent-light * $var)), var(--#{$class}-opacity));
+                    }
+                }
+            }
+        }
+    }
+}

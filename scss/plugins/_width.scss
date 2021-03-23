@@ -1,0 +1,48 @@
+$width: (
+    "width": (
+        type: 2,
+        status: $width-status,
+        responsive: $width-responsive,
+        property: (
+            name: width,
+            class: null
+        ),
+        sub-property: (
+            list:(
+                w: width
+            ),
+            values: (
+                percent:(
+                    status: true,
+                    class: null,
+                    extension: '%',
+                    start: 0,
+                    end: 20,
+                    rate: 5
+                ),
+                px:(
+                    status: true,
+                    class: px,
+                    extension: 'px',
+                    start: 0,
+                    end: 60,
+                    rate: 5
+                )
+            )
+        )
+    ),
+    "width-other": (
+        type: 1,
+        status: $width-status,
+        responsive: $width-responsive,
+        property: (
+            name: width,
+            class: null,
+            list: (
+                width: auto,
+                min-content: min-content,
+                max-content: max-content
+            )
+        )
+    )
+);

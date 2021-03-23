@@ -1,0 +1,26 @@
+$z-index:(
+    "z-index": (
+        type: 2,
+        status: $z-index-status,
+        responsive: $z-index-responsive,
+        property: (
+            name: z-index,
+            class: null
+        ),
+        sub-property: (
+            list:(
+                z: z-index
+            ),
+            values: (
+                percent:(
+                    status: true,
+                    class: null,
+                    extension: null,
+                    start: 0,
+                    end: 10,
+                    rate: 10
+                )
+            )
+        )
+    )
+);

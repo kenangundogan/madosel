@@ -1,0 +1,19 @@
+$object-fit:(
+    "object-fit": (
+        type: 1,
+        status: $object-fit-status,
+        responsive: $object-fit-responsive,
+        property: (
+            name: object-fit,
+            class: null,
+            list: (
+                contain: contain,
+                cover: cover,
+                fill: fill,
+                none: none,
+                scale-down: scale-down,
+                inherit: inherit
+            )
+        )
+    )
+);

@@ -1,0 +1,34 @@
+$max-height: (
+    "max-height": (
+        type: 2,
+        status: $max-height-status,
+        responsive: $max-height-responsive,
+        property: (
+            name: max-height,
+            class: null
+        ),
+        sub-property: (
+            list:(
+                max-h: max-height
+            ),
+            values: (
+                percent:(
+                    status: true,
+                    class: null,
+                    extension: '%',
+                    start: 0,
+                    end: 20,
+                    rate: 5
+                ),
+                px:(
+                    status: true,
+                    class: px,
+                    extension: 'px',
+                    start: 0,
+                    end: 30,
+                    rate: 10
+                )
+            )
+        )
+    )
+);

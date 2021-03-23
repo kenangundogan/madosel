@@ -1,0 +1,18 @@
+$border-style:(
+    "border-style": (
+        type: 1,
+        status: $border-style-status,
+        responsive: $border-style-responsive,
+        property: (
+            name: border-style,
+            class: null,
+            list: (
+                solid: solid,
+                dashed: dashed,
+                dotted: dotted,
+                double: double,
+                none: none
+            )
+        )
+    )
+);

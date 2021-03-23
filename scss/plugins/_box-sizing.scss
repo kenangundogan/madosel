@@ -1,0 +1,15 @@
+$box-sizing:(
+    "box-sizing": (
+        type: 1,
+        status: $box-sizing-status,
+        responsive: $box-sizing-responsive,
+        property: (
+            name: box-sizing,
+            class: null,
+            list: (
+                border: border-box,
+                content: content-box
+            )
+        )
+    )
+);

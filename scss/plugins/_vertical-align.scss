@@ -1,0 +1,22 @@
+$vertical-align:(
+    "vertical-align": (
+        type: 1,
+        status: $vertical-align-status,
+        responsive: $vertical-align-responsive,
+        property: (
+            name: vertical-align,
+            class: null,
+            list: (
+                baseline: baseline,
+                top: top,
+                middle: middle,
+                bottom: bottom,
+                sub: sub,
+                super: super,
+                unset: unset,
+                text-top: text-top,
+                text-bottom: text-bottom
+            )
+        )
+    )
+)

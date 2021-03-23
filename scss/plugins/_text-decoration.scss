@@ -1,0 +1,17 @@
+$text-decoration:(
+    "text-decoration": (
+        type: 1,
+        status: $text-decoration-status,
+        responsive: $text-decoration-responsive,
+        property: (
+            name: text-decoration,
+            class: null,
+            list: (
+                underline: underline,
+                overline: overline,
+                line-through: line-through,
+                none: none
+            )
+        )
+    )
+)

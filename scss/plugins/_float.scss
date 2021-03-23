@@ -1,0 +1,16 @@
+$float:(
+    "float": (
+        type: 1,
+        status: $float-status,
+        responsive: $float-responsive,
+        property: (
+            name: float,
+            class: null,
+            list: (
+                right: right,
+                left: left,
+                none: none
+            )
+        )
+    )
+);

@@ -1,0 +1,18 @@
+$place-items: (
+    "place-items": (
+        type: 1,
+        status: $place-items-status,
+        responsive: $place-items-responsive,
+        property: (
+            name: place-items,
+            class: null,
+            list: (
+                auto: auto,
+                start: start,
+                end: end,
+                center: center,
+                stretch: stretch,
+            )
+        )
+    )
+);

@@ -1,0 +1,18 @@
+$align-self: (
+    "align-self": (
+        type: 1,
+        status: $align-self-status,
+        responsive: $align-self-responsive,
+        property: (
+            name: align-self,
+            class: null,
+            list: (
+                auto: auto,
+                start: flex-start,
+                end: flex-end,
+                center: center,
+                stretch: stretch,
+            )
+        )
+    )
+);

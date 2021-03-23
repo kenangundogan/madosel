@@ -1,0 +1,15 @@
+$pointer-events:(
+    "pointer-events": (
+        type: 1,
+        status: $pointer-events-status,
+        responsive: $pointer-events-responsive,
+        property: (
+            name: pointer-events,
+            class: null,
+            list: (
+                none: none,
+                auto: auto
+            )
+        )
+    )
+)

@@ -1,0 +1,18 @@
+$white-space:(
+    "white-space": (
+        type: 1,
+        status: $white-space-status,
+        responsive: $white-space-responsive,
+        property: (
+            name: white-space,
+            class: null,
+            list: (
+                normal: normal,
+                nowrap: nowrap,
+                pre: pre,
+                pre-line: pre-line,
+                pre-wrap: pre-wrap
+            )
+        )
+    )
+)

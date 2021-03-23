@@ -1,0 +1,26 @@
+$flex-grow: (
+    "flex-grow": (
+        type: 2,
+        status: $flex-grow-status,
+        responsive: $flex-grow-responsive,
+        property: (
+            name: flex-grow,
+            class: null
+        ),
+        sub-property: (
+            list:(
+                flex-grow: flex-grow
+            ),
+            values: (
+                percent:(
+                    status: true,
+                    class: null,
+                    extension: null,
+                    start: 0,
+                    end: 12,
+                    rate: 1
+                )
+            )
+        )
+    )
+);

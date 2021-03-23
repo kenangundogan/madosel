@@ -1,0 +1,17 @@
+$resize:(
+    "resize": (
+        type: 1,
+        status: $resize-status,
+        responsive: $resize-responsive,
+        property: (
+            name: resize,
+            class: null,
+            list: (
+                none: none,
+                vertical: vertical,
+                horizontal: horizontal,
+                both: both
+            )
+        )
+    )
+)

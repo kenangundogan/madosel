@@ -1,0 +1,17 @@
+$user-select:(
+    "user-select": (
+        type: 1,
+        status: $user-select-status,
+        responsive: $user-select-responsive,
+        property: (
+            name: user-select,
+            class: null,
+            list: (
+                none: none,
+                text: text,
+                all: all,
+                auto: auto
+            )
+        )
+    )
+)

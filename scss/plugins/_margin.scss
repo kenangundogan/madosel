@@ -1,0 +1,50 @@
+$margin: (
+    "margin": (
+        type: 2,
+        status: $margin-status,
+        responsive: $margin-responsive,
+        property: (
+            name: margin,
+            class: null
+        ),
+        sub-property: (
+            list:(
+                m: margin,
+                mt: margin-top,
+                mr: margin-right,
+                mb: margin-bottom,
+                ml: margin-left
+            ),
+            values:(
+                percent:(
+                    status: true,
+                    class: null,
+                    extension: '%',
+                    start: 0,
+                    end: 20,
+                    rate: 5
+                ),
+                px:(
+                    status: true,
+                    class: px,
+                    extension: 'px',
+                    start: 0,
+                    end: 20,
+                    rate: 5
+                )
+            )
+        )
+    ),
+    "margin-other": (
+        type: 1,
+        status: $margin-status,
+        responsive: $margin-responsive,
+        property: (
+            name: margin,
+            class: m,
+            list: (
+                auto: auto
+            )
+        )
+    )
+);

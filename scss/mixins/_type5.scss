@@ -1,0 +1,12 @@
+@mixin type5($type, $property, $screen-n){
+    @if($type == 5){
+        $property-n: map-get($property, name);
+        $property-c: map-get($property, class);
+        $property-list: map-get($property, list);
+        @each $list-n, $list-v in $property-list {
+            .#{$screen-n}#{$list-n}{
+                #{nth($list-v, 1)}: nth($list-v, 2);
+            } 
+        }
+    }
+}

@@ -1,0 +1,52 @@
+$transform: (
+    "transform": (
+        type: 1,
+        status: $transform-status,
+        responsive: $transform-responsive,
+        property: (
+            name: transform,
+            class: null,
+            list: (
+                none: none 
+            )
+        )
+    ),
+    "transform-all-value": (
+        type: 1,
+        status: $transform-status,
+        responsive: false,
+        property: (
+            name: transform,
+            class: null,
+            list: (
+                null:(
+                    translateX(var(--translate-x))
+                    translateY(var(--translate-y))
+                    rotate(var(--rotate))
+                    skewX(var(--skew-x))
+                    skewY(var(--skew-y))
+                    scaleX(var(--scale-x))
+                    scaleY(var(--scale-y))
+                ),
+            )
+        )
+    ),
+    "transform-default-value-option": (
+        type: 7,
+        status: $transform-status,
+        responsive: $transform-responsive,
+        property: (
+            name: transform,
+            class: null,
+            list: (
+                --translate-x: 0,
+                --translate-y: 0,
+                --rotate: 0,
+                --skew-x: 0,
+                --skew-y: 0,
+                --scale-x: 1,
+                --scale-y: 1
+            )
+        )
+    )
+);

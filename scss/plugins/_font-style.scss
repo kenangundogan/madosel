@@ -1,0 +1,15 @@
+$font-style:(
+    "font-style": (
+        type: 1,
+        status: $font-style-status,
+        responsive: $font-style-responsive,
+        property: (
+            name: font-style,
+            class: null,
+            list: (
+                normal: normal,
+                italic: italic
+            )
+        )
+    )
+)

@@ -1,0 +1,15 @@
+$border-collapse:(
+    "border-collapse": (
+        type: 1,
+        status: $border-collapse-status,
+        responsive: $border-collapse-responsive,
+        property: (
+            name: border-collapse,
+            class: null,
+            list: (
+                collapse: collapse,
+                separate: separate
+            )
+        )
+    )
+);

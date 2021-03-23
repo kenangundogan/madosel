@@ -1,0 +1,18 @@
+$position:(
+    "position": (
+        type: 1,
+        status: $position-status,
+        responsive: $position-responsive,
+        property: (
+            name: position,
+            class: null,
+            list: (
+                static: static,
+                relative: relative,
+                fixed: fixed,
+                absolute: absolute,
+                sticky: sticky
+            )
+        )
+    )
+);

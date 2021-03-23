@@ -1,0 +1,39 @@
+$top-right-bottom-left:(
+    "top-right-bottom-left": (
+        type: 2,
+        status: $top-right-bottom-left-status,
+        responsive: $top-right-bottom-left-responsive,
+        property: (
+            name: false,
+            class: null,
+        ),
+        sub-property: (
+            list:(
+                top: top,
+                right: right,
+                bottom: bottom,
+                left: left
+            ),
+            values:(
+                percent:(
+                    status: true,
+                    class: null,
+                    extension: '%',
+                    reverse: true,
+                    start: 0,
+                    end: 10,
+                    rate: 10
+                ),
+                px:(
+                    status: true,
+                    class: px,
+                    extension: 'px',
+                    reverse: true,
+                    start: 0,
+                    end: 10,
+                    rate: 10
+                )
+            )
+        )
+    )
+);

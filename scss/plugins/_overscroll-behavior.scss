@@ -1,0 +1,22 @@
+$overscroll-behavior:(
+    "overscroll-behavior": (
+        type: 5,
+        status: $overscroll-behavior-status,
+        responsive: $overscroll-behavior-responsive,
+        property: (
+            name: overscroll-behavior,
+            class: null,
+            list: (
+                overscroll-behavior-auto: (overscroll-behavior, auto),
+                overscroll-behavior-contain: (overscroll-behavior, contain),
+                overscroll-behavior-none: (overscroll-behavior, none),
+                overscroll-behavior-y-auto: (overscroll-behavior-y, auto),
+                overscroll-behavior-y-contain: (overscroll-behavior-y, contain),
+                overscroll-behavior-y-none: (overscroll-behavior-y, none),
+                overscroll-behavior-x-auto: (overscroll-behavior-x, auto),
+                overscroll-behavior-x-contain: (overscroll-behavior-x, contain),
+                overscroll-behavior-x-none: (overscroll-behavior-x, none),
+            )
+        )
+    )
+);

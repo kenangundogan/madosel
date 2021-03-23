@@ -1,0 +1,339 @@
+// Configuration
+
+// base color
+$base-color-status: true;
+$base-color-responsive: true;
+
+// text-color
+$text-color-status: true;
+$text-color-responsive: true;
+
+// border-color
+$border-color-status: true;
+$border-color-responsive: true;
+
+// background-color
+$background-color-status: true;
+$background-color-responsive: true;
+
+// background-attachment
+$background-attachment-status: true;
+$background-attachment-responsive: true;
+
+// background-clip
+$background-clip-status: true;
+$background-clip-responsive: true;
+
+// background-position
+$background-position-status: true;
+$background-position-responsive: true;
+
+// background-repeat
+$background-repeat-status: true;
+$background-repeat-responsive: true;
+
+// background-size
+$background-size-status: true;
+$background-size-responsive: true;
+
+// background-image
+$background-image-status: true;
+$background-image-responsive: true;
+
+// border-style
+$border-style-status: true;
+$border-style-responsive: true;
+
+// border-radius
+$border-radius-status: true;
+$border-radius-responsive: true;
+
+// border-width
+$border-width-status: true;
+$border-width-responsive: true;
+
+// justify-content
+$justify-content-status: true;
+$justify-content-responsive: true;
+
+// justify-items
+$justify-items-status: true;
+$justify-items-responsive: true;
+
+// justify-self
+$justify-self-status: true;
+$justify-self-responsive: true;
+
+// align-content
+$align-content-status: true;
+$align-content-responsive: true;
+
+// align-items
+$align-items-status: true;
+$align-items-responsive: true;
+
+// align-self
+$align-self-status: true;
+$align-self-responsive: true;
+
+// place-content
+$place-content-status: true;
+$place-content-responsive: true;
+
+// place-items
+$place-items-status: true;
+$place-items-responsive: true;
+
+// place-self
+$place-self-status: true;
+$place-self-responsive: true;
+
+// opacity
+$opacity-status: true;
+$opacity-responsive: true;
+
+// text-opacity
+$text-opacity-status: true;
+$text-opacity-responsive: true;
+
+// background-opacity
+$background-opacity-status: true;
+$background-opacity-responsive: true;
+
+// border-opacity
+$border-opacity-status: true;
+$border-opacity-responsive: true;
+
+// flex-direction
+$flex-direction-status: true;
+$flex-direction-responsive: true;
+
+// flex-wrap
+$flex-wrap-status: true;
+$flex-wrap-responsive: true;
+
+// flex
+$flex-status: true;
+$flex-responsive: true;
+
+// flex-grow
+$flex-grow-status: true;
+$flex-grow-responsive: true;
+
+// flex-shrink
+$flex-shrink-status: true;
+$flex-shrink-responsive: true;
+
+// order
+$order-status: true;
+$order-responsive: true;
+
+// appearance
+$appearance-status: true;
+$appearance-responsive: true;
+
+// resize
+$resize-status: true;
+$resize-responsive: true;
+
+// user-select
+$user-select-status: true;
+$user-select-responsive: true;
+
+// cursor
+$cursor-status: true;
+$cursor-responsive: true;
+
+// pointer-events
+$pointer-events-status: true;
+$pointer-events-responsive: true;
+
+// box-sizing
+$box-sizing-status: true;
+$box-sizing-responsive: true;
+
+// box-shadow
+$box-shadow-status: true;
+$box-shadow-responsive: true;
+
+// position
+$position-status: true;
+$position-responsive: true;
+
+// z-index
+$z-index-status: true;
+$z-index-responsive: true;
+
+// visibility
+$visibility-status: true;
+$visibility-responsive: true;
+
+// overflow
+$overflow-status: true;
+$overflow-responsive: true;
+
+// overscroll-behavior
+$overscroll-behavior-status: true;
+$overscroll-behavior-responsive: true;
+
+// display
+$display-status: true;
+$display-responsive: true;
+
+// float
+$float-status: true;
+$float-responsive: true;
+
+// clear
+$clear-status: true;
+$clear-responsive: true;
+
+// object-fit
+$object-fit-status: true;
+$object-fit-responsive: true;
+
+// object-position
+$object-position-status: true;
+$object-position-responsive: true;
+
+// top-right-bottom-left
+$top-right-bottom-left-status: true;
+$top-right-bottom-left-responsive: true;
+
+// width
+$width-status: true;
+$width-responsive: true;
+
+// max-width
+$max-width-status: true;
+$max-width-responsive: true;
+
+// min-width
+$min-width-status: true;
+$min-width-responsive: true;
+
+// height
+$height-status: true;
+$height-responsive: true;
+
+// max-height
+$max-height-status: true;
+$max-height-responsive: true;
+
+// min-height
+$min-height-status: true;
+$min-height-responsive: true;
+
+// margin
+$margin-status: true;
+$margin-responsive: true;
+
+// padding
+$padding-status: true;
+$padding-responsive: true;
+
+// table-layout
+$table-layout-status: true;
+$table-layout-responsive: true;
+
+// border-collapse
+$border-collapse-status: true;
+$border-collapse-responsive: true;
+
+// font-family
+$font-family-status: true;
+$font-family-responsive: true;
+
+// font-style
+$font-style-status: true;
+$font-style-responsive: true;
+
+// font-smoothing
+$font-smoothing-status: true;
+$font-smoothing-responsive: true;
+
+// font-weight
+$font-weight-status: true;
+$font-weight-responsive: true;
+
+// text-align
+$text-align-status: true;
+$text-align-responsive: true;
+
+// text-decoration
+$text-decoration-status: true;
+$text-decoration-responsive: true;
+
+// text-transform
+$text-transform-status: true;
+$text-transform-responsive: true;
+
+// text-overflow
+$text-overflow-status: true;
+$text-overflow-responsive: true;
+
+// vertical-align
+$vertical-align-status: true;
+$vertical-align-responsive: true;
+
+// white-space
+$white-space-status: true;
+$white-space-responsive: true;
+
+// word-break
+$word-break-status: true;
+$word-break-responsive: true;
+
+// overflow-wrap
+$overflow-wrap-status: true;
+$overflow-wrap-responsive: true;
+
+// list-style-type
+$list-style-type-status: true;
+$list-style-type-responsive: true;
+
+// list-style-position
+$list-style-position-status: true;
+$list-style-position-responsive: true;
+
+// line-height
+$line-height-status: true;
+$line-height-responsive: true;
+
+// letter-spacing
+$letter-spacing-status: true;
+$letter-spacing-responsive: true;
+
+// font-size
+$font-size-status: true;
+$font-size-responsive: true;
+
+// transform
+$transform-status: true;
+$transform-responsive: true;
+
+// transform-rotate
+$transform-rotate-status: true;
+$transform-rotate-responsive: true;
+
+// transform-skew
+$transform-skew-status: true;
+$transform-skew-responsive: true;
+
+// transform-scale
+$transform-scale-status: true;
+$transform-scale-responsive: true;
+
+// transform-translate
+$transform-translate-status: true;
+$transform-translate-responsive: true;
+
+
+// SPECIAL
+// column
+$column-status: true;
+$column-responsive: true;
+
+// container
+$container-status: true;
+$container-responsive: true;

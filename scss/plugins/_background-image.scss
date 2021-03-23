@@ -1,0 +1,14 @@
+$background-image: (
+    "background-image": (
+        type: 1,
+        status: $background-image-status,
+        responsive: $background-image-responsive,
+        property: (
+            name: background-image,
+            class: null,
+            list: (
+                none: "none !important"
+            )
+        )
+    )
+)

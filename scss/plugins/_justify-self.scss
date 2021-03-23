@@ -1,0 +1,18 @@
+$justify-self: (
+    "justify-self": (
+        type: 1,
+        status: $justify-self-status,
+        responsive: $justify-self-responsive,
+        property: (
+            name: justify-self,
+            class: null,
+            list: (
+                auto: auto,
+                start: start,
+                end: end,
+                center: center,
+                stretch: stretch,
+            )
+        )
+    )
+);

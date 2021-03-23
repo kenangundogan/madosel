@@ -1,0 +1,28 @@
+$background-color:(
+    "background-color": (
+        type: 3,
+        status: $background-color-status,
+        responsive: $background-color-responsive,
+        property: (
+            list:(
+                bg: background-color
+            ),
+            color:(
+                "red":$red,
+                "green":$green,
+                "blue":$blue,
+                "yellow":$yellow,
+                "pink":$pink,
+                "purple":$purple,
+                "gray":$gray
+            ),
+            value:(
+                status: true,
+                light: 4,
+                dark: 4,
+            )
+        )
+    )
+);
+
+

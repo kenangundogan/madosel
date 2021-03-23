@@ -1,0 +1,34 @@
+$min-width: (
+    "min-width": (
+        type: 2,
+        status: $min-width-status,
+        responsive: $min-width-responsive,
+        property: (
+            name: min-width,
+            class: null
+        ),
+        sub-property: (
+            list:(
+                min-w: min-width
+            ),
+            values: (
+                percent:(
+                    status: true,
+                    class: null,
+                    extension: '%',
+                    start: 0,
+                    end: 20,
+                    rate: 5
+                ),
+                px:(
+                    status: true,
+                    class: px,
+                    extension: 'px',
+                    start: 0,
+                    end: 60,
+                    rate: 5
+                )
+            )
+        )
+    )
+);

@@ -1,0 +1,22 @@
+$object-position:(
+    "object-position": (
+        type: 1,
+        status: $object-position-status,
+        responsive: $object-position-responsive,
+        property: (
+            name: object-position,
+            class: null,
+            list: (
+                top: top,
+                right: right,
+                bottom: bottom,
+                left: left,
+                center: center,
+                left-top: left top,
+                left-bottom: left bottom,
+                right-top: right top,
+                right-bottom: right bottom,
+            )
+        )
+    )
+);

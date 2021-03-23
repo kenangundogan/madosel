@@ -1,0 +1,34 @@
+$max-width: (
+    "max-width": (
+        type: 2,
+        status: $max-width-status,
+        responsive: $max-width-responsive,
+        property: (
+            name: max-width,
+            class: null
+        ),
+        sub-property: (
+            list:(
+                max-w: max-width
+            ),
+            values: (
+                percent:(
+                    status: true,
+                    class: null,
+                    extension: '%',
+                    start: 0,
+                    end: 20,
+                    rate: 5
+                ),
+                px:(
+                    status: true,
+                    class: px,
+                    extension: 'px',
+                    start: 0,
+                    end: 60,
+                    rate: 5
+                )
+            )
+        )
+    )
+);

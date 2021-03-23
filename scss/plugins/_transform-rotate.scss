@@ -1,0 +1,26 @@
+$transform-rotate: (
+    "transform-rotate": (
+        type: 2,
+        status: $transform-rotate-status,
+        responsive: $transform-rotate-responsive,
+        property: (
+            name: transform,
+            class: null
+        ),
+        sub-property: (
+            list:(
+                rotate: --rotate,
+            ),
+            values: (
+                percent:(
+                    status: true,
+                    class: null,
+                    extension: 'deg',
+                    start: 0,
+                    end: 24,
+                    rate: 15
+                )
+            )
+        )
+    )
+);

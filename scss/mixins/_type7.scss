@@ -1,0 +1,12 @@
+@mixin type7($type, $property, $screen-n){
+    @if($type == 7){
+        $property-n: map-get($property, name);
+        $property-c: map-get($property, class);
+        $property-list: map-get($property, list);
+        .#{$property-n}{
+            @each $list-n, $list-v in $property-list {
+                #{$list-n}: $list-v
+            }
+        }
+    }
+}

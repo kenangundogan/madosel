@@ -1,0 +1,22 @@
+$background-position: (
+    "background-position": (
+        type: 1,
+        status: $background-position-status,
+        responsive: $background-position-responsive,
+        property: (
+            name: background-position,
+            class: null,
+            list: (
+                top: top,
+                right: right,
+                bottom: bottom,
+                left: left,
+                center: center,
+                left-top: left top,
+                left-bottom: left bottom,
+                right-top: right top,
+                right-bottom: right bottom
+            )
+        )
+    )
+)

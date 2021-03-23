@@ -1,0 +1,27 @@
+@mixin type2($type, $sub-property, $screen-n){
+    @if($type == 2){
+        $list: map-get($sub-property, list);
+        $values: map-get($sub-property, values);
+        @each $key, $value in $values {
+            $status: map-get($value, status);
+            $class: map-get($value, class);
+            $extension: map-get($value, extension);
+            $start: map-get($value, start);
+            $end: map-get($value, end);
+            $rate: map-get($value, rate);
+            $reverse: map-get($value, reverse);
+            @for $var from $start through $end {
+                @each $list-n, $list-v in $list {
+                    .#{$screen-n}#{$list-n}-#{$var * $rate + $class}{
+                       #{$list-v}:#{$var * $rate + $extension};
+                    }
+                    @if($reverse == true){
+                        .#{$screen-n}-#{$list-n}-#{$var * $rate + $class}{
+                            #{$list-v}:-#{$var * $rate + $extension};
+                         }
+                    }
+                }
+            }
+        }
+    }
+}

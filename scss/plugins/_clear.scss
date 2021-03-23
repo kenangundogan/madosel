@@ -1,0 +1,17 @@
+$clear:(
+    "clear": (
+        type: 1,
+        status: $clear-status,
+        responsive: $clear-responsive,
+        property:(
+            name: clear,
+            class: null,
+            list: (
+                left: left,
+                right: right,
+                both: both,
+                none: none
+            )
+        )
+    )
+);

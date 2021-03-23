@@ -1,0 +1,15 @@
+@mixin type8($type, $property, $screen-n, $screen-v){
+    @if($type == 8){
+        $property-n: map-get($property, name);
+        $property-c: map-get($property, class);
+        $property-list: map-get($property, list);
+        @each $var in $screen-v {
+            .#{$screen-n}#{$property-n}{
+                max-width: $var;
+            }
+            .#{$property-n}{
+                max-width: $var;
+            }
+        }
+    }
+}

@@ -1,0 +1,26 @@
+$order: (
+    "order": (
+        type: 2,
+        status: $order-status,
+        responsive: $order-responsive,
+        property: (
+            name: order,
+            class: null
+        ),
+        sub-property: (
+            list:(
+                order: order
+            ),
+            values: (
+                percent:(
+                    status: true,
+                    class: null,
+                    extension: null,
+                    start: 0,
+                    end: 10,
+                    rate: 1
+                )
+            )
+        )
+    )
+);

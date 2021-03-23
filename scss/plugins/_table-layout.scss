@@ -1,0 +1,15 @@
+$table-layout:(
+    "table-layout": (
+        type: 1,
+        status: $table-layout-status,
+        responsive: $table-layout-responsive,
+        property: (
+            name: table-layout,
+            class: null,
+            list: (
+                auto: auto,
+                fixed: fixed
+            )
+        )
+    )
+);

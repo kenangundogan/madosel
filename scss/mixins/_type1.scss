@@ -1,0 +1,15 @@
+@mixin type1($type, $property, $screen-n){
+    @if($type == 1){
+        $property-n: map-get($property, name);
+        $property-a-n: map-get($property, name-alternative);
+        $property-c: map-get($property, class);
+        $property-list: map-get($property, list);
+        @each $list-n, $list-v in $property-list {
+            $class: if($property-c, $property-c, $property-n);
+            $list-n: if($list-n, -#{$list-n}, null);
+            .#{$screen-n}#{$class}#{$list-n}{
+                #{if($property-a-n, $property-a-n, $property-n)}: $list-v;
+            } 
+        }
+    }
+}

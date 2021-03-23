@@ -1,0 +1,16 @@
+$flex-wrap: (
+    "flex-wrap": (
+        type: 1,
+        status: $flex-wrap-status,
+        responsive: $flex-wrap-responsive,
+        property: (
+            name: flex-wrap,
+            class: null,
+            list: (
+                wrap: wrap,
+                reverse: wrap-reverse,
+                nowrap: nowrap,
+            )
+        )
+    )
+);

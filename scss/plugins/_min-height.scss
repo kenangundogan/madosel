@@ -1,0 +1,34 @@
+$min-height: (
+    "min-height": (
+        type: 2,
+        status: $min-height-status,
+        responsive: $min-height-responsive,
+        property: (
+            name: min-height,
+            class: null
+        ),
+        sub-property: (
+            list:(
+                min-h: min-height
+            ),
+            values: (
+                percent:(
+                    status: true,
+                    class: null,
+                    extension: '%',
+                    start: 0,
+                    end: 20,
+                    rate: 5
+                ),
+                px:(
+                    status: true,
+                    class: px,
+                    extension: 'px',
+                    start: 0,
+                    end: 30,
+                    rate: 10
+                )
+            )
+        )
+    )
+);

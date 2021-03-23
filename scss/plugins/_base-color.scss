@@ -1,0 +1,30 @@
+$base-color:(
+    "base-color": (
+        type: 4,
+        status: $base-color-status,
+        responsive: $base-color-responsive,
+        property: (
+            list:(
+                color: color,
+                bg-color: background-color,
+                border-color: border-color,
+                placeholder: color
+            ),
+            values:(
+                "transparent": transparent,
+                "primary": $primary,
+                "secondary": $secondary,
+                "success": $success,
+                "info": $info,
+                "warning": $warning,
+                "danger": $danger,
+                "dark": $dark,
+                "light": $light,
+                "black": $black,
+                "white": $white
+            )
+        )
+    )
+);
+
+

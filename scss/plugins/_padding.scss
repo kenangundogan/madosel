@@ -1,0 +1,38 @@
+$padding: (
+    "padding": (
+        type: 2,
+        status: $padding-status,
+        responsive: $padding-responsive,
+        property: (
+            name: padding,
+            class: null
+        ),
+        sub-property: (
+            list:(
+                p: padding,
+                pt: padding-top,
+                pr: padding-right,
+                pb: padding-bottom,
+                pl: padding-left
+            ),
+            values:(
+                percent:(
+                    status: true,
+                    class: null,
+                    extension: '%',
+                    start: 0,
+                    end: 20,
+                    rate: 5
+                ),
+                px:(
+                    status: true,
+                    class: px,
+                    extension: 'px',
+                    start: 0,
+                    end: 20,
+                    rate: 5
+                )
+            )
+        )
+    )
+);

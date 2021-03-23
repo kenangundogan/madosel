@@ -1,0 +1,18 @@
+$align-items: (
+    "align-items": (
+        type: 1,
+        status: $align-items-status,
+        responsive: $align-items-responsive,
+        property: (
+            name: align-items,
+            class: null,
+            list: (
+                start: flex-start,
+                end: flex-end,
+                center: center,
+                baseline: baseline,
+                stretch: stretch,
+            )
+        )
+    )
+);

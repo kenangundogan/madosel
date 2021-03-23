@@ -1,0 +1,17 @@
+$flex: (
+    "flex": (
+        type: 1,
+        status: $flex-status,
+        responsive: $flex-responsive,
+        property: (
+            name: flex,
+            class: flex,
+            list: (
+                1: 1 1 0%,
+                auto: 1 1 auto,
+                initial: 0 1 auto,
+                none: none,
+            )
+        )
+    )
+);

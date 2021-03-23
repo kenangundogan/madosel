@@ -1,0 +1,22 @@
+$font-weight:(
+    "font-weight": (
+        type: 1,
+        status: $font-weight-status,
+        responsive: $font-weight-responsive,
+        property: (
+            name: font-weight,
+            class: null,
+            list: (
+                thin: 100,
+                extralight: 200,
+                light: 300,
+                normal: 400,
+                medium: 500,
+                semibold: 600,
+                bold: 700,
+                extrabold: 800,
+                black: 900
+            )
+        )
+    )
+)

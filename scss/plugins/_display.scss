@@ -1,0 +1,36 @@
+$display:(
+    "display": (
+        type: 1,
+        status: $display-status,
+        responsive: $display-responsive,
+        property: (
+            name: display,
+            class: null,
+            list: (
+                inline: inline,
+                block: block,
+                contents: contents,
+                flex: flex,
+                flow-root: flow-root,
+                grid: grid,
+                inline-block: inline-block,
+                inline-flex: inline-flex,
+                inline-grid: inline-grid,
+                inline-table: inline-table,
+                list-item: list-item,
+                run-in: run-in,
+                table: table,
+                table-caption: table-caption,
+                table-column-group: table-column-group,
+                table-header-group: table-header-group,
+                table-footer-group: table-footer-group,
+                table-row-group: table-row-group,
+                table-cell: table-cell,
+                table-column: table-column,
+                table-row: table-row,
+                none: none,
+                initial: initial
+            )
+        )
+    )
+);

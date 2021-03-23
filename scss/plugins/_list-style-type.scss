@@ -1,0 +1,24 @@
+$list-style-type:(
+    "list-style-type": (
+        type: 1,
+        status: $list-style-type-status,
+        responsive: $list-style-type-responsive,
+        property: (
+            name: list-style-type,
+            class: null,
+            list: (
+                none: none,
+                disc: disc,
+                circle: circle,
+                square: square,
+                lower-alpha: lower-alpha,
+                lower-latin: lower-latin,
+                lower-roman: lower-roman,
+                upper-alpha: upper-alpha,
+                upper-latin: upper-latin,
+                upper-roman: upper-roman,
+                decimal: decimal
+            )
+        )
+    )
+)

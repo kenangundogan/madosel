@@ -1,0 +1,17 @@
+$text-transform:(
+    "text-transform": (
+        type: 1,
+        status: $text-transform-status,
+        responsive: $text-transform-responsive,
+        property: (
+            name: text-transform,
+            class: null,
+            list: (
+                uppercase: uppercase,
+                lowercase: lowercase,
+                capitalize: capitalize,
+                none: none
+            )
+        )
+    )
+)

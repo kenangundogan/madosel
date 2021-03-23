@@ -1,0 +1,17 @@
+$word-break:(
+    "word-break": (
+        type: 1,
+        status: $word-break-status,
+        responsive: $word-break-responsive,
+        property: (
+            name: word-break,
+            class: null,
+            list: (
+                normal: normal,
+                break-all: break-all,
+                break-word: break-word,
+                keep-all: keep-all
+            )
+        )
+    )
+)

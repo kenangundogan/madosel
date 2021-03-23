@@ -1,0 +1,20 @@
+@mixin type4($type, $property, $screen-n){
+    @if($type == 4){
+        $list: map-get($property, list);
+        $values: map-get($property, values);
+        @each $class, $property in $list {
+            @if($class == placeholder){
+                @each $name, $color in $values {
+                    .#{$screen-n}#{$class}-#{$name}::#{$class}{
+                        #{$property}:$color;
+                    }
+                }
+            }
+            @each $name, $color in $values {
+                .#{$screen-n}#{$class}-#{$name}{
+                    #{$property}:$color;
+                }
+            }
+        }
+    }
+}

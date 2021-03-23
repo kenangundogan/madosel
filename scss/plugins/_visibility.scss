@@ -1,0 +1,15 @@
+$visibility:(
+    "visibility": (
+        type: 1,
+        status: $visibility-status,
+        responsive: $visibility-responsive,
+        property: (
+            name: visibility,
+            class: null,
+            list: (
+                visible: visible,
+                hidden: hidden
+            )
+        )
+    )
+);

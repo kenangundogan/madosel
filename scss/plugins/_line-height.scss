@@ -1,0 +1,25 @@
+$line-height:(
+    "line-height": (
+        type: 1,
+        status: $line-height-status,
+        responsive: $line-height-responsive,
+        property: (
+            name: line-height,
+            class: null,
+            list:(
+                normal: 1em,
+                xs: 1.1em,
+                sm: 1.2em,
+                md: 1.3em,
+                lg: 1.4em,
+                xl: 1.5em,
+                2xl: 1.6em,
+                3xl: 1.7em,
+                4xl: 1.8em,
+                5xl: 1.9em,
+                6xl: 2em,
+                7xl: 2.1em
+            ),
+        )
+    )
+)

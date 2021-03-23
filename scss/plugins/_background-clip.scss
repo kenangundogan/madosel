@@ -1,0 +1,17 @@
+$background-clip: (
+    "background-clip": (
+        type: 1,
+        status: $background-clip-status,
+        responsive: $background-clip-responsive,
+        property: (
+            name: background-clip,
+            class: null,
+            list: (
+                border-box: border-box,
+                padding-box: padding-box,
+                content-box: content-box,
+                text: text
+            )
+        )
+    )
+)

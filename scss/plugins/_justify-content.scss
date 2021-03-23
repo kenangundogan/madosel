@@ -1,0 +1,19 @@
+$justify-content: (
+    "justify-content": (
+        type: 1,
+        status: $justify-content-status,
+        responsive: $justify-content-responsive,
+        property: (
+            name: justify-content,
+            class: null,
+            list: (
+                start: flex-start,
+                end: flex-end,
+                center: center,
+                between: space-between,
+                around: space-around,
+                evenly: space-evenly
+            )
+        )
+    )
+);

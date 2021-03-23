@@ -1,0 +1,25 @@
+$letter-spacing:(
+    "letter-spacing": (
+        type: 1,
+        status: $letter-spacing-status,
+        responsive: $letter-spacing-responsive,
+        property: (
+            name: letter-spacing,
+            class: null,
+            list:(
+                normal: 0em,
+                xs: 0.01em,
+                sm: 0.02em,
+                md: 0.03em,
+                lg: 0.04em,
+                xl: 0.05em,
+                2xl: 0.06em,
+                3xl: 0.07em,
+                4xl: 0.08em,
+                5xl: 0.09em,
+                6xl: 0.10em,
+                7xl: 0.11em,
+            )
+        )
+    )
+)

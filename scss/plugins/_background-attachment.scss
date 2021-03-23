@@ -1,0 +1,16 @@
+$background-attachment: (
+    "background-attachment": (
+        type: 1,
+        status: $background-attachment-status,
+        responsive: $background-attachment-responsive,
+        property: (
+            name: background-attachment,
+            class: null,
+            list: (
+                fixed: fixed,
+                local: local,
+                scroll: scroll
+            )
+        )
+    )
+)

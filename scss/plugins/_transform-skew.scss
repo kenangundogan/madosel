@@ -1,0 +1,27 @@
+$transform-skew: (
+    "transform-skew": (
+        type: 2,
+        status: $transform-skew-status,
+        responsive: $transform-skew-responsive,
+        property: (
+            name: skew,
+            class: null
+        ),
+        sub-property: (
+            list:(
+                skew-x: --skew-x,
+                skew-y: --skew-y,
+            ),
+            values: (
+                percent:(
+                    status: true,
+                    class: null,
+                    extension: 'deg',
+                    start: 0,
+                    end: 24,
+                    rate: 15
+                )
+            )
+        )
+    )
+);

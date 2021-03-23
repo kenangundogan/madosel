@@ -1,0 +1,20 @@
+$place-content: (
+    "place-content": (
+        type: 1,
+        status: $place-content-status,
+        responsive: $place-content-responsive,
+        property: (
+            name: place-content,
+            class: null,
+            list: (
+                start: start,
+                end: end,
+                center: center,
+                between: space-between,
+                around: space-around,
+                evenly: space-evenly,
+                stretch: stretch,
+            )
+        )
+    )
+);

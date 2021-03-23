@@ -1,0 +1,17 @@
+$flex-direction: (
+    "flex-direction": (
+        type: 1,
+        status: $flex-direction-status,
+        responsive: $flex-direction-responsive,
+        property: (
+            name: flex-direction,
+            class: flex-direction,
+            list: (
+                row: row,
+                row-reverse: row-reverse,
+                column: column,
+                column-reverse: column-reverse
+            )
+        )
+    )
+);

@@ -1,0 +1,28 @@
+$text-color:(
+    "text-color": (
+        type: 3,
+        status: $text-color-status,
+        responsive: $text-color-responsive,
+        property: (
+            list:(
+                text: color
+            ),
+            color:(
+                "red":$red,
+                "green":$green,
+                "blue":$blue,
+                "yellow":$yellow,
+                "pink":$pink,
+                "purple":$purple,
+                "gray":$gray
+            ),
+            value:(
+                status: true,
+                light: 4,
+                dark: 4,
+            )
+        )
+    )
+);
+
+

@@ -1,0 +1,30 @@
+$column: (
+    "column": (
+        type: 6,
+        status: $column-status,
+        responsive: $column-responsive,
+        property: (
+            name: width,
+            class: null
+        ),
+        sub-property: (
+            list:(
+                w: width,
+                min-w: min-width,
+                max-w: max-width,
+                h: height,
+                min-h: min-height,
+                max-h: max-height
+            ),
+            values: (
+                grid:(
+                    status: true,
+                    class: null,
+                    extension: '%',
+                    start: 1,
+                    end: 12
+                )
+            )
+        )
+    )
+);

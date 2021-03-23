@@ -1,0 +1,19 @@
+$background-repeat: (
+    "background-repeat": (
+        type: 1,
+        status: $background-repeat-status,
+        responsive: $background-repeat-responsive,
+        property: (
+            name: background-repeat,
+            class: null,
+            list: (
+                repeat: repeat,
+                no-repeat: no-repeat,
+                repeat-x: repeat-x,
+                repeat-y: repeat-y,
+                round: round,
+                space: space
+            )
+        )
+    )
+)

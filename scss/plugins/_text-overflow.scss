@@ -1,0 +1,15 @@
+$text-overflow:(
+    "text-overflow": (
+        type: 1,
+        status: $text-overflow-status,
+        responsive: $text-overflow-responsive,
+        property: (
+            name: text-overflow,
+            class: null,
+            list: (
+                ellipsis: ellipsis,
+                clip: clip
+            )
+        )
+    )
+)

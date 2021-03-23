@@ -1,0 +1,15 @@
+$appearance:(
+    "appearance": (
+        type: 1,
+        status: $appearance-status,
+        responsive: $appearance-responsive,
+        property: (
+            name: appearance,
+            class: null,
+            list: (
+                auto: auto,
+                none: none,
+            )
+        )
+    )
+)

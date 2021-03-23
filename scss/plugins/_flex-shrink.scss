@@ -1,0 +1,26 @@
+$flex-shrink: (
+    "flex-shrink": (
+        type: 2,
+        status: $flex-shrink-status,
+        responsive: $flex-shrink-responsive,
+        property: (
+            name: flex-shrink,
+            class: null
+        ),
+        sub-property: (
+            list:(
+                flex-shrink: flex-shrink
+            ),
+            values: (
+                percent:(
+                    status: true,
+                    class: null,
+                    extension: null,
+                    start: 0,
+                    end: 12,
+                    rate: 1
+                )
+            )
+        )
+    )
+);

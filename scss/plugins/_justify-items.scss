@@ -1,0 +1,18 @@
+$justify-items: (
+    "justify-items": (
+        type: 1,
+        status: $justify-items-status,
+        responsive: $justify-items-responsive,
+        property: (
+            name: justify-items,
+            class: null,
+            list: (
+                baseline: baseline,
+                start: start,
+                end: end,
+                center: center,
+                stretch: stretch,
+            )
+        )
+    )
+);

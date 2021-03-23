@@ -1,0 +1,55 @@
+$border-radius:(
+    "border-radius": (
+        type: 2,
+        status: $border-radius-status,
+        responsive: $border-radius-responsive,
+        property: (
+            name: border-radius,
+            class: null
+        ),
+        sub-property: (
+            list:(
+                br: border-radius,
+                brtl: border-top-left-radius,
+                brtr: border-top-right-radius,
+                brbl: border-bottom-left-radius,
+                brbr: border-bottom-right-radius
+            ),
+            values: (
+                percent:(
+                    status: true,
+                    class: null,
+                    extension: '%',
+                    start: 1,
+                    end: 20,
+                    rate: 5
+                ),
+                px:(
+                    status: true,
+                    class: px,
+                    extension: 'px',
+                    start: 0,
+                    end: 20,
+                    rate: 5
+                )
+            )
+        )
+    ),
+    "border-radius-other": (
+        type: 5,
+        status: $border-radius-status,
+        responsive: $border-radius-responsive,
+        property: (
+            name: border-radius,
+            class: null,
+            list:(
+                br-none: (border-radius, 0px),
+                br-full: (border-radius, 9999px),
+                brtl-full: (border-top-left-radius, 9999px),
+                brtr-full: (border-top-right-radius, 9999px),
+                brbl-full: (border-bottom-left-radius, 9999px),
+                brbr-full: (border-bottom-right-radius, 9999px),
+            )
+        )
+    )
+);

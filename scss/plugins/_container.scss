@@ -1,0 +1,23 @@
+$container:(
+    "container": (
+        type: 8,
+        status: $container-status,
+        responsive: $container-responsive,
+        property: (
+            name: container,
+            class: null
+        )
+    ),
+    "container-other": (
+        type: 5,
+        status: $container-status,
+        responsive: $container-responsive,
+        property: (
+            name: container,
+            class: null,
+            list: (
+                container-fluid: (width, 100%)
+            )
+        )
+    )
+);

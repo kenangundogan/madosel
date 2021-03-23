@@ -1,0 +1,18 @@
+$place-self: (
+    "place-self": (
+        type: 1,
+        status: $place-self-status,
+        responsive: $place-self-responsive,
+        property: (
+            name: place-self,
+            class: null,
+            list: (
+                auto: auto,
+                start: start,
+                end: end,
+                center: center,
+                stretch: stretch,
+            )
+        )
+    )
+);

@@ -1,0 +1,17 @@
+$font-smoothing:(
+    "font-smoothing": (
+        type: 1,
+        status: $font-smoothing-status,
+        responsive: $font-smoothing-responsive,
+        property: (
+            name: -webkit-font-smoothing,
+            class: font,
+            list: (
+                antialiased: antialiased,
+                subpixel-antialiased: subpixel-antialiased,
+                auto: auto,
+                none: none
+            )
+        )
+    )
+)

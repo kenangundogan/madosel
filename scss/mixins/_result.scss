@@ -1,0 +1,50 @@
+@mixin make-property($status, $type, $property, $sub-property, $responsive, $screen-n, $screen-v) {
+    @if($status == true){ 
+        @include type1($type, $property, $screen-n);
+        @include type2($type, $sub-property, $screen-n);
+        @include type3($type, $property, $screen-n);
+        @include type4($type, $property, $screen-n);
+        @include type5($type, $property, $screen-n);
+        @include type6($type, $sub-property, $screen-n);
+        @include type7($type, $property, $screen-n);
+        @include type8($type, $property, $screen-n, $screen-v);
+    }
+}
+
+@mixin responsiveFalse($screen-n, $screen-v) {
+    @each $key, $plugin in $plugins {
+        $status: map-get($plugin, status);
+        $type: map-get($plugin, type);
+        $responsive: map-get($plugin, responsive);
+        $property: map-get($plugin, property);
+        $sub-property: map-get($plugin, sub-property);
+        @include make-property($status, $type, $property, $sub-property, $responsive, $screen-n, $screen-v);
+    }
+}
+
+@mixin responsiveTrue($screen-n, $screen-v) {
+    @each $key, $plugin in $plugins {
+        $status: map-get($plugin, status);
+        $type: map-get($plugin, type);
+        $responsive: map-get($plugin, responsive);
+        $property: map-get($plugin, property);
+        $sub-property: map-get($plugin, sub-property);
+        @if($responsive == true){ 
+            @include make-property($status, $type, $property, $sub-property, $responsive, $screen-n, $screen-v);
+        }
+    }
+}
+
+
+
+@mixin result() {
+    @each $screen-n, $screen-v in $screens {
+        $screen-n: #{$screen-n}\:;
+        @media(min-width: $screen-v) {
+            @include responsiveTrue($screen-n, $screen-v);
+        }
+    }
+    @include responsiveFalse($screen-n:null, $screen-v:null);
+}
+
+@include result();
