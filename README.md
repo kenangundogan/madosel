@@ -7,4 +7,5 @@
 <p align="center">
   <a href="https://www.npmjs.org/package/fontisto"><img src="https://img.shields.io/npm/v/madosel.svg?style=flat" alt="npm"></a>
   <a href="https://github.com/kenangundogan/madosel/blob/master/LICENSE"><img src="https://img.shields.io/npm/l/madosel.svg" alt="License"></a>
+  <a href="https://www.jsdelivr.com/package/npm/madosel"><img src="https://data.jsdelivr.com/v1/package/npm/madosel/badge" alt="jsdelivr"></a>
 </p>
