@@ -5,8 +5,8 @@
         $value: map-get($property, value);
         $light: map-get($value, light);
         $dark: map-get($value, dark);
-        $color-percent-light : 8%;    
-        $color-percent-dark : 5%;    
+        $color-percent-light : 8%;
+        $color-percent-dark : 5%;
 
         @each $class, $property in $list {
             @each $name, $color in $colors {
