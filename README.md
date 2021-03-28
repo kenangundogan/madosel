@@ -6,8 +6,9 @@
 </p>
 
 
-[![License](https://img.shields.io/npm/l/madosel.svg)](https://github.com/kenangundogan/madosel/blob/master/LICENSE)
-[![npm version](https://img.shields.io/npm/v/madosel.svg)](https://www.npmjs.org/package/madosel)
-[![jsdeliver](https://data.jsdelivr.com/v1/package/npm/madosel/badge)](https://www.jsdelivr.com/package/npm/madosel)
-[![CSS gzip size](http://img.badgesize.io/kenangundogan/madosel/master/dist/css/madosel.min.css?compression=gzip&label=CSS+gzip+size)](https://github.com/kenangundogan/madosel/master/dist/css/madosel.min.css)
-[![Coverage Status](https://coveralls.io/repos/github/kenangundogan/madosel/badge.svg?branch=master)](https://coveralls.io/github/kenangundogan/madosel?branch=master)
+<a href="https://github.com/kenangundogan/madosel/blob/master/LICENSE"><img src="https://img.shields.io/npm/l/madosel.svg" alt="License"></a>
+<a href="https://www.npmjs.org/package/madosel"><img src="https://img.shields.io/npm/v/madosel.svg" alt="npm version"></a>
+<a href="https://www.jsdelivr.com/package/npm/madosel"><img src="https://data.jsdelivr.com/v1/package/npm/madosel/badge" alt="jsdeliver"></a>
+<a href="https://github.com/kenangundogan/madosel/master/dist/css/madosel.min.css"><img src="http://img.badgesize.io/kenangundogan/madosel/master/dist/css/madosel.min.css?compression=gzip&label=CSS+gzip+size" alt="CSS gzip size"></a>
+<a href="https://coveralls.io/github/kenangundogan/madosel?branch=master"><img src="https://coveralls.io/repos/github/kenangundogan/madosel/badge.svg?branch=master" alt="Coverage Status"></a>
+<a href="https://www.npmjs.com/package/madosel"><img src="https://img.shields.io/npm/dt/madosel.svg" alt="Total Downloads"></a>
