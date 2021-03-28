@@ -6,7 +6,7 @@
         @each $list-n, $list-v in $property-list {
             .#{$screen-n}#{$list-n}{
                 #{nth($list-v, 1)}: nth($list-v, 2);
-            } 
+            }
         }
     }
 }
