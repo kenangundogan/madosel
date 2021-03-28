@@ -1,5 +1,5 @@
 @mixin make-property($status, $type, $property, $sub-property, $responsive, $screen-n, $screen-v) {
-    @if($status == true){ 
+    @if($status == true){
         @include type1($type, $property, $screen-n);
         @include type2($type, $sub-property, $screen-n);
         @include type3($type, $property, $screen-n);
@@ -29,7 +29,7 @@
         $responsive: map-get($plugin, responsive);
         $property: map-get($plugin, property);
         $sub-property: map-get($plugin, sub-property);
-        @if($responsive == true){ 
+        @if($responsive == true){
             @include make-property($status, $type, $property, $sub-property, $responsive, $screen-n, $screen-v);
         }
     }
