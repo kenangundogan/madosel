@@ -43,7 +43,7 @@ $border-radius:(
             name: border-radius,
             class: null,
             list:(
-                br-none: (border-radius, 0px),
+                br-none: (border-radius, 0),
                 br-full: (border-radius, 9999px),
                 brtl-full: (border-top-left-radius, 9999px),
                 brtr-full: (border-top-right-radius, 9999px),

@@ -12,12 +12,13 @@
             $reverse: map-get($value, reverse);
             @for $var from $start through $end {
                 @each $list-n, $list-v in $list {
+                    $list-vr: if(($var * $rate) == 0, 0, ($var * $rate + $extension));
                     .#{$screen-n}#{$list-n}-#{$var * $rate + $class}{
-                       #{$list-v}:#{$var * $rate + $extension};
+                       #{$list-v}:#{$list-vr};
                     }
                     @if($reverse == true){
                         .#{$screen-n}-#{$list-n}-#{$var * $rate + $class}{
-                            #{$list-v}:-#{$var * $rate + $extension};
+                            #{$list-v}:-#{$list-vr};
                          }
                     }
                 }
