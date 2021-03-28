@@ -8327,16 +8327,6 @@ table {
             transform: none;
   }
 
-  .transform {
-    --translate-x: 0;
-    --translate-y: 0;
-    --rotate: 0;
-    --skew-x: 0;
-    --skew-y: 0;
-    --scale-x: 1;
-    --scale-y: 1;
-  }
-
   .xs\:translate-x-0 {
     --translate-x: 0;
   }
@@ -17642,16 +17632,6 @@ table {
   .sm\:transform-none {
     -webkit-transform: none;
             transform: none;
-  }
-
-  .transform {
-    --translate-x: 0;
-    --translate-y: 0;
-    --rotate: 0;
-    --skew-x: 0;
-    --skew-y: 0;
-    --scale-x: 1;
-    --scale-y: 1;
   }
 
   .sm\:translate-x-0 {
@@ -26961,16 +26941,6 @@ table {
             transform: none;
   }
 
-  .transform {
-    --translate-x: 0;
-    --translate-y: 0;
-    --rotate: 0;
-    --skew-x: 0;
-    --skew-y: 0;
-    --scale-x: 1;
-    --scale-y: 1;
-  }
-
   .md\:translate-x-0 {
     --translate-x: 0;
   }
@@ -36276,16 +36246,6 @@ table {
   .lg\:transform-none {
     -webkit-transform: none;
             transform: none;
-  }
-
-  .transform {
-    --translate-x: 0;
-    --translate-y: 0;
-    --rotate: 0;
-    --skew-x: 0;
-    --skew-y: 0;
-    --scale-x: 1;
-    --scale-y: 1;
   }
 
   .lg\:translate-x-0 {
@@ -45595,16 +45555,6 @@ table {
             transform: none;
   }
 
-  .transform {
-    --translate-x: 0;
-    --translate-y: 0;
-    --rotate: 0;
-    --skew-x: 0;
-    --skew-y: 0;
-    --scale-x: 1;
-    --scale-y: 1;
-  }
-
   .xl\:translate-x-0 {
     --translate-x: 0;
   }
@@ -54910,16 +54860,6 @@ table {
   .xxl\:transform-none {
     -webkit-transform: none;
             transform: none;
-  }
-
-  .transform {
-    --translate-x: 0;
-    --translate-y: 0;
-    --rotate: 0;
-    --skew-x: 0;
-    --skew-y: 0;
-    --scale-x: 1;
-    --scale-y: 1;
   }
 
   .xxl\:translate-x-0 {
