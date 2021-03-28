@@ -1,55 +1,55 @@
 {
-  "name": "madosel",
-  "description": "The most and fast advanced responsive html front-end framework.",
-  "homepage": "https://www.madosel.com/",
-  "author": "Kenan Gündoğan",
-  "main": "src/scss/madosel.scss",
-  "license": "MIT",
-  "version": "1.0.0-alpha1",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/kenangundogan/madosel.git"
-  },
-  "bugs": {
-    "url": "https://github.com/kenangundogan/madosel/issues"
-  },
-  "keywords": [
-    "madosel",
-    "css",
-    "sass",
-    "scss",
-    "style",
-    "framework",
-    "css-framework",
-    "sass-framework"
-  ],
-  "scripts": {
-    "build": "webpack",
-    "watch": "webpack --watch",
-    "dev": "webpack --config webpack.dev.js",
-    "prod": "webpack --config webpack.prod.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "devDependencies": {
-    "autoprefixer": "^10.2.5",
-    "css-loader": "^5.2.0",
-    "mini-css-extract-plugin": "^1.4.0",
-    "node-sass": "^5.0.0",
-    "postcss": "^8.2.8",
-    "postcss-loader": "^5.2.0",
-    "sass": "^1.32.8",
-    "sass-loader": "^11.0.1",
-    "style-loader": "^2.0.0",
-    "webpack": "^5.28.0",
-    "webpack-cli": "^4.5.0",
-    "webpack-merge": "^5.7.3"
-  },
-  "browserslist": [
-    "defaults",
-    "not ie < 11",
-    "last 2 versions",
-    "> 1%",
-    "iOS 7",
-    "last 3 iOS versions"
-  ]
+    "name": "madosel",
+    "description": "The most and fast advanced responsive html front-end framework.",
+    "homepage": "https://www.madosel.com/",
+    "author": "Kenan Gündoğan",
+    "main": "src/scss/madosel.scss",
+    "license": "MIT",
+    "version": "1.0.0-alpha1",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/kenangundogan/madosel.git"
+    },
+    "bugs": {
+        "url": "https://github.com/kenangundogan/madosel/issues"
+    },
+    "keywords": [
+        "madosel",
+        "css",
+        "sass",
+        "scss",
+        "style",
+        "framework",
+        "css-framework",
+        "sass-framework"
+    ],
+    "scripts": {
+        "build": "webpack",
+        "watch": "webpack --watch",
+        "dev": "webpack --config webpack.dev.js",
+        "prod": "webpack --config webpack.prod.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "devDependencies": {
+        "autoprefixer": "^10.2.5",
+        "css-loader": "^5.2.0",
+        "mini-css-extract-plugin": "^1.4.0",
+        "node-sass": "^5.0.0",
+        "postcss": "^8.2.8",
+        "postcss-loader": "^5.2.0",
+        "sass": "^1.32.8",
+        "sass-loader": "^11.0.1",
+        "style-loader": "^2.0.0",
+        "webpack": "^5.28.0",
+        "webpack-cli": "^4.5.0",
+        "webpack-merge": "^5.7.3"
+    },
+    "browserslist": [
+        "defaults",
+        "not ie < 11",
+        "last 2 versions",
+        "> 1%",
+        "iOS 7",
+        "last 3 iOS versions"
+    ]
 }
