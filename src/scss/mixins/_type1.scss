@@ -9,7 +9,7 @@
             $list-n: if($list-n, -#{$list-n}, null);
             .#{$screen-n}#{$class}#{$list-n}{
                 #{if($property-a-n, $property-a-n, $property-n)}: $list-v;
-            } 
+            }
         }
     }
 }
