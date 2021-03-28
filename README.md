@@ -12,4 +12,5 @@
     <a href="https://www.npmjs.com/package/madosel"><img src="https://img.shields.io/npm/dt/madosel.svg" alt="Total Downloads"></a>
     <a href="https://github.com/kenangundogan/madosel/master/dist/css/madosel.min.css"><img src="http://img.badgesize.io/kenangundogan/madosel/master/dist/css/madosel.min.css?compression=gzip&label=CSS+gzip+size" alt="CSS gzip size"></a>
     <a href="https://coveralls.io/github/kenangundogan/madosel?branch=master"><img src="https://coveralls.io/repos/github/kenangundogan/madosel/badge.svg?branch=master" alt="Coverage Status"></a>
+    <a href="https://www.codefactor.io/repository/github/kenangundogan/madosel/overview/master"><img src="https://www.codefactor.io/repository/github/kenangundogan/madosel/badge/master" alt="CodeFactor" /></a>
 </p>
