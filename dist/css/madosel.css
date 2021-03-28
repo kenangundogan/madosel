@@ -4119,7 +4119,7 @@ table {
   }
 
   .xs\:letter-spacing-normal {
-    letter-spacing: 0em;
+    letter-spacing: 0;
   }
 
   .xs\:letter-spacing-xs {
@@ -13436,7 +13436,7 @@ table {
   }
 
   .sm\:letter-spacing-normal {
-    letter-spacing: 0em;
+    letter-spacing: 0;
   }
 
   .sm\:letter-spacing-xs {
@@ -22753,7 +22753,7 @@ table {
   }
 
   .md\:letter-spacing-normal {
-    letter-spacing: 0em;
+    letter-spacing: 0;
   }
 
   .md\:letter-spacing-xs {
@@ -32070,7 +32070,7 @@ table {
   }
 
   .lg\:letter-spacing-normal {
-    letter-spacing: 0em;
+    letter-spacing: 0;
   }
 
   .lg\:letter-spacing-xs {
@@ -41387,7 +41387,7 @@ table {
   }
 
   .xl\:letter-spacing-normal {
-    letter-spacing: 0em;
+    letter-spacing: 0;
   }
 
   .xl\:letter-spacing-xs {
@@ -50704,7 +50704,7 @@ table {
   }
 
   .xxl\:letter-spacing-normal {
-    letter-spacing: 0em;
+    letter-spacing: 0;
   }
 
   .xxl\:letter-spacing-xs {
@@ -60012,7 +60012,7 @@ table {
 }
 
 .letter-spacing-normal {
-  letter-spacing: 0em;
+  letter-spacing: 0;
 }
 
 .letter-spacing-xs {
