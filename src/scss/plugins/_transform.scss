@@ -34,7 +34,7 @@ $transform: (
     "transform-default-value-option": (
         type: 7,
         status: $transform-status,
-        responsive: $transform-responsive,
+        responsive: false,
         property: (
             name: transform,
             class: null,
