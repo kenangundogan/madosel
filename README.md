@@ -2,7 +2,9 @@
 <p align="center"><h3 align="center">Madosel</h3></p>
 <p align="center">Modasel is a family of responsive front-end frameworks that make it easy to design beautiful responsive websites, apps that look amazing on any device. Madosel is semantic, readable, flexible, and completely customizable.
   <br>
-  <a href="https://www.madosel.com/docs"><strong>Explore Madosel docs »</strong></a> &middot;
+  <a href="https://www.madosel.com/docs"><strong>Documentation</strong></a> &middot;
+  <a href="https://www.madosel.com/docs/get-started/installation"><strong>Installation</strong></a> &middot;
+  <a href="https://www.madosel.com/docs/get-started/browser-support"><strong>Browser Support</strong></a> &middot;
 </p>
 
 <p align="center">
