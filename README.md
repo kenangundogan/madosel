@@ -25,6 +25,12 @@
 - Install with [yarn](https://yarnpkg.com/en/package/madosel): `yarn add madosel`
 - Install with [composer](https://packagist.org/packages/kenangundogan/madosel): `composer require kenangundogan/madosel`
 
+## Versioning
+Madosel will be maintained under the Semantic Versioning guidelines as much as possible. Releases will be numbered with the following format:
+```
+<major>.<minor>.<patch>
+```
+
 ## Copyright and license
 Designed and built by [Kenan Gündoğan](https://www.linkedin.com/in/kenangundogan/)
 <br>
