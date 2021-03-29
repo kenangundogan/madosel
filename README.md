@@ -15,3 +15,13 @@
     <a href="https://coveralls.io/github/kenangundogan/madosel?branch=master"><img src="https://coveralls.io/repos/github/kenangundogan/madosel/badge.svg?branch=master" alt="Coverage Status"></a>
     <a href="https://www.codefactor.io/repository/github/kenangundogan/madosel/overview/master"><img src="https://www.codefactor.io/repository/github/kenangundogan/madosel/badge/master" alt="CodeFactor" /></a>
 </p>
+
+
+## Quick start
+#### Several quick start options are available:
+- [Download the latest release.](https://github.com/kenangundogan/madosel/archive/refs/tags/v1.0.0-alpha1.zip)
+- Clone the repo: `git clone https://github.com/kenangundogan/madosel.git`
+- Install with [npm](https://www.npmjs.com/package/madosel): `npm install madosel`
+- Install with [yarn](https://yarnpkg.com/en/package/madosel): `yarn add madosel`
+- Install with [composer](https://packagist.org/packages/kenangundogan/madosel): `composer require kenangundogan/madosel`
+
