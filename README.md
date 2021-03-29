@@ -4,7 +4,8 @@
   <br>
   <a href="https://www.madosel.com/docs"><strong>Documentation</strong></a> &middot;
   <a href="https://www.madosel.com/docs/get-started/installation"><strong>Installation</strong></a> &middot;
-  <a href="https://www.madosel.com/docs/get-started/browser-support"><strong>Browser Support</strong></a> &middot;
+  <a href="https://www.madosel.com/docs/get-started/task-runner"><strong>Build tools</strong></a> &middot;
+  <a href="https://www.madosel.com/docs/get-started/browser-support"><strong>Browser Support</strong></a>
 </p>
 
 <p align="center">
