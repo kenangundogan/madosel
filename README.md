@@ -25,3 +25,8 @@
 - Install with [yarn](https://yarnpkg.com/en/package/madosel): `yarn add madosel`
 - Install with [composer](https://packagist.org/packages/kenangundogan/madosel): `composer require kenangundogan/madosel`
 
+## Copyright and license
+Designed and built by [Kenan Gündoğan](https://www.linkedin.com/in/kenangundogan/)
+<br>
+2021 Currently - Code released under the [MIT License](https://github.com/kenangundogan/madosel/blob/master/LICENSE)
+Docs released under [Creative Commons](https://creativecommons.org/licenses/by/3.0/)
