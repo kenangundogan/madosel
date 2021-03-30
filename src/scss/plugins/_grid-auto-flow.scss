@@ -1,0 +1,17 @@
+$grid-auto-flow: (
+    "grid-auto-flow": (
+        type: 1,
+        status: $grid-auto-flow-status,
+        responsive: $grid-auto-flow-responsive,
+        property: (
+            name: grid-auto-flow,
+            class: null,
+            list: (
+                row: row,
+                column: column,
+                row-dense: row dense,
+                column-dense: column dense
+            )
+        )
+    )
+);
