@@ -1,0 +1,26 @@
+$grid-gap: (
+    "grid-gap": (
+        type: 1,
+        status: $grid-gap-status,
+        responsive: $grid-gap-responsive,
+        property: (
+            name: grid-gap,
+            class: null,
+            list: (
+                0: 0,
+                1: 0.125rem,
+                2: 0.25rem,
+                3: 0.375rem,
+                4: 0.5,
+                5: 0.625rem,
+                6: 0.75rem,
+                7: 0.875rem,
+                8: 1rem,
+                9: 1.25rem,
+                10: 1.50rem,
+                11: 1.75rem,
+                12: 2rem
+            )
+        )
+    )
+);
