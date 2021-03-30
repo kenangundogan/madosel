@@ -328,6 +328,61 @@ $transform-scale-responsive: true;
 $transform-translate-status: true;
 $transform-translate-responsive: true;
 
+// grid-template-columns
+$grid-template-columns-status: true;
+$grid-template-columns-responsive: true;
+
+// grid-column
+$grid-column-status: true;
+$grid-column-responsive: true;
+
+// grid-column-start
+$grid-column-start-status: true;
+$grid-column-start-responsive: true;
+
+// grid-column-end
+$grid-column-end-status: true;
+$grid-column-end-responsive: true;
+
+// grid-template-rows
+$grid-template-rows-status: true;
+$grid-template-rows-responsive: true;
+
+// grid-row
+$grid-row-status: true;
+$grid-row-responsive: true;
+
+// grid-row-start
+$grid-row-start-status: true;
+$grid-row-start-responsive: true;
+
+// grid-row-end
+$grid-row-end-status: true;
+$grid-row-end-responsive: true;
+
+// grid-auto-flow
+$grid-auto-flow-status: true;
+$grid-auto-flow-responsive: true;
+
+// grid-auto-columns
+$grid-auto-columns-status: true;
+$grid-auto-columns-responsive: true;
+
+// grid-auto-rows
+$grid-auto-rows-status: true;
+$grid-auto-rows-responsive: true;
+
+// grid-gap
+$grid-gap-status: true;
+$grid-gap-responsive: true;
+
+// grid-row-gap
+$grid-row-gap-status: true;
+$grid-row-gap-responsive: true;
+
+// grid-column-gap
+$grid-column-gap-status: true;
+$grid-column-gap-responsive: true;
 
 // SPECIAL
 // column
@@ -337,3 +392,4 @@ $column-responsive: true;
 // container
 $container-status: true;
 $container-responsive: true;
+
