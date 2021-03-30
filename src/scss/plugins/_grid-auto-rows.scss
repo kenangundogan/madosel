@@ -1,0 +1,16 @@
+$grid-auto-rows: (
+    "grid-auto-rows": (
+        type: 1,
+        status: $grid-auto-rows-status,
+        responsive: $grid-auto-rows-responsive,
+        property: (
+            name: grid-auto-rows,
+            class: null,
+            list: (
+                auto: auto,
+                min: min-content,
+                max: max-content
+            )
+        )
+    )
+);
