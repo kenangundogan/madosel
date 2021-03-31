@@ -23,6 +23,13 @@
         "css-framework",
         "sass-framework"
     ],
+    "contributors": [
+        "Kenan Gündoğan <kenangundogann@gmail.com>"
+    ],
+    "funding": {
+        "type": "patreon",
+        "url": "https://www.patreon.com/kenangundogan"
+    },
     "scripts": {
         "build": "webpack",
         "watch": "webpack --watch",
