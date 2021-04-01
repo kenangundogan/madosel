@@ -4,6 +4,7 @@
     "homepage": "https://www.madosel.com/",
     "author": "Kenan Gündoğan",
     "main": "src/scss/madosel.scss",
+    "style": "dist/css/madosel.min.css",
     "license": "MIT",
     "version": "1.0.0-alpha2",
     "repository": {
