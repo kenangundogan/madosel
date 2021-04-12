@@ -22,7 +22,8 @@
         "style",
         "framework",
         "css-framework",
-        "sass-framework"
+        "sass-framework",
+        "scss-framework"
     ],
     "contributors": [
         "Kenan Gündoğan <kenangundogann@gmail.com>"
