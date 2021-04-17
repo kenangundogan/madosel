@@ -43,10 +43,10 @@
   background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 185.04 185.04'%3E%3Cg id='Layer_2' data-name='Layer 2'%3E%3Cg id='Layer_1-2' data-name='Layer 1'%3E%3Cpath d='M180.41,87.89H97.15V4.63a4.63,4.63,0,0,0-9.26,0V87.89H4.63a4.63,4.63,0,0,0,0,9.26H87.89v83.26a4.63,4.63,0,0,0,9.26,0V97.15h83.26a4.63,4.63,0,0,0,0-9.26Z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E") no-repeat center/50%;
   width: 30px;
   height: 30px;
-  -webkit-box-flex: 30px;
-  -webkit-flex: 30px 0 0;
-      -ms-flex: 30px 0 0px;
-          flex: 30px 0 0;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 30px;
+      -ms-flex: 0 0 30px;
+          flex: 0 0 30px;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
