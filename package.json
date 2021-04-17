@@ -5,6 +5,7 @@
     "author": "Kenan Gündoğan",
     "main": "src/scss/madosel.scss",
     "style": "dist/css/madosel.min.css",
+    "script": "dist/js/madosel.js",
     "license": "MIT",
     "version": "1.0.0-alpha3",
     "repository": {
