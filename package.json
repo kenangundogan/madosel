@@ -6,7 +6,7 @@
     "main": "src/scss/madosel.scss",
     "style": "dist/css/madosel.min.css",
     "license": "MIT",
-    "version": "1.0.0-alpha2",
+    "version": "1.0.0-alpha3",
     "repository": {
         "type": "git",
         "url": "https://github.com/kenangundogan/madosel.git"
