@@ -1,0 +1,90 @@
+@import "base/variable";
+
+.modal-container{
+    position: fixed; overflow: hidden; 
+    z-index: 99999; top: 0; left: 0;
+    width: 100%; height: 100%; padding: 40px;
+    background-color: rgba($color: #000000, $alpha: 0);
+    display: none; transition: ease 300ms;
+
+    // DISPLAY
+    &.show{
+        display: flex;
+    }
+
+    // VISIBILITY
+    &.visible{
+        background-color: rgba($color: #000000, $alpha: 0.6);
+        .modal-wrapper{opacity: 1;}
+    }
+    
+    // POSITION
+    &.center{
+        justify-content: center; align-items: center;
+        .modal-wrapper{transform: translate(0,-50px);}
+    }
+    &.top{
+        justify-content: center; align-items: flex-start;
+        .modal-wrapper{transform: translate(0,-50px);}
+    }
+    &.bottom{
+        justify-content: center; align-items: flex-end;
+        .modal-wrapper{transform: translate(0,50px);}
+    }
+    &.top-left{
+        justify-content: flex-start; align-items: flex-start;
+        .modal-wrapper{transform: translate(-50px,0);}
+    }
+    &.top-right{
+        justify-content: flex-end; align-items: flex-start;
+        .modal-wrapper{transform: translate(50px,0);}
+    }
+    &.bottom-left{
+        justify-content: flex-start; align-items: flex-end;
+        .modal-wrapper{transform: translate(-50px,0);}
+    }
+    &.bottom-right{
+        justify-content: flex-end; align-items: flex-end;
+        .modal-wrapper{transform: translate(50px,0);}
+    }
+
+    // SIZE
+    &.small{
+        .modal-wrapper{max-width: 300px;}
+    }
+    &.medium{
+        .modal-wrapper{max-width: 600px;}
+    }
+    &.large{
+        .modal-wrapper{max-width: 1024px;}
+    }
+    &.xlarge{
+        .modal-wrapper{max-width: 1280px;}
+    }
+    &.full{
+        .modal-wrapper{max-width: 100%;}
+    }
+    &.fullscreen{
+        padding: 0;
+        .modal-wrapper{max-width: 100%; height: 100%;}
+    }
+
+    // TRANSFORM
+    &.transform{
+        .modal-wrapper{transform: none;}
+    }
+
+    .modal-wrapper{
+        position: relative; overflow: hidden;
+        width: 100%; max-width: 300px;
+        border-radius: 5px; padding: 40px;
+        background-color: #fff;
+        opacity: 0;
+        .modal-close{
+            position: absolute; top: 0; right: 0;
+            width: 50px; height: 50px; cursor: pointer;
+            @include close();
+        }
+
+    }
+}
