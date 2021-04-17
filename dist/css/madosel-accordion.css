@@ -71,7 +71,7 @@
 .accordion-container .accordion-item .body .wrapper {
   position: relative;
   overflow: hidden;
-  padding: 0px 20px 20px 60px;
+  padding: 0 20px 20px 60px;
   border-radius: 5px;
 }
 
