@@ -3,9 +3,9 @@
     "description": "The most and fast advanced responsive html front-end framework.",
     "homepage": "https://www.madosel.com/",
     "author": "Kenan Gündoğan",
-    "main": "src/scss/madosel.scss",
-    "style": "dist/css/madosel.min.css",
-    "script": "dist/js/madosel.js",
+    "main": "dist/css/madosel.min.css",
+    "style": "dist/css/madosel-component.min.css",
+    "script": "dist/js/madosel-component.js",
     "license": "MIT",
     "version": "1.0.0-alpha4",
     "repository": {
