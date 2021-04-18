@@ -10,7 +10,10 @@
         "style",
         "framework",
         "css-framework",
-        "sass-framework"
+        "sass-framework",
+        "scss-framework",
+        "javascript",
+        "javascript-framework"
     ],
     "homepage": "https://www.madosel.com/",
     "authors": [

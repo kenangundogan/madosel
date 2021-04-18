@@ -15,15 +15,15 @@
     <a href="https://www.npmjs.com/package/madosel"><img src="https://img.shields.io/npm/dt/madosel.svg" alt="Total Downloads"></a>
     <a href="https://github.com/kenangundogan/madosel/blob/master/dist/css/madosel.min.css"><img src="http://img.badgesize.io/kenangundogan/madosel/master/dist/css/madosel.min.css?compression=gzip&label=CSS+gzip+size" alt="CSS gzip size"></a>
     <a href="https://github.com/kenangundogan/madosel/blob/master/dist/css/madosel.min.css"><img src="http://img.badgesize.io/kenangundogan/madosel/master/dist/css/madosel.min.css?compression=brotli&label=CSS+brotli+size" alt="CSS gzip size"></a>
-   <a href="https://github.com/kenangundogan/madosel/blob/master/dist/js/madosel.js"><img src="http://img.badgesize.io/kenangundogan/madosel/master/dist/js/madosel.js?compression=gzip&label=JS+gzip+size" alt="JS gzip size"></a>
-   <a href="https://github.com/kenangundogan/madosel/blob/master/dist/js/madosel.js"><img src="http://img.badgesize.io/kenangundogan/madosel/master/dist/js/madosel.js?compression=brotli&label=JS+brotli+size" alt="JS gzip size"></a>
+   <a href="https://github.com/kenangundogan/madosel/blob/master/dist/js/madosel-component.js"><img src="http://img.badgesize.io/kenangundogan/madosel/master/dist/js/madosel-component.js?compression=gzip&label=JS+gzip+size" alt="JS gzip size"></a>
+   <a href="https://github.com/kenangundogan/madosel/blob/master/dist/js/madosel-component.js"><img src="http://img.badgesize.io/kenangundogan/madosel/master/dist/js/madosel-component.js?compression=brotli&label=JS+brotli+size" alt="JS gzip size"></a>
     <a href="https://www.codefactor.io/repository/github/kenangundogan/madosel/overview/master"><img src="https://www.codefactor.io/repository/github/kenangundogan/madosel/badge/master" alt="CodeFactor" /></a>
 </p>
 
 
 ## Quick start
 #### Several quick start options are available:
-- [Download the latest release.](https://github.com/kenangundogan/madosel/archive/refs/tags/v1.0.0-alpha3.zip)
+- [Download the latest release.](https://github.com/kenangundogan/madosel/archive/refs/tags/v1.0.0-alpha4.zip)
 - Clone the repo: `git clone https://github.com/kenangundogan/madosel.git`
 - Install with [npm](https://www.npmjs.com/package/madosel): `npm install madosel`
 - Install with [yarn](https://yarnpkg.com/en/package/madosel): `yarn add madosel`

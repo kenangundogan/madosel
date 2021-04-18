@@ -6,7 +6,8 @@
  * Released under the MIT License
  */
 
- @import "base/base";
- @import "plugins/plugins";
- @import "maps/maps";
- @import "mixins/mixins";
+require('./madosel-accordion.js');
+require('./madosel-navigation-tabs.js');
+require('./madosel-modal.js');
+require('./madosel-offcanvas.js');
+require('./madosel-dropdown.js');
