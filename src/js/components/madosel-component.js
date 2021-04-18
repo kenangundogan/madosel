@@ -10,3 +10,4 @@ require('./madosel-accordion.js');
 require('./madosel-navigation-tabs.js');
 require('./madosel-modal.js');
 require('./madosel-offcanvas.js');
+require('./madosel-dropdown.js');
