@@ -1,0 +1,40 @@
+@charset "UTF-8";
+/*!
+ * Madosel 1.0.0-alpha3
+ * Copyright 2020-2021 Kenan Gündoğan
+ * https://www.madosel.com
+ * Licensed under MIT https://github.com/kenangundogan/madosel/blob/master/LICENSE
+ * Released under the MIT License
+ */
+.dropdown-container {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-container .dropdown-btn {
+  cursor: pointer;
+  padding: 15px;
+  text-align: center;
+  border: solid 1px #dedede;
+  border-radius: 5px;
+  background-color: #fff;
+  outline: none;
+}
+.dropdown-container .dropdown-list {
+  position: absolute;
+  z-index: 1000;
+  overflow: auto;
+  padding: 7.5px 0;
+  border: solid 1px #dedede;
+  border-radius: 5px;
+  white-space: nowrap;
+  background-color: #fff;
+}
+.dropdown-container .dropdown-list:not(.show) {
+  display: none;
+}
+.dropdown-container .dropdown-list .dropdown-item a {
+  display: block;
+  padding: 7.5px 15px;
+}
+
+/*# sourceMappingURL=madosel-dropdown.css.map*/

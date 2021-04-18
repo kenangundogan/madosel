@@ -1,0 +1,29 @@
+@import "base/variable";
+
+.dropdown-container{
+    position: relative;
+    display: inline-block;
+    .dropdown-btn{
+        cursor: pointer;
+        padding: 15px;
+        text-align: center;
+        border: solid 1px #dedede; border-radius: 5px;
+        background-color: #fff; outline: none;
+    }
+    .dropdown-list{
+        position: absolute; z-index: 1000;
+        overflow: auto; padding: 7.5px 0;
+        border: solid 1px #dedede; border-radius: 5px;
+        white-space: nowrap;
+        background-color: #fff;
+        &:not(.show){
+            display: none;
+        }
+        .dropdown-item{
+            a{
+                display: block; 
+                padding: 7.5px 15px;
+            }
+        }
+    }
+}
