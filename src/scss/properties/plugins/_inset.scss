@@ -1,0 +1,36 @@
+$inset:(
+    "inset": (
+        type: 2,
+        status: $inset-status,
+        responsive: $inset-responsive,
+        property: (
+            name: false,
+            class: null,
+        ),
+        sub-property: (
+            list:(
+                inset: inset
+            ),
+            values:(
+                percent:(
+                    status: true,
+                    class: null,
+                    extension: '%',
+                    reverse: true,
+                    start: 0,
+                    end: 10,
+                    rate: 10
+                ),
+                px:(
+                    status: true,
+                    class: px,
+                    extension: 'px',
+                    reverse: true,
+                    start: 0,
+                    end: 10,
+                    rate: 10
+                )
+            )
+        )
+    )
+);
