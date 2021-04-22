@@ -1,8 +1,8 @@
 $transform-origin: (
     "transform-origin": (
         type: 5,
-        status: true,
-        responsive: false,
+        status: $transform-origin-status,
+        responsive: $transform-origin-responsive,
         property: (
             name: transform-origin,
             class: null,
