@@ -87,6 +87,6 @@ const Dropdown = function () {
     }
 }
 
-document.addEventListener('DOMContentLoaded', (event) => {
+document.addEventListener('DOMContentLoaded', () => {
     Dropdown();
 })
