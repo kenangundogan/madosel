@@ -1,0 +1,135 @@
+@charset "UTF-8";
+/*!
+ * Madosel 1.0.0-alpha5
+ * Copyright 2020-2021 Kenan Gündoğan
+ * https://www.madosel.com
+ * Licensed under MIT https://github.com/kenangundogan/madosel/blob/master/LICENSE
+ * Released under the MIT License
+ */
+.offcanvas-container {
+  position: fixed;
+  overflow: hidden;
+  z-index: 99999;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0);
+  display: none;
+  -webkit-transition: ease 300ms;
+  transition: ease 300ms;
+}
+.offcanvas-container.show {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.offcanvas-container.visible {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.offcanvas-container.visible .offcanvas-wrapper {
+  opacity: 1;
+}
+.offcanvas-container.top {
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+.offcanvas-container.top .offcanvas-wrapper {
+  -webkit-transform: translate(0, -50px);
+          transform: translate(0, -50px);
+}
+.offcanvas-container.left {
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+.offcanvas-container.left .offcanvas-wrapper {
+  -webkit-transform: translate(-100%, 0);
+          transform: translate(-100%, 0);
+}
+.offcanvas-container.right {
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+.offcanvas-container.right .offcanvas-wrapper {
+  -webkit-transform: translate(100%, 0);
+          transform: translate(100%, 0);
+}
+.offcanvas-container.bottom {
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+.offcanvas-container.bottom .offcanvas-wrapper {
+  -webkit-transform: translate(0, 50px);
+          transform: translate(0, 50px);
+}
+.offcanvas-container.small .offcanvas-wrapper {
+  max-width: 300px;
+}
+.offcanvas-container.medium .offcanvas-wrapper {
+  max-width: 600px;
+}
+.offcanvas-container.large .offcanvas-wrapper {
+  max-width: 1024px;
+}
+.offcanvas-container.xlarge .offcanvas-wrapper {
+  max-width: 1280px;
+}
+.offcanvas-container.full .offcanvas-wrapper {
+  max-width: 100%;
+}
+.offcanvas-container.fullscreen .offcanvas-wrapper {
+  max-width: 100%;
+  height: 100%;
+}
+.offcanvas-container.transform .offcanvas-wrapper {
+  -webkit-transform: none;
+          transform: none;
+}
+.offcanvas-container .offcanvas-wrapper {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding: 40px;
+  background-color: #fff;
+  opacity: 0;
+}
+.offcanvas-container .offcanvas-wrapper .offcanvas-close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 185.15 185.15'%3E%3Cg id='Layer_2' data-name='Layer 2'%3E%3Cg id='Layer_1-2' data-name='Layer 1'%3E%3Cg id='Path_2925' data-name='Path 2925'%3E%3Cpath d='M99.1,92.59,183.76,7.94a4.64,4.64,0,0,0-6.49-6.62l-.06.07L92.56,86,7.9,1.39A4.63,4.63,0,0,0,1.36,7.94L86,92.59,1.36,177.24a4.63,4.63,0,0,0,6.54,6.55L92.56,99.14l84.65,84.65a4.63,4.63,0,0,0,6.55-6.55h0Z'/%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E") no-repeat center/50%;
+}
+
+/*# sourceMappingURL=madosel-components.css.map*/
