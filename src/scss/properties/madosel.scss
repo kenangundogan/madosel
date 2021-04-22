@@ -1,5 +1,5 @@
 /*!
- * Madosel 1.0.0-alpha4
+ * Madosel 1.0.0-alpha5
  * Copyright 2020-2021 Kenan Gündoğan
  * https://www.madosel.com
  * Licensed under MIT https://github.com/kenangundogan/madosel/blob/master/LICENSE

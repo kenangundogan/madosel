@@ -200,6 +200,10 @@ $object-position-responsive: true;
 $top-right-bottom-left-status: true;
 $top-right-bottom-left-responsive: true;
 
+// inset
+$inset-status: true;
+$inset-responsive: true;
+
 // width
 $width-status: true;
 $width-responsive: true;
@@ -311,6 +315,10 @@ $font-size-responsive: true;
 // transform
 $transform-status: true;
 $transform-responsive: true;
+
+// transform-origin
+$transform-origin-status: true;
+$transform-origin-responsive: true;
 
 // transform-rotate
 $transform-rotate-status: true;
