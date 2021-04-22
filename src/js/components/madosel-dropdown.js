@@ -6,63 +6,87 @@
  * Released under the MIT License
  */
 
-const Accordion = function (options) {
-    const element = options.element,
-        event = options.event == null ? "click" : options.event,
-        transition = options.transition == null ? "300" : options.transition,
-        activeTab = options.activeTab,
-        multipleTab = options.multipleTab,
-        items = document.querySelectorAll(element + " .accordion-item");
+const Dropdown = function () {
 
-    items.forEach((item, key) => {
-        let head, body, wrapper, active;
-        head = item.querySelector(".head");
-        body = item.querySelector(".body");
-        wrapper = item.querySelector(".wrapper");
-        activeTabFunc(item, key, activeTab, body, wrapper);
-        head.addEventListener(event, () => {
-            item.classList.forEach(show => {
-                active = show == "show" ? show : "";
-            });
+    const dropdownContainers = document.querySelectorAll(".dropdown-container");
 
-            if (active) {
-                body.style.height = "";
-                setTimeout(() => {
-                    item.classList.remove("show");
-                    body.style = "";
-                }, transition);
-            }
-            else {
-                if (multipleTab != true) { itemsFunc(items, transition); }
-                item.classList.add("show");
-                body.style.transition = `${transition}ms`;
-                body.style.height = `${wrapper.offsetHeight}px`;
-            }
-        });
+    dropdownContainers.forEach(container => {
 
+        let dropdownBtn = container.querySelector(".dropdown-btn"),
+            dropdownList = container.querySelector(".dropdown-list"),
+            dataPosition = dropdownList.getAttribute("data-position"),
+            dataTarget = dropdownBtn.getAttribute("data-target"),
+            id = dropdownList.id,
+            dataHeight = dropdownList.getAttribute("data-height");
+        if (dataPosition == "" || dataPosition == null) { dataPosition = "bottom" }
+        if (dataHeight == "" || dataHeight == null) { dataHeight = "" }
+
+        const selector = {
+            dropdownContainers,
+            dropdownBtn,
+            dropdownList,
+            dataPosition,
+            dataHeight,
+            dataTarget,
+            id
+        };
+        eventFunc(selector);
     });
 
-    function itemsFunc(items, transition) {
-        items.forEach(item => {
-            item.classList.forEach(show => {
+    function eventFunc(selector) {
+
+        selector.dropdownBtn.addEventListener("click", () => {
+            selector.dropdownList.classList.forEach(show => {
                 if (show == "show") {
-                    item.querySelector(".body").style.height = "";
-                    setTimeout(() => {
-                        item.classList.remove("show");
-                        item.querySelector(".body").style = "";
-                    }, transition);
+                    resetFunc(selector);
+                }
+                else {
+                    if (selector.id == selector.dataTarget) {
+                        resetFunc(selector);
+                        if (selector.dataPosition == "top") {
+                            selector.dropdownList.style.transform = `translate(0px, -${selector.dropdownBtn.offsetHeight}px)`;
+                            selector.dropdownList.style.inset = "auto auto 0px 0px";
+                        }
+                        else if (selector.dataPosition == "bottom") {
+                            selector.dropdownList.style.transform = `translate(0px, ${selector.dropdownBtn.offsetHeight}px)`;
+                            selector.dropdownList.style.inset = "0px auto auto 0px";
+                        }
+                        else if (selector.dataPosition == "right") {
+                            selector.dropdownList.style.transform = `translate(${selector.dropdownBtn.offsetWidth}px, 0px)`;
+                            selector.dropdownList.style.inset = "0px auto auto 0px";
+                        }
+                        else if (selector.dataPosition == "left") {
+                            selector.dropdownList.style.transform = `translate(-${selector.dropdownBtn.offsetWidth}px, 0px)`;
+                            selector.dropdownList.style.inset = "0px 0px auto auto";
+                        }
+
+                        selector.dropdownList.classList.add("show", selector.dataPosition);
+                        selector.dropdownList.style.height = `${selector.dataHeight}px`;
+                    }
                 }
             });
         });
+
+        document.addEventListener('keydown', (event) => {
+            if (event.key === "Escape" || event.key === "Esc") {
+                resetFunc(selector);
+            }
+        });
+
     }
 
-    function activeTabFunc(item, key, activeTab, body, wrapper) {
-        if (activeTab == (key + 1)) {
-            item.classList.add("show");
-            body.style.transition = `${transition}ms`;
-            body.style.height = `${wrapper.offsetHeight}px`;
-        }
+    function resetFunc(selector) {
+
+        selector.dropdownContainers.forEach(container => {
+            let containerList = container.querySelector(".dropdown-list");
+            let dataPosition = containerList.getAttribute("data-position");
+            containerList.classList.remove("show", dataPosition);
+            containerList.style.height = "";
+        });
+
     }
 }
 
-window.Accordion = Accordion;
+document.addEventListener('DOMContentLoaded', (event) => {
+    Dropdown();
+})
