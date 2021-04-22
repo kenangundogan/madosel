@@ -8498,6 +8498,51 @@ table {
     inset: -100px;
   }
 
+  .xs\:origin-top {
+    -webkit-transform-origin: top;
+            transform-origin: top;
+  }
+
+  .xs\:origin-right {
+    -webkit-transform-origin: right;
+            transform-origin: right;
+  }
+
+  .xs\:origin-bottom {
+    -webkit-transform-origin: bottom;
+            transform-origin: bottom;
+  }
+
+  .xs\:origin-left {
+    -webkit-transform-origin: left;
+            transform-origin: left;
+  }
+
+  .xs\:origin-center {
+    -webkit-transform-origin: center;
+            transform-origin: center;
+  }
+
+  .xs\:origin-top-left {
+    -webkit-transform-origin: top left;
+            transform-origin: top left;
+  }
+
+  .xs\:origin-top-right {
+    -webkit-transform-origin: top right;
+            transform-origin: top right;
+  }
+
+  .xs\:origin-bottom-left {
+    -webkit-transform-origin: bottom left;
+            transform-origin: bottom left;
+  }
+
+  .xs\:origin-bottom-right {
+    -webkit-transform-origin: bottom right;
+            transform-origin: bottom right;
+  }
+
   .xs\:transform-none {
     -webkit-transform: none;
             transform: none;
@@ -18525,6 +18570,51 @@ table {
 
   .sm\:-inset-100px {
     inset: -100px;
+  }
+
+  .sm\:origin-top {
+    -webkit-transform-origin: top;
+            transform-origin: top;
+  }
+
+  .sm\:origin-right {
+    -webkit-transform-origin: right;
+            transform-origin: right;
+  }
+
+  .sm\:origin-bottom {
+    -webkit-transform-origin: bottom;
+            transform-origin: bottom;
+  }
+
+  .sm\:origin-left {
+    -webkit-transform-origin: left;
+            transform-origin: left;
+  }
+
+  .sm\:origin-center {
+    -webkit-transform-origin: center;
+            transform-origin: center;
+  }
+
+  .sm\:origin-top-left {
+    -webkit-transform-origin: top left;
+            transform-origin: top left;
+  }
+
+  .sm\:origin-top-right {
+    -webkit-transform-origin: top right;
+            transform-origin: top right;
+  }
+
+  .sm\:origin-bottom-left {
+    -webkit-transform-origin: bottom left;
+            transform-origin: bottom left;
+  }
+
+  .sm\:origin-bottom-right {
+    -webkit-transform-origin: bottom right;
+            transform-origin: bottom right;
   }
 
   .sm\:transform-none {
@@ -28556,6 +28646,51 @@ table {
     inset: -100px;
   }
 
+  .md\:origin-top {
+    -webkit-transform-origin: top;
+            transform-origin: top;
+  }
+
+  .md\:origin-right {
+    -webkit-transform-origin: right;
+            transform-origin: right;
+  }
+
+  .md\:origin-bottom {
+    -webkit-transform-origin: bottom;
+            transform-origin: bottom;
+  }
+
+  .md\:origin-left {
+    -webkit-transform-origin: left;
+            transform-origin: left;
+  }
+
+  .md\:origin-center {
+    -webkit-transform-origin: center;
+            transform-origin: center;
+  }
+
+  .md\:origin-top-left {
+    -webkit-transform-origin: top left;
+            transform-origin: top left;
+  }
+
+  .md\:origin-top-right {
+    -webkit-transform-origin: top right;
+            transform-origin: top right;
+  }
+
+  .md\:origin-bottom-left {
+    -webkit-transform-origin: bottom left;
+            transform-origin: bottom left;
+  }
+
+  .md\:origin-bottom-right {
+    -webkit-transform-origin: bottom right;
+            transform-origin: bottom right;
+  }
+
   .md\:transform-none {
     -webkit-transform: none;
             transform: none;
@@ -38583,6 +38718,51 @@ table {
 
   .lg\:-inset-100px {
     inset: -100px;
+  }
+
+  .lg\:origin-top {
+    -webkit-transform-origin: top;
+            transform-origin: top;
+  }
+
+  .lg\:origin-right {
+    -webkit-transform-origin: right;
+            transform-origin: right;
+  }
+
+  .lg\:origin-bottom {
+    -webkit-transform-origin: bottom;
+            transform-origin: bottom;
+  }
+
+  .lg\:origin-left {
+    -webkit-transform-origin: left;
+            transform-origin: left;
+  }
+
+  .lg\:origin-center {
+    -webkit-transform-origin: center;
+            transform-origin: center;
+  }
+
+  .lg\:origin-top-left {
+    -webkit-transform-origin: top left;
+            transform-origin: top left;
+  }
+
+  .lg\:origin-top-right {
+    -webkit-transform-origin: top right;
+            transform-origin: top right;
+  }
+
+  .lg\:origin-bottom-left {
+    -webkit-transform-origin: bottom left;
+            transform-origin: bottom left;
+  }
+
+  .lg\:origin-bottom-right {
+    -webkit-transform-origin: bottom right;
+            transform-origin: bottom right;
   }
 
   .lg\:transform-none {
@@ -48614,6 +48794,51 @@ table {
     inset: -100px;
   }
 
+  .xl\:origin-top {
+    -webkit-transform-origin: top;
+            transform-origin: top;
+  }
+
+  .xl\:origin-right {
+    -webkit-transform-origin: right;
+            transform-origin: right;
+  }
+
+  .xl\:origin-bottom {
+    -webkit-transform-origin: bottom;
+            transform-origin: bottom;
+  }
+
+  .xl\:origin-left {
+    -webkit-transform-origin: left;
+            transform-origin: left;
+  }
+
+  .xl\:origin-center {
+    -webkit-transform-origin: center;
+            transform-origin: center;
+  }
+
+  .xl\:origin-top-left {
+    -webkit-transform-origin: top left;
+            transform-origin: top left;
+  }
+
+  .xl\:origin-top-right {
+    -webkit-transform-origin: top right;
+            transform-origin: top right;
+  }
+
+  .xl\:origin-bottom-left {
+    -webkit-transform-origin: bottom left;
+            transform-origin: bottom left;
+  }
+
+  .xl\:origin-bottom-right {
+    -webkit-transform-origin: bottom right;
+            transform-origin: bottom right;
+  }
+
   .xl\:transform-none {
     -webkit-transform: none;
             transform: none;
@@ -58641,6 +58866,51 @@ table {
 
   .xxl\:-inset-100px {
     inset: -100px;
+  }
+
+  .xxl\:origin-top {
+    -webkit-transform-origin: top;
+            transform-origin: top;
+  }
+
+  .xxl\:origin-right {
+    -webkit-transform-origin: right;
+            transform-origin: right;
+  }
+
+  .xxl\:origin-bottom {
+    -webkit-transform-origin: bottom;
+            transform-origin: bottom;
+  }
+
+  .xxl\:origin-left {
+    -webkit-transform-origin: left;
+            transform-origin: left;
+  }
+
+  .xxl\:origin-center {
+    -webkit-transform-origin: center;
+            transform-origin: center;
+  }
+
+  .xxl\:origin-top-left {
+    -webkit-transform-origin: top left;
+            transform-origin: top left;
+  }
+
+  .xxl\:origin-top-right {
+    -webkit-transform-origin: top right;
+            transform-origin: top right;
+  }
+
+  .xxl\:origin-bottom-left {
+    -webkit-transform-origin: bottom left;
+            transform-origin: bottom left;
+  }
+
+  .xxl\:origin-bottom-right {
+    -webkit-transform-origin: bottom right;
+            transform-origin: bottom right;
   }
 
   .xxl\:transform-none {

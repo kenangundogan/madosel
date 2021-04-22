@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /*!
- * Madosel 1.0.0-alpha4
+ * Madosel 1.0.0-alpha5
  * Copyright 2020-2021 Kenan Gündoğan
  * https://www.madosel.com
  * Licensed under MIT https://github.com/kenangundogan/madosel/blob/master/LICENSE
@@ -8311,6 +8311,182 @@ table {
 
 .-left-100px {
   left: -100px;
+}
+
+.inset-0 {
+  inset: 0;
+}
+
+.-inset-0 {
+  inset: -0;
+}
+
+.inset-10 {
+  inset: 10%;
+}
+
+.-inset-10 {
+  inset: -10%;
+}
+
+.inset-20 {
+  inset: 20%;
+}
+
+.-inset-20 {
+  inset: -20%;
+}
+
+.inset-30 {
+  inset: 30%;
+}
+
+.-inset-30 {
+  inset: -30%;
+}
+
+.inset-40 {
+  inset: 40%;
+}
+
+.-inset-40 {
+  inset: -40%;
+}
+
+.inset-50 {
+  inset: 50%;
+}
+
+.-inset-50 {
+  inset: -50%;
+}
+
+.inset-60 {
+  inset: 60%;
+}
+
+.-inset-60 {
+  inset: -60%;
+}
+
+.inset-70 {
+  inset: 70%;
+}
+
+.-inset-70 {
+  inset: -70%;
+}
+
+.inset-80 {
+  inset: 80%;
+}
+
+.-inset-80 {
+  inset: -80%;
+}
+
+.inset-90 {
+  inset: 90%;
+}
+
+.-inset-90 {
+  inset: -90%;
+}
+
+.inset-100 {
+  inset: 100%;
+}
+
+.-inset-100 {
+  inset: -100%;
+}
+
+.inset-0px {
+  inset: 0;
+}
+
+.-inset-0px {
+  inset: -0;
+}
+
+.inset-10px {
+  inset: 10px;
+}
+
+.-inset-10px {
+  inset: -10px;
+}
+
+.inset-20px {
+  inset: 20px;
+}
+
+.-inset-20px {
+  inset: -20px;
+}
+
+.inset-30px {
+  inset: 30px;
+}
+
+.-inset-30px {
+  inset: -30px;
+}
+
+.inset-40px {
+  inset: 40px;
+}
+
+.-inset-40px {
+  inset: -40px;
+}
+
+.inset-50px {
+  inset: 50px;
+}
+
+.-inset-50px {
+  inset: -50px;
+}
+
+.inset-60px {
+  inset: 60px;
+}
+
+.-inset-60px {
+  inset: -60px;
+}
+
+.inset-70px {
+  inset: 70px;
+}
+
+.-inset-70px {
+  inset: -70px;
+}
+
+.inset-80px {
+  inset: 80px;
+}
+
+.-inset-80px {
+  inset: -80px;
+}
+
+.inset-90px {
+  inset: 90px;
+}
+
+.-inset-90px {
+  inset: -90px;
+}
+
+.inset-100px {
+  inset: 100px;
+}
+
+.-inset-100px {
+  inset: -100px;
 }
 
 .origin-top {
