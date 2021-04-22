@@ -5,6 +5,7 @@
  * Licensed under MIT https://github.com/kenangundogan/madosel/blob/master/LICENSE
  * Released under the MIT License
  */
+
 const Modal = function () {
     const modalButtons = document.querySelectorAll(".modalBtn");
     modalButtons.forEach(modalButton => {
