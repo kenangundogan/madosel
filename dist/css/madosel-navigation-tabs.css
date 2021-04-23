@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /*!
- * Madosel 1.0.0-alpha5
+ * Madosel Navigation Tabs 1.0.0-alpha6
  * Copyright 2020-2021 Kenan Gündoğan
  * https://www.madosel.com
  * Licensed under MIT https://github.com/kenangundogan/madosel/blob/master/LICENSE
@@ -13,22 +13,16 @@
 .navigation-tabs-container .navigation-tab-menu {
   position: relative;
   width: 100%;
-  display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
 }
 .navigation-tabs-container .navigation-tab-menu .navigation-tab-menu-item {
   position: relative;
   min-height: 70px;
-  display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+      align-items: center;
   border-radius: 5px;
   padding: 20px;
   cursor: pointer;
@@ -68,22 +62,14 @@
   border-right: dashed 1px #dedede;
 }
 .navigation-tabs-container.right {
-  display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: reverse;
-  -webkit-flex-direction: row-reverse;
-      -ms-flex-direction: row-reverse;
-          flex-direction: row-reverse;
+  -ms-flex-direction: row-reverse;
+      flex-direction: row-reverse;
 }
 .navigation-tabs-container.right .navigation-tab-menu {
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+      flex-direction: column;
 }
 .navigation-tabs-container.right .navigation-tab-menu .navigation-tab-menu-item {
   margin: 0 0 10px 10px;
@@ -97,15 +83,10 @@
   border-bottom: dashed 1px #dedede;
 }
 .navigation-tabs-container.bottom {
-  display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: reverse;
-  -webkit-flex-direction: column-reverse;
-      -ms-flex-direction: column-reverse;
-          flex-direction: column-reverse;
+  -ms-flex-direction: column-reverse;
+      flex-direction: column-reverse;
 }
 .navigation-tabs-container.bottom .navigation-tab-menu .navigation-tab-menu-item {
   margin: 10px 10px 0 0;
@@ -119,17 +100,12 @@
   border-right: dashed 1px #dedede;
 }
 .navigation-tabs-container.left {
-  display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
 }
 .navigation-tabs-container.left .navigation-tab-menu {
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+      flex-direction: column;
 }
 .navigation-tabs-container.left .navigation-tab-menu .navigation-tab-menu-item {
   margin: 0 10px 10px 0;
