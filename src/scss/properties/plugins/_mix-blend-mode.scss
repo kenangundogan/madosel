@@ -1,0 +1,28 @@
+$mix-blend-mode: (
+    "mix-blend-mode": (
+        type: 1,
+        status: $mix-blend-mode-status,
+        responsive: $mix-blend-mode-responsive,
+        property: (
+            name: mix-blend-mode,
+            class: null,
+            list: (
+                normal: normal,
+                multiply: multiply,
+                screen: screen,
+                overlay: overlay,
+                darken: darken,
+                lighten: lighten,
+                color-dodge: color-dodge,
+                color-burn: color-burn,
+                hard-light: hard-light,
+                soft-light: soft-light,
+                difference: difference,
+                exclusion: exclusion,
+                saturation: saturation,
+                color: color,
+                luminosity: luminosity
+            )
+        )
+    )
+);

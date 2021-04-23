@@ -1,0 +1,15 @@
+$isolation: (
+    "isolation": (
+        type: 1,
+        status: $isolation-status,
+        responsive: $isolation-responsive,
+        property: (
+            name: isolation,
+            class: null,
+            list: (
+                isolate: isolate,
+                auto: auto
+            )
+        )
+    )
+);
