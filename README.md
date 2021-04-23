@@ -10,20 +10,22 @@
 
 <p align="center">
     <a href="https://github.com/kenangundogan/madosel/blob/master/LICENSE"><img src="https://img.shields.io/npm/l/madosel.svg" alt="License"></a>
+    <a href="https://www.codefactor.io/repository/github/kenangundogan/madosel/overview/master"><img src="https://www.codefactor.io/repository/github/kenangundogan/madosel/badge/master" alt="CodeFactor" /></a>
     <a href="https://www.npmjs.org/package/madosel"><img src="https://img.shields.io/npm/v/madosel.svg" alt="npm version"></a>
     <a href="https://www.jsdelivr.com/package/npm/madosel"><img src="https://data.jsdelivr.com/v1/package/npm/madosel/badge" alt="jsdeliver"></a>
     <a href="https://www.npmjs.com/package/madosel"><img src="https://img.shields.io/npm/dt/madosel.svg" alt="Total Downloads"></a>
-    <a href="https://github.com/kenangundogan/madosel/blob/master/dist/css/madosel.min.css"><img src="http://img.badgesize.io/kenangundogan/madosel/master/dist/css/madosel.min.css?compression=gzip&label=CSS+gzip+size" alt="CSS gzip size"></a>
-    <a href="https://github.com/kenangundogan/madosel/blob/master/dist/css/madosel.min.css"><img src="http://img.badgesize.io/kenangundogan/madosel/master/dist/css/madosel.min.css?compression=brotli&label=CSS+brotli+size" alt="CSS gzip size"></a>
-   <a href="https://github.com/kenangundogan/madosel/blob/master/dist/js/madosel-component.js"><img src="http://img.badgesize.io/kenangundogan/madosel/master/dist/js/madosel-component.js?compression=gzip&label=JS+gzip+size" alt="JS gzip size"></a>
-   <a href="https://github.com/kenangundogan/madosel/blob/master/dist/js/madosel-component.js"><img src="http://img.badgesize.io/kenangundogan/madosel/master/dist/js/madosel-component.js?compression=brotli&label=JS+brotli+size" alt="JS gzip size"></a>
-    <a href="https://www.codefactor.io/repository/github/kenangundogan/madosel/overview/master"><img src="https://www.codefactor.io/repository/github/kenangundogan/madosel/badge/master" alt="CodeFactor" /></a>
+    <a href="https://github.com/kenangundogan/madosel/blob/master/dist/css/madosel.min.css"><img src="http://img.badgesize.io/kenangundogan/madosel/master/dist/css/madosel.min.css?compression=gzip&label=CSS+Gzip+size" alt="CSS Gzip size"></a>
+    <a href="https://github.com/kenangundogan/madosel/blob/master/dist/css/madosel.min.css"><img src="http://img.badgesize.io/kenangundogan/madosel/master/dist/css/madosel.min.css?compression=brotli&label=CSS+Brotli+size" alt="CSS Brotli size"></a>
+   <a href="https://github.com/kenangundogan/madosel/blob/master/dist/js/madosel-component.js"><img src="http://img.badgesize.io/kenangundogan/madosel/master/dist/js/madosel-component.js?compression=gzip&label=JS+Component+Gzip+size" alt="JS Component Gzip size"></a>
+   <a href="https://github.com/kenangundogan/madosel/blob/master/dist/js/madosel-component.js"><img src="http://img.badgesize.io/kenangundogan/madosel/master/dist/js/madosel-component.js?compression=brotli&label=JS+Component+Brotli+size" alt="JS Component Brotli size"></a>
+    <a href="https://github.com/kenangundogan/madosel/blob/master/dist/css/madosel-component.min.css"><img src="http://img.badgesize.io/kenangundogan/madosel/master/dist/css/madosel-component.min.css?compression=gzip&label=CSS+Component+Gzip+size" alt="CSS Component gzip size"></a>
+    <a href="https://github.com/kenangundogan/madosel/blob/master/dist/css/madosel-component.min.css"><img src="http://img.badgesize.io/kenangundogan/madosel/master/dist/css/madosel-component.min.css?compression=brotli&label=CSS+Component+Brotli+size" alt="CSS Component Brotli size"></a>
 </p>
 
 
 ## Quick start
 #### Several quick start options are available:
-- [Download the latest release.](https://github.com/kenangundogan/madosel/archive/refs/tags/v1.0.0-alpha5.zip)
+- [Download the latest release.](https://github.com/kenangundogan/madosel/archive/refs/tags/v1.0.0-alpha6.zip)
 - Clone the repo: `git clone https://github.com/kenangundogan/madosel.git`
 - Install with [npm](https://www.npmjs.com/package/madosel): `npm install madosel`
 - Install with [yarn](https://yarnpkg.com/en/package/madosel): `yarn add madosel`

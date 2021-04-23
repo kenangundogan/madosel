@@ -7,7 +7,7 @@
     "style": "dist/css/madosel-component.min.css",
     "script": "dist/js/madosel-component.js",
     "license": "MIT",
-    "version": "1.0.0-alpha5",
+    "version": "1.0.0-alpha6",
     "repository": {
         "type": "git",
         "url": "https://github.com/kenangundogan/madosel.git"
@@ -59,14 +59,7 @@
         "style-loader": "^2.0.0",
         "webpack": "^5.33.2",
         "webpack-cli": "^4.5.0",
-        "webpack-merge": "^5.7.3"
-    },
-    "browserslist": [
-        "defaults",
-        "not ie < 11",
-        "last 2 versions",
-        "> 1%",
-        "iOS 7",
-        "last 3 iOS versions"
-    ]
+        "webpack-merge": "^5.7.3",
+        "webpack-remove-empty-scripts": "^0.7.1"
+    }
 }
