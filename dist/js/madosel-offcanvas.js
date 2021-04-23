@@ -1,9 +1,93 @@
+/******/ (() => { // webpackBootstrap
+var __webpack_exports__ = {};
+/*!********************************************!*\
+  !*** ./js/components/madosel-offcanvas.js ***!
+  \********************************************/
 /*!
- * Madosel 1.0.0-alpha5
+ * Madosel Offcanvas 1.0.0-alpha6
  * Copyright 2020-2021 Kenan Gündoğan
  * https://www.madosel.com
  * Licensed under MIT https://github.com/kenangundogan/madosel/blob/master/LICENSE
  * Released under the MIT License
  */
+var Offcanvas = function Offcanvas() {
+  var offcanvasButtons = document.querySelectorAll(".offcanvasBtn");
+  offcanvasButtons.forEach(function (offcanvasButton) {
+    var dataTarget = offcanvasButton.getAttribute("data-target");
+    var offcanvasContainer = document.querySelector(dataTarget);
+    var selector = {
+      offcanvasButton: offcanvasButton,
+      offcanvasContainer: offcanvasContainer
+    };
+    offcanvasGetAttr(selector);
+  });
 
-window.Offcanvas=function(){function a(a,n){a.offcanvasContainer.classList.remove("visible","transform"),setTimeout((function(){a.offcanvasContainer.classList.remove(n.dataPostion,n.dataSize,"show"),n.offcanvasWrapper.style=""}),n.dataTransition)}document.querySelectorAll(".offcanvasBtn").forEach((function(n){var t=n.getAttribute("data-target");!function(n){if(n.offcanvasContainer){var t=n.offcanvasContainer.querySelector(".offcanvas-close"),o=n.offcanvasContainer.querySelector(".offcanvas-wrapper"),e=n.offcanvasContainer.getAttribute("data-position"),s=n.offcanvasContainer.getAttribute("data-size"),i=n.offcanvasContainer.getAttribute("data-transition");""!=e&&null!=e||(e="left"),""!=s&&null!=s||(s="small"),""!=i&&null!=i||(i="300"),options={offcanvasClose:t,offcanvasWrapper:o,dataPostion:e,dataSize:s,dataTransition:i},function(n,t){n.offcanvasButton.addEventListener("click",(function(){n.offcanvasContainer.classList.add("show",t.dataPostion,t.dataSize),setTimeout((function(){t.offcanvasWrapper.style.transition="".concat(t.dataTransition,"ms"),n.offcanvasContainer.classList.add("visible"),n.offcanvasContainer.classList.add("transform")}),0),function(n,t){t.offcanvasClose&&(t.offcanvasClose.addEventListener("click",(function(){a(n,t)})),window.addEventListener("keydown",(function(o){"Escape"!==o.key&&"Esc"!==o.key||a(n,t)})))}(n,t)}))}(n,options)}}({offcanvasButton:n,offcanvasContainer:document.querySelector(t)})}))};
+  function offcanvasGetAttr(selector) {
+    if (selector.offcanvasContainer) {
+      var offcanvasClose = selector.offcanvasContainer.querySelector(".offcanvas-close");
+      var offcanvasWrapper = selector.offcanvasContainer.querySelector(".offcanvas-wrapper");
+      var dataPostion = selector.offcanvasContainer.getAttribute("data-position");
+      var dataSize = selector.offcanvasContainer.getAttribute("data-size");
+      var dataTransition = selector.offcanvasContainer.getAttribute("data-transition");
+
+      if (dataPostion == "" || dataPostion == null) {
+        dataPostion = "left";
+      }
+
+      if (dataSize == "" || dataSize == null) {
+        dataSize = "small";
+      }
+
+      if (dataTransition == "" || dataTransition == null) {
+        dataTransition = "300";
+      }
+
+      options = {
+        offcanvasClose: offcanvasClose,
+        offcanvasWrapper: offcanvasWrapper,
+        dataPostion: dataPostion,
+        dataSize: dataSize,
+        dataTransition: dataTransition
+      };
+      offcanvasEventFunc(selector, options);
+    }
+  }
+
+  function offcanvasEventFunc(selector, options) {
+    selector.offcanvasButton.addEventListener("click", function () {
+      selector.offcanvasContainer.classList.add("show", options.dataPostion, options.dataSize);
+      setTimeout(function () {
+        options.offcanvasWrapper.style.transition = "".concat(options.dataTransition, "ms");
+        selector.offcanvasContainer.classList.add("visible");
+        selector.offcanvasContainer.classList.add("transform");
+      }, 0);
+      offcanvasCloseEventFunc(selector, options);
+    });
+  }
+
+  function offcanvasCloseEventFunc(selector, options) {
+    if (options.offcanvasClose) {
+      options.offcanvasClose.addEventListener("click", function () {
+        offcanvasCloseFunc(selector, options);
+      });
+      window.addEventListener("keydown", function (event) {
+        if (event.key === "Escape" || event.key === "Esc") {
+          offcanvasCloseFunc(selector, options);
+        }
+      });
+    }
+  }
+
+  function offcanvasCloseFunc(selector, options) {
+    selector.offcanvasContainer.classList.remove("visible", "transform");
+    setTimeout(function () {
+      selector.offcanvasContainer.classList.remove(options.dataPostion, options.dataSize, "show");
+      options.offcanvasWrapper.style = "";
+    }, options.dataTransition);
+  }
+};
+
+window.Offcanvas = Offcanvas;
+/******/ })()
+;
+//# sourceMappingURL=madosel-offcanvas.js.map
