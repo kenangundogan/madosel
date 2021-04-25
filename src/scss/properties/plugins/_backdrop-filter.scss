@@ -11,27 +11,6 @@ $backdrop-filter: (
             )
         )
     ),
-    "backdrop-filter-all-value": (
-        type: 1,
-        status: $backdrop-filter-status,
-        responsive: false,
-        property: (
-            name: backdrop-filter,
-            class: null,
-            list: (
-                null:(
-                    var(--backdrop-filter-blur) 
-                    var(--backdrop-filter-brightness) 
-                    var(--backdrop-filter-contrast) 
-                    var(--backdrop-filter-grayscale) 
-                    var(--backdrop-filter-hue-rotate) 
-                    var(--backdrop-filter-invert) 
-                    var(--backdrop-filter-saturate) 
-                    var(--backdrop-filter-sepia)
-                ),
-            )
-        )
-    ),
     "backdrop-filter-default-value": (
         type: 7,
         status: $backdrop-filter-status,
@@ -49,6 +28,14 @@ $backdrop-filter: (
                 --backdrop-filter-saturate: "var(--empty,/*!*/ /*!*/)",
                 --backdrop-filter-sepia: "var(--empty,/*!*/ /*!*/)",
                 --backdrop-filter-drop-shadow: "var(--empty,/*!*/ /*!*/)",
+                backdrop-filter: var(--backdrop-filter-blur) 
+                var(--backdrop-filter-brightness) 
+                var(--backdrop-filter-contrast) 
+                var(--backdrop-filter-grayscale) 
+                var(--backdrop-filter-hue-rotate) 
+                var(--backdrop-filter-invert) 
+                var(--backdrop-filter-saturate) 
+                var(--backdrop-filter-sepia)
             )
         )
     ),

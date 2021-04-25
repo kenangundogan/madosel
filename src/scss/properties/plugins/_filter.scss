@@ -11,27 +11,6 @@ $filter: (
             )
         )
     ),
-    "filter-all-value": (
-        type: 1,
-        status: $filter-status,
-        responsive: false,
-        property: (
-            name: filter,
-            class: null,
-            list: (
-                null:(
-                    var(--filter-blur) 
-                    var(--filter-brightness) 
-                    var(--filter-contrast) 
-                    var(--filter-grayscale) 
-                    var(--filter-hue-rotate) 
-                    var(--filter-invert) 
-                    var(--filter-saturate) 
-                    var(--filter-sepia)
-                ),
-            )
-        )
-    ),
     "filter-default-value-option": (
         type: 7,
         status: $filter-status,
@@ -49,6 +28,14 @@ $filter: (
                 --filter-saturate: "var(--empty,/*!*/ /*!*/)",
                 --filter-sepia: "var(--empty,/*!*/ /*!*/)",
                 --filter-drop-shadow: "var(--empty,/*!*/ /*!*/)",
+                filter: var(--filter-blur) 
+                var(--filter-brightness) 
+                var(--filter-contrast) 
+                var(--filter-grayscale) 
+                var(--filter-hue-rotate) 
+                var(--filter-invert) 
+                var(--filter-saturate) 
+                var(--filter-sepia)
             )
         )
     )
