@@ -9822,7 +9822,7 @@ table {
   }
 
   .xs\:filter-blur-0 {
-    --filter-blur: blur(0px);
+    --filter-blur: blur(0);
   }
 
   .xs\:filter-blur-4 {
@@ -10074,7 +10074,7 @@ table {
   }
 
   .xs\:backdrop-filter-blur-0 {
-    --backdrop-filter-blur: blur(0px);
+    --backdrop-filter-blur: blur(0);
   }
 
   .xs\:backdrop-filter-blur-4 {
@@ -20088,7 +20088,7 @@ table {
   }
 
   .sm\:filter-blur-0 {
-    --filter-blur: blur(0px);
+    --filter-blur: blur(0);
   }
 
   .sm\:filter-blur-4 {
@@ -20340,7 +20340,7 @@ table {
   }
 
   .sm\:backdrop-filter-blur-0 {
-    --backdrop-filter-blur: blur(0px);
+    --backdrop-filter-blur: blur(0);
   }
 
   .sm\:backdrop-filter-blur-4 {
@@ -30354,7 +30354,7 @@ table {
   }
 
   .md\:filter-blur-0 {
-    --filter-blur: blur(0px);
+    --filter-blur: blur(0);
   }
 
   .md\:filter-blur-4 {
@@ -30606,7 +30606,7 @@ table {
   }
 
   .md\:backdrop-filter-blur-0 {
-    --backdrop-filter-blur: blur(0px);
+    --backdrop-filter-blur: blur(0);
   }
 
   .md\:backdrop-filter-blur-4 {
@@ -40620,7 +40620,7 @@ table {
   }
 
   .lg\:filter-blur-0 {
-    --filter-blur: blur(0px);
+    --filter-blur: blur(0);
   }
 
   .lg\:filter-blur-4 {
@@ -40872,7 +40872,7 @@ table {
   }
 
   .lg\:backdrop-filter-blur-0 {
-    --backdrop-filter-blur: blur(0px);
+    --backdrop-filter-blur: blur(0);
   }
 
   .lg\:backdrop-filter-blur-4 {
@@ -50886,7 +50886,7 @@ table {
   }
 
   .xl\:filter-blur-0 {
-    --filter-blur: blur(0px);
+    --filter-blur: blur(0);
   }
 
   .xl\:filter-blur-4 {
@@ -51138,7 +51138,7 @@ table {
   }
 
   .xl\:backdrop-filter-blur-0 {
-    --backdrop-filter-blur: blur(0px);
+    --backdrop-filter-blur: blur(0);
   }
 
   .xl\:backdrop-filter-blur-4 {
@@ -61152,7 +61152,7 @@ table {
   }
 
   .xxl\:filter-blur-0 {
-    --filter-blur: blur(0px);
+    --filter-blur: blur(0);
   }
 
   .xxl\:filter-blur-4 {
@@ -61404,7 +61404,7 @@ table {
   }
 
   .xxl\:backdrop-filter-blur-0 {
-    --backdrop-filter-blur: blur(0px);
+    --backdrop-filter-blur: blur(0);
   }
 
   .xxl\:backdrop-filter-blur-4 {
@@ -71439,7 +71439,7 @@ table {
 }
 
 .filter-blur-0 {
-  --filter-blur: blur(0px);
+  --filter-blur: blur(0);
 }
 
 .filter-blur-4 {
@@ -71707,7 +71707,7 @@ table {
 }
 
 .backdrop-filter-blur-0 {
-  --backdrop-filter-blur: blur(0px);
+  --backdrop-filter-blur: blur(0);
 }
 
 .backdrop-filter-blur-4 {

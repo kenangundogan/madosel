@@ -9843,7 +9843,7 @@ table {
 }
 
 .filter-blur-0 {
-  --filter-blur: blur(0px);
+  --filter-blur: blur(0);
 }
 
 .filter-blur-4 {
@@ -10111,7 +10111,7 @@ table {
 }
 
 .backdrop-filter-blur-0 {
-  --backdrop-filter-blur: blur(0px);
+  --backdrop-filter-blur: blur(0);
 }
 
 .backdrop-filter-blur-4 {
