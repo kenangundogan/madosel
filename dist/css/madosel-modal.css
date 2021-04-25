@@ -20,7 +20,6 @@
   transition: ease 300ms;
 }
 .modal-container.show {
-  display: -ms-flexbox;
   display: flex;
 }
 .modal-container.visible {
@@ -30,74 +29,53 @@
   opacity: 1;
 }
 .modal-container.center {
-  -ms-flex-pack: center;
-      justify-content: center;
-  -ms-flex-align: center;
-      align-items: center;
+  justify-content: center;
+  align-items: center;
 }
 .modal-container.center .modal-wrapper {
-  -webkit-transform: translate(0, -50px);
-          transform: translate(0, -50px);
+  transform: translate(0, -50px);
 }
 .modal-container.top {
-  -ms-flex-pack: center;
-      justify-content: center;
-  -ms-flex-align: start;
-      align-items: flex-start;
+  justify-content: center;
+  align-items: flex-start;
 }
 .modal-container.top .modal-wrapper {
-  -webkit-transform: translate(0, -50px);
-          transform: translate(0, -50px);
+  transform: translate(0, -50px);
 }
 .modal-container.bottom {
-  -ms-flex-pack: center;
-      justify-content: center;
-  -ms-flex-align: end;
-      align-items: flex-end;
+  justify-content: center;
+  align-items: flex-end;
 }
 .modal-container.bottom .modal-wrapper {
-  -webkit-transform: translate(0, 50px);
-          transform: translate(0, 50px);
+  transform: translate(0, 50px);
 }
 .modal-container.top-left {
-  -ms-flex-pack: start;
-      justify-content: flex-start;
-  -ms-flex-align: start;
-      align-items: flex-start;
+  justify-content: flex-start;
+  align-items: flex-start;
 }
 .modal-container.top-left .modal-wrapper {
-  -webkit-transform: translate(-50px, 0);
-          transform: translate(-50px, 0);
+  transform: translate(-50px, 0);
 }
 .modal-container.top-right {
-  -ms-flex-pack: end;
-      justify-content: flex-end;
-  -ms-flex-align: start;
-      align-items: flex-start;
+  justify-content: flex-end;
+  align-items: flex-start;
 }
 .modal-container.top-right .modal-wrapper {
-  -webkit-transform: translate(50px, 0);
-          transform: translate(50px, 0);
+  transform: translate(50px, 0);
 }
 .modal-container.bottom-left {
-  -ms-flex-pack: start;
-      justify-content: flex-start;
-  -ms-flex-align: end;
-      align-items: flex-end;
+  justify-content: flex-start;
+  align-items: flex-end;
 }
 .modal-container.bottom-left .modal-wrapper {
-  -webkit-transform: translate(-50px, 0);
-          transform: translate(-50px, 0);
+  transform: translate(-50px, 0);
 }
 .modal-container.bottom-right {
-  -ms-flex-pack: end;
-      justify-content: flex-end;
-  -ms-flex-align: end;
-      align-items: flex-end;
+  justify-content: flex-end;
+  align-items: flex-end;
 }
 .modal-container.bottom-right .modal-wrapper {
-  -webkit-transform: translate(50px, 0);
-          transform: translate(50px, 0);
+  transform: translate(50px, 0);
 }
 .modal-container.small .modal-wrapper {
   max-width: 300px;
@@ -122,8 +100,7 @@
   height: 100%;
 }
 .modal-container.transform .modal-wrapper {
-  -webkit-transform: none;
-          transform: none;
+  transform: none;
 }
 .modal-container .modal-wrapper {
   position: relative;
