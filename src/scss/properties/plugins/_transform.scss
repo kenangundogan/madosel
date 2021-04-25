@@ -11,26 +11,6 @@ $transform: (
             )
         )
     ),
-    "transform-all-value": (
-        type: 1,
-        status: $transform-status,
-        responsive: false,
-        property: (
-            name: transform,
-            class: null,
-            list: (
-                null:(
-                    translateX(var(--translate-x))
-                    translateY(var(--translate-y))
-                    rotate(var(--rotate))
-                    skewX(var(--skew-x))
-                    skewY(var(--skew-y))
-                    scaleX(var(--scale-x))
-                    scaleY(var(--scale-y))
-                ),
-            )
-        )
-    ),
     "transform-default-value-option": (
         type: 7,
         status: $transform-status,
@@ -45,7 +25,14 @@ $transform: (
                 --skew-x: 0,
                 --skew-y: 0,
                 --scale-x: 1,
-                --scale-y: 1
+                --scale-y: 1,
+                transform: translateX(var(--translate-x))
+                translateY(var(--translate-y))
+                rotate(var(--rotate))
+                skewX(var(--skew-x))
+                skewY(var(--skew-y))
+                scaleX(var(--scale-x))
+                scaleY(var(--scale-y))
             )
         )
     )
