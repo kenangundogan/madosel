@@ -6,8 +6,8 @@
  * Released under the MIT License
  */
 
-require('./madosel-accordion.js');
-require('./madosel-navigation-tabs.js');
-require('./madosel-modal.js');
-require('./madosel-offcanvas.js');
-require('./madosel-dropdown.js');
+import './madosel-accordion.js';
+import './madosel-navigation-tabs.js';
+import './madosel-modal.js';
+import './madosel-offcanvas.js';
+import './madosel-dropdown.js';
