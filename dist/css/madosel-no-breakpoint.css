@@ -8137,10 +8137,6 @@ table {
 }
 
 .transform {
-  transform: translateX(var(--translate-x)) translateY(var(--translate-y)) rotate(var(--rotate)) skewX(var(--skew-x)) skewY(var(--skew-y)) scaleX(var(--scale-x)) scaleY(var(--scale-y));
-}
-
-.transform {
   --translate-x: 0;
   --translate-y: 0;
   --rotate: 0;
@@ -8148,6 +8144,7 @@ table {
   --skew-y: 0;
   --scale-x: 1;
   --scale-y: 1;
+  transform: translateX(var(--translate-x)) translateY(var(--translate-y)) rotate(var(--rotate)) skewX(var(--skew-x)) skewY(var(--skew-y)) scaleX(var(--scale-x)) scaleY(var(--scale-y));
 }
 
 .translate-x-0 {
@@ -9827,10 +9824,6 @@ table {
 }
 
 .filter {
-  filter: var(--filter-blur) var(--filter-brightness) var(--filter-contrast) var(--filter-grayscale) var(--filter-hue-rotate) var(--filter-invert) var(--filter-saturate) var(--filter-sepia);
-}
-
-.filter {
   --filter-blur: "var(--empty,/*!*/ /*!*/)";
   --filter-brightness: "var(--empty,/*!*/ /*!*/)";
   --filter-contrast: "var(--empty,/*!*/ /*!*/)";
@@ -9840,6 +9833,7 @@ table {
   --filter-saturate: "var(--empty,/*!*/ /*!*/)";
   --filter-sepia: "var(--empty,/*!*/ /*!*/)";
   --filter-drop-shadow: "var(--empty,/*!*/ /*!*/)";
+  filter: var(--filter-blur) var(--filter-brightness) var(--filter-contrast) var(--filter-grayscale) var(--filter-hue-rotate) var(--filter-invert) var(--filter-saturate) var(--filter-sepia);
 }
 
 .filter-blur-0 {
@@ -10095,10 +10089,6 @@ table {
 }
 
 .backdrop-filter {
-  backdrop-filter: var(--backdrop-filter-blur) var(--backdrop-filter-brightness) var(--backdrop-filter-contrast) var(--backdrop-filter-grayscale) var(--backdrop-filter-hue-rotate) var(--backdrop-filter-invert) var(--backdrop-filter-saturate) var(--backdrop-filter-sepia);
-}
-
-.backdrop-filter {
   --backdrop-filter-blur: "var(--empty,/*!*/ /*!*/)";
   --backdrop-filter-brightness: "var(--empty,/*!*/ /*!*/)";
   --backdrop-filter-contrast: "var(--empty,/*!*/ /*!*/)";
@@ -10108,6 +10098,7 @@ table {
   --backdrop-filter-saturate: "var(--empty,/*!*/ /*!*/)";
   --backdrop-filter-sepia: "var(--empty,/*!*/ /*!*/)";
   --backdrop-filter-drop-shadow: "var(--empty,/*!*/ /*!*/)";
+  backdrop-filter: var(--backdrop-filter-blur) var(--backdrop-filter-brightness) var(--backdrop-filter-contrast) var(--backdrop-filter-grayscale) var(--backdrop-filter-hue-rotate) var(--backdrop-filter-invert) var(--backdrop-filter-saturate) var(--backdrop-filter-sepia);
 }
 
 .backdrop-filter-blur-0 {
