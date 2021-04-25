@@ -1,10 +1,10 @@
-/******/ (function() { // webpackBootstrap
+/******/ (() => { // webpackBootstrap
 var __webpack_exports__ = {};
 /*!****************************************!*\
   !*** ./js/components/madosel-modal.js ***!
   \****************************************/
 /*!
- * Madosel Modal 1.0.0-alpha7
+ * Madosel Modal 1.0.0-alpha8
  * Copyright 2020-2021 Kenan Gündoğan
  * https://www.madosel.com
  * Licensed under MIT https://github.com/kenangundogan/madosel/blob/master/LICENSE
