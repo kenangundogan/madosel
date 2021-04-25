@@ -1,0 +1,29 @@
+$background-blend-mode: (
+    "background-blend-mode": (
+        type: 1,
+        status: $background-blend-mode-status,
+        responsive: $background-blend-mode-responsive,
+        property: (
+            name: background-blend-mode,
+            class: null,
+            list: (
+                normal: normal,
+                multiply: multiply,
+                screen: screen,
+                overlay: overlay,
+                darken: darken,
+                lighten: lighten,
+                color-dodge: color-dodge,
+                color-burn: color-burn,
+                hard-light: hard-light,
+                soft-light: soft-light,
+                difference: difference,
+                exclusion: exclusion,
+                hue: hue,
+                saturation: saturation,
+                color: color,
+                luminosity: luminosity
+            )
+        )
+    )
+);
