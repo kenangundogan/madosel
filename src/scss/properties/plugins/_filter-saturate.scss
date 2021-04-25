@@ -1,0 +1,22 @@
+$filter-saturate: (
+    "filter-saturate": (
+        type: 5,
+        status: $filter-saturate-status,
+        responsive: $filter-saturate-responsive,
+        property: (
+            name: filter,
+            class: null,
+            list: (
+                filter-saturate-0: (--filter-saturate, saturate(0)),
+                filter-saturate-25: (--filter-saturate, saturate(.25)),
+                filter-saturate-50: (--filter-saturate, saturate(.5)),
+                filter-saturate-75: (--filter-saturate, saturate(.75)),
+                filter-saturate-100: (--filter-saturate, saturate(1)),
+                filter-saturate-125: (--filter-saturate, saturate(1.25)),
+                filter-saturate-150: (--filter-saturate, saturate(1.5)),
+                filter-saturate-175: (--filter-saturate, saturate(1.75)),
+                filter-saturate-200: (--filter-saturate, saturate(2))
+            )
+        )
+    )
+);

@@ -1,0 +1,15 @@
+$backdrop-filter-grayscale: (
+    "backdrop-filter-grayscale": (
+        type: 5,
+        status: $backdrop-filter-grayscale-status,
+        responsive: $backdrop-filter-grayscale-responsive,
+        property: (
+            name: backdrop-filter,
+            class: null,
+            list: (
+                backdrop-filter-grayscale-0: (--backdrop-filter-grayscale, grayscale(0)),
+                backdrop-filter-grayscale-1: (--backdrop-filter-grayscale, grayscale(1))
+            )
+        )
+    )
+);

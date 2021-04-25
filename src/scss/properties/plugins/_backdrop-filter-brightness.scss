@@ -1,0 +1,22 @@
+$backdrop-filter-brightness: (
+    "backdrop-filter-brightness": (
+        type: 5,
+        status: $backdrop-filter-brightness-status,
+        responsive: $backdrop-filter-brightness-responsive,
+        property: (
+            name: backdrop-filter,
+            class: null,
+            list: (
+                backdrop-filter-brightness-0: (--backdrop-filter-brightness, brightness(0)),
+                backdrop-filter-brightness-25: (--backdrop-filter-brightness, brightness(.25)),
+                backdrop-filter-brightness-50: (--backdrop-filter-brightness, brightness(.5)),
+                backdrop-filter-brightness-75: (--backdrop-filter-brightness, brightness(.75)),
+                backdrop-filter-brightness-100: (--backdrop-filter-brightness, brightness(1)),
+                backdrop-filter-brightness-125: (--backdrop-filter-brightness, brightness(1.25)),
+                backdrop-filter-brightness-150: (--backdrop-filter-brightness, brightness(1.5)),
+                backdrop-filter-brightness-175: (--backdrop-filter-brightness, brightness(1.75)),
+                backdrop-filter-brightness-200: (--backdrop-filter-brightness, brightness(2))
+            )
+        )
+    )
+);

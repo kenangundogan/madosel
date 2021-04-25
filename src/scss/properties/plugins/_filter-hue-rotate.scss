@@ -1,0 +1,31 @@
+$filter-hue-rotate: (
+    "filter-hue-rotate": (
+        type: 5,
+        status: $filter-hue-rotate-status,
+        responsive: $filter-hue-rotate-responsive,
+        property: (
+            name: filter,
+            class: null,
+            list: (
+                filter-hue-rotate-0: (--filter-hue-rotate, hue-rotate(0deg)),
+                filter-hue-rotate-15: (--filter-hue-rotate, hue-rotate(15deg)),
+                filter-hue-rotate-30: (--filter-hue-rotate, hue-rotate(30deg)),
+                filter-hue-rotate-45: (--filter-hue-rotate, hue-rotate(45deg)),
+                filter-hue-rotate-60: (--filter-hue-rotate, hue-rotate(60deg)),
+                filter-hue-rotate-75: (--filter-hue-rotate, hue-rotate(75deg)),
+                filter-hue-rotate-90: (--filter-hue-rotate, hue-rotate(90deg)),
+                filter-hue-rotate-135: (--filter-hue-rotate, hue-rotate(135deg)),
+                filter-hue-rotate-190: (--filter-hue-rotate, hue-rotate(190deg)),
+                -filter-hue-rotate-0: (--filter-hue-rotate, hue-rotate(-0deg)),
+                -filter-hue-rotate-15: (--filter-hue-rotate, hue-rotate(-15deg)),
+                -filter-hue-rotate-30: (--filter-hue-rotate, hue-rotate(-30deg)),
+                -filter-hue-rotate-45: (--filter-hue-rotate, hue-rotate(-45deg)),
+                -filter-hue-rotate-60: (--filter-hue-rotate, hue-rotate(-60deg)),
+                -filter-hue-rotate-75: (--filter-hue-rotate, hue-rotate(-75deg)),
+                -filter-hue-rotate-90: (--filter-hue-rotate, hue-rotate(-90deg)),
+                -filter-hue-rotate-135: (--filter-hue-rotate, hue-rotate(-135deg)),
+                -filter-hue-rotate-190: (--filter-hue-rotate, hue-rotate(-190deg))
+            )
+        )
+    )
+);

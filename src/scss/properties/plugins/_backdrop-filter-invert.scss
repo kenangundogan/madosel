@@ -1,0 +1,15 @@
+$backdrop-filter-invert: (
+    "backdrop-filter-invert": (
+        type: 5,
+        status: $backdrop-filter-invert-status,
+        responsive: $backdrop-filter-invert-responsive,
+        property: (
+            name: backdrop-filter,
+            class: null,
+            list: (
+                backdrop-filter-invert-0: (--backdrop-filter-invert, invert(0)),
+                backdrop-filter-invert-1: (--backdrop-filter-invert, invert(1))
+            )
+        )
+    )
+);

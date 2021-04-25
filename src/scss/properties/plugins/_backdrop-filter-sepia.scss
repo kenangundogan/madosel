@@ -1,0 +1,15 @@
+$backdrop-filter-sepia: (
+    "backdrop-filter-sepia": (
+        type: 5,
+        status: $backdrop-filter-sepia-status,
+        responsive: $backdrop-filter-sepia-responsive,
+        property: (
+            name: backdrop-filter,
+            class: null,
+            list: (
+                backdrop-filter-sepia-0: (--backdrop-filter-sepia, sepia(0)),
+                backdrop-filter-sepia-1: (--backdrop-filter-sepia, sepia(1))
+            )
+        )
+    )
+);

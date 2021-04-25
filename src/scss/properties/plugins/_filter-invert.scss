@@ -1,0 +1,15 @@
+$filter-invert: (
+    "filter-invert": (
+        type: 5,
+        status: $filter-invert-status,
+        responsive: $filter-invert-responsive,
+        property: (
+            name: filter,
+            class: null,
+            list: (
+                filter-invert-0: (--filter-invert, invert(0)),
+                filter-invert-1: (--filter-invert, invert(1))
+            )
+        )
+    )
+);

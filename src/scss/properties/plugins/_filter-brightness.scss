@@ -1,0 +1,22 @@
+$filter-brightness: (
+    "filter-brightness": (
+        type: 5,
+        status: $filter-brightness-status,
+        responsive: $filter-brightness-responsive,
+        property: (
+            name: filter,
+            class: null,
+            list: (
+                filter-brightness-0: (--filter-brightness, brightness(0)),
+                filter-brightness-25: (--filter-brightness, brightness(.25)),
+                filter-brightness-50: (--filter-brightness, brightness(.5)),
+                filter-brightness-75: (--filter-brightness, brightness(.75)),
+                filter-brightness-100: (--filter-brightness, brightness(1)),
+                filter-brightness-125: (--filter-brightness, brightness(1.25)),
+                filter-brightness-150: (--filter-brightness, brightness(1.5)),
+                filter-brightness-175: (--filter-brightness, brightness(1.75)),
+                filter-brightness-200: (--filter-brightness, brightness(2))
+            )
+        )
+    )
+);

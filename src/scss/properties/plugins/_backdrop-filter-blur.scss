@@ -1,0 +1,24 @@
+$backdrop-filter-blur: (
+    "backdrop-filter-blur": (
+        type: 5,
+        status: $backdrop-filter-blur-status,
+        responsive: $backdrop-filter-blur-responsive,
+        property: (
+            name: backdrop-filter,
+            class: null,
+            list: (
+                backdrop-filter-blur-0: (--backdrop-filter-blur, blur(0px)),
+                backdrop-filter-blur-4: (--backdrop-filter-blur, blur(4px)),
+                backdrop-filter-blur-8: (--backdrop-filter-blur, blur(8px)),
+                backdrop-filter-blur-12: (--backdrop-filter-blur, blur(12px)),
+                backdrop-filter-blur-16: (--backdrop-filter-blur, blur(16px)),
+                backdrop-filter-blur-20: (--backdrop-filter-blur, blur(20px)),
+                backdrop-filter-blur-24: (--backdrop-filter-blur, blur(24px)),
+                backdrop-filter-blur-28: (--backdrop-filter-blur, blur(28px)),
+                backdrop-filter-blur-32: (--backdrop-filter-blur, blur(32px)),
+                backdrop-filter-blur-64: (--backdrop-filter-blur, blur(64px)),
+                backdrop-filter-blur-128: (--backdrop-filter-blur, blur(128px)),
+            )
+        )
+    )
+);
