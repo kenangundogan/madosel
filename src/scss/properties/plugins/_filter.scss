@@ -1,0 +1,55 @@
+$filter: (
+    "filter": (
+        type: 1,
+        status: $filter-status,
+        responsive: $filter-responsive,
+        property: (
+            name: filter,
+            class: null,
+            list: (
+                none: none
+            )
+        )
+    ),
+    "filter-all-value": (
+        type: 1,
+        status: $filter-status,
+        responsive: false,
+        property: (
+            name: filter,
+            class: null,
+            list: (
+                null:(
+                    var(--filter-blur) 
+                    var(--filter-brightness) 
+                    var(--filter-contrast) 
+                    var(--filter-grayscale) 
+                    var(--filter-hue-rotate) 
+                    var(--filter-invert) 
+                    var(--filter-saturate) 
+                    var(--filter-sepia)
+                ),
+            )
+        )
+    ),
+    "filter-default-value-option": (
+        type: 7,
+        status: $filter-status,
+        responsive: false,
+        property: (
+            name: filter,
+            class: null,
+            list: (
+                --filter-blur: "var(--empty,/*!*/ /*!*/)",
+                --filter-brightness: "var(--empty,/*!*/ /*!*/)",
+                --filter-contrast: "var(--empty,/*!*/ /*!*/)",
+                --filter-grayscale: "var(--empty,/*!*/ /*!*/)",
+                --filter-hue-rotate: "var(--empty,/*!*/ /*!*/)",
+                --filter-invert: "var(--empty,/*!*/ /*!*/)",
+                --filter-saturate: "var(--empty,/*!*/ /*!*/)",
+                --filter-sepia: "var(--empty,/*!*/ /*!*/)",
+                --filter-drop-shadow: "var(--empty,/*!*/ /*!*/)",
+            )
+        )
+    )
+);

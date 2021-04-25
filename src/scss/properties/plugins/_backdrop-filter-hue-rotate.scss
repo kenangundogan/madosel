@@ -1,0 +1,31 @@
+$backdrop-filter-hue-rotate: (
+    "backdrop-filter-hue-rotate": (
+        type: 5,
+        status: $backdrop-filter-hue-rotate-status,
+        responsive: $backdrop-filter-hue-rotate-responsive,
+        property: (
+            name: backdrop-filter,
+            class: null,
+            list: (
+                backdrop-filter-hue-rotate-0: (--backdrop-filter-hue-rotate, hue-rotate(0deg)),
+                backdrop-filter-hue-rotate-15: (--backdrop-filter-hue-rotate, hue-rotate(15deg)),
+                backdrop-filter-hue-rotate-30: (--backdrop-filter-hue-rotate, hue-rotate(30deg)),
+                backdrop-filter-hue-rotate-45: (--backdrop-filter-hue-rotate, hue-rotate(45deg)),
+                backdrop-filter-hue-rotate-60: (--backdrop-filter-hue-rotate, hue-rotate(60deg)),
+                backdrop-filter-hue-rotate-75: (--backdrop-filter-hue-rotate, hue-rotate(75deg)),
+                backdrop-filter-hue-rotate-90: (--backdrop-filter-hue-rotate, hue-rotate(90deg)),
+                backdrop-filter-hue-rotate-135: (--backdrop-filter-hue-rotate, hue-rotate(135deg)),
+                backdrop-filter-hue-rotate-190: (--backdrop-filter-hue-rotate, hue-rotate(190deg)),
+                -backdrop-filter-hue-rotate-0: (--backdrop-filter-hue-rotate, hue-rotate(0deg)),
+                -backdrop-filter-hue-rotate-15: (--backdrop-filter-hue-rotate, hue-rotate(15deg)),
+                -backdrop-filter-hue-rotate-30: (--backdrop-filter-hue-rotate, hue-rotate(30deg)),
+                -backdrop-filter-hue-rotate-45: (--backdrop-filter-hue-rotate, hue-rotate(45deg)),
+                -backdrop-filter-hue-rotate-60: (--backdrop-filter-hue-rotate, hue-rotate(60deg)),
+                -backdrop-filter-hue-rotate-75: (--backdrop-filter-hue-rotate, hue-rotate(75deg)),
+                -backdrop-filter-hue-rotate-90: (--backdrop-filter-hue-rotate, hue-rotate(90deg)),
+                -backdrop-filter-hue-rotate-135: (--backdrop-filter-hue-rotate, hue-rotate(135deg)),
+                -backdrop-filter-hue-rotate-190: (--backdrop-filter-hue-rotate, hue-rotate(190deg))
+            )
+        )
+    )
+);

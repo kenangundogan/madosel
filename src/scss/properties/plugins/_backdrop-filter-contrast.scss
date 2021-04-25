@@ -1,0 +1,22 @@
+$backdrop-filter-contrast: (
+    "backdrop-filter-contrast": (
+        type: 5,
+        status: $backdrop-filter-contrast-status,
+        responsive: $backdrop-filter-contrast-responsive,
+        property: (
+            name: backdrop-filter,
+            class: null,
+            list: (
+                backdrop-filter-contrast-0: (--backdrop-filter-contrast, contrast(0)),
+                backdrop-filter-contrast-25: (--backdrop-filter-contrast, contrast(.25)),
+                backdrop-filter-contrast-50: (--backdrop-filter-contrast, contrast(.5)),
+                backdrop-filter-contrast-75: (--backdrop-filter-contrast, contrast(.75)),
+                backdrop-filter-contrast-100: (--backdrop-filter-contrast, contrast(1)),
+                backdrop-filter-contrast-125: (--backdrop-filter-contrast, contrast(1.25)),
+                backdrop-filter-contrast-150: (--backdrop-filter-contrast, contrast(1.5)),
+                backdrop-filter-contrast-175: (--backdrop-filter-contrast, contrast(1.75)),
+                backdrop-filter-contrast-200: (--backdrop-filter-contrast, contrast(2)),
+            )
+        )
+    )
+);

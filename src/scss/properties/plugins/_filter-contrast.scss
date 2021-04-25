@@ -1,0 +1,22 @@
+$filter-contrast: (
+    "filter-contrast": (
+        type: 5,
+        status: $filter-contrast-status,
+        responsive: $filter-contrast-responsive,
+        property: (
+            name: filter,
+            class: null,
+            list: (
+                filter-contrast-0: (--filter-contrast, contrast(0)),
+                filter-contrast-25: (--filter-contrast, contrast(.25)),
+                filter-contrast-50: (--filter-contrast, contrast(.5)),
+                filter-contrast-75: (--filter-contrast, contrast(.75)),
+                filter-contrast-100: (--filter-contrast, contrast(1)),
+                filter-contrast-125: (--filter-contrast, contrast(1.25)),
+                filter-contrast-150: (--filter-contrast, contrast(1.5)),
+                filter-contrast-175: (--filter-contrast, contrast(1.75)),
+                filter-contrast-200: (--filter-contrast, contrast(2)),
+            )
+        )
+    )
+);

@@ -1,0 +1,15 @@
+$filter-sepia: (
+    "filter-sepia": (
+        type: 5,
+        status: $filter-sepia-status,
+        responsive: $filter-sepia-responsive,
+        property: (
+            name: filter,
+            class: null,
+            list: (
+                filter-sepia-0: (--filter-sepia, sepia(0)),
+                filter-sepia-1: (--filter-sepia, sepia(1))
+            )
+        )
+    )
+);

@@ -1,0 +1,24 @@
+$filter-blur: (
+    "filter-blur": (
+        type: 5,
+        status: $filter-blur-status,
+        responsive: $filter-blur-responsive,
+        property: (
+            name: filter,
+            class: null,
+            list: (
+                filter-blur-0: (--filter-blur, blur(0)),
+                filter-blur-4: (--filter-blur, blur(4px)),
+                filter-blur-8: (--filter-blur, blur(8px)),
+                filter-blur-12: (--filter-blur, blur(12px)),
+                filter-blur-16: (--filter-blur, blur(16px)),
+                filter-blur-20: (--filter-blur, blur(20px)),
+                filter-blur-24: (--filter-blur, blur(24px)),
+                filter-blur-28: (--filter-blur, blur(28px)),
+                filter-blur-32: (--filter-blur, blur(32px)),
+                filter-blur-64: (--filter-blur, blur(64px)),
+                filter-blur-128: (--filter-blur, blur(128px)),
+            )
+        )
+    )
+);

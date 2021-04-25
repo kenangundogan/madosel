@@ -1,0 +1,22 @@
+$backdrop-filter-saturate: (
+    "backdrop-filter-saturate": (
+        type: 5,
+        status: $backdrop-filter-saturate-status,
+        responsive: $backdrop-filter-saturate-responsive,
+        property: (
+            name: backdrop-filter,
+            class: null,
+            list: (
+                backdrop-filter-saturate-0: (--backdrop-filter-saturate, saturate(0)),
+                backdrop-filter-saturate-25: (--backdrop-filter-saturate, saturate(.25)),
+                backdrop-filter-saturate-50: (--backdrop-filter-saturate, saturate(.5)),
+                backdrop-filter-saturate-75: (--backdrop-filter-saturate, saturate(.75)),
+                backdrop-filter-saturate-100: (--backdrop-filter-saturate, saturate(1)),
+                backdrop-filter-saturate-125: (--backdrop-filter-saturate, saturate(1.25)),
+                backdrop-filter-saturate-150: (--backdrop-filter-saturate, saturate(1.5)),
+                backdrop-filter-saturate-175: (--backdrop-filter-saturate, saturate(1.75)),
+                backdrop-filter-saturate-200: (--backdrop-filter-saturate, saturate(2))
+            )
+        )
+    )
+);

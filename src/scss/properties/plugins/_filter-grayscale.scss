@@ -1,0 +1,15 @@
+$filter-grayscale: (
+    "filter-grayscale": (
+        type: 5,
+        status: $filter-grayscale-status,
+        responsive: $filter-grayscale-responsive,
+        property: (
+            name: filter,
+            class: null,
+            list: (
+                filter-grayscale-0: (--filter-grayscale, grayscale(0)),
+                filter-grayscale-1: (--filter-grayscale, grayscale(1))
+            )
+        )
+    )
+);
