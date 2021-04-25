@@ -7,7 +7,7 @@ $filter-blur: (
             name: filter,
             class: null,
             list: (
-                filter-blur-0: (--filter-blur, blur(0px)),
+                filter-blur-0: (--filter-blur, blur(0)),
                 filter-blur-4: (--filter-blur, blur(4px)),
                 filter-blur-8: (--filter-blur, blur(8px)),
                 filter-blur-12: (--filter-blur, blur(12px)),

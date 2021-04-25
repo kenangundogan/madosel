@@ -7,7 +7,7 @@ $backdrop-filter-blur: (
             name: backdrop-filter,
             class: null,
             list: (
-                backdrop-filter-blur-0: (--backdrop-filter-blur, blur(0px)),
+                backdrop-filter-blur-0: (--backdrop-filter-blur, blur(0)),
                 backdrop-filter-blur-4: (--backdrop-filter-blur, blur(4px)),
                 backdrop-filter-blur-8: (--backdrop-filter-blur, blur(8px)),
                 backdrop-filter-blur-12: (--backdrop-filter-blur, blur(12px)),
