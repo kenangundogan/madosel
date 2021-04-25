@@ -1,14 +1,14 @@
-/******/ (() => { // webpackBootstrap
+/******/ (function() { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
 /***/ "./js/components/madosel-accordion.js":
 /*!********************************************!*\
   !*** ./js/components/madosel-accordion.js ***!
   \********************************************/
-/***/ (() => {
+/***/ (function() {
 
 /*!
- * Madosel Accordion 1.0.0-alpha6
+ * Madosel Accordion 1.0.0-alpha7
  * Copyright 2020-2021 Kenan Gündoğan
  * https://www.madosel.com
  * Licensed under MIT https://github.com/kenangundogan/madosel/blob/master/LICENSE
@@ -81,10 +81,10 @@ window.Accordion = Accordion;
 /*!*******************************************!*\
   !*** ./js/components/madosel-dropdown.js ***!
   \*******************************************/
-/***/ (() => {
+/***/ (function() {
 
 /*!
- * Madosel Dropdown 1.0.0-alpha6
+ * Madosel Dropdown 1.0.0-alpha7
  * Copyright 2020-2021 Kenan Gündoğan
  * https://www.madosel.com
  * Licensed under MIT https://github.com/kenangundogan/madosel/blob/master/LICENSE
@@ -176,10 +176,10 @@ document.addEventListener('DOMContentLoaded', function () {
 /*!****************************************!*\
   !*** ./js/components/madosel-modal.js ***!
   \****************************************/
-/***/ (() => {
+/***/ (function() {
 
 /*!
- * Madosel Modal 1.0.0-alpha6
+ * Madosel Modal 1.0.0-alpha7
  * Copyright 2020-2021 Kenan Gündoğan
  * https://www.madosel.com
  * Licensed under MIT https://github.com/kenangundogan/madosel/blob/master/LICENSE
@@ -270,10 +270,10 @@ window.Modal = Modal;
 /*!**************************************************!*\
   !*** ./js/components/madosel-navigation-tabs.js ***!
   \**************************************************/
-/***/ (() => {
+/***/ (function() {
 
 /*!
- * Madosel Navigation Tabs 1.0.0-alpha6
+ * Madosel Navigation Tabs 1.0.0-alpha7
  * Copyright 2020-2021 Kenan Gündoğan
  * https://www.madosel.com
  * Licensed under MIT https://github.com/kenangundogan/madosel/blob/master/LICENSE
@@ -340,10 +340,10 @@ window.NavigationTabs = NavigationTabs;
 /*!********************************************!*\
   !*** ./js/components/madosel-offcanvas.js ***!
   \********************************************/
-/***/ (() => {
+/***/ (function() {
 
 /*!
- * Madosel Offcanvas 1.0.0-alpha6
+ * Madosel Offcanvas 1.0.0-alpha7
  * Copyright 2020-2021 Kenan Gündoğan
  * https://www.madosel.com
  * Licensed under MIT https://github.com/kenangundogan/madosel/blob/master/LICENSE
@@ -459,12 +459,12 @@ window.Offcanvas = Offcanvas;
 /************************************************************************/
 var __webpack_exports__ = {};
 // This entry need to be wrapped in an IIFE because it need to be isolated against other modules in the chunk.
-(() => {
+!function() {
 /*!********************************************!*\
   !*** ./js/components/madosel-component.js ***!
   \********************************************/
 /*!
- * Madosel Component 1.0.0-alpha6
+ * Madosel Component 1.0.0-alpha7
  * Copyright 2020-2021 Kenan Gündoğan
  * https://www.madosel.com
  * Licensed under MIT https://github.com/kenangundogan/madosel/blob/master/LICENSE
@@ -479,8 +479,7 @@ __webpack_require__(/*! ./madosel-modal.js */ "./js/components/madosel-modal.js"
 __webpack_require__(/*! ./madosel-offcanvas.js */ "./js/components/madosel-offcanvas.js");
 
 __webpack_require__(/*! ./madosel-dropdown.js */ "./js/components/madosel-dropdown.js");
-})();
-
+}();
 /******/ })()
 ;
 //# sourceMappingURL=madosel-component.js.map

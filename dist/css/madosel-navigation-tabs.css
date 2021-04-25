@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /*!
- * Madosel Navigation Tabs 1.0.0-alpha6
+ * Madosel Navigation Tabs 1.0.0-alpha7
  * Copyright 2020-2021 Kenan Gündoğan
  * https://www.madosel.com
  * Licensed under MIT https://github.com/kenangundogan/madosel/blob/master/LICENSE
@@ -13,16 +13,13 @@
 .navigation-tabs-container .navigation-tab-menu {
   position: relative;
   width: 100%;
-  display: -ms-flexbox;
   display: flex;
 }
 .navigation-tabs-container .navigation-tab-menu .navigation-tab-menu-item {
   position: relative;
   min-height: 70px;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-align: center;
-      align-items: center;
+  align-items: center;
   border-radius: 5px;
   padding: 20px;
   cursor: pointer;
@@ -62,14 +59,11 @@
   border-right: dashed 1px #dedede;
 }
 .navigation-tabs-container.right {
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-direction: row-reverse;
-      flex-direction: row-reverse;
+  flex-direction: row-reverse;
 }
 .navigation-tabs-container.right .navigation-tab-menu {
-  -ms-flex-direction: column;
-      flex-direction: column;
+  flex-direction: column;
 }
 .navigation-tabs-container.right .navigation-tab-menu .navigation-tab-menu-item {
   margin: 0 0 10px 10px;
@@ -83,10 +77,8 @@
   border-bottom: dashed 1px #dedede;
 }
 .navigation-tabs-container.bottom {
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-direction: column-reverse;
-      flex-direction: column-reverse;
+  flex-direction: column-reverse;
 }
 .navigation-tabs-container.bottom .navigation-tab-menu .navigation-tab-menu-item {
   margin: 10px 10px 0 0;
@@ -100,12 +92,10 @@
   border-right: dashed 1px #dedede;
 }
 .navigation-tabs-container.left {
-  display: -ms-flexbox;
   display: flex;
 }
 .navigation-tabs-container.left .navigation-tab-menu {
-  -ms-flex-direction: column;
-      flex-direction: column;
+  flex-direction: column;
 }
 .navigation-tabs-container.left .navigation-tab-menu .navigation-tab-menu-item {
   margin: 0 10px 10px 0;

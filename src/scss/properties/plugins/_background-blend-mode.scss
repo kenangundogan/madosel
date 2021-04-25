@@ -1,10 +1,10 @@
-$mix-blend-mode: (
-    "mix-blend-mode": (
+$background-blend-mode: (
+    "background-blend-mode": (
         type: 1,
-        status: $mix-blend-mode-status,
-        responsive: $mix-blend-mode-responsive,
+        status: $background-blend-mode-status,
+        responsive: $background-blend-mode-responsive,
         property: (
-            name: mix-blend-mode,
+            name: background-blend-mode,
             class: null,
             list: (
                 normal: normal,

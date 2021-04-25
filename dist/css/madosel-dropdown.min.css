@@ -1,5 +1,5 @@
 /*!
- * Madosel Dropdown 1.0.0-alpha6
+ * Madosel Dropdown 1.0.0-alpha7
  * Copyright 2020-2021 Kenan Gündoğan
  * https://www.madosel.com
  * Licensed under MIT https://github.com/kenangundogan/madosel/blob/master/LICENSE

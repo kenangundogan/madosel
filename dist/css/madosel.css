@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /*!
- * Madosel 1.0.0-alpha6
+ * Madosel 1.0.0-alpha7
  * Copyright 2020-2021 Kenan Gündoğan
  * https://www.madosel.com
  * Licensed under MIT https://github.com/kenangundogan/madosel/blob/master/LICENSE
@@ -57,65 +57,51 @@ table {
 
 @media (min-width: 0) {
   .xs\:appearance-auto {
-    -webkit-appearance: auto;
-       -moz-appearance: auto;
-            appearance: auto;
+    appearance: auto;
   }
 
   .xs\:appearance-none {
-    -webkit-appearance: none;
-       -moz-appearance: none;
-            appearance: none;
+    appearance: none;
   }
 
   .xs\:align-items-start {
-    -ms-flex-align: start;
-        align-items: flex-start;
+    align-items: flex-start;
   }
 
   .xs\:align-items-end {
-    -ms-flex-align: end;
-        align-items: flex-end;
+    align-items: flex-end;
   }
 
   .xs\:align-items-center {
-    -ms-flex-align: center;
-        align-items: center;
+    align-items: center;
   }
 
   .xs\:align-items-baseline {
-    -ms-flex-align: baseline;
-        align-items: baseline;
+    align-items: baseline;
   }
 
   .xs\:align-items-stretch {
-    -ms-flex-align: stretch;
-        align-items: stretch;
+    align-items: stretch;
   }
 
   .xs\:align-self-auto {
-    -ms-flex-item-align: auto;
-        align-self: auto;
+    align-self: auto;
   }
 
   .xs\:align-self-start {
-    -ms-flex-item-align: start;
-        align-self: flex-start;
+    align-self: flex-start;
   }
 
   .xs\:align-self-end {
-    -ms-flex-item-align: end;
-        align-self: flex-end;
+    align-self: flex-end;
   }
 
   .xs\:align-self-center {
-    -ms-flex-item-align: center;
-        align-self: center;
+    align-self: center;
   }
 
   .xs\:align-self-stretch {
-    -ms-flex-item-align: stretch;
-        align-self: stretch;
+    align-self: stretch;
   }
 
   .xs\:background-attachment-fixed {
@@ -143,8 +129,7 @@ table {
   }
 
   .xs\:background-clip-text {
-    -webkit-background-clip: text;
-            background-clip: text;
+    background-clip: text;
   }
 
   .xs\:bg-red-600 {
@@ -754,220 +739,44 @@ table {
     border-color: #ffffff;
   }
 
-  .xs\:placeholder-transparent::-webkit-input-placeholder {
-    color: transparent;
-  }
-
-  .xs\:placeholder-transparent::-moz-placeholder {
-    color: transparent;
-  }
-
-  .xs\:placeholder-transparent:-ms-input-placeholder {
-    color: transparent;
-  }
-
-  .xs\:placeholder-transparent::-ms-input-placeholder {
-    color: transparent;
-  }
-
   .xs\:placeholder-transparent::placeholder {
     color: transparent;
-  }
-
-  .xs\:placeholder-primary::-webkit-input-placeholder {
-    color: #FAE898;
-  }
-
-  .xs\:placeholder-primary::-moz-placeholder {
-    color: #FAE898;
-  }
-
-  .xs\:placeholder-primary:-ms-input-placeholder {
-    color: #FAE898;
-  }
-
-  .xs\:placeholder-primary::-ms-input-placeholder {
-    color: #FAE898;
   }
 
   .xs\:placeholder-primary::placeholder {
     color: #FAE898;
   }
 
-  .xs\:placeholder-secondary::-webkit-input-placeholder {
-    color: #999999;
-  }
-
-  .xs\:placeholder-secondary::-moz-placeholder {
-    color: #999999;
-  }
-
-  .xs\:placeholder-secondary:-ms-input-placeholder {
-    color: #999999;
-  }
-
-  .xs\:placeholder-secondary::-ms-input-placeholder {
-    color: #999999;
-  }
-
   .xs\:placeholder-secondary::placeholder {
     color: #999999;
-  }
-
-  .xs\:placeholder-success::-webkit-input-placeholder {
-    color: #198754;
-  }
-
-  .xs\:placeholder-success::-moz-placeholder {
-    color: #198754;
-  }
-
-  .xs\:placeholder-success:-ms-input-placeholder {
-    color: #198754;
-  }
-
-  .xs\:placeholder-success::-ms-input-placeholder {
-    color: #198754;
   }
 
   .xs\:placeholder-success::placeholder {
     color: #198754;
   }
 
-  .xs\:placeholder-info::-webkit-input-placeholder {
-    color: #0dcaf0;
-  }
-
-  .xs\:placeholder-info::-moz-placeholder {
-    color: #0dcaf0;
-  }
-
-  .xs\:placeholder-info:-ms-input-placeholder {
-    color: #0dcaf0;
-  }
-
-  .xs\:placeholder-info::-ms-input-placeholder {
-    color: #0dcaf0;
-  }
-
   .xs\:placeholder-info::placeholder {
     color: #0dcaf0;
-  }
-
-  .xs\:placeholder-warning::-webkit-input-placeholder {
-    color: #ffc107;
-  }
-
-  .xs\:placeholder-warning::-moz-placeholder {
-    color: #ffc107;
-  }
-
-  .xs\:placeholder-warning:-ms-input-placeholder {
-    color: #ffc107;
-  }
-
-  .xs\:placeholder-warning::-ms-input-placeholder {
-    color: #ffc107;
   }
 
   .xs\:placeholder-warning::placeholder {
     color: #ffc107;
   }
 
-  .xs\:placeholder-danger::-webkit-input-placeholder {
-    color: #dc3545;
-  }
-
-  .xs\:placeholder-danger::-moz-placeholder {
-    color: #dc3545;
-  }
-
-  .xs\:placeholder-danger:-ms-input-placeholder {
-    color: #dc3545;
-  }
-
-  .xs\:placeholder-danger::-ms-input-placeholder {
-    color: #dc3545;
-  }
-
   .xs\:placeholder-danger::placeholder {
     color: #dc3545;
-  }
-
-  .xs\:placeholder-dark::-webkit-input-placeholder {
-    color: #333333;
-  }
-
-  .xs\:placeholder-dark::-moz-placeholder {
-    color: #333333;
-  }
-
-  .xs\:placeholder-dark:-ms-input-placeholder {
-    color: #333333;
-  }
-
-  .xs\:placeholder-dark::-ms-input-placeholder {
-    color: #333333;
   }
 
   .xs\:placeholder-dark::placeholder {
     color: #333333;
   }
 
-  .xs\:placeholder-light::-webkit-input-placeholder {
-    color: #f1f1f1;
-  }
-
-  .xs\:placeholder-light::-moz-placeholder {
-    color: #f1f1f1;
-  }
-
-  .xs\:placeholder-light:-ms-input-placeholder {
-    color: #f1f1f1;
-  }
-
-  .xs\:placeholder-light::-ms-input-placeholder {
-    color: #f1f1f1;
-  }
-
   .xs\:placeholder-light::placeholder {
     color: #f1f1f1;
   }
 
-  .xs\:placeholder-black::-webkit-input-placeholder {
-    color: #000000;
-  }
-
-  .xs\:placeholder-black::-moz-placeholder {
-    color: #000000;
-  }
-
-  .xs\:placeholder-black:-ms-input-placeholder {
-    color: #000000;
-  }
-
-  .xs\:placeholder-black::-ms-input-placeholder {
-    color: #000000;
-  }
-
   .xs\:placeholder-black::placeholder {
     color: #000000;
-  }
-
-  .xs\:placeholder-white::-webkit-input-placeholder {
-    color: #ffffff;
-  }
-
-  .xs\:placeholder-white::-moz-placeholder {
-    color: #ffffff;
-  }
-
-  .xs\:placeholder-white:-ms-input-placeholder {
-    color: #ffffff;
-  }
-
-  .xs\:placeholder-white::-ms-input-placeholder {
-    color: #ffffff;
   }
 
   .xs\:placeholder-white::placeholder {
@@ -3225,12 +3034,10 @@ table {
   }
 
   .xs\:cursor-grab {
-    cursor: -webkit-grab;
     cursor: grab;
   }
 
   .xs\:cursor-grabbing {
-    cursor: -webkit-grabbing;
     cursor: grabbing;
   }
 
@@ -3335,7 +3142,6 @@ table {
   }
 
   .xs\:display-flex {
-    display: -ms-flexbox;
     display: flex;
   }
 
@@ -3352,7 +3158,6 @@ table {
   }
 
   .xs\:display-inline-flex {
-    display: -ms-inline-flexbox;
     display: inline-flex;
   }
 
@@ -3417,188 +3222,151 @@ table {
   }
 
   .xs\:flex-direction-row {
-    -ms-flex-direction: row;
-        flex-direction: row;
+    flex-direction: row;
   }
 
   .xs\:flex-direction-row-reverse {
-    -ms-flex-direction: row-reverse;
-        flex-direction: row-reverse;
+    flex-direction: row-reverse;
   }
 
   .xs\:flex-direction-column {
-    -ms-flex-direction: column;
-        flex-direction: column;
+    flex-direction: column;
   }
 
   .xs\:flex-direction-column-reverse {
-    -ms-flex-direction: column-reverse;
-        flex-direction: column-reverse;
+    flex-direction: column-reverse;
   }
 
   .xs\:flex-grow-0 {
-    -ms-flex-positive: 0;
-        flex-grow: 0;
+    flex-grow: 0;
   }
 
   .xs\:flex-grow-1 {
-    -ms-flex-positive: 1;
-        flex-grow: 1;
+    flex-grow: 1;
   }
 
   .xs\:flex-grow-2 {
-    -ms-flex-positive: 2;
-        flex-grow: 2;
+    flex-grow: 2;
   }
 
   .xs\:flex-grow-3 {
-    -ms-flex-positive: 3;
-        flex-grow: 3;
+    flex-grow: 3;
   }
 
   .xs\:flex-grow-4 {
-    -ms-flex-positive: 4;
-        flex-grow: 4;
+    flex-grow: 4;
   }
 
   .xs\:flex-grow-5 {
-    -ms-flex-positive: 5;
-        flex-grow: 5;
+    flex-grow: 5;
   }
 
   .xs\:flex-grow-6 {
-    -ms-flex-positive: 6;
-        flex-grow: 6;
+    flex-grow: 6;
   }
 
   .xs\:flex-grow-7 {
-    -ms-flex-positive: 7;
-        flex-grow: 7;
+    flex-grow: 7;
   }
 
   .xs\:flex-grow-8 {
-    -ms-flex-positive: 8;
-        flex-grow: 8;
+    flex-grow: 8;
   }
 
   .xs\:flex-grow-9 {
-    -ms-flex-positive: 9;
-        flex-grow: 9;
+    flex-grow: 9;
   }
 
   .xs\:flex-grow-10 {
-    -ms-flex-positive: 10;
-        flex-grow: 10;
+    flex-grow: 10;
   }
 
   .xs\:flex-grow-11 {
-    -ms-flex-positive: 11;
-        flex-grow: 11;
+    flex-grow: 11;
   }
 
   .xs\:flex-grow-12 {
-    -ms-flex-positive: 12;
-        flex-grow: 12;
+    flex-grow: 12;
   }
 
   .xs\:flex-shrink-0 {
-    -ms-flex-negative: 0;
-        flex-shrink: 0;
+    flex-shrink: 0;
   }
 
   .xs\:flex-shrink-1 {
-    -ms-flex-negative: 1;
-        flex-shrink: 1;
+    flex-shrink: 1;
   }
 
   .xs\:flex-shrink-2 {
-    -ms-flex-negative: 2;
-        flex-shrink: 2;
+    flex-shrink: 2;
   }
 
   .xs\:flex-shrink-3 {
-    -ms-flex-negative: 3;
-        flex-shrink: 3;
+    flex-shrink: 3;
   }
 
   .xs\:flex-shrink-4 {
-    -ms-flex-negative: 4;
-        flex-shrink: 4;
+    flex-shrink: 4;
   }
 
   .xs\:flex-shrink-5 {
-    -ms-flex-negative: 5;
-        flex-shrink: 5;
+    flex-shrink: 5;
   }
 
   .xs\:flex-shrink-6 {
-    -ms-flex-negative: 6;
-        flex-shrink: 6;
+    flex-shrink: 6;
   }
 
   .xs\:flex-shrink-7 {
-    -ms-flex-negative: 7;
-        flex-shrink: 7;
+    flex-shrink: 7;
   }
 
   .xs\:flex-shrink-8 {
-    -ms-flex-negative: 8;
-        flex-shrink: 8;
+    flex-shrink: 8;
   }
 
   .xs\:flex-shrink-9 {
-    -ms-flex-negative: 9;
-        flex-shrink: 9;
+    flex-shrink: 9;
   }
 
   .xs\:flex-shrink-10 {
-    -ms-flex-negative: 10;
-        flex-shrink: 10;
+    flex-shrink: 10;
   }
 
   .xs\:flex-shrink-11 {
-    -ms-flex-negative: 11;
-        flex-shrink: 11;
+    flex-shrink: 11;
   }
 
   .xs\:flex-shrink-12 {
-    -ms-flex-negative: 12;
-        flex-shrink: 12;
+    flex-shrink: 12;
   }
 
   .xs\:flex-wrap-wrap {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
   }
 
   .xs\:flex-wrap-reverse {
-    -ms-flex-wrap: wrap-reverse;
-        flex-wrap: wrap-reverse;
+    flex-wrap: wrap-reverse;
   }
 
   .xs\:flex-wrap-nowrap {
-    -ms-flex-wrap: nowrap;
-        flex-wrap: nowrap;
+    flex-wrap: nowrap;
   }
 
   .xs\:flex-1 {
-    -ms-flex: 1 1 0%;
-        flex: 1 1 0%;
+    flex: 1 1 0%;
   }
 
   .xs\:flex-auto {
-    -ms-flex: 1 1 auto;
-        flex: 1 1 auto;
+    flex: 1 1 auto;
   }
 
   .xs\:flex-initial {
-    -ms-flex: 0 1 auto;
-        flex: 0 1 auto;
+    flex: 0 1 auto;
   }
 
   .xs\:flex-none {
-    -ms-flex: none;
-        flex: none;
+    flex: none;
   }
 
   .xs\:float-right {
@@ -3946,33 +3714,27 @@ table {
   }
 
   .xs\:justify-content-start {
-    -ms-flex-pack: start;
-        justify-content: flex-start;
+    justify-content: flex-start;
   }
 
   .xs\:justify-content-end {
-    -ms-flex-pack: end;
-        justify-content: flex-end;
+    justify-content: flex-end;
   }
 
   .xs\:justify-content-center {
-    -ms-flex-pack: center;
-        justify-content: center;
+    justify-content: center;
   }
 
   .xs\:justify-content-between {
-    -ms-flex-pack: justify;
-        justify-content: space-between;
+    justify-content: space-between;
   }
 
   .xs\:justify-content-around {
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
+    justify-content: space-around;
   }
 
   .xs\:justify-content-evenly {
-    -ms-flex-pack: space-evenly;
-        justify-content: space-evenly;
+    justify-content: space-evenly;
   }
 
   .xs\:justify-items-baseline {
@@ -6080,78 +5842,63 @@ table {
   }
 
   .xs\:object-fit-contain {
-    -o-object-fit: contain;
-       object-fit: contain;
+    object-fit: contain;
   }
 
   .xs\:object-fit-cover {
-    -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
   }
 
   .xs\:object-fit-fill {
-    -o-object-fit: fill;
-       object-fit: fill;
+    object-fit: fill;
   }
 
   .xs\:object-fit-none {
-    -o-object-fit: none;
-       object-fit: none;
+    object-fit: none;
   }
 
   .xs\:object-fit-scale-down {
-    -o-object-fit: scale-down;
-       object-fit: scale-down;
+    object-fit: scale-down;
   }
 
   .xs\:object-fit-inherit {
-    -o-object-fit: inherit;
-       object-fit: inherit;
+    object-fit: inherit;
   }
 
   .xs\:object-position-top {
-    -o-object-position: top;
-       object-position: top;
+    object-position: top;
   }
 
   .xs\:object-position-right {
-    -o-object-position: right;
-       object-position: right;
+    object-position: right;
   }
 
   .xs\:object-position-bottom {
-    -o-object-position: bottom;
-       object-position: bottom;
+    object-position: bottom;
   }
 
   .xs\:object-position-left {
-    -o-object-position: left;
-       object-position: left;
+    object-position: left;
   }
 
   .xs\:object-position-center {
-    -o-object-position: center;
-       object-position: center;
+    object-position: center;
   }
 
   .xs\:object-position-left-top {
-    -o-object-position: left top;
-       object-position: left top;
+    object-position: left top;
   }
 
   .xs\:object-position-left-bottom {
-    -o-object-position: left bottom;
-       object-position: left bottom;
+    object-position: left bottom;
   }
 
   .xs\:object-position-right-top {
-    -o-object-position: right top;
-       object-position: right top;
+    object-position: right top;
   }
 
   .xs\:object-position-right-bottom {
-    -o-object-position: right bottom;
-       object-position: right bottom;
+    object-position: right bottom;
   }
 
   .xs\:opacity-0 {
@@ -6239,58 +5986,47 @@ table {
   }
 
   .xs\:order-0 {
-    -ms-flex-order: 0;
-        order: 0;
+    order: 0;
   }
 
   .xs\:order-1 {
-    -ms-flex-order: 1;
-        order: 1;
+    order: 1;
   }
 
   .xs\:order-2 {
-    -ms-flex-order: 2;
-        order: 2;
+    order: 2;
   }
 
   .xs\:order-3 {
-    -ms-flex-order: 3;
-        order: 3;
+    order: 3;
   }
 
   .xs\:order-4 {
-    -ms-flex-order: 4;
-        order: 4;
+    order: 4;
   }
 
   .xs\:order-5 {
-    -ms-flex-order: 5;
-        order: 5;
+    order: 5;
   }
 
   .xs\:order-6 {
-    -ms-flex-order: 6;
-        order: 6;
+    order: 6;
   }
 
   .xs\:order-7 {
-    -ms-flex-order: 7;
-        order: 7;
+    order: 7;
   }
 
   .xs\:order-8 {
-    -ms-flex-order: 8;
-        order: 8;
+    order: 8;
   }
 
   .xs\:order-9 {
-    -ms-flex-order: 9;
-        order: 9;
+    order: 9;
   }
 
   .xs\:order-10 {
-    -ms-flex-order: 10;
-        order: 10;
+    order: 10;
   }
 
   .xs\:overflow-wrap-normal {
@@ -6354,18 +6090,15 @@ table {
   }
 
   .xs\:overscroll-behavior-auto {
-    -ms-scroll-chaining: chained;
-        overscroll-behavior: auto;
+    overscroll-behavior: auto;
   }
 
   .xs\:overscroll-behavior-contain {
-    -ms-scroll-chaining: none;
-        overscroll-behavior: contain;
+    overscroll-behavior: contain;
   }
 
   .xs\:overscroll-behavior-none {
-    -ms-scroll-chaining: none;
-        overscroll-behavior: none;
+    overscroll-behavior: none;
   }
 
   .xs\:overscroll-behavior-y-auto {
@@ -7325,7 +7058,6 @@ table {
   }
 
   .xs\:position-sticky {
-    position: -webkit-sticky;
     position: sticky;
   }
 
@@ -8374,53 +8106,43 @@ table {
   }
 
   .xs\:origin-top {
-    -webkit-transform-origin: top;
-            transform-origin: top;
+    transform-origin: top;
   }
 
   .xs\:origin-right {
-    -webkit-transform-origin: right;
-            transform-origin: right;
+    transform-origin: right;
   }
 
   .xs\:origin-bottom {
-    -webkit-transform-origin: bottom;
-            transform-origin: bottom;
+    transform-origin: bottom;
   }
 
   .xs\:origin-left {
-    -webkit-transform-origin: left;
-            transform-origin: left;
+    transform-origin: left;
   }
 
   .xs\:origin-center {
-    -webkit-transform-origin: center;
-            transform-origin: center;
+    transform-origin: center;
   }
 
   .xs\:origin-top-left {
-    -webkit-transform-origin: top left;
-            transform-origin: top left;
+    transform-origin: top left;
   }
 
   .xs\:origin-top-right {
-    -webkit-transform-origin: top right;
-            transform-origin: top right;
+    transform-origin: top right;
   }
 
   .xs\:origin-bottom-left {
-    -webkit-transform-origin: bottom left;
-            transform-origin: bottom left;
+    transform-origin: bottom left;
   }
 
   .xs\:origin-bottom-right {
-    -webkit-transform-origin: bottom right;
-            transform-origin: bottom right;
+    transform-origin: bottom right;
   }
 
   .xs\:transform-none {
-    -webkit-transform: none;
-            transform: none;
+    transform: none;
   }
 
   .xs\:translate-x-0 {
@@ -8964,30 +8686,19 @@ table {
   }
 
   .xs\:user-select-none {
-    -webkit-user-select: none;
-       -moz-user-select: none;
-        -ms-user-select: none;
-            user-select: none;
+    user-select: none;
   }
 
   .xs\:user-select-text {
-    -webkit-user-select: text;
-       -moz-user-select: text;
-        -ms-user-select: text;
-            user-select: text;
+    user-select: text;
   }
 
   .xs\:user-select-all {
-    -webkit-user-select: all;
-       -moz-user-select: all;
-            user-select: all;
+    user-select: all;
   }
 
   .xs\:user-select-auto {
-    -webkit-user-select: auto;
-       -moz-user-select: auto;
-        -ms-user-select: auto;
-            user-select: auto;
+    user-select: auto;
   }
 
   .xs\:vertical-align-baseline {
@@ -9387,14 +9098,10 @@ table {
   }
 
   .xs\:width-min-content {
-    width: -webkit-min-content;
-    width: -moz-min-content;
     width: min-content;
   }
 
   .xs\:width-max-content {
-    width: -webkit-max-content;
-    width: -moz-max-content;
     width: max-content;
   }
 
@@ -9799,12 +9506,10 @@ table {
   }
 
   .xs\:grid-auto-columns-min {
-    grid-auto-columns: -webkit-min-content;
     grid-auto-columns: min-content;
   }
 
   .xs\:grid-auto-columns-max {
-    grid-auto-columns: -webkit-max-content;
     grid-auto-columns: max-content;
   }
 
@@ -9813,12 +9518,10 @@ table {
   }
 
   .xs\:grid-auto-rows-min {
-    grid-auto-rows: -webkit-min-content;
     grid-auto-rows: min-content;
   }
 
   .xs\:grid-auto-rows-max {
-    grid-auto-rows: -webkit-max-content;
     grid-auto-rows: max-content;
   }
 
@@ -9927,81 +9630,55 @@ table {
   }
 
   .xs\:column-gap-0 {
-    -webkit-column-gap: 0;
-       -moz-column-gap: 0;
-            column-gap: 0;
+    column-gap: 0;
   }
 
   .xs\:column-gap-1 {
-    -webkit-column-gap: 0.125rem;
-       -moz-column-gap: 0.125rem;
-            column-gap: 0.125rem;
+    column-gap: 0.125rem;
   }
 
   .xs\:column-gap-2 {
-    -webkit-column-gap: 0.25rem;
-       -moz-column-gap: 0.25rem;
-            column-gap: 0.25rem;
+    column-gap: 0.25rem;
   }
 
   .xs\:column-gap-3 {
-    -webkit-column-gap: 0.375rem;
-       -moz-column-gap: 0.375rem;
-            column-gap: 0.375rem;
+    column-gap: 0.375rem;
   }
 
   .xs\:column-gap-4 {
-    -webkit-column-gap: 0.5;
-       -moz-column-gap: 0.5;
-            column-gap: 0.5;
+    column-gap: 0.5;
   }
 
   .xs\:column-gap-5 {
-    -webkit-column-gap: 0.625rem;
-       -moz-column-gap: 0.625rem;
-            column-gap: 0.625rem;
+    column-gap: 0.625rem;
   }
 
   .xs\:column-gap-6 {
-    -webkit-column-gap: 0.75rem;
-       -moz-column-gap: 0.75rem;
-            column-gap: 0.75rem;
+    column-gap: 0.75rem;
   }
 
   .xs\:column-gap-7 {
-    -webkit-column-gap: 0.875rem;
-       -moz-column-gap: 0.875rem;
-            column-gap: 0.875rem;
+    column-gap: 0.875rem;
   }
 
   .xs\:column-gap-8 {
-    -webkit-column-gap: 1rem;
-       -moz-column-gap: 1rem;
-            column-gap: 1rem;
+    column-gap: 1rem;
   }
 
   .xs\:column-gap-9 {
-    -webkit-column-gap: 1.25rem;
-       -moz-column-gap: 1.25rem;
-            column-gap: 1.25rem;
+    column-gap: 1.25rem;
   }
 
   .xs\:column-gap-10 {
-    -webkit-column-gap: 1.5rem;
-       -moz-column-gap: 1.5rem;
-            column-gap: 1.5rem;
+    column-gap: 1.5rem;
   }
 
   .xs\:column-gap-11 {
-    -webkit-column-gap: 1.75rem;
-       -moz-column-gap: 1.75rem;
-            column-gap: 1.75rem;
+    column-gap: 1.75rem;
   }
 
   .xs\:column-gap-12 {
-    -webkit-column-gap: 2rem;
-       -moz-column-gap: 2rem;
-            column-gap: 2rem;
+    column-gap: 2rem;
   }
 
   .xs\:isolation-isolate {
@@ -10060,6 +9737,10 @@ table {
     mix-blend-mode: exclusion;
   }
 
+  .xs\:mix-blend-mode-hue {
+    mix-blend-mode: hue;
+  }
+
   .xs\:mix-blend-mode-saturation {
     mix-blend-mode: saturation;
   }
@@ -10071,68 +9752,118 @@ table {
   .xs\:mix-blend-mode-luminosity {
     mix-blend-mode: luminosity;
   }
+
+  .xs\:background-blend-mode-normal {
+    background-blend-mode: normal;
+  }
+
+  .xs\:background-blend-mode-multiply {
+    background-blend-mode: multiply;
+  }
+
+  .xs\:background-blend-mode-screen {
+    background-blend-mode: screen;
+  }
+
+  .xs\:background-blend-mode-overlay {
+    background-blend-mode: overlay;
+  }
+
+  .xs\:background-blend-mode-darken {
+    background-blend-mode: darken;
+  }
+
+  .xs\:background-blend-mode-lighten {
+    background-blend-mode: lighten;
+  }
+
+  .xs\:background-blend-mode-color-dodge {
+    background-blend-mode: color-dodge;
+  }
+
+  .xs\:background-blend-mode-color-burn {
+    background-blend-mode: color-burn;
+  }
+
+  .xs\:background-blend-mode-hard-light {
+    background-blend-mode: hard-light;
+  }
+
+  .xs\:background-blend-mode-soft-light {
+    background-blend-mode: soft-light;
+  }
+
+  .xs\:background-blend-mode-difference {
+    background-blend-mode: difference;
+  }
+
+  .xs\:background-blend-mode-exclusion {
+    background-blend-mode: exclusion;
+  }
+
+  .xs\:background-blend-mode-hue {
+    background-blend-mode: hue;
+  }
+
+  .xs\:background-blend-mode-saturation {
+    background-blend-mode: saturation;
+  }
+
+  .xs\:background-blend-mode-color {
+    background-blend-mode: color;
+  }
+
+  .xs\:background-blend-mode-luminosity {
+    background-blend-mode: luminosity;
+  }
 }
 @media (min-width: 425px) {
   .sm\:appearance-auto {
-    -webkit-appearance: auto;
-       -moz-appearance: auto;
-            appearance: auto;
+    appearance: auto;
   }
 
   .sm\:appearance-none {
-    -webkit-appearance: none;
-       -moz-appearance: none;
-            appearance: none;
+    appearance: none;
   }
 
   .sm\:align-items-start {
-    -ms-flex-align: start;
-        align-items: flex-start;
+    align-items: flex-start;
   }
 
   .sm\:align-items-end {
-    -ms-flex-align: end;
-        align-items: flex-end;
+    align-items: flex-end;
   }
 
   .sm\:align-items-center {
-    -ms-flex-align: center;
-        align-items: center;
+    align-items: center;
   }
 
   .sm\:align-items-baseline {
-    -ms-flex-align: baseline;
-        align-items: baseline;
+    align-items: baseline;
   }
 
   .sm\:align-items-stretch {
-    -ms-flex-align: stretch;
-        align-items: stretch;
+    align-items: stretch;
   }
 
   .sm\:align-self-auto {
-    -ms-flex-item-align: auto;
-        align-self: auto;
+    align-self: auto;
   }
 
   .sm\:align-self-start {
-    -ms-flex-item-align: start;
-        align-self: flex-start;
+    align-self: flex-start;
   }
 
   .sm\:align-self-end {
-    -ms-flex-item-align: end;
-        align-self: flex-end;
+    align-self: flex-end;
   }
 
   .sm\:align-self-center {
-    -ms-flex-item-align: center;
-        align-self: center;
+    align-self: center;
   }
 
   .sm\:align-self-stretch {
-    -ms-flex-item-align: stretch;
-        align-self: stretch;
+    align-self: stretch;
   }
 
   .sm\:background-attachment-fixed {
@@ -10160,8 +9891,7 @@ table {
   }
 
   .sm\:background-clip-text {
-    -webkit-background-clip: text;
-            background-clip: text;
+    background-clip: text;
   }
 
   .sm\:bg-red-600 {
@@ -10771,220 +10501,44 @@ table {
     border-color: #ffffff;
   }
 
-  .sm\:placeholder-transparent::-webkit-input-placeholder {
-    color: transparent;
-  }
-
-  .sm\:placeholder-transparent::-moz-placeholder {
-    color: transparent;
-  }
-
-  .sm\:placeholder-transparent:-ms-input-placeholder {
-    color: transparent;
-  }
-
-  .sm\:placeholder-transparent::-ms-input-placeholder {
-    color: transparent;
-  }
-
   .sm\:placeholder-transparent::placeholder {
     color: transparent;
-  }
-
-  .sm\:placeholder-primary::-webkit-input-placeholder {
-    color: #FAE898;
-  }
-
-  .sm\:placeholder-primary::-moz-placeholder {
-    color: #FAE898;
-  }
-
-  .sm\:placeholder-primary:-ms-input-placeholder {
-    color: #FAE898;
-  }
-
-  .sm\:placeholder-primary::-ms-input-placeholder {
-    color: #FAE898;
   }
 
   .sm\:placeholder-primary::placeholder {
     color: #FAE898;
   }
 
-  .sm\:placeholder-secondary::-webkit-input-placeholder {
-    color: #999999;
-  }
-
-  .sm\:placeholder-secondary::-moz-placeholder {
-    color: #999999;
-  }
-
-  .sm\:placeholder-secondary:-ms-input-placeholder {
-    color: #999999;
-  }
-
-  .sm\:placeholder-secondary::-ms-input-placeholder {
-    color: #999999;
-  }
-
   .sm\:placeholder-secondary::placeholder {
     color: #999999;
-  }
-
-  .sm\:placeholder-success::-webkit-input-placeholder {
-    color: #198754;
-  }
-
-  .sm\:placeholder-success::-moz-placeholder {
-    color: #198754;
-  }
-
-  .sm\:placeholder-success:-ms-input-placeholder {
-    color: #198754;
-  }
-
-  .sm\:placeholder-success::-ms-input-placeholder {
-    color: #198754;
   }
 
   .sm\:placeholder-success::placeholder {
     color: #198754;
   }
 
-  .sm\:placeholder-info::-webkit-input-placeholder {
-    color: #0dcaf0;
-  }
-
-  .sm\:placeholder-info::-moz-placeholder {
-    color: #0dcaf0;
-  }
-
-  .sm\:placeholder-info:-ms-input-placeholder {
-    color: #0dcaf0;
-  }
-
-  .sm\:placeholder-info::-ms-input-placeholder {
-    color: #0dcaf0;
-  }
-
   .sm\:placeholder-info::placeholder {
     color: #0dcaf0;
-  }
-
-  .sm\:placeholder-warning::-webkit-input-placeholder {
-    color: #ffc107;
-  }
-
-  .sm\:placeholder-warning::-moz-placeholder {
-    color: #ffc107;
-  }
-
-  .sm\:placeholder-warning:-ms-input-placeholder {
-    color: #ffc107;
-  }
-
-  .sm\:placeholder-warning::-ms-input-placeholder {
-    color: #ffc107;
   }
 
   .sm\:placeholder-warning::placeholder {
     color: #ffc107;
   }
 
-  .sm\:placeholder-danger::-webkit-input-placeholder {
-    color: #dc3545;
-  }
-
-  .sm\:placeholder-danger::-moz-placeholder {
-    color: #dc3545;
-  }
-
-  .sm\:placeholder-danger:-ms-input-placeholder {
-    color: #dc3545;
-  }
-
-  .sm\:placeholder-danger::-ms-input-placeholder {
-    color: #dc3545;
-  }
-
   .sm\:placeholder-danger::placeholder {
     color: #dc3545;
-  }
-
-  .sm\:placeholder-dark::-webkit-input-placeholder {
-    color: #333333;
-  }
-
-  .sm\:placeholder-dark::-moz-placeholder {
-    color: #333333;
-  }
-
-  .sm\:placeholder-dark:-ms-input-placeholder {
-    color: #333333;
-  }
-
-  .sm\:placeholder-dark::-ms-input-placeholder {
-    color: #333333;
   }
 
   .sm\:placeholder-dark::placeholder {
     color: #333333;
   }
 
-  .sm\:placeholder-light::-webkit-input-placeholder {
-    color: #f1f1f1;
-  }
-
-  .sm\:placeholder-light::-moz-placeholder {
-    color: #f1f1f1;
-  }
-
-  .sm\:placeholder-light:-ms-input-placeholder {
-    color: #f1f1f1;
-  }
-
-  .sm\:placeholder-light::-ms-input-placeholder {
-    color: #f1f1f1;
-  }
-
   .sm\:placeholder-light::placeholder {
     color: #f1f1f1;
   }
 
-  .sm\:placeholder-black::-webkit-input-placeholder {
-    color: #000000;
-  }
-
-  .sm\:placeholder-black::-moz-placeholder {
-    color: #000000;
-  }
-
-  .sm\:placeholder-black:-ms-input-placeholder {
-    color: #000000;
-  }
-
-  .sm\:placeholder-black::-ms-input-placeholder {
-    color: #000000;
-  }
-
   .sm\:placeholder-black::placeholder {
     color: #000000;
-  }
-
-  .sm\:placeholder-white::-webkit-input-placeholder {
-    color: #ffffff;
-  }
-
-  .sm\:placeholder-white::-moz-placeholder {
-    color: #ffffff;
-  }
-
-  .sm\:placeholder-white:-ms-input-placeholder {
-    color: #ffffff;
-  }
-
-  .sm\:placeholder-white::-ms-input-placeholder {
-    color: #ffffff;
   }
 
   .sm\:placeholder-white::placeholder {
@@ -13242,12 +12796,10 @@ table {
   }
 
   .sm\:cursor-grab {
-    cursor: -webkit-grab;
     cursor: grab;
   }
 
   .sm\:cursor-grabbing {
-    cursor: -webkit-grabbing;
     cursor: grabbing;
   }
 
@@ -13352,7 +12904,6 @@ table {
   }
 
   .sm\:display-flex {
-    display: -ms-flexbox;
     display: flex;
   }
 
@@ -13369,7 +12920,6 @@ table {
   }
 
   .sm\:display-inline-flex {
-    display: -ms-inline-flexbox;
     display: inline-flex;
   }
 
@@ -13434,188 +12984,151 @@ table {
   }
 
   .sm\:flex-direction-row {
-    -ms-flex-direction: row;
-        flex-direction: row;
+    flex-direction: row;
   }
 
   .sm\:flex-direction-row-reverse {
-    -ms-flex-direction: row-reverse;
-        flex-direction: row-reverse;
+    flex-direction: row-reverse;
   }
 
   .sm\:flex-direction-column {
-    -ms-flex-direction: column;
-        flex-direction: column;
+    flex-direction: column;
   }
 
   .sm\:flex-direction-column-reverse {
-    -ms-flex-direction: column-reverse;
-        flex-direction: column-reverse;
+    flex-direction: column-reverse;
   }
 
   .sm\:flex-grow-0 {
-    -ms-flex-positive: 0;
-        flex-grow: 0;
+    flex-grow: 0;
   }
 
   .sm\:flex-grow-1 {
-    -ms-flex-positive: 1;
-        flex-grow: 1;
+    flex-grow: 1;
   }
 
   .sm\:flex-grow-2 {
-    -ms-flex-positive: 2;
-        flex-grow: 2;
+    flex-grow: 2;
   }
 
   .sm\:flex-grow-3 {
-    -ms-flex-positive: 3;
-        flex-grow: 3;
+    flex-grow: 3;
   }
 
   .sm\:flex-grow-4 {
-    -ms-flex-positive: 4;
-        flex-grow: 4;
+    flex-grow: 4;
   }
 
   .sm\:flex-grow-5 {
-    -ms-flex-positive: 5;
-        flex-grow: 5;
+    flex-grow: 5;
   }
 
   .sm\:flex-grow-6 {
-    -ms-flex-positive: 6;
-        flex-grow: 6;
+    flex-grow: 6;
   }
 
   .sm\:flex-grow-7 {
-    -ms-flex-positive: 7;
-        flex-grow: 7;
+    flex-grow: 7;
   }
 
   .sm\:flex-grow-8 {
-    -ms-flex-positive: 8;
-        flex-grow: 8;
+    flex-grow: 8;
   }
 
   .sm\:flex-grow-9 {
-    -ms-flex-positive: 9;
-        flex-grow: 9;
+    flex-grow: 9;
   }
 
   .sm\:flex-grow-10 {
-    -ms-flex-positive: 10;
-        flex-grow: 10;
+    flex-grow: 10;
   }
 
   .sm\:flex-grow-11 {
-    -ms-flex-positive: 11;
-        flex-grow: 11;
+    flex-grow: 11;
   }
 
   .sm\:flex-grow-12 {
-    -ms-flex-positive: 12;
-        flex-grow: 12;
+    flex-grow: 12;
   }
 
   .sm\:flex-shrink-0 {
-    -ms-flex-negative: 0;
-        flex-shrink: 0;
+    flex-shrink: 0;
   }
 
   .sm\:flex-shrink-1 {
-    -ms-flex-negative: 1;
-        flex-shrink: 1;
+    flex-shrink: 1;
   }
 
   .sm\:flex-shrink-2 {
-    -ms-flex-negative: 2;
-        flex-shrink: 2;
+    flex-shrink: 2;
   }
 
   .sm\:flex-shrink-3 {
-    -ms-flex-negative: 3;
-        flex-shrink: 3;
+    flex-shrink: 3;
   }
 
   .sm\:flex-shrink-4 {
-    -ms-flex-negative: 4;
-        flex-shrink: 4;
+    flex-shrink: 4;
   }
 
   .sm\:flex-shrink-5 {
-    -ms-flex-negative: 5;
-        flex-shrink: 5;
+    flex-shrink: 5;
   }
 
   .sm\:flex-shrink-6 {
-    -ms-flex-negative: 6;
-        flex-shrink: 6;
+    flex-shrink: 6;
   }
 
   .sm\:flex-shrink-7 {
-    -ms-flex-negative: 7;
-        flex-shrink: 7;
+    flex-shrink: 7;
   }
 
   .sm\:flex-shrink-8 {
-    -ms-flex-negative: 8;
-        flex-shrink: 8;
+    flex-shrink: 8;
   }
 
   .sm\:flex-shrink-9 {
-    -ms-flex-negative: 9;
-        flex-shrink: 9;
+    flex-shrink: 9;
   }
 
   .sm\:flex-shrink-10 {
-    -ms-flex-negative: 10;
-        flex-shrink: 10;
+    flex-shrink: 10;
   }
 
   .sm\:flex-shrink-11 {
-    -ms-flex-negative: 11;
-        flex-shrink: 11;
+    flex-shrink: 11;
   }
 
   .sm\:flex-shrink-12 {
-    -ms-flex-negative: 12;
-        flex-shrink: 12;
+    flex-shrink: 12;
   }
 
   .sm\:flex-wrap-wrap {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
   }
 
   .sm\:flex-wrap-reverse {
-    -ms-flex-wrap: wrap-reverse;
-        flex-wrap: wrap-reverse;
+    flex-wrap: wrap-reverse;
   }
 
   .sm\:flex-wrap-nowrap {
-    -ms-flex-wrap: nowrap;
-        flex-wrap: nowrap;
+    flex-wrap: nowrap;
   }
 
   .sm\:flex-1 {
-    -ms-flex: 1 1 0%;
-        flex: 1 1 0%;
+    flex: 1 1 0%;
   }
 
   .sm\:flex-auto {
-    -ms-flex: 1 1 auto;
-        flex: 1 1 auto;
+    flex: 1 1 auto;
   }
 
   .sm\:flex-initial {
-    -ms-flex: 0 1 auto;
-        flex: 0 1 auto;
+    flex: 0 1 auto;
   }
 
   .sm\:flex-none {
-    -ms-flex: none;
-        flex: none;
+    flex: none;
   }
 
   .sm\:float-right {
@@ -13963,33 +13476,27 @@ table {
   }
 
   .sm\:justify-content-start {
-    -ms-flex-pack: start;
-        justify-content: flex-start;
+    justify-content: flex-start;
   }
 
   .sm\:justify-content-end {
-    -ms-flex-pack: end;
-        justify-content: flex-end;
+    justify-content: flex-end;
   }
 
   .sm\:justify-content-center {
-    -ms-flex-pack: center;
-        justify-content: center;
+    justify-content: center;
   }
 
   .sm\:justify-content-between {
-    -ms-flex-pack: justify;
-        justify-content: space-between;
+    justify-content: space-between;
   }
 
   .sm\:justify-content-around {
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
+    justify-content: space-around;
   }
 
   .sm\:justify-content-evenly {
-    -ms-flex-pack: space-evenly;
-        justify-content: space-evenly;
+    justify-content: space-evenly;
   }
 
   .sm\:justify-items-baseline {
@@ -16097,78 +15604,63 @@ table {
   }
 
   .sm\:object-fit-contain {
-    -o-object-fit: contain;
-       object-fit: contain;
+    object-fit: contain;
   }
 
   .sm\:object-fit-cover {
-    -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
   }
 
   .sm\:object-fit-fill {
-    -o-object-fit: fill;
-       object-fit: fill;
+    object-fit: fill;
   }
 
   .sm\:object-fit-none {
-    -o-object-fit: none;
-       object-fit: none;
+    object-fit: none;
   }
 
   .sm\:object-fit-scale-down {
-    -o-object-fit: scale-down;
-       object-fit: scale-down;
+    object-fit: scale-down;
   }
 
   .sm\:object-fit-inherit {
-    -o-object-fit: inherit;
-       object-fit: inherit;
+    object-fit: inherit;
   }
 
   .sm\:object-position-top {
-    -o-object-position: top;
-       object-position: top;
+    object-position: top;
   }
 
   .sm\:object-position-right {
-    -o-object-position: right;
-       object-position: right;
+    object-position: right;
   }
 
   .sm\:object-position-bottom {
-    -o-object-position: bottom;
-       object-position: bottom;
+    object-position: bottom;
   }
 
   .sm\:object-position-left {
-    -o-object-position: left;
-       object-position: left;
+    object-position: left;
   }
 
   .sm\:object-position-center {
-    -o-object-position: center;
-       object-position: center;
+    object-position: center;
   }
 
   .sm\:object-position-left-top {
-    -o-object-position: left top;
-       object-position: left top;
+    object-position: left top;
   }
 
   .sm\:object-position-left-bottom {
-    -o-object-position: left bottom;
-       object-position: left bottom;
+    object-position: left bottom;
   }
 
   .sm\:object-position-right-top {
-    -o-object-position: right top;
-       object-position: right top;
+    object-position: right top;
   }
 
   .sm\:object-position-right-bottom {
-    -o-object-position: right bottom;
-       object-position: right bottom;
+    object-position: right bottom;
   }
 
   .sm\:opacity-0 {
@@ -16256,58 +15748,47 @@ table {
   }
 
   .sm\:order-0 {
-    -ms-flex-order: 0;
-        order: 0;
+    order: 0;
   }
 
   .sm\:order-1 {
-    -ms-flex-order: 1;
-        order: 1;
+    order: 1;
   }
 
   .sm\:order-2 {
-    -ms-flex-order: 2;
-        order: 2;
+    order: 2;
   }
 
   .sm\:order-3 {
-    -ms-flex-order: 3;
-        order: 3;
+    order: 3;
   }
 
   .sm\:order-4 {
-    -ms-flex-order: 4;
-        order: 4;
+    order: 4;
   }
 
   .sm\:order-5 {
-    -ms-flex-order: 5;
-        order: 5;
+    order: 5;
   }
 
   .sm\:order-6 {
-    -ms-flex-order: 6;
-        order: 6;
+    order: 6;
   }
 
   .sm\:order-7 {
-    -ms-flex-order: 7;
-        order: 7;
+    order: 7;
   }
 
   .sm\:order-8 {
-    -ms-flex-order: 8;
-        order: 8;
+    order: 8;
   }
 
   .sm\:order-9 {
-    -ms-flex-order: 9;
-        order: 9;
+    order: 9;
   }
 
   .sm\:order-10 {
-    -ms-flex-order: 10;
-        order: 10;
+    order: 10;
   }
 
   .sm\:overflow-wrap-normal {
@@ -16371,18 +15852,15 @@ table {
   }
 
   .sm\:overscroll-behavior-auto {
-    -ms-scroll-chaining: chained;
-        overscroll-behavior: auto;
+    overscroll-behavior: auto;
   }
 
   .sm\:overscroll-behavior-contain {
-    -ms-scroll-chaining: none;
-        overscroll-behavior: contain;
+    overscroll-behavior: contain;
   }
 
   .sm\:overscroll-behavior-none {
-    -ms-scroll-chaining: none;
-        overscroll-behavior: none;
+    overscroll-behavior: none;
   }
 
   .sm\:overscroll-behavior-y-auto {
@@ -17342,7 +16820,6 @@ table {
   }
 
   .sm\:position-sticky {
-    position: -webkit-sticky;
     position: sticky;
   }
 
@@ -18391,53 +17868,43 @@ table {
   }
 
   .sm\:origin-top {
-    -webkit-transform-origin: top;
-            transform-origin: top;
+    transform-origin: top;
   }
 
   .sm\:origin-right {
-    -webkit-transform-origin: right;
-            transform-origin: right;
+    transform-origin: right;
   }
 
   .sm\:origin-bottom {
-    -webkit-transform-origin: bottom;
-            transform-origin: bottom;
+    transform-origin: bottom;
   }
 
   .sm\:origin-left {
-    -webkit-transform-origin: left;
-            transform-origin: left;
+    transform-origin: left;
   }
 
   .sm\:origin-center {
-    -webkit-transform-origin: center;
-            transform-origin: center;
+    transform-origin: center;
   }
 
   .sm\:origin-top-left {
-    -webkit-transform-origin: top left;
-            transform-origin: top left;
+    transform-origin: top left;
   }
 
   .sm\:origin-top-right {
-    -webkit-transform-origin: top right;
-            transform-origin: top right;
+    transform-origin: top right;
   }
 
   .sm\:origin-bottom-left {
-    -webkit-transform-origin: bottom left;
-            transform-origin: bottom left;
+    transform-origin: bottom left;
   }
 
   .sm\:origin-bottom-right {
-    -webkit-transform-origin: bottom right;
-            transform-origin: bottom right;
+    transform-origin: bottom right;
   }
 
   .sm\:transform-none {
-    -webkit-transform: none;
-            transform: none;
+    transform: none;
   }
 
   .sm\:translate-x-0 {
@@ -18981,30 +18448,19 @@ table {
   }
 
   .sm\:user-select-none {
-    -webkit-user-select: none;
-       -moz-user-select: none;
-        -ms-user-select: none;
-            user-select: none;
+    user-select: none;
   }
 
   .sm\:user-select-text {
-    -webkit-user-select: text;
-       -moz-user-select: text;
-        -ms-user-select: text;
-            user-select: text;
+    user-select: text;
   }
 
   .sm\:user-select-all {
-    -webkit-user-select: all;
-       -moz-user-select: all;
-            user-select: all;
+    user-select: all;
   }
 
   .sm\:user-select-auto {
-    -webkit-user-select: auto;
-       -moz-user-select: auto;
-        -ms-user-select: auto;
-            user-select: auto;
+    user-select: auto;
   }
 
   .sm\:vertical-align-baseline {
@@ -19404,14 +18860,10 @@ table {
   }
 
   .sm\:width-min-content {
-    width: -webkit-min-content;
-    width: -moz-min-content;
     width: min-content;
   }
 
   .sm\:width-max-content {
-    width: -webkit-max-content;
-    width: -moz-max-content;
     width: max-content;
   }
 
@@ -19816,12 +19268,10 @@ table {
   }
 
   .sm\:grid-auto-columns-min {
-    grid-auto-columns: -webkit-min-content;
     grid-auto-columns: min-content;
   }
 
   .sm\:grid-auto-columns-max {
-    grid-auto-columns: -webkit-max-content;
     grid-auto-columns: max-content;
   }
 
@@ -19830,12 +19280,10 @@ table {
   }
 
   .sm\:grid-auto-rows-min {
-    grid-auto-rows: -webkit-min-content;
     grid-auto-rows: min-content;
   }
 
   .sm\:grid-auto-rows-max {
-    grid-auto-rows: -webkit-max-content;
     grid-auto-rows: max-content;
   }
 
@@ -19944,81 +19392,55 @@ table {
   }
 
   .sm\:column-gap-0 {
-    -webkit-column-gap: 0;
-       -moz-column-gap: 0;
-            column-gap: 0;
+    column-gap: 0;
   }
 
   .sm\:column-gap-1 {
-    -webkit-column-gap: 0.125rem;
-       -moz-column-gap: 0.125rem;
-            column-gap: 0.125rem;
+    column-gap: 0.125rem;
   }
 
   .sm\:column-gap-2 {
-    -webkit-column-gap: 0.25rem;
-       -moz-column-gap: 0.25rem;
-            column-gap: 0.25rem;
+    column-gap: 0.25rem;
   }
 
   .sm\:column-gap-3 {
-    -webkit-column-gap: 0.375rem;
-       -moz-column-gap: 0.375rem;
-            column-gap: 0.375rem;
+    column-gap: 0.375rem;
   }
 
   .sm\:column-gap-4 {
-    -webkit-column-gap: 0.5;
-       -moz-column-gap: 0.5;
-            column-gap: 0.5;
+    column-gap: 0.5;
   }
 
   .sm\:column-gap-5 {
-    -webkit-column-gap: 0.625rem;
-       -moz-column-gap: 0.625rem;
-            column-gap: 0.625rem;
+    column-gap: 0.625rem;
   }
 
   .sm\:column-gap-6 {
-    -webkit-column-gap: 0.75rem;
-       -moz-column-gap: 0.75rem;
-            column-gap: 0.75rem;
+    column-gap: 0.75rem;
   }
 
   .sm\:column-gap-7 {
-    -webkit-column-gap: 0.875rem;
-       -moz-column-gap: 0.875rem;
-            column-gap: 0.875rem;
+    column-gap: 0.875rem;
   }
 
   .sm\:column-gap-8 {
-    -webkit-column-gap: 1rem;
-       -moz-column-gap: 1rem;
-            column-gap: 1rem;
+    column-gap: 1rem;
   }
 
   .sm\:column-gap-9 {
-    -webkit-column-gap: 1.25rem;
-       -moz-column-gap: 1.25rem;
-            column-gap: 1.25rem;
+    column-gap: 1.25rem;
   }
 
   .sm\:column-gap-10 {
-    -webkit-column-gap: 1.5rem;
-       -moz-column-gap: 1.5rem;
-            column-gap: 1.5rem;
+    column-gap: 1.5rem;
   }
 
   .sm\:column-gap-11 {
-    -webkit-column-gap: 1.75rem;
-       -moz-column-gap: 1.75rem;
-            column-gap: 1.75rem;
+    column-gap: 1.75rem;
   }
 
   .sm\:column-gap-12 {
-    -webkit-column-gap: 2rem;
-       -moz-column-gap: 2rem;
-            column-gap: 2rem;
+    column-gap: 2rem;
   }
 
   .sm\:isolation-isolate {
@@ -20077,6 +19499,10 @@ table {
     mix-blend-mode: exclusion;
   }
 
+  .sm\:mix-blend-mode-hue {
+    mix-blend-mode: hue;
+  }
+
   .sm\:mix-blend-mode-saturation {
     mix-blend-mode: saturation;
   }
@@ -20088,68 +19514,118 @@ table {
   .sm\:mix-blend-mode-luminosity {
     mix-blend-mode: luminosity;
   }
+
+  .sm\:background-blend-mode-normal {
+    background-blend-mode: normal;
+  }
+
+  .sm\:background-blend-mode-multiply {
+    background-blend-mode: multiply;
+  }
+
+  .sm\:background-blend-mode-screen {
+    background-blend-mode: screen;
+  }
+
+  .sm\:background-blend-mode-overlay {
+    background-blend-mode: overlay;
+  }
+
+  .sm\:background-blend-mode-darken {
+    background-blend-mode: darken;
+  }
+
+  .sm\:background-blend-mode-lighten {
+    background-blend-mode: lighten;
+  }
+
+  .sm\:background-blend-mode-color-dodge {
+    background-blend-mode: color-dodge;
+  }
+
+  .sm\:background-blend-mode-color-burn {
+    background-blend-mode: color-burn;
+  }
+
+  .sm\:background-blend-mode-hard-light {
+    background-blend-mode: hard-light;
+  }
+
+  .sm\:background-blend-mode-soft-light {
+    background-blend-mode: soft-light;
+  }
+
+  .sm\:background-blend-mode-difference {
+    background-blend-mode: difference;
+  }
+
+  .sm\:background-blend-mode-exclusion {
+    background-blend-mode: exclusion;
+  }
+
+  .sm\:background-blend-mode-hue {
+    background-blend-mode: hue;
+  }
+
+  .sm\:background-blend-mode-saturation {
+    background-blend-mode: saturation;
+  }
+
+  .sm\:background-blend-mode-color {
+    background-blend-mode: color;
+  }
+
+  .sm\:background-blend-mode-luminosity {
+    background-blend-mode: luminosity;
+  }
 }
 @media (min-width: 768px) {
   .md\:appearance-auto {
-    -webkit-appearance: auto;
-       -moz-appearance: auto;
-            appearance: auto;
+    appearance: auto;
   }
 
   .md\:appearance-none {
-    -webkit-appearance: none;
-       -moz-appearance: none;
-            appearance: none;
+    appearance: none;
   }
 
   .md\:align-items-start {
-    -ms-flex-align: start;
-        align-items: flex-start;
+    align-items: flex-start;
   }
 
   .md\:align-items-end {
-    -ms-flex-align: end;
-        align-items: flex-end;
+    align-items: flex-end;
   }
 
   .md\:align-items-center {
-    -ms-flex-align: center;
-        align-items: center;
+    align-items: center;
   }
 
   .md\:align-items-baseline {
-    -ms-flex-align: baseline;
-        align-items: baseline;
+    align-items: baseline;
   }
 
   .md\:align-items-stretch {
-    -ms-flex-align: stretch;
-        align-items: stretch;
+    align-items: stretch;
   }
 
   .md\:align-self-auto {
-    -ms-flex-item-align: auto;
-        align-self: auto;
+    align-self: auto;
   }
 
   .md\:align-self-start {
-    -ms-flex-item-align: start;
-        align-self: flex-start;
+    align-self: flex-start;
   }
 
   .md\:align-self-end {
-    -ms-flex-item-align: end;
-        align-self: flex-end;
+    align-self: flex-end;
   }
 
   .md\:align-self-center {
-    -ms-flex-item-align: center;
-        align-self: center;
+    align-self: center;
   }
 
   .md\:align-self-stretch {
-    -ms-flex-item-align: stretch;
-        align-self: stretch;
+    align-self: stretch;
   }
 
   .md\:background-attachment-fixed {
@@ -20177,8 +19653,7 @@ table {
   }
 
   .md\:background-clip-text {
-    -webkit-background-clip: text;
-            background-clip: text;
+    background-clip: text;
   }
 
   .md\:bg-red-600 {
@@ -20788,220 +20263,44 @@ table {
     border-color: #ffffff;
   }
 
-  .md\:placeholder-transparent::-webkit-input-placeholder {
-    color: transparent;
-  }
-
-  .md\:placeholder-transparent::-moz-placeholder {
-    color: transparent;
-  }
-
-  .md\:placeholder-transparent:-ms-input-placeholder {
-    color: transparent;
-  }
-
-  .md\:placeholder-transparent::-ms-input-placeholder {
-    color: transparent;
-  }
-
   .md\:placeholder-transparent::placeholder {
     color: transparent;
-  }
-
-  .md\:placeholder-primary::-webkit-input-placeholder {
-    color: #FAE898;
-  }
-
-  .md\:placeholder-primary::-moz-placeholder {
-    color: #FAE898;
-  }
-
-  .md\:placeholder-primary:-ms-input-placeholder {
-    color: #FAE898;
-  }
-
-  .md\:placeholder-primary::-ms-input-placeholder {
-    color: #FAE898;
   }
 
   .md\:placeholder-primary::placeholder {
     color: #FAE898;
   }
 
-  .md\:placeholder-secondary::-webkit-input-placeholder {
-    color: #999999;
-  }
-
-  .md\:placeholder-secondary::-moz-placeholder {
-    color: #999999;
-  }
-
-  .md\:placeholder-secondary:-ms-input-placeholder {
-    color: #999999;
-  }
-
-  .md\:placeholder-secondary::-ms-input-placeholder {
-    color: #999999;
-  }
-
   .md\:placeholder-secondary::placeholder {
     color: #999999;
-  }
-
-  .md\:placeholder-success::-webkit-input-placeholder {
-    color: #198754;
-  }
-
-  .md\:placeholder-success::-moz-placeholder {
-    color: #198754;
-  }
-
-  .md\:placeholder-success:-ms-input-placeholder {
-    color: #198754;
-  }
-
-  .md\:placeholder-success::-ms-input-placeholder {
-    color: #198754;
   }
 
   .md\:placeholder-success::placeholder {
     color: #198754;
   }
 
-  .md\:placeholder-info::-webkit-input-placeholder {
-    color: #0dcaf0;
-  }
-
-  .md\:placeholder-info::-moz-placeholder {
-    color: #0dcaf0;
-  }
-
-  .md\:placeholder-info:-ms-input-placeholder {
-    color: #0dcaf0;
-  }
-
-  .md\:placeholder-info::-ms-input-placeholder {
-    color: #0dcaf0;
-  }
-
   .md\:placeholder-info::placeholder {
     color: #0dcaf0;
-  }
-
-  .md\:placeholder-warning::-webkit-input-placeholder {
-    color: #ffc107;
-  }
-
-  .md\:placeholder-warning::-moz-placeholder {
-    color: #ffc107;
-  }
-
-  .md\:placeholder-warning:-ms-input-placeholder {
-    color: #ffc107;
-  }
-
-  .md\:placeholder-warning::-ms-input-placeholder {
-    color: #ffc107;
   }
 
   .md\:placeholder-warning::placeholder {
     color: #ffc107;
   }
 
-  .md\:placeholder-danger::-webkit-input-placeholder {
-    color: #dc3545;
-  }
-
-  .md\:placeholder-danger::-moz-placeholder {
-    color: #dc3545;
-  }
-
-  .md\:placeholder-danger:-ms-input-placeholder {
-    color: #dc3545;
-  }
-
-  .md\:placeholder-danger::-ms-input-placeholder {
-    color: #dc3545;
-  }
-
   .md\:placeholder-danger::placeholder {
     color: #dc3545;
-  }
-
-  .md\:placeholder-dark::-webkit-input-placeholder {
-    color: #333333;
-  }
-
-  .md\:placeholder-dark::-moz-placeholder {
-    color: #333333;
-  }
-
-  .md\:placeholder-dark:-ms-input-placeholder {
-    color: #333333;
-  }
-
-  .md\:placeholder-dark::-ms-input-placeholder {
-    color: #333333;
   }
 
   .md\:placeholder-dark::placeholder {
     color: #333333;
   }
 
-  .md\:placeholder-light::-webkit-input-placeholder {
-    color: #f1f1f1;
-  }
-
-  .md\:placeholder-light::-moz-placeholder {
-    color: #f1f1f1;
-  }
-
-  .md\:placeholder-light:-ms-input-placeholder {
-    color: #f1f1f1;
-  }
-
-  .md\:placeholder-light::-ms-input-placeholder {
-    color: #f1f1f1;
-  }
-
   .md\:placeholder-light::placeholder {
     color: #f1f1f1;
   }
 
-  .md\:placeholder-black::-webkit-input-placeholder {
-    color: #000000;
-  }
-
-  .md\:placeholder-black::-moz-placeholder {
-    color: #000000;
-  }
-
-  .md\:placeholder-black:-ms-input-placeholder {
-    color: #000000;
-  }
-
-  .md\:placeholder-black::-ms-input-placeholder {
-    color: #000000;
-  }
-
   .md\:placeholder-black::placeholder {
     color: #000000;
-  }
-
-  .md\:placeholder-white::-webkit-input-placeholder {
-    color: #ffffff;
-  }
-
-  .md\:placeholder-white::-moz-placeholder {
-    color: #ffffff;
-  }
-
-  .md\:placeholder-white:-ms-input-placeholder {
-    color: #ffffff;
-  }
-
-  .md\:placeholder-white::-ms-input-placeholder {
-    color: #ffffff;
   }
 
   .md\:placeholder-white::placeholder {
@@ -23259,12 +22558,10 @@ table {
   }
 
   .md\:cursor-grab {
-    cursor: -webkit-grab;
     cursor: grab;
   }
 
   .md\:cursor-grabbing {
-    cursor: -webkit-grabbing;
     cursor: grabbing;
   }
 
@@ -23369,7 +22666,6 @@ table {
   }
 
   .md\:display-flex {
-    display: -ms-flexbox;
     display: flex;
   }
 
@@ -23386,7 +22682,6 @@ table {
   }
 
   .md\:display-inline-flex {
-    display: -ms-inline-flexbox;
     display: inline-flex;
   }
 
@@ -23451,188 +22746,151 @@ table {
   }
 
   .md\:flex-direction-row {
-    -ms-flex-direction: row;
-        flex-direction: row;
+    flex-direction: row;
   }
 
   .md\:flex-direction-row-reverse {
-    -ms-flex-direction: row-reverse;
-        flex-direction: row-reverse;
+    flex-direction: row-reverse;
   }
 
   .md\:flex-direction-column {
-    -ms-flex-direction: column;
-        flex-direction: column;
+    flex-direction: column;
   }
 
   .md\:flex-direction-column-reverse {
-    -ms-flex-direction: column-reverse;
-        flex-direction: column-reverse;
+    flex-direction: column-reverse;
   }
 
   .md\:flex-grow-0 {
-    -ms-flex-positive: 0;
-        flex-grow: 0;
+    flex-grow: 0;
   }
 
   .md\:flex-grow-1 {
-    -ms-flex-positive: 1;
-        flex-grow: 1;
+    flex-grow: 1;
   }
 
   .md\:flex-grow-2 {
-    -ms-flex-positive: 2;
-        flex-grow: 2;
+    flex-grow: 2;
   }
 
   .md\:flex-grow-3 {
-    -ms-flex-positive: 3;
-        flex-grow: 3;
+    flex-grow: 3;
   }
 
   .md\:flex-grow-4 {
-    -ms-flex-positive: 4;
-        flex-grow: 4;
+    flex-grow: 4;
   }
 
   .md\:flex-grow-5 {
-    -ms-flex-positive: 5;
-        flex-grow: 5;
+    flex-grow: 5;
   }
 
   .md\:flex-grow-6 {
-    -ms-flex-positive: 6;
-        flex-grow: 6;
+    flex-grow: 6;
   }
 
   .md\:flex-grow-7 {
-    -ms-flex-positive: 7;
-        flex-grow: 7;
+    flex-grow: 7;
   }
 
   .md\:flex-grow-8 {
-    -ms-flex-positive: 8;
-        flex-grow: 8;
+    flex-grow: 8;
   }
 
   .md\:flex-grow-9 {
-    -ms-flex-positive: 9;
-        flex-grow: 9;
+    flex-grow: 9;
   }
 
   .md\:flex-grow-10 {
-    -ms-flex-positive: 10;
-        flex-grow: 10;
+    flex-grow: 10;
   }
 
   .md\:flex-grow-11 {
-    -ms-flex-positive: 11;
-        flex-grow: 11;
+    flex-grow: 11;
   }
 
   .md\:flex-grow-12 {
-    -ms-flex-positive: 12;
-        flex-grow: 12;
+    flex-grow: 12;
   }
 
   .md\:flex-shrink-0 {
-    -ms-flex-negative: 0;
-        flex-shrink: 0;
+    flex-shrink: 0;
   }
 
   .md\:flex-shrink-1 {
-    -ms-flex-negative: 1;
-        flex-shrink: 1;
+    flex-shrink: 1;
   }
 
   .md\:flex-shrink-2 {
-    -ms-flex-negative: 2;
-        flex-shrink: 2;
+    flex-shrink: 2;
   }
 
   .md\:flex-shrink-3 {
-    -ms-flex-negative: 3;
-        flex-shrink: 3;
+    flex-shrink: 3;
   }
 
   .md\:flex-shrink-4 {
-    -ms-flex-negative: 4;
-        flex-shrink: 4;
+    flex-shrink: 4;
   }
 
   .md\:flex-shrink-5 {
-    -ms-flex-negative: 5;
-        flex-shrink: 5;
+    flex-shrink: 5;
   }
 
   .md\:flex-shrink-6 {
-    -ms-flex-negative: 6;
-        flex-shrink: 6;
+    flex-shrink: 6;
   }
 
   .md\:flex-shrink-7 {
-    -ms-flex-negative: 7;
-        flex-shrink: 7;
+    flex-shrink: 7;
   }
 
   .md\:flex-shrink-8 {
-    -ms-flex-negative: 8;
-        flex-shrink: 8;
+    flex-shrink: 8;
   }
 
   .md\:flex-shrink-9 {
-    -ms-flex-negative: 9;
-        flex-shrink: 9;
+    flex-shrink: 9;
   }
 
   .md\:flex-shrink-10 {
-    -ms-flex-negative: 10;
-        flex-shrink: 10;
+    flex-shrink: 10;
   }
 
   .md\:flex-shrink-11 {
-    -ms-flex-negative: 11;
-        flex-shrink: 11;
+    flex-shrink: 11;
   }
 
   .md\:flex-shrink-12 {
-    -ms-flex-negative: 12;
-        flex-shrink: 12;
+    flex-shrink: 12;
   }
 
   .md\:flex-wrap-wrap {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
   }
 
   .md\:flex-wrap-reverse {
-    -ms-flex-wrap: wrap-reverse;
-        flex-wrap: wrap-reverse;
+    flex-wrap: wrap-reverse;
   }
 
   .md\:flex-wrap-nowrap {
-    -ms-flex-wrap: nowrap;
-        flex-wrap: nowrap;
+    flex-wrap: nowrap;
   }
 
   .md\:flex-1 {
-    -ms-flex: 1 1 0%;
-        flex: 1 1 0%;
+    flex: 1 1 0%;
   }
 
   .md\:flex-auto {
-    -ms-flex: 1 1 auto;
-        flex: 1 1 auto;
+    flex: 1 1 auto;
   }
 
   .md\:flex-initial {
-    -ms-flex: 0 1 auto;
-        flex: 0 1 auto;
+    flex: 0 1 auto;
   }
 
   .md\:flex-none {
-    -ms-flex: none;
-        flex: none;
+    flex: none;
   }
 
   .md\:float-right {
@@ -23980,33 +23238,27 @@ table {
   }
 
   .md\:justify-content-start {
-    -ms-flex-pack: start;
-        justify-content: flex-start;
+    justify-content: flex-start;
   }
 
   .md\:justify-content-end {
-    -ms-flex-pack: end;
-        justify-content: flex-end;
+    justify-content: flex-end;
   }
 
   .md\:justify-content-center {
-    -ms-flex-pack: center;
-        justify-content: center;
+    justify-content: center;
   }
 
   .md\:justify-content-between {
-    -ms-flex-pack: justify;
-        justify-content: space-between;
+    justify-content: space-between;
   }
 
   .md\:justify-content-around {
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
+    justify-content: space-around;
   }
 
   .md\:justify-content-evenly {
-    -ms-flex-pack: space-evenly;
-        justify-content: space-evenly;
+    justify-content: space-evenly;
   }
 
   .md\:justify-items-baseline {
@@ -26114,78 +25366,63 @@ table {
   }
 
   .md\:object-fit-contain {
-    -o-object-fit: contain;
-       object-fit: contain;
+    object-fit: contain;
   }
 
   .md\:object-fit-cover {
-    -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
   }
 
   .md\:object-fit-fill {
-    -o-object-fit: fill;
-       object-fit: fill;
+    object-fit: fill;
   }
 
   .md\:object-fit-none {
-    -o-object-fit: none;
-       object-fit: none;
+    object-fit: none;
   }
 
   .md\:object-fit-scale-down {
-    -o-object-fit: scale-down;
-       object-fit: scale-down;
+    object-fit: scale-down;
   }
 
   .md\:object-fit-inherit {
-    -o-object-fit: inherit;
-       object-fit: inherit;
+    object-fit: inherit;
   }
 
   .md\:object-position-top {
-    -o-object-position: top;
-       object-position: top;
+    object-position: top;
   }
 
   .md\:object-position-right {
-    -o-object-position: right;
-       object-position: right;
+    object-position: right;
   }
 
   .md\:object-position-bottom {
-    -o-object-position: bottom;
-       object-position: bottom;
+    object-position: bottom;
   }
 
   .md\:object-position-left {
-    -o-object-position: left;
-       object-position: left;
+    object-position: left;
   }
 
   .md\:object-position-center {
-    -o-object-position: center;
-       object-position: center;
+    object-position: center;
   }
 
   .md\:object-position-left-top {
-    -o-object-position: left top;
-       object-position: left top;
+    object-position: left top;
   }
 
   .md\:object-position-left-bottom {
-    -o-object-position: left bottom;
-       object-position: left bottom;
+    object-position: left bottom;
   }
 
   .md\:object-position-right-top {
-    -o-object-position: right top;
-       object-position: right top;
+    object-position: right top;
   }
 
   .md\:object-position-right-bottom {
-    -o-object-position: right bottom;
-       object-position: right bottom;
+    object-position: right bottom;
   }
 
   .md\:opacity-0 {
@@ -26273,58 +25510,47 @@ table {
   }
 
   .md\:order-0 {
-    -ms-flex-order: 0;
-        order: 0;
+    order: 0;
   }
 
   .md\:order-1 {
-    -ms-flex-order: 1;
-        order: 1;
+    order: 1;
   }
 
   .md\:order-2 {
-    -ms-flex-order: 2;
-        order: 2;
+    order: 2;
   }
 
   .md\:order-3 {
-    -ms-flex-order: 3;
-        order: 3;
+    order: 3;
   }
 
   .md\:order-4 {
-    -ms-flex-order: 4;
-        order: 4;
+    order: 4;
   }
 
   .md\:order-5 {
-    -ms-flex-order: 5;
-        order: 5;
+    order: 5;
   }
 
   .md\:order-6 {
-    -ms-flex-order: 6;
-        order: 6;
+    order: 6;
   }
 
   .md\:order-7 {
-    -ms-flex-order: 7;
-        order: 7;
+    order: 7;
   }
 
   .md\:order-8 {
-    -ms-flex-order: 8;
-        order: 8;
+    order: 8;
   }
 
   .md\:order-9 {
-    -ms-flex-order: 9;
-        order: 9;
+    order: 9;
   }
 
   .md\:order-10 {
-    -ms-flex-order: 10;
-        order: 10;
+    order: 10;
   }
 
   .md\:overflow-wrap-normal {
@@ -26388,18 +25614,15 @@ table {
   }
 
   .md\:overscroll-behavior-auto {
-    -ms-scroll-chaining: chained;
-        overscroll-behavior: auto;
+    overscroll-behavior: auto;
   }
 
   .md\:overscroll-behavior-contain {
-    -ms-scroll-chaining: none;
-        overscroll-behavior: contain;
+    overscroll-behavior: contain;
   }
 
   .md\:overscroll-behavior-none {
-    -ms-scroll-chaining: none;
-        overscroll-behavior: none;
+    overscroll-behavior: none;
   }
 
   .md\:overscroll-behavior-y-auto {
@@ -27359,7 +26582,6 @@ table {
   }
 
   .md\:position-sticky {
-    position: -webkit-sticky;
     position: sticky;
   }
 
@@ -28408,53 +27630,43 @@ table {
   }
 
   .md\:origin-top {
-    -webkit-transform-origin: top;
-            transform-origin: top;
+    transform-origin: top;
   }
 
   .md\:origin-right {
-    -webkit-transform-origin: right;
-            transform-origin: right;
+    transform-origin: right;
   }
 
   .md\:origin-bottom {
-    -webkit-transform-origin: bottom;
-            transform-origin: bottom;
+    transform-origin: bottom;
   }
 
   .md\:origin-left {
-    -webkit-transform-origin: left;
-            transform-origin: left;
+    transform-origin: left;
   }
 
   .md\:origin-center {
-    -webkit-transform-origin: center;
-            transform-origin: center;
+    transform-origin: center;
   }
 
   .md\:origin-top-left {
-    -webkit-transform-origin: top left;
-            transform-origin: top left;
+    transform-origin: top left;
   }
 
   .md\:origin-top-right {
-    -webkit-transform-origin: top right;
-            transform-origin: top right;
+    transform-origin: top right;
   }
 
   .md\:origin-bottom-left {
-    -webkit-transform-origin: bottom left;
-            transform-origin: bottom left;
+    transform-origin: bottom left;
   }
 
   .md\:origin-bottom-right {
-    -webkit-transform-origin: bottom right;
-            transform-origin: bottom right;
+    transform-origin: bottom right;
   }
 
   .md\:transform-none {
-    -webkit-transform: none;
-            transform: none;
+    transform: none;
   }
 
   .md\:translate-x-0 {
@@ -28998,30 +28210,19 @@ table {
   }
 
   .md\:user-select-none {
-    -webkit-user-select: none;
-       -moz-user-select: none;
-        -ms-user-select: none;
-            user-select: none;
+    user-select: none;
   }
 
   .md\:user-select-text {
-    -webkit-user-select: text;
-       -moz-user-select: text;
-        -ms-user-select: text;
-            user-select: text;
+    user-select: text;
   }
 
   .md\:user-select-all {
-    -webkit-user-select: all;
-       -moz-user-select: all;
-            user-select: all;
+    user-select: all;
   }
 
   .md\:user-select-auto {
-    -webkit-user-select: auto;
-       -moz-user-select: auto;
-        -ms-user-select: auto;
-            user-select: auto;
+    user-select: auto;
   }
 
   .md\:vertical-align-baseline {
@@ -29421,14 +28622,10 @@ table {
   }
 
   .md\:width-min-content {
-    width: -webkit-min-content;
-    width: -moz-min-content;
     width: min-content;
   }
 
   .md\:width-max-content {
-    width: -webkit-max-content;
-    width: -moz-max-content;
     width: max-content;
   }
 
@@ -29833,12 +29030,10 @@ table {
   }
 
   .md\:grid-auto-columns-min {
-    grid-auto-columns: -webkit-min-content;
     grid-auto-columns: min-content;
   }
 
   .md\:grid-auto-columns-max {
-    grid-auto-columns: -webkit-max-content;
     grid-auto-columns: max-content;
   }
 
@@ -29847,12 +29042,10 @@ table {
   }
 
   .md\:grid-auto-rows-min {
-    grid-auto-rows: -webkit-min-content;
     grid-auto-rows: min-content;
   }
 
   .md\:grid-auto-rows-max {
-    grid-auto-rows: -webkit-max-content;
     grid-auto-rows: max-content;
   }
 
@@ -29961,81 +29154,55 @@ table {
   }
 
   .md\:column-gap-0 {
-    -webkit-column-gap: 0;
-       -moz-column-gap: 0;
-            column-gap: 0;
+    column-gap: 0;
   }
 
   .md\:column-gap-1 {
-    -webkit-column-gap: 0.125rem;
-       -moz-column-gap: 0.125rem;
-            column-gap: 0.125rem;
+    column-gap: 0.125rem;
   }
 
   .md\:column-gap-2 {
-    -webkit-column-gap: 0.25rem;
-       -moz-column-gap: 0.25rem;
-            column-gap: 0.25rem;
+    column-gap: 0.25rem;
   }
 
   .md\:column-gap-3 {
-    -webkit-column-gap: 0.375rem;
-       -moz-column-gap: 0.375rem;
-            column-gap: 0.375rem;
+    column-gap: 0.375rem;
   }
 
   .md\:column-gap-4 {
-    -webkit-column-gap: 0.5;
-       -moz-column-gap: 0.5;
-            column-gap: 0.5;
+    column-gap: 0.5;
   }
 
   .md\:column-gap-5 {
-    -webkit-column-gap: 0.625rem;
-       -moz-column-gap: 0.625rem;
-            column-gap: 0.625rem;
+    column-gap: 0.625rem;
   }
 
   .md\:column-gap-6 {
-    -webkit-column-gap: 0.75rem;
-       -moz-column-gap: 0.75rem;
-            column-gap: 0.75rem;
+    column-gap: 0.75rem;
   }
 
   .md\:column-gap-7 {
-    -webkit-column-gap: 0.875rem;
-       -moz-column-gap: 0.875rem;
-            column-gap: 0.875rem;
+    column-gap: 0.875rem;
   }
 
   .md\:column-gap-8 {
-    -webkit-column-gap: 1rem;
-       -moz-column-gap: 1rem;
-            column-gap: 1rem;
+    column-gap: 1rem;
   }
 
   .md\:column-gap-9 {
-    -webkit-column-gap: 1.25rem;
-       -moz-column-gap: 1.25rem;
-            column-gap: 1.25rem;
+    column-gap: 1.25rem;
   }
 
   .md\:column-gap-10 {
-    -webkit-column-gap: 1.5rem;
-       -moz-column-gap: 1.5rem;
-            column-gap: 1.5rem;
+    column-gap: 1.5rem;
   }
 
   .md\:column-gap-11 {
-    -webkit-column-gap: 1.75rem;
-       -moz-column-gap: 1.75rem;
-            column-gap: 1.75rem;
+    column-gap: 1.75rem;
   }
 
   .md\:column-gap-12 {
-    -webkit-column-gap: 2rem;
-       -moz-column-gap: 2rem;
-            column-gap: 2rem;
+    column-gap: 2rem;
   }
 
   .md\:isolation-isolate {
@@ -30094,6 +29261,10 @@ table {
     mix-blend-mode: exclusion;
   }
 
+  .md\:mix-blend-mode-hue {
+    mix-blend-mode: hue;
+  }
+
   .md\:mix-blend-mode-saturation {
     mix-blend-mode: saturation;
   }
@@ -30105,68 +29276,118 @@ table {
   .md\:mix-blend-mode-luminosity {
     mix-blend-mode: luminosity;
   }
+
+  .md\:background-blend-mode-normal {
+    background-blend-mode: normal;
+  }
+
+  .md\:background-blend-mode-multiply {
+    background-blend-mode: multiply;
+  }
+
+  .md\:background-blend-mode-screen {
+    background-blend-mode: screen;
+  }
+
+  .md\:background-blend-mode-overlay {
+    background-blend-mode: overlay;
+  }
+
+  .md\:background-blend-mode-darken {
+    background-blend-mode: darken;
+  }
+
+  .md\:background-blend-mode-lighten {
+    background-blend-mode: lighten;
+  }
+
+  .md\:background-blend-mode-color-dodge {
+    background-blend-mode: color-dodge;
+  }
+
+  .md\:background-blend-mode-color-burn {
+    background-blend-mode: color-burn;
+  }
+
+  .md\:background-blend-mode-hard-light {
+    background-blend-mode: hard-light;
+  }
+
+  .md\:background-blend-mode-soft-light {
+    background-blend-mode: soft-light;
+  }
+
+  .md\:background-blend-mode-difference {
+    background-blend-mode: difference;
+  }
+
+  .md\:background-blend-mode-exclusion {
+    background-blend-mode: exclusion;
+  }
+
+  .md\:background-blend-mode-hue {
+    background-blend-mode: hue;
+  }
+
+  .md\:background-blend-mode-saturation {
+    background-blend-mode: saturation;
+  }
+
+  .md\:background-blend-mode-color {
+    background-blend-mode: color;
+  }
+
+  .md\:background-blend-mode-luminosity {
+    background-blend-mode: luminosity;
+  }
 }
 @media (min-width: 1024px) {
   .lg\:appearance-auto {
-    -webkit-appearance: auto;
-       -moz-appearance: auto;
-            appearance: auto;
+    appearance: auto;
   }
 
   .lg\:appearance-none {
-    -webkit-appearance: none;
-       -moz-appearance: none;
-            appearance: none;
+    appearance: none;
   }
 
   .lg\:align-items-start {
-    -ms-flex-align: start;
-        align-items: flex-start;
+    align-items: flex-start;
   }
 
   .lg\:align-items-end {
-    -ms-flex-align: end;
-        align-items: flex-end;
+    align-items: flex-end;
   }
 
   .lg\:align-items-center {
-    -ms-flex-align: center;
-        align-items: center;
+    align-items: center;
   }
 
   .lg\:align-items-baseline {
-    -ms-flex-align: baseline;
-        align-items: baseline;
+    align-items: baseline;
   }
 
   .lg\:align-items-stretch {
-    -ms-flex-align: stretch;
-        align-items: stretch;
+    align-items: stretch;
   }
 
   .lg\:align-self-auto {
-    -ms-flex-item-align: auto;
-        align-self: auto;
+    align-self: auto;
   }
 
   .lg\:align-self-start {
-    -ms-flex-item-align: start;
-        align-self: flex-start;
+    align-self: flex-start;
   }
 
   .lg\:align-self-end {
-    -ms-flex-item-align: end;
-        align-self: flex-end;
+    align-self: flex-end;
   }
 
   .lg\:align-self-center {
-    -ms-flex-item-align: center;
-        align-self: center;
+    align-self: center;
   }
 
   .lg\:align-self-stretch {
-    -ms-flex-item-align: stretch;
-        align-self: stretch;
+    align-self: stretch;
   }
 
   .lg\:background-attachment-fixed {
@@ -30194,8 +29415,7 @@ table {
   }
 
   .lg\:background-clip-text {
-    -webkit-background-clip: text;
-            background-clip: text;
+    background-clip: text;
   }
 
   .lg\:bg-red-600 {
@@ -30805,220 +30025,44 @@ table {
     border-color: #ffffff;
   }
 
-  .lg\:placeholder-transparent::-webkit-input-placeholder {
-    color: transparent;
-  }
-
-  .lg\:placeholder-transparent::-moz-placeholder {
-    color: transparent;
-  }
-
-  .lg\:placeholder-transparent:-ms-input-placeholder {
-    color: transparent;
-  }
-
-  .lg\:placeholder-transparent::-ms-input-placeholder {
-    color: transparent;
-  }
-
   .lg\:placeholder-transparent::placeholder {
     color: transparent;
-  }
-
-  .lg\:placeholder-primary::-webkit-input-placeholder {
-    color: #FAE898;
-  }
-
-  .lg\:placeholder-primary::-moz-placeholder {
-    color: #FAE898;
-  }
-
-  .lg\:placeholder-primary:-ms-input-placeholder {
-    color: #FAE898;
-  }
-
-  .lg\:placeholder-primary::-ms-input-placeholder {
-    color: #FAE898;
   }
 
   .lg\:placeholder-primary::placeholder {
     color: #FAE898;
   }
 
-  .lg\:placeholder-secondary::-webkit-input-placeholder {
-    color: #999999;
-  }
-
-  .lg\:placeholder-secondary::-moz-placeholder {
-    color: #999999;
-  }
-
-  .lg\:placeholder-secondary:-ms-input-placeholder {
-    color: #999999;
-  }
-
-  .lg\:placeholder-secondary::-ms-input-placeholder {
-    color: #999999;
-  }
-
   .lg\:placeholder-secondary::placeholder {
     color: #999999;
-  }
-
-  .lg\:placeholder-success::-webkit-input-placeholder {
-    color: #198754;
-  }
-
-  .lg\:placeholder-success::-moz-placeholder {
-    color: #198754;
-  }
-
-  .lg\:placeholder-success:-ms-input-placeholder {
-    color: #198754;
-  }
-
-  .lg\:placeholder-success::-ms-input-placeholder {
-    color: #198754;
   }
 
   .lg\:placeholder-success::placeholder {
     color: #198754;
   }
 
-  .lg\:placeholder-info::-webkit-input-placeholder {
-    color: #0dcaf0;
-  }
-
-  .lg\:placeholder-info::-moz-placeholder {
-    color: #0dcaf0;
-  }
-
-  .lg\:placeholder-info:-ms-input-placeholder {
-    color: #0dcaf0;
-  }
-
-  .lg\:placeholder-info::-ms-input-placeholder {
-    color: #0dcaf0;
-  }
-
   .lg\:placeholder-info::placeholder {
     color: #0dcaf0;
-  }
-
-  .lg\:placeholder-warning::-webkit-input-placeholder {
-    color: #ffc107;
-  }
-
-  .lg\:placeholder-warning::-moz-placeholder {
-    color: #ffc107;
-  }
-
-  .lg\:placeholder-warning:-ms-input-placeholder {
-    color: #ffc107;
-  }
-
-  .lg\:placeholder-warning::-ms-input-placeholder {
-    color: #ffc107;
   }
 
   .lg\:placeholder-warning::placeholder {
     color: #ffc107;
   }
 
-  .lg\:placeholder-danger::-webkit-input-placeholder {
-    color: #dc3545;
-  }
-
-  .lg\:placeholder-danger::-moz-placeholder {
-    color: #dc3545;
-  }
-
-  .lg\:placeholder-danger:-ms-input-placeholder {
-    color: #dc3545;
-  }
-
-  .lg\:placeholder-danger::-ms-input-placeholder {
-    color: #dc3545;
-  }
-
   .lg\:placeholder-danger::placeholder {
     color: #dc3545;
-  }
-
-  .lg\:placeholder-dark::-webkit-input-placeholder {
-    color: #333333;
-  }
-
-  .lg\:placeholder-dark::-moz-placeholder {
-    color: #333333;
-  }
-
-  .lg\:placeholder-dark:-ms-input-placeholder {
-    color: #333333;
-  }
-
-  .lg\:placeholder-dark::-ms-input-placeholder {
-    color: #333333;
   }
 
   .lg\:placeholder-dark::placeholder {
     color: #333333;
   }
 
-  .lg\:placeholder-light::-webkit-input-placeholder {
-    color: #f1f1f1;
-  }
-
-  .lg\:placeholder-light::-moz-placeholder {
-    color: #f1f1f1;
-  }
-
-  .lg\:placeholder-light:-ms-input-placeholder {
-    color: #f1f1f1;
-  }
-
-  .lg\:placeholder-light::-ms-input-placeholder {
-    color: #f1f1f1;
-  }
-
   .lg\:placeholder-light::placeholder {
     color: #f1f1f1;
   }
 
-  .lg\:placeholder-black::-webkit-input-placeholder {
-    color: #000000;
-  }
-
-  .lg\:placeholder-black::-moz-placeholder {
-    color: #000000;
-  }
-
-  .lg\:placeholder-black:-ms-input-placeholder {
-    color: #000000;
-  }
-
-  .lg\:placeholder-black::-ms-input-placeholder {
-    color: #000000;
-  }
-
   .lg\:placeholder-black::placeholder {
     color: #000000;
-  }
-
-  .lg\:placeholder-white::-webkit-input-placeholder {
-    color: #ffffff;
-  }
-
-  .lg\:placeholder-white::-moz-placeholder {
-    color: #ffffff;
-  }
-
-  .lg\:placeholder-white:-ms-input-placeholder {
-    color: #ffffff;
-  }
-
-  .lg\:placeholder-white::-ms-input-placeholder {
-    color: #ffffff;
   }
 
   .lg\:placeholder-white::placeholder {
@@ -33276,12 +32320,10 @@ table {
   }
 
   .lg\:cursor-grab {
-    cursor: -webkit-grab;
     cursor: grab;
   }
 
   .lg\:cursor-grabbing {
-    cursor: -webkit-grabbing;
     cursor: grabbing;
   }
 
@@ -33386,7 +32428,6 @@ table {
   }
 
   .lg\:display-flex {
-    display: -ms-flexbox;
     display: flex;
   }
 
@@ -33403,7 +32444,6 @@ table {
   }
 
   .lg\:display-inline-flex {
-    display: -ms-inline-flexbox;
     display: inline-flex;
   }
 
@@ -33468,188 +32508,151 @@ table {
   }
 
   .lg\:flex-direction-row {
-    -ms-flex-direction: row;
-        flex-direction: row;
+    flex-direction: row;
   }
 
   .lg\:flex-direction-row-reverse {
-    -ms-flex-direction: row-reverse;
-        flex-direction: row-reverse;
+    flex-direction: row-reverse;
   }
 
   .lg\:flex-direction-column {
-    -ms-flex-direction: column;
-        flex-direction: column;
+    flex-direction: column;
   }
 
   .lg\:flex-direction-column-reverse {
-    -ms-flex-direction: column-reverse;
-        flex-direction: column-reverse;
+    flex-direction: column-reverse;
   }
 
   .lg\:flex-grow-0 {
-    -ms-flex-positive: 0;
-        flex-grow: 0;
+    flex-grow: 0;
   }
 
   .lg\:flex-grow-1 {
-    -ms-flex-positive: 1;
-        flex-grow: 1;
+    flex-grow: 1;
   }
 
   .lg\:flex-grow-2 {
-    -ms-flex-positive: 2;
-        flex-grow: 2;
+    flex-grow: 2;
   }
 
   .lg\:flex-grow-3 {
-    -ms-flex-positive: 3;
-        flex-grow: 3;
+    flex-grow: 3;
   }
 
   .lg\:flex-grow-4 {
-    -ms-flex-positive: 4;
-        flex-grow: 4;
+    flex-grow: 4;
   }
 
   .lg\:flex-grow-5 {
-    -ms-flex-positive: 5;
-        flex-grow: 5;
+    flex-grow: 5;
   }
 
   .lg\:flex-grow-6 {
-    -ms-flex-positive: 6;
-        flex-grow: 6;
+    flex-grow: 6;
   }
 
   .lg\:flex-grow-7 {
-    -ms-flex-positive: 7;
-        flex-grow: 7;
+    flex-grow: 7;
   }
 
   .lg\:flex-grow-8 {
-    -ms-flex-positive: 8;
-        flex-grow: 8;
+    flex-grow: 8;
   }
 
   .lg\:flex-grow-9 {
-    -ms-flex-positive: 9;
-        flex-grow: 9;
+    flex-grow: 9;
   }
 
   .lg\:flex-grow-10 {
-    -ms-flex-positive: 10;
-        flex-grow: 10;
+    flex-grow: 10;
   }
 
   .lg\:flex-grow-11 {
-    -ms-flex-positive: 11;
-        flex-grow: 11;
+    flex-grow: 11;
   }
 
   .lg\:flex-grow-12 {
-    -ms-flex-positive: 12;
-        flex-grow: 12;
+    flex-grow: 12;
   }
 
   .lg\:flex-shrink-0 {
-    -ms-flex-negative: 0;
-        flex-shrink: 0;
+    flex-shrink: 0;
   }
 
   .lg\:flex-shrink-1 {
-    -ms-flex-negative: 1;
-        flex-shrink: 1;
+    flex-shrink: 1;
   }
 
   .lg\:flex-shrink-2 {
-    -ms-flex-negative: 2;
-        flex-shrink: 2;
+    flex-shrink: 2;
   }
 
   .lg\:flex-shrink-3 {
-    -ms-flex-negative: 3;
-        flex-shrink: 3;
+    flex-shrink: 3;
   }
 
   .lg\:flex-shrink-4 {
-    -ms-flex-negative: 4;
-        flex-shrink: 4;
+    flex-shrink: 4;
   }
 
   .lg\:flex-shrink-5 {
-    -ms-flex-negative: 5;
-        flex-shrink: 5;
+    flex-shrink: 5;
   }
 
   .lg\:flex-shrink-6 {
-    -ms-flex-negative: 6;
-        flex-shrink: 6;
+    flex-shrink: 6;
   }
 
   .lg\:flex-shrink-7 {
-    -ms-flex-negative: 7;
-        flex-shrink: 7;
+    flex-shrink: 7;
   }
 
   .lg\:flex-shrink-8 {
-    -ms-flex-negative: 8;
-        flex-shrink: 8;
+    flex-shrink: 8;
   }
 
   .lg\:flex-shrink-9 {
-    -ms-flex-negative: 9;
-        flex-shrink: 9;
+    flex-shrink: 9;
   }
 
   .lg\:flex-shrink-10 {
-    -ms-flex-negative: 10;
-        flex-shrink: 10;
+    flex-shrink: 10;
   }
 
   .lg\:flex-shrink-11 {
-    -ms-flex-negative: 11;
-        flex-shrink: 11;
+    flex-shrink: 11;
   }
 
   .lg\:flex-shrink-12 {
-    -ms-flex-negative: 12;
-        flex-shrink: 12;
+    flex-shrink: 12;
   }
 
   .lg\:flex-wrap-wrap {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
   }
 
   .lg\:flex-wrap-reverse {
-    -ms-flex-wrap: wrap-reverse;
-        flex-wrap: wrap-reverse;
+    flex-wrap: wrap-reverse;
   }
 
   .lg\:flex-wrap-nowrap {
-    -ms-flex-wrap: nowrap;
-        flex-wrap: nowrap;
+    flex-wrap: nowrap;
   }
 
   .lg\:flex-1 {
-    -ms-flex: 1 1 0%;
-        flex: 1 1 0%;
+    flex: 1 1 0%;
   }
 
   .lg\:flex-auto {
-    -ms-flex: 1 1 auto;
-        flex: 1 1 auto;
+    flex: 1 1 auto;
   }
 
   .lg\:flex-initial {
-    -ms-flex: 0 1 auto;
-        flex: 0 1 auto;
+    flex: 0 1 auto;
   }
 
   .lg\:flex-none {
-    -ms-flex: none;
-        flex: none;
+    flex: none;
   }
 
   .lg\:float-right {
@@ -33997,33 +33000,27 @@ table {
   }
 
   .lg\:justify-content-start {
-    -ms-flex-pack: start;
-        justify-content: flex-start;
+    justify-content: flex-start;
   }
 
   .lg\:justify-content-end {
-    -ms-flex-pack: end;
-        justify-content: flex-end;
+    justify-content: flex-end;
   }
 
   .lg\:justify-content-center {
-    -ms-flex-pack: center;
-        justify-content: center;
+    justify-content: center;
   }
 
   .lg\:justify-content-between {
-    -ms-flex-pack: justify;
-        justify-content: space-between;
+    justify-content: space-between;
   }
 
   .lg\:justify-content-around {
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
+    justify-content: space-around;
   }
 
   .lg\:justify-content-evenly {
-    -ms-flex-pack: space-evenly;
-        justify-content: space-evenly;
+    justify-content: space-evenly;
   }
 
   .lg\:justify-items-baseline {
@@ -36131,78 +35128,63 @@ table {
   }
 
   .lg\:object-fit-contain {
-    -o-object-fit: contain;
-       object-fit: contain;
+    object-fit: contain;
   }
 
   .lg\:object-fit-cover {
-    -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
   }
 
   .lg\:object-fit-fill {
-    -o-object-fit: fill;
-       object-fit: fill;
+    object-fit: fill;
   }
 
   .lg\:object-fit-none {
-    -o-object-fit: none;
-       object-fit: none;
+    object-fit: none;
   }
 
   .lg\:object-fit-scale-down {
-    -o-object-fit: scale-down;
-       object-fit: scale-down;
+    object-fit: scale-down;
   }
 
   .lg\:object-fit-inherit {
-    -o-object-fit: inherit;
-       object-fit: inherit;
+    object-fit: inherit;
   }
 
   .lg\:object-position-top {
-    -o-object-position: top;
-       object-position: top;
+    object-position: top;
   }
 
   .lg\:object-position-right {
-    -o-object-position: right;
-       object-position: right;
+    object-position: right;
   }
 
   .lg\:object-position-bottom {
-    -o-object-position: bottom;
-       object-position: bottom;
+    object-position: bottom;
   }
 
   .lg\:object-position-left {
-    -o-object-position: left;
-       object-position: left;
+    object-position: left;
   }
 
   .lg\:object-position-center {
-    -o-object-position: center;
-       object-position: center;
+    object-position: center;
   }
 
   .lg\:object-position-left-top {
-    -o-object-position: left top;
-       object-position: left top;
+    object-position: left top;
   }
 
   .lg\:object-position-left-bottom {
-    -o-object-position: left bottom;
-       object-position: left bottom;
+    object-position: left bottom;
   }
 
   .lg\:object-position-right-top {
-    -o-object-position: right top;
-       object-position: right top;
+    object-position: right top;
   }
 
   .lg\:object-position-right-bottom {
-    -o-object-position: right bottom;
-       object-position: right bottom;
+    object-position: right bottom;
   }
 
   .lg\:opacity-0 {
@@ -36290,58 +35272,47 @@ table {
   }
 
   .lg\:order-0 {
-    -ms-flex-order: 0;
-        order: 0;
+    order: 0;
   }
 
   .lg\:order-1 {
-    -ms-flex-order: 1;
-        order: 1;
+    order: 1;
   }
 
   .lg\:order-2 {
-    -ms-flex-order: 2;
-        order: 2;
+    order: 2;
   }
 
   .lg\:order-3 {
-    -ms-flex-order: 3;
-        order: 3;
+    order: 3;
   }
 
   .lg\:order-4 {
-    -ms-flex-order: 4;
-        order: 4;
+    order: 4;
   }
 
   .lg\:order-5 {
-    -ms-flex-order: 5;
-        order: 5;
+    order: 5;
   }
 
   .lg\:order-6 {
-    -ms-flex-order: 6;
-        order: 6;
+    order: 6;
   }
 
   .lg\:order-7 {
-    -ms-flex-order: 7;
-        order: 7;
+    order: 7;
   }
 
   .lg\:order-8 {
-    -ms-flex-order: 8;
-        order: 8;
+    order: 8;
   }
 
   .lg\:order-9 {
-    -ms-flex-order: 9;
-        order: 9;
+    order: 9;
   }
 
   .lg\:order-10 {
-    -ms-flex-order: 10;
-        order: 10;
+    order: 10;
   }
 
   .lg\:overflow-wrap-normal {
@@ -36405,18 +35376,15 @@ table {
   }
 
   .lg\:overscroll-behavior-auto {
-    -ms-scroll-chaining: chained;
-        overscroll-behavior: auto;
+    overscroll-behavior: auto;
   }
 
   .lg\:overscroll-behavior-contain {
-    -ms-scroll-chaining: none;
-        overscroll-behavior: contain;
+    overscroll-behavior: contain;
   }
 
   .lg\:overscroll-behavior-none {
-    -ms-scroll-chaining: none;
-        overscroll-behavior: none;
+    overscroll-behavior: none;
   }
 
   .lg\:overscroll-behavior-y-auto {
@@ -37376,7 +36344,6 @@ table {
   }
 
   .lg\:position-sticky {
-    position: -webkit-sticky;
     position: sticky;
   }
 
@@ -38425,53 +37392,43 @@ table {
   }
 
   .lg\:origin-top {
-    -webkit-transform-origin: top;
-            transform-origin: top;
+    transform-origin: top;
   }
 
   .lg\:origin-right {
-    -webkit-transform-origin: right;
-            transform-origin: right;
+    transform-origin: right;
   }
 
   .lg\:origin-bottom {
-    -webkit-transform-origin: bottom;
-            transform-origin: bottom;
+    transform-origin: bottom;
   }
 
   .lg\:origin-left {
-    -webkit-transform-origin: left;
-            transform-origin: left;
+    transform-origin: left;
   }
 
   .lg\:origin-center {
-    -webkit-transform-origin: center;
-            transform-origin: center;
+    transform-origin: center;
   }
 
   .lg\:origin-top-left {
-    -webkit-transform-origin: top left;
-            transform-origin: top left;
+    transform-origin: top left;
   }
 
   .lg\:origin-top-right {
-    -webkit-transform-origin: top right;
-            transform-origin: top right;
+    transform-origin: top right;
   }
 
   .lg\:origin-bottom-left {
-    -webkit-transform-origin: bottom left;
-            transform-origin: bottom left;
+    transform-origin: bottom left;
   }
 
   .lg\:origin-bottom-right {
-    -webkit-transform-origin: bottom right;
-            transform-origin: bottom right;
+    transform-origin: bottom right;
   }
 
   .lg\:transform-none {
-    -webkit-transform: none;
-            transform: none;
+    transform: none;
   }
 
   .lg\:translate-x-0 {
@@ -39015,30 +37972,19 @@ table {
   }
 
   .lg\:user-select-none {
-    -webkit-user-select: none;
-       -moz-user-select: none;
-        -ms-user-select: none;
-            user-select: none;
+    user-select: none;
   }
 
   .lg\:user-select-text {
-    -webkit-user-select: text;
-       -moz-user-select: text;
-        -ms-user-select: text;
-            user-select: text;
+    user-select: text;
   }
 
   .lg\:user-select-all {
-    -webkit-user-select: all;
-       -moz-user-select: all;
-            user-select: all;
+    user-select: all;
   }
 
   .lg\:user-select-auto {
-    -webkit-user-select: auto;
-       -moz-user-select: auto;
-        -ms-user-select: auto;
-            user-select: auto;
+    user-select: auto;
   }
 
   .lg\:vertical-align-baseline {
@@ -39438,14 +38384,10 @@ table {
   }
 
   .lg\:width-min-content {
-    width: -webkit-min-content;
-    width: -moz-min-content;
     width: min-content;
   }
 
   .lg\:width-max-content {
-    width: -webkit-max-content;
-    width: -moz-max-content;
     width: max-content;
   }
 
@@ -39850,12 +38792,10 @@ table {
   }
 
   .lg\:grid-auto-columns-min {
-    grid-auto-columns: -webkit-min-content;
     grid-auto-columns: min-content;
   }
 
   .lg\:grid-auto-columns-max {
-    grid-auto-columns: -webkit-max-content;
     grid-auto-columns: max-content;
   }
 
@@ -39864,12 +38804,10 @@ table {
   }
 
   .lg\:grid-auto-rows-min {
-    grid-auto-rows: -webkit-min-content;
     grid-auto-rows: min-content;
   }
 
   .lg\:grid-auto-rows-max {
-    grid-auto-rows: -webkit-max-content;
     grid-auto-rows: max-content;
   }
 
@@ -39978,81 +38916,55 @@ table {
   }
 
   .lg\:column-gap-0 {
-    -webkit-column-gap: 0;
-       -moz-column-gap: 0;
-            column-gap: 0;
+    column-gap: 0;
   }
 
   .lg\:column-gap-1 {
-    -webkit-column-gap: 0.125rem;
-       -moz-column-gap: 0.125rem;
-            column-gap: 0.125rem;
+    column-gap: 0.125rem;
   }
 
   .lg\:column-gap-2 {
-    -webkit-column-gap: 0.25rem;
-       -moz-column-gap: 0.25rem;
-            column-gap: 0.25rem;
+    column-gap: 0.25rem;
   }
 
   .lg\:column-gap-3 {
-    -webkit-column-gap: 0.375rem;
-       -moz-column-gap: 0.375rem;
-            column-gap: 0.375rem;
+    column-gap: 0.375rem;
   }
 
   .lg\:column-gap-4 {
-    -webkit-column-gap: 0.5;
-       -moz-column-gap: 0.5;
-            column-gap: 0.5;
+    column-gap: 0.5;
   }
 
   .lg\:column-gap-5 {
-    -webkit-column-gap: 0.625rem;
-       -moz-column-gap: 0.625rem;
-            column-gap: 0.625rem;
+    column-gap: 0.625rem;
   }
 
   .lg\:column-gap-6 {
-    -webkit-column-gap: 0.75rem;
-       -moz-column-gap: 0.75rem;
-            column-gap: 0.75rem;
+    column-gap: 0.75rem;
   }
 
   .lg\:column-gap-7 {
-    -webkit-column-gap: 0.875rem;
-       -moz-column-gap: 0.875rem;
-            column-gap: 0.875rem;
+    column-gap: 0.875rem;
   }
 
   .lg\:column-gap-8 {
-    -webkit-column-gap: 1rem;
-       -moz-column-gap: 1rem;
-            column-gap: 1rem;
+    column-gap: 1rem;
   }
 
   .lg\:column-gap-9 {
-    -webkit-column-gap: 1.25rem;
-       -moz-column-gap: 1.25rem;
-            column-gap: 1.25rem;
+    column-gap: 1.25rem;
   }
 
   .lg\:column-gap-10 {
-    -webkit-column-gap: 1.5rem;
-       -moz-column-gap: 1.5rem;
-            column-gap: 1.5rem;
+    column-gap: 1.5rem;
   }
 
   .lg\:column-gap-11 {
-    -webkit-column-gap: 1.75rem;
-       -moz-column-gap: 1.75rem;
-            column-gap: 1.75rem;
+    column-gap: 1.75rem;
   }
 
   .lg\:column-gap-12 {
-    -webkit-column-gap: 2rem;
-       -moz-column-gap: 2rem;
-            column-gap: 2rem;
+    column-gap: 2rem;
   }
 
   .lg\:isolation-isolate {
@@ -40111,6 +39023,10 @@ table {
     mix-blend-mode: exclusion;
   }
 
+  .lg\:mix-blend-mode-hue {
+    mix-blend-mode: hue;
+  }
+
   .lg\:mix-blend-mode-saturation {
     mix-blend-mode: saturation;
   }
@@ -40122,68 +39038,118 @@ table {
   .lg\:mix-blend-mode-luminosity {
     mix-blend-mode: luminosity;
   }
+
+  .lg\:background-blend-mode-normal {
+    background-blend-mode: normal;
+  }
+
+  .lg\:background-blend-mode-multiply {
+    background-blend-mode: multiply;
+  }
+
+  .lg\:background-blend-mode-screen {
+    background-blend-mode: screen;
+  }
+
+  .lg\:background-blend-mode-overlay {
+    background-blend-mode: overlay;
+  }
+
+  .lg\:background-blend-mode-darken {
+    background-blend-mode: darken;
+  }
+
+  .lg\:background-blend-mode-lighten {
+    background-blend-mode: lighten;
+  }
+
+  .lg\:background-blend-mode-color-dodge {
+    background-blend-mode: color-dodge;
+  }
+
+  .lg\:background-blend-mode-color-burn {
+    background-blend-mode: color-burn;
+  }
+
+  .lg\:background-blend-mode-hard-light {
+    background-blend-mode: hard-light;
+  }
+
+  .lg\:background-blend-mode-soft-light {
+    background-blend-mode: soft-light;
+  }
+
+  .lg\:background-blend-mode-difference {
+    background-blend-mode: difference;
+  }
+
+  .lg\:background-blend-mode-exclusion {
+    background-blend-mode: exclusion;
+  }
+
+  .lg\:background-blend-mode-hue {
+    background-blend-mode: hue;
+  }
+
+  .lg\:background-blend-mode-saturation {
+    background-blend-mode: saturation;
+  }
+
+  .lg\:background-blend-mode-color {
+    background-blend-mode: color;
+  }
+
+  .lg\:background-blend-mode-luminosity {
+    background-blend-mode: luminosity;
+  }
 }
 @media (min-width: 1280px) {
   .xl\:appearance-auto {
-    -webkit-appearance: auto;
-       -moz-appearance: auto;
-            appearance: auto;
+    appearance: auto;
   }
 
   .xl\:appearance-none {
-    -webkit-appearance: none;
-       -moz-appearance: none;
-            appearance: none;
+    appearance: none;
   }
 
   .xl\:align-items-start {
-    -ms-flex-align: start;
-        align-items: flex-start;
+    align-items: flex-start;
   }
 
   .xl\:align-items-end {
-    -ms-flex-align: end;
-        align-items: flex-end;
+    align-items: flex-end;
   }
 
   .xl\:align-items-center {
-    -ms-flex-align: center;
-        align-items: center;
+    align-items: center;
   }
 
   .xl\:align-items-baseline {
-    -ms-flex-align: baseline;
-        align-items: baseline;
+    align-items: baseline;
   }
 
   .xl\:align-items-stretch {
-    -ms-flex-align: stretch;
-        align-items: stretch;
+    align-items: stretch;
   }
 
   .xl\:align-self-auto {
-    -ms-flex-item-align: auto;
-        align-self: auto;
+    align-self: auto;
   }
 
   .xl\:align-self-start {
-    -ms-flex-item-align: start;
-        align-self: flex-start;
+    align-self: flex-start;
   }
 
   .xl\:align-self-end {
-    -ms-flex-item-align: end;
-        align-self: flex-end;
+    align-self: flex-end;
   }
 
   .xl\:align-self-center {
-    -ms-flex-item-align: center;
-        align-self: center;
+    align-self: center;
   }
 
   .xl\:align-self-stretch {
-    -ms-flex-item-align: stretch;
-        align-self: stretch;
+    align-self: stretch;
   }
 
   .xl\:background-attachment-fixed {
@@ -40211,8 +39177,7 @@ table {
   }
 
   .xl\:background-clip-text {
-    -webkit-background-clip: text;
-            background-clip: text;
+    background-clip: text;
   }
 
   .xl\:bg-red-600 {
@@ -40822,220 +39787,44 @@ table {
     border-color: #ffffff;
   }
 
-  .xl\:placeholder-transparent::-webkit-input-placeholder {
-    color: transparent;
-  }
-
-  .xl\:placeholder-transparent::-moz-placeholder {
-    color: transparent;
-  }
-
-  .xl\:placeholder-transparent:-ms-input-placeholder {
-    color: transparent;
-  }
-
-  .xl\:placeholder-transparent::-ms-input-placeholder {
-    color: transparent;
-  }
-
   .xl\:placeholder-transparent::placeholder {
     color: transparent;
-  }
-
-  .xl\:placeholder-primary::-webkit-input-placeholder {
-    color: #FAE898;
-  }
-
-  .xl\:placeholder-primary::-moz-placeholder {
-    color: #FAE898;
-  }
-
-  .xl\:placeholder-primary:-ms-input-placeholder {
-    color: #FAE898;
-  }
-
-  .xl\:placeholder-primary::-ms-input-placeholder {
-    color: #FAE898;
   }
 
   .xl\:placeholder-primary::placeholder {
     color: #FAE898;
   }
 
-  .xl\:placeholder-secondary::-webkit-input-placeholder {
-    color: #999999;
-  }
-
-  .xl\:placeholder-secondary::-moz-placeholder {
-    color: #999999;
-  }
-
-  .xl\:placeholder-secondary:-ms-input-placeholder {
-    color: #999999;
-  }
-
-  .xl\:placeholder-secondary::-ms-input-placeholder {
-    color: #999999;
-  }
-
   .xl\:placeholder-secondary::placeholder {
     color: #999999;
-  }
-
-  .xl\:placeholder-success::-webkit-input-placeholder {
-    color: #198754;
-  }
-
-  .xl\:placeholder-success::-moz-placeholder {
-    color: #198754;
-  }
-
-  .xl\:placeholder-success:-ms-input-placeholder {
-    color: #198754;
-  }
-
-  .xl\:placeholder-success::-ms-input-placeholder {
-    color: #198754;
   }
 
   .xl\:placeholder-success::placeholder {
     color: #198754;
   }
 
-  .xl\:placeholder-info::-webkit-input-placeholder {
-    color: #0dcaf0;
-  }
-
-  .xl\:placeholder-info::-moz-placeholder {
-    color: #0dcaf0;
-  }
-
-  .xl\:placeholder-info:-ms-input-placeholder {
-    color: #0dcaf0;
-  }
-
-  .xl\:placeholder-info::-ms-input-placeholder {
-    color: #0dcaf0;
-  }
-
   .xl\:placeholder-info::placeholder {
     color: #0dcaf0;
-  }
-
-  .xl\:placeholder-warning::-webkit-input-placeholder {
-    color: #ffc107;
-  }
-
-  .xl\:placeholder-warning::-moz-placeholder {
-    color: #ffc107;
-  }
-
-  .xl\:placeholder-warning:-ms-input-placeholder {
-    color: #ffc107;
-  }
-
-  .xl\:placeholder-warning::-ms-input-placeholder {
-    color: #ffc107;
   }
 
   .xl\:placeholder-warning::placeholder {
     color: #ffc107;
   }
 
-  .xl\:placeholder-danger::-webkit-input-placeholder {
-    color: #dc3545;
-  }
-
-  .xl\:placeholder-danger::-moz-placeholder {
-    color: #dc3545;
-  }
-
-  .xl\:placeholder-danger:-ms-input-placeholder {
-    color: #dc3545;
-  }
-
-  .xl\:placeholder-danger::-ms-input-placeholder {
-    color: #dc3545;
-  }
-
   .xl\:placeholder-danger::placeholder {
     color: #dc3545;
-  }
-
-  .xl\:placeholder-dark::-webkit-input-placeholder {
-    color: #333333;
-  }
-
-  .xl\:placeholder-dark::-moz-placeholder {
-    color: #333333;
-  }
-
-  .xl\:placeholder-dark:-ms-input-placeholder {
-    color: #333333;
-  }
-
-  .xl\:placeholder-dark::-ms-input-placeholder {
-    color: #333333;
   }
 
   .xl\:placeholder-dark::placeholder {
     color: #333333;
   }
 
-  .xl\:placeholder-light::-webkit-input-placeholder {
-    color: #f1f1f1;
-  }
-
-  .xl\:placeholder-light::-moz-placeholder {
-    color: #f1f1f1;
-  }
-
-  .xl\:placeholder-light:-ms-input-placeholder {
-    color: #f1f1f1;
-  }
-
-  .xl\:placeholder-light::-ms-input-placeholder {
-    color: #f1f1f1;
-  }
-
   .xl\:placeholder-light::placeholder {
     color: #f1f1f1;
   }
 
-  .xl\:placeholder-black::-webkit-input-placeholder {
-    color: #000000;
-  }
-
-  .xl\:placeholder-black::-moz-placeholder {
-    color: #000000;
-  }
-
-  .xl\:placeholder-black:-ms-input-placeholder {
-    color: #000000;
-  }
-
-  .xl\:placeholder-black::-ms-input-placeholder {
-    color: #000000;
-  }
-
   .xl\:placeholder-black::placeholder {
     color: #000000;
-  }
-
-  .xl\:placeholder-white::-webkit-input-placeholder {
-    color: #ffffff;
-  }
-
-  .xl\:placeholder-white::-moz-placeholder {
-    color: #ffffff;
-  }
-
-  .xl\:placeholder-white:-ms-input-placeholder {
-    color: #ffffff;
-  }
-
-  .xl\:placeholder-white::-ms-input-placeholder {
-    color: #ffffff;
   }
 
   .xl\:placeholder-white::placeholder {
@@ -43293,12 +42082,10 @@ table {
   }
 
   .xl\:cursor-grab {
-    cursor: -webkit-grab;
     cursor: grab;
   }
 
   .xl\:cursor-grabbing {
-    cursor: -webkit-grabbing;
     cursor: grabbing;
   }
 
@@ -43403,7 +42190,6 @@ table {
   }
 
   .xl\:display-flex {
-    display: -ms-flexbox;
     display: flex;
   }
 
@@ -43420,7 +42206,6 @@ table {
   }
 
   .xl\:display-inline-flex {
-    display: -ms-inline-flexbox;
     display: inline-flex;
   }
 
@@ -43485,188 +42270,151 @@ table {
   }
 
   .xl\:flex-direction-row {
-    -ms-flex-direction: row;
-        flex-direction: row;
+    flex-direction: row;
   }
 
   .xl\:flex-direction-row-reverse {
-    -ms-flex-direction: row-reverse;
-        flex-direction: row-reverse;
+    flex-direction: row-reverse;
   }
 
   .xl\:flex-direction-column {
-    -ms-flex-direction: column;
-        flex-direction: column;
+    flex-direction: column;
   }
 
   .xl\:flex-direction-column-reverse {
-    -ms-flex-direction: column-reverse;
-        flex-direction: column-reverse;
+    flex-direction: column-reverse;
   }
 
   .xl\:flex-grow-0 {
-    -ms-flex-positive: 0;
-        flex-grow: 0;
+    flex-grow: 0;
   }
 
   .xl\:flex-grow-1 {
-    -ms-flex-positive: 1;
-        flex-grow: 1;
+    flex-grow: 1;
   }
 
   .xl\:flex-grow-2 {
-    -ms-flex-positive: 2;
-        flex-grow: 2;
+    flex-grow: 2;
   }
 
   .xl\:flex-grow-3 {
-    -ms-flex-positive: 3;
-        flex-grow: 3;
+    flex-grow: 3;
   }
 
   .xl\:flex-grow-4 {
-    -ms-flex-positive: 4;
-        flex-grow: 4;
+    flex-grow: 4;
   }
 
   .xl\:flex-grow-5 {
-    -ms-flex-positive: 5;
-        flex-grow: 5;
+    flex-grow: 5;
   }
 
   .xl\:flex-grow-6 {
-    -ms-flex-positive: 6;
-        flex-grow: 6;
+    flex-grow: 6;
   }
 
   .xl\:flex-grow-7 {
-    -ms-flex-positive: 7;
-        flex-grow: 7;
+    flex-grow: 7;
   }
 
   .xl\:flex-grow-8 {
-    -ms-flex-positive: 8;
-        flex-grow: 8;
+    flex-grow: 8;
   }
 
   .xl\:flex-grow-9 {
-    -ms-flex-positive: 9;
-        flex-grow: 9;
+    flex-grow: 9;
   }
 
   .xl\:flex-grow-10 {
-    -ms-flex-positive: 10;
-        flex-grow: 10;
+    flex-grow: 10;
   }
 
   .xl\:flex-grow-11 {
-    -ms-flex-positive: 11;
-        flex-grow: 11;
+    flex-grow: 11;
   }
 
   .xl\:flex-grow-12 {
-    -ms-flex-positive: 12;
-        flex-grow: 12;
+    flex-grow: 12;
   }
 
   .xl\:flex-shrink-0 {
-    -ms-flex-negative: 0;
-        flex-shrink: 0;
+    flex-shrink: 0;
   }
 
   .xl\:flex-shrink-1 {
-    -ms-flex-negative: 1;
-        flex-shrink: 1;
+    flex-shrink: 1;
   }
 
   .xl\:flex-shrink-2 {
-    -ms-flex-negative: 2;
-        flex-shrink: 2;
+    flex-shrink: 2;
   }
 
   .xl\:flex-shrink-3 {
-    -ms-flex-negative: 3;
-        flex-shrink: 3;
+    flex-shrink: 3;
   }
 
   .xl\:flex-shrink-4 {
-    -ms-flex-negative: 4;
-        flex-shrink: 4;
+    flex-shrink: 4;
   }
 
   .xl\:flex-shrink-5 {
-    -ms-flex-negative: 5;
-        flex-shrink: 5;
+    flex-shrink: 5;
   }
 
   .xl\:flex-shrink-6 {
-    -ms-flex-negative: 6;
-        flex-shrink: 6;
+    flex-shrink: 6;
   }
 
   .xl\:flex-shrink-7 {
-    -ms-flex-negative: 7;
-        flex-shrink: 7;
+    flex-shrink: 7;
   }
 
   .xl\:flex-shrink-8 {
-    -ms-flex-negative: 8;
-        flex-shrink: 8;
+    flex-shrink: 8;
   }
 
   .xl\:flex-shrink-9 {
-    -ms-flex-negative: 9;
-        flex-shrink: 9;
+    flex-shrink: 9;
   }
 
   .xl\:flex-shrink-10 {
-    -ms-flex-negative: 10;
-        flex-shrink: 10;
+    flex-shrink: 10;
   }
 
   .xl\:flex-shrink-11 {
-    -ms-flex-negative: 11;
-        flex-shrink: 11;
+    flex-shrink: 11;
   }
 
   .xl\:flex-shrink-12 {
-    -ms-flex-negative: 12;
-        flex-shrink: 12;
+    flex-shrink: 12;
   }
 
   .xl\:flex-wrap-wrap {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
   }
 
   .xl\:flex-wrap-reverse {
-    -ms-flex-wrap: wrap-reverse;
-        flex-wrap: wrap-reverse;
+    flex-wrap: wrap-reverse;
   }
 
   .xl\:flex-wrap-nowrap {
-    -ms-flex-wrap: nowrap;
-        flex-wrap: nowrap;
+    flex-wrap: nowrap;
   }
 
   .xl\:flex-1 {
-    -ms-flex: 1 1 0%;
-        flex: 1 1 0%;
+    flex: 1 1 0%;
   }
 
   .xl\:flex-auto {
-    -ms-flex: 1 1 auto;
-        flex: 1 1 auto;
+    flex: 1 1 auto;
   }
 
   .xl\:flex-initial {
-    -ms-flex: 0 1 auto;
-        flex: 0 1 auto;
+    flex: 0 1 auto;
   }
 
   .xl\:flex-none {
-    -ms-flex: none;
-        flex: none;
+    flex: none;
   }
 
   .xl\:float-right {
@@ -44014,33 +42762,27 @@ table {
   }
 
   .xl\:justify-content-start {
-    -ms-flex-pack: start;
-        justify-content: flex-start;
+    justify-content: flex-start;
   }
 
   .xl\:justify-content-end {
-    -ms-flex-pack: end;
-        justify-content: flex-end;
+    justify-content: flex-end;
   }
 
   .xl\:justify-content-center {
-    -ms-flex-pack: center;
-        justify-content: center;
+    justify-content: center;
   }
 
   .xl\:justify-content-between {
-    -ms-flex-pack: justify;
-        justify-content: space-between;
+    justify-content: space-between;
   }
 
   .xl\:justify-content-around {
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
+    justify-content: space-around;
   }
 
   .xl\:justify-content-evenly {
-    -ms-flex-pack: space-evenly;
-        justify-content: space-evenly;
+    justify-content: space-evenly;
   }
 
   .xl\:justify-items-baseline {
@@ -46148,78 +44890,63 @@ table {
   }
 
   .xl\:object-fit-contain {
-    -o-object-fit: contain;
-       object-fit: contain;
+    object-fit: contain;
   }
 
   .xl\:object-fit-cover {
-    -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
   }
 
   .xl\:object-fit-fill {
-    -o-object-fit: fill;
-       object-fit: fill;
+    object-fit: fill;
   }
 
   .xl\:object-fit-none {
-    -o-object-fit: none;
-       object-fit: none;
+    object-fit: none;
   }
 
   .xl\:object-fit-scale-down {
-    -o-object-fit: scale-down;
-       object-fit: scale-down;
+    object-fit: scale-down;
   }
 
   .xl\:object-fit-inherit {
-    -o-object-fit: inherit;
-       object-fit: inherit;
+    object-fit: inherit;
   }
 
   .xl\:object-position-top {
-    -o-object-position: top;
-       object-position: top;
+    object-position: top;
   }
 
   .xl\:object-position-right {
-    -o-object-position: right;
-       object-position: right;
+    object-position: right;
   }
 
   .xl\:object-position-bottom {
-    -o-object-position: bottom;
-       object-position: bottom;
+    object-position: bottom;
   }
 
   .xl\:object-position-left {
-    -o-object-position: left;
-       object-position: left;
+    object-position: left;
   }
 
   .xl\:object-position-center {
-    -o-object-position: center;
-       object-position: center;
+    object-position: center;
   }
 
   .xl\:object-position-left-top {
-    -o-object-position: left top;
-       object-position: left top;
+    object-position: left top;
   }
 
   .xl\:object-position-left-bottom {
-    -o-object-position: left bottom;
-       object-position: left bottom;
+    object-position: left bottom;
   }
 
   .xl\:object-position-right-top {
-    -o-object-position: right top;
-       object-position: right top;
+    object-position: right top;
   }
 
   .xl\:object-position-right-bottom {
-    -o-object-position: right bottom;
-       object-position: right bottom;
+    object-position: right bottom;
   }
 
   .xl\:opacity-0 {
@@ -46307,58 +45034,47 @@ table {
   }
 
   .xl\:order-0 {
-    -ms-flex-order: 0;
-        order: 0;
+    order: 0;
   }
 
   .xl\:order-1 {
-    -ms-flex-order: 1;
-        order: 1;
+    order: 1;
   }
 
   .xl\:order-2 {
-    -ms-flex-order: 2;
-        order: 2;
+    order: 2;
   }
 
   .xl\:order-3 {
-    -ms-flex-order: 3;
-        order: 3;
+    order: 3;
   }
 
   .xl\:order-4 {
-    -ms-flex-order: 4;
-        order: 4;
+    order: 4;
   }
 
   .xl\:order-5 {
-    -ms-flex-order: 5;
-        order: 5;
+    order: 5;
   }
 
   .xl\:order-6 {
-    -ms-flex-order: 6;
-        order: 6;
+    order: 6;
   }
 
   .xl\:order-7 {
-    -ms-flex-order: 7;
-        order: 7;
+    order: 7;
   }
 
   .xl\:order-8 {
-    -ms-flex-order: 8;
-        order: 8;
+    order: 8;
   }
 
   .xl\:order-9 {
-    -ms-flex-order: 9;
-        order: 9;
+    order: 9;
   }
 
   .xl\:order-10 {
-    -ms-flex-order: 10;
-        order: 10;
+    order: 10;
   }
 
   .xl\:overflow-wrap-normal {
@@ -46422,18 +45138,15 @@ table {
   }
 
   .xl\:overscroll-behavior-auto {
-    -ms-scroll-chaining: chained;
-        overscroll-behavior: auto;
+    overscroll-behavior: auto;
   }
 
   .xl\:overscroll-behavior-contain {
-    -ms-scroll-chaining: none;
-        overscroll-behavior: contain;
+    overscroll-behavior: contain;
   }
 
   .xl\:overscroll-behavior-none {
-    -ms-scroll-chaining: none;
-        overscroll-behavior: none;
+    overscroll-behavior: none;
   }
 
   .xl\:overscroll-behavior-y-auto {
@@ -47393,7 +46106,6 @@ table {
   }
 
   .xl\:position-sticky {
-    position: -webkit-sticky;
     position: sticky;
   }
 
@@ -48442,53 +47154,43 @@ table {
   }
 
   .xl\:origin-top {
-    -webkit-transform-origin: top;
-            transform-origin: top;
+    transform-origin: top;
   }
 
   .xl\:origin-right {
-    -webkit-transform-origin: right;
-            transform-origin: right;
+    transform-origin: right;
   }
 
   .xl\:origin-bottom {
-    -webkit-transform-origin: bottom;
-            transform-origin: bottom;
+    transform-origin: bottom;
   }
 
   .xl\:origin-left {
-    -webkit-transform-origin: left;
-            transform-origin: left;
+    transform-origin: left;
   }
 
   .xl\:origin-center {
-    -webkit-transform-origin: center;
-            transform-origin: center;
+    transform-origin: center;
   }
 
   .xl\:origin-top-left {
-    -webkit-transform-origin: top left;
-            transform-origin: top left;
+    transform-origin: top left;
   }
 
   .xl\:origin-top-right {
-    -webkit-transform-origin: top right;
-            transform-origin: top right;
+    transform-origin: top right;
   }
 
   .xl\:origin-bottom-left {
-    -webkit-transform-origin: bottom left;
-            transform-origin: bottom left;
+    transform-origin: bottom left;
   }
 
   .xl\:origin-bottom-right {
-    -webkit-transform-origin: bottom right;
-            transform-origin: bottom right;
+    transform-origin: bottom right;
   }
 
   .xl\:transform-none {
-    -webkit-transform: none;
-            transform: none;
+    transform: none;
   }
 
   .xl\:translate-x-0 {
@@ -49032,30 +47734,19 @@ table {
   }
 
   .xl\:user-select-none {
-    -webkit-user-select: none;
-       -moz-user-select: none;
-        -ms-user-select: none;
-            user-select: none;
+    user-select: none;
   }
 
   .xl\:user-select-text {
-    -webkit-user-select: text;
-       -moz-user-select: text;
-        -ms-user-select: text;
-            user-select: text;
+    user-select: text;
   }
 
   .xl\:user-select-all {
-    -webkit-user-select: all;
-       -moz-user-select: all;
-            user-select: all;
+    user-select: all;
   }
 
   .xl\:user-select-auto {
-    -webkit-user-select: auto;
-       -moz-user-select: auto;
-        -ms-user-select: auto;
-            user-select: auto;
+    user-select: auto;
   }
 
   .xl\:vertical-align-baseline {
@@ -49455,14 +48146,10 @@ table {
   }
 
   .xl\:width-min-content {
-    width: -webkit-min-content;
-    width: -moz-min-content;
     width: min-content;
   }
 
   .xl\:width-max-content {
-    width: -webkit-max-content;
-    width: -moz-max-content;
     width: max-content;
   }
 
@@ -49867,12 +48554,10 @@ table {
   }
 
   .xl\:grid-auto-columns-min {
-    grid-auto-columns: -webkit-min-content;
     grid-auto-columns: min-content;
   }
 
   .xl\:grid-auto-columns-max {
-    grid-auto-columns: -webkit-max-content;
     grid-auto-columns: max-content;
   }
 
@@ -49881,12 +48566,10 @@ table {
   }
 
   .xl\:grid-auto-rows-min {
-    grid-auto-rows: -webkit-min-content;
     grid-auto-rows: min-content;
   }
 
   .xl\:grid-auto-rows-max {
-    grid-auto-rows: -webkit-max-content;
     grid-auto-rows: max-content;
   }
 
@@ -49995,81 +48678,55 @@ table {
   }
 
   .xl\:column-gap-0 {
-    -webkit-column-gap: 0;
-       -moz-column-gap: 0;
-            column-gap: 0;
+    column-gap: 0;
   }
 
   .xl\:column-gap-1 {
-    -webkit-column-gap: 0.125rem;
-       -moz-column-gap: 0.125rem;
-            column-gap: 0.125rem;
+    column-gap: 0.125rem;
   }
 
   .xl\:column-gap-2 {
-    -webkit-column-gap: 0.25rem;
-       -moz-column-gap: 0.25rem;
-            column-gap: 0.25rem;
+    column-gap: 0.25rem;
   }
 
   .xl\:column-gap-3 {
-    -webkit-column-gap: 0.375rem;
-       -moz-column-gap: 0.375rem;
-            column-gap: 0.375rem;
+    column-gap: 0.375rem;
   }
 
   .xl\:column-gap-4 {
-    -webkit-column-gap: 0.5;
-       -moz-column-gap: 0.5;
-            column-gap: 0.5;
+    column-gap: 0.5;
   }
 
   .xl\:column-gap-5 {
-    -webkit-column-gap: 0.625rem;
-       -moz-column-gap: 0.625rem;
-            column-gap: 0.625rem;
+    column-gap: 0.625rem;
   }
 
   .xl\:column-gap-6 {
-    -webkit-column-gap: 0.75rem;
-       -moz-column-gap: 0.75rem;
-            column-gap: 0.75rem;
+    column-gap: 0.75rem;
   }
 
   .xl\:column-gap-7 {
-    -webkit-column-gap: 0.875rem;
-       -moz-column-gap: 0.875rem;
-            column-gap: 0.875rem;
+    column-gap: 0.875rem;
   }
 
   .xl\:column-gap-8 {
-    -webkit-column-gap: 1rem;
-       -moz-column-gap: 1rem;
-            column-gap: 1rem;
+    column-gap: 1rem;
   }
 
   .xl\:column-gap-9 {
-    -webkit-column-gap: 1.25rem;
-       -moz-column-gap: 1.25rem;
-            column-gap: 1.25rem;
+    column-gap: 1.25rem;
   }
 
   .xl\:column-gap-10 {
-    -webkit-column-gap: 1.5rem;
-       -moz-column-gap: 1.5rem;
-            column-gap: 1.5rem;
+    column-gap: 1.5rem;
   }
 
   .xl\:column-gap-11 {
-    -webkit-column-gap: 1.75rem;
-       -moz-column-gap: 1.75rem;
-            column-gap: 1.75rem;
+    column-gap: 1.75rem;
   }
 
   .xl\:column-gap-12 {
-    -webkit-column-gap: 2rem;
-       -moz-column-gap: 2rem;
-            column-gap: 2rem;
+    column-gap: 2rem;
   }
 
   .xl\:isolation-isolate {
@@ -50128,6 +48785,10 @@ table {
     mix-blend-mode: exclusion;
   }
 
+  .xl\:mix-blend-mode-hue {
+    mix-blend-mode: hue;
+  }
+
   .xl\:mix-blend-mode-saturation {
     mix-blend-mode: saturation;
   }
@@ -50139,68 +48800,118 @@ table {
   .xl\:mix-blend-mode-luminosity {
     mix-blend-mode: luminosity;
   }
+
+  .xl\:background-blend-mode-normal {
+    background-blend-mode: normal;
+  }
+
+  .xl\:background-blend-mode-multiply {
+    background-blend-mode: multiply;
+  }
+
+  .xl\:background-blend-mode-screen {
+    background-blend-mode: screen;
+  }
+
+  .xl\:background-blend-mode-overlay {
+    background-blend-mode: overlay;
+  }
+
+  .xl\:background-blend-mode-darken {
+    background-blend-mode: darken;
+  }
+
+  .xl\:background-blend-mode-lighten {
+    background-blend-mode: lighten;
+  }
+
+  .xl\:background-blend-mode-color-dodge {
+    background-blend-mode: color-dodge;
+  }
+
+  .xl\:background-blend-mode-color-burn {
+    background-blend-mode: color-burn;
+  }
+
+  .xl\:background-blend-mode-hard-light {
+    background-blend-mode: hard-light;
+  }
+
+  .xl\:background-blend-mode-soft-light {
+    background-blend-mode: soft-light;
+  }
+
+  .xl\:background-blend-mode-difference {
+    background-blend-mode: difference;
+  }
+
+  .xl\:background-blend-mode-exclusion {
+    background-blend-mode: exclusion;
+  }
+
+  .xl\:background-blend-mode-hue {
+    background-blend-mode: hue;
+  }
+
+  .xl\:background-blend-mode-saturation {
+    background-blend-mode: saturation;
+  }
+
+  .xl\:background-blend-mode-color {
+    background-blend-mode: color;
+  }
+
+  .xl\:background-blend-mode-luminosity {
+    background-blend-mode: luminosity;
+  }
 }
 @media (min-width: 1366px) {
   .xxl\:appearance-auto {
-    -webkit-appearance: auto;
-       -moz-appearance: auto;
-            appearance: auto;
+    appearance: auto;
   }
 
   .xxl\:appearance-none {
-    -webkit-appearance: none;
-       -moz-appearance: none;
-            appearance: none;
+    appearance: none;
   }
 
   .xxl\:align-items-start {
-    -ms-flex-align: start;
-        align-items: flex-start;
+    align-items: flex-start;
   }
 
   .xxl\:align-items-end {
-    -ms-flex-align: end;
-        align-items: flex-end;
+    align-items: flex-end;
   }
 
   .xxl\:align-items-center {
-    -ms-flex-align: center;
-        align-items: center;
+    align-items: center;
   }
 
   .xxl\:align-items-baseline {
-    -ms-flex-align: baseline;
-        align-items: baseline;
+    align-items: baseline;
   }
 
   .xxl\:align-items-stretch {
-    -ms-flex-align: stretch;
-        align-items: stretch;
+    align-items: stretch;
   }
 
   .xxl\:align-self-auto {
-    -ms-flex-item-align: auto;
-        align-self: auto;
+    align-self: auto;
   }
 
   .xxl\:align-self-start {
-    -ms-flex-item-align: start;
-        align-self: flex-start;
+    align-self: flex-start;
   }
 
   .xxl\:align-self-end {
-    -ms-flex-item-align: end;
-        align-self: flex-end;
+    align-self: flex-end;
   }
 
   .xxl\:align-self-center {
-    -ms-flex-item-align: center;
-        align-self: center;
+    align-self: center;
   }
 
   .xxl\:align-self-stretch {
-    -ms-flex-item-align: stretch;
-        align-self: stretch;
+    align-self: stretch;
   }
 
   .xxl\:background-attachment-fixed {
@@ -50228,8 +48939,7 @@ table {
   }
 
   .xxl\:background-clip-text {
-    -webkit-background-clip: text;
-            background-clip: text;
+    background-clip: text;
   }
 
   .xxl\:bg-red-600 {
@@ -50839,220 +49549,44 @@ table {
     border-color: #ffffff;
   }
 
-  .xxl\:placeholder-transparent::-webkit-input-placeholder {
-    color: transparent;
-  }
-
-  .xxl\:placeholder-transparent::-moz-placeholder {
-    color: transparent;
-  }
-
-  .xxl\:placeholder-transparent:-ms-input-placeholder {
-    color: transparent;
-  }
-
-  .xxl\:placeholder-transparent::-ms-input-placeholder {
-    color: transparent;
-  }
-
   .xxl\:placeholder-transparent::placeholder {
     color: transparent;
-  }
-
-  .xxl\:placeholder-primary::-webkit-input-placeholder {
-    color: #FAE898;
-  }
-
-  .xxl\:placeholder-primary::-moz-placeholder {
-    color: #FAE898;
-  }
-
-  .xxl\:placeholder-primary:-ms-input-placeholder {
-    color: #FAE898;
-  }
-
-  .xxl\:placeholder-primary::-ms-input-placeholder {
-    color: #FAE898;
   }
 
   .xxl\:placeholder-primary::placeholder {
     color: #FAE898;
   }
 
-  .xxl\:placeholder-secondary::-webkit-input-placeholder {
-    color: #999999;
-  }
-
-  .xxl\:placeholder-secondary::-moz-placeholder {
-    color: #999999;
-  }
-
-  .xxl\:placeholder-secondary:-ms-input-placeholder {
-    color: #999999;
-  }
-
-  .xxl\:placeholder-secondary::-ms-input-placeholder {
-    color: #999999;
-  }
-
   .xxl\:placeholder-secondary::placeholder {
     color: #999999;
-  }
-
-  .xxl\:placeholder-success::-webkit-input-placeholder {
-    color: #198754;
-  }
-
-  .xxl\:placeholder-success::-moz-placeholder {
-    color: #198754;
-  }
-
-  .xxl\:placeholder-success:-ms-input-placeholder {
-    color: #198754;
-  }
-
-  .xxl\:placeholder-success::-ms-input-placeholder {
-    color: #198754;
   }
 
   .xxl\:placeholder-success::placeholder {
     color: #198754;
   }
 
-  .xxl\:placeholder-info::-webkit-input-placeholder {
-    color: #0dcaf0;
-  }
-
-  .xxl\:placeholder-info::-moz-placeholder {
-    color: #0dcaf0;
-  }
-
-  .xxl\:placeholder-info:-ms-input-placeholder {
-    color: #0dcaf0;
-  }
-
-  .xxl\:placeholder-info::-ms-input-placeholder {
-    color: #0dcaf0;
-  }
-
   .xxl\:placeholder-info::placeholder {
     color: #0dcaf0;
-  }
-
-  .xxl\:placeholder-warning::-webkit-input-placeholder {
-    color: #ffc107;
-  }
-
-  .xxl\:placeholder-warning::-moz-placeholder {
-    color: #ffc107;
-  }
-
-  .xxl\:placeholder-warning:-ms-input-placeholder {
-    color: #ffc107;
-  }
-
-  .xxl\:placeholder-warning::-ms-input-placeholder {
-    color: #ffc107;
   }
 
   .xxl\:placeholder-warning::placeholder {
     color: #ffc107;
   }
 
-  .xxl\:placeholder-danger::-webkit-input-placeholder {
-    color: #dc3545;
-  }
-
-  .xxl\:placeholder-danger::-moz-placeholder {
-    color: #dc3545;
-  }
-
-  .xxl\:placeholder-danger:-ms-input-placeholder {
-    color: #dc3545;
-  }
-
-  .xxl\:placeholder-danger::-ms-input-placeholder {
-    color: #dc3545;
-  }
-
   .xxl\:placeholder-danger::placeholder {
     color: #dc3545;
-  }
-
-  .xxl\:placeholder-dark::-webkit-input-placeholder {
-    color: #333333;
-  }
-
-  .xxl\:placeholder-dark::-moz-placeholder {
-    color: #333333;
-  }
-
-  .xxl\:placeholder-dark:-ms-input-placeholder {
-    color: #333333;
-  }
-
-  .xxl\:placeholder-dark::-ms-input-placeholder {
-    color: #333333;
   }
 
   .xxl\:placeholder-dark::placeholder {
     color: #333333;
   }
 
-  .xxl\:placeholder-light::-webkit-input-placeholder {
-    color: #f1f1f1;
-  }
-
-  .xxl\:placeholder-light::-moz-placeholder {
-    color: #f1f1f1;
-  }
-
-  .xxl\:placeholder-light:-ms-input-placeholder {
-    color: #f1f1f1;
-  }
-
-  .xxl\:placeholder-light::-ms-input-placeholder {
-    color: #f1f1f1;
-  }
-
   .xxl\:placeholder-light::placeholder {
     color: #f1f1f1;
   }
 
-  .xxl\:placeholder-black::-webkit-input-placeholder {
-    color: #000000;
-  }
-
-  .xxl\:placeholder-black::-moz-placeholder {
-    color: #000000;
-  }
-
-  .xxl\:placeholder-black:-ms-input-placeholder {
-    color: #000000;
-  }
-
-  .xxl\:placeholder-black::-ms-input-placeholder {
-    color: #000000;
-  }
-
   .xxl\:placeholder-black::placeholder {
     color: #000000;
-  }
-
-  .xxl\:placeholder-white::-webkit-input-placeholder {
-    color: #ffffff;
-  }
-
-  .xxl\:placeholder-white::-moz-placeholder {
-    color: #ffffff;
-  }
-
-  .xxl\:placeholder-white:-ms-input-placeholder {
-    color: #ffffff;
-  }
-
-  .xxl\:placeholder-white::-ms-input-placeholder {
-    color: #ffffff;
   }
 
   .xxl\:placeholder-white::placeholder {
@@ -53310,12 +51844,10 @@ table {
   }
 
   .xxl\:cursor-grab {
-    cursor: -webkit-grab;
     cursor: grab;
   }
 
   .xxl\:cursor-grabbing {
-    cursor: -webkit-grabbing;
     cursor: grabbing;
   }
 
@@ -53420,7 +51952,6 @@ table {
   }
 
   .xxl\:display-flex {
-    display: -ms-flexbox;
     display: flex;
   }
 
@@ -53437,7 +51968,6 @@ table {
   }
 
   .xxl\:display-inline-flex {
-    display: -ms-inline-flexbox;
     display: inline-flex;
   }
 
@@ -53502,188 +52032,151 @@ table {
   }
 
   .xxl\:flex-direction-row {
-    -ms-flex-direction: row;
-        flex-direction: row;
+    flex-direction: row;
   }
 
   .xxl\:flex-direction-row-reverse {
-    -ms-flex-direction: row-reverse;
-        flex-direction: row-reverse;
+    flex-direction: row-reverse;
   }
 
   .xxl\:flex-direction-column {
-    -ms-flex-direction: column;
-        flex-direction: column;
+    flex-direction: column;
   }
 
   .xxl\:flex-direction-column-reverse {
-    -ms-flex-direction: column-reverse;
-        flex-direction: column-reverse;
+    flex-direction: column-reverse;
   }
 
   .xxl\:flex-grow-0 {
-    -ms-flex-positive: 0;
-        flex-grow: 0;
+    flex-grow: 0;
   }
 
   .xxl\:flex-grow-1 {
-    -ms-flex-positive: 1;
-        flex-grow: 1;
+    flex-grow: 1;
   }
 
   .xxl\:flex-grow-2 {
-    -ms-flex-positive: 2;
-        flex-grow: 2;
+    flex-grow: 2;
   }
 
   .xxl\:flex-grow-3 {
-    -ms-flex-positive: 3;
-        flex-grow: 3;
+    flex-grow: 3;
   }
 
   .xxl\:flex-grow-4 {
-    -ms-flex-positive: 4;
-        flex-grow: 4;
+    flex-grow: 4;
   }
 
   .xxl\:flex-grow-5 {
-    -ms-flex-positive: 5;
-        flex-grow: 5;
+    flex-grow: 5;
   }
 
   .xxl\:flex-grow-6 {
-    -ms-flex-positive: 6;
-        flex-grow: 6;
+    flex-grow: 6;
   }
 
   .xxl\:flex-grow-7 {
-    -ms-flex-positive: 7;
-        flex-grow: 7;
+    flex-grow: 7;
   }
 
   .xxl\:flex-grow-8 {
-    -ms-flex-positive: 8;
-        flex-grow: 8;
+    flex-grow: 8;
   }
 
   .xxl\:flex-grow-9 {
-    -ms-flex-positive: 9;
-        flex-grow: 9;
+    flex-grow: 9;
   }
 
   .xxl\:flex-grow-10 {
-    -ms-flex-positive: 10;
-        flex-grow: 10;
+    flex-grow: 10;
   }
 
   .xxl\:flex-grow-11 {
-    -ms-flex-positive: 11;
-        flex-grow: 11;
+    flex-grow: 11;
   }
 
   .xxl\:flex-grow-12 {
-    -ms-flex-positive: 12;
-        flex-grow: 12;
+    flex-grow: 12;
   }
 
   .xxl\:flex-shrink-0 {
-    -ms-flex-negative: 0;
-        flex-shrink: 0;
+    flex-shrink: 0;
   }
 
   .xxl\:flex-shrink-1 {
-    -ms-flex-negative: 1;
-        flex-shrink: 1;
+    flex-shrink: 1;
   }
 
   .xxl\:flex-shrink-2 {
-    -ms-flex-negative: 2;
-        flex-shrink: 2;
+    flex-shrink: 2;
   }
 
   .xxl\:flex-shrink-3 {
-    -ms-flex-negative: 3;
-        flex-shrink: 3;
+    flex-shrink: 3;
   }
 
   .xxl\:flex-shrink-4 {
-    -ms-flex-negative: 4;
-        flex-shrink: 4;
+    flex-shrink: 4;
   }
 
   .xxl\:flex-shrink-5 {
-    -ms-flex-negative: 5;
-        flex-shrink: 5;
+    flex-shrink: 5;
   }
 
   .xxl\:flex-shrink-6 {
-    -ms-flex-negative: 6;
-        flex-shrink: 6;
+    flex-shrink: 6;
   }
 
   .xxl\:flex-shrink-7 {
-    -ms-flex-negative: 7;
-        flex-shrink: 7;
+    flex-shrink: 7;
   }
 
   .xxl\:flex-shrink-8 {
-    -ms-flex-negative: 8;
-        flex-shrink: 8;
+    flex-shrink: 8;
   }
 
   .xxl\:flex-shrink-9 {
-    -ms-flex-negative: 9;
-        flex-shrink: 9;
+    flex-shrink: 9;
   }
 
   .xxl\:flex-shrink-10 {
-    -ms-flex-negative: 10;
-        flex-shrink: 10;
+    flex-shrink: 10;
   }
 
   .xxl\:flex-shrink-11 {
-    -ms-flex-negative: 11;
-        flex-shrink: 11;
+    flex-shrink: 11;
   }
 
   .xxl\:flex-shrink-12 {
-    -ms-flex-negative: 12;
-        flex-shrink: 12;
+    flex-shrink: 12;
   }
 
   .xxl\:flex-wrap-wrap {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
   }
 
   .xxl\:flex-wrap-reverse {
-    -ms-flex-wrap: wrap-reverse;
-        flex-wrap: wrap-reverse;
+    flex-wrap: wrap-reverse;
   }
 
   .xxl\:flex-wrap-nowrap {
-    -ms-flex-wrap: nowrap;
-        flex-wrap: nowrap;
+    flex-wrap: nowrap;
   }
 
   .xxl\:flex-1 {
-    -ms-flex: 1 1 0%;
-        flex: 1 1 0%;
+    flex: 1 1 0%;
   }
 
   .xxl\:flex-auto {
-    -ms-flex: 1 1 auto;
-        flex: 1 1 auto;
+    flex: 1 1 auto;
   }
 
   .xxl\:flex-initial {
-    -ms-flex: 0 1 auto;
-        flex: 0 1 auto;
+    flex: 0 1 auto;
   }
 
   .xxl\:flex-none {
-    -ms-flex: none;
-        flex: none;
+    flex: none;
   }
 
   .xxl\:float-right {
@@ -54031,33 +52524,27 @@ table {
   }
 
   .xxl\:justify-content-start {
-    -ms-flex-pack: start;
-        justify-content: flex-start;
+    justify-content: flex-start;
   }
 
   .xxl\:justify-content-end {
-    -ms-flex-pack: end;
-        justify-content: flex-end;
+    justify-content: flex-end;
   }
 
   .xxl\:justify-content-center {
-    -ms-flex-pack: center;
-        justify-content: center;
+    justify-content: center;
   }
 
   .xxl\:justify-content-between {
-    -ms-flex-pack: justify;
-        justify-content: space-between;
+    justify-content: space-between;
   }
 
   .xxl\:justify-content-around {
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
+    justify-content: space-around;
   }
 
   .xxl\:justify-content-evenly {
-    -ms-flex-pack: space-evenly;
-        justify-content: space-evenly;
+    justify-content: space-evenly;
   }
 
   .xxl\:justify-items-baseline {
@@ -56165,78 +54652,63 @@ table {
   }
 
   .xxl\:object-fit-contain {
-    -o-object-fit: contain;
-       object-fit: contain;
+    object-fit: contain;
   }
 
   .xxl\:object-fit-cover {
-    -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
   }
 
   .xxl\:object-fit-fill {
-    -o-object-fit: fill;
-       object-fit: fill;
+    object-fit: fill;
   }
 
   .xxl\:object-fit-none {
-    -o-object-fit: none;
-       object-fit: none;
+    object-fit: none;
   }
 
   .xxl\:object-fit-scale-down {
-    -o-object-fit: scale-down;
-       object-fit: scale-down;
+    object-fit: scale-down;
   }
 
   .xxl\:object-fit-inherit {
-    -o-object-fit: inherit;
-       object-fit: inherit;
+    object-fit: inherit;
   }
 
   .xxl\:object-position-top {
-    -o-object-position: top;
-       object-position: top;
+    object-position: top;
   }
 
   .xxl\:object-position-right {
-    -o-object-position: right;
-       object-position: right;
+    object-position: right;
   }
 
   .xxl\:object-position-bottom {
-    -o-object-position: bottom;
-       object-position: bottom;
+    object-position: bottom;
   }
 
   .xxl\:object-position-left {
-    -o-object-position: left;
-       object-position: left;
+    object-position: left;
   }
 
   .xxl\:object-position-center {
-    -o-object-position: center;
-       object-position: center;
+    object-position: center;
   }
 
   .xxl\:object-position-left-top {
-    -o-object-position: left top;
-       object-position: left top;
+    object-position: left top;
   }
 
   .xxl\:object-position-left-bottom {
-    -o-object-position: left bottom;
-       object-position: left bottom;
+    object-position: left bottom;
   }
 
   .xxl\:object-position-right-top {
-    -o-object-position: right top;
-       object-position: right top;
+    object-position: right top;
   }
 
   .xxl\:object-position-right-bottom {
-    -o-object-position: right bottom;
-       object-position: right bottom;
+    object-position: right bottom;
   }
 
   .xxl\:opacity-0 {
@@ -56324,58 +54796,47 @@ table {
   }
 
   .xxl\:order-0 {
-    -ms-flex-order: 0;
-        order: 0;
+    order: 0;
   }
 
   .xxl\:order-1 {
-    -ms-flex-order: 1;
-        order: 1;
+    order: 1;
   }
 
   .xxl\:order-2 {
-    -ms-flex-order: 2;
-        order: 2;
+    order: 2;
   }
 
   .xxl\:order-3 {
-    -ms-flex-order: 3;
-        order: 3;
+    order: 3;
   }
 
   .xxl\:order-4 {
-    -ms-flex-order: 4;
-        order: 4;
+    order: 4;
   }
 
   .xxl\:order-5 {
-    -ms-flex-order: 5;
-        order: 5;
+    order: 5;
   }
 
   .xxl\:order-6 {
-    -ms-flex-order: 6;
-        order: 6;
+    order: 6;
   }
 
   .xxl\:order-7 {
-    -ms-flex-order: 7;
-        order: 7;
+    order: 7;
   }
 
   .xxl\:order-8 {
-    -ms-flex-order: 8;
-        order: 8;
+    order: 8;
   }
 
   .xxl\:order-9 {
-    -ms-flex-order: 9;
-        order: 9;
+    order: 9;
   }
 
   .xxl\:order-10 {
-    -ms-flex-order: 10;
-        order: 10;
+    order: 10;
   }
 
   .xxl\:overflow-wrap-normal {
@@ -56439,18 +54900,15 @@ table {
   }
 
   .xxl\:overscroll-behavior-auto {
-    -ms-scroll-chaining: chained;
-        overscroll-behavior: auto;
+    overscroll-behavior: auto;
   }
 
   .xxl\:overscroll-behavior-contain {
-    -ms-scroll-chaining: none;
-        overscroll-behavior: contain;
+    overscroll-behavior: contain;
   }
 
   .xxl\:overscroll-behavior-none {
-    -ms-scroll-chaining: none;
-        overscroll-behavior: none;
+    overscroll-behavior: none;
   }
 
   .xxl\:overscroll-behavior-y-auto {
@@ -57410,7 +55868,6 @@ table {
   }
 
   .xxl\:position-sticky {
-    position: -webkit-sticky;
     position: sticky;
   }
 
@@ -58459,53 +56916,43 @@ table {
   }
 
   .xxl\:origin-top {
-    -webkit-transform-origin: top;
-            transform-origin: top;
+    transform-origin: top;
   }
 
   .xxl\:origin-right {
-    -webkit-transform-origin: right;
-            transform-origin: right;
+    transform-origin: right;
   }
 
   .xxl\:origin-bottom {
-    -webkit-transform-origin: bottom;
-            transform-origin: bottom;
+    transform-origin: bottom;
   }
 
   .xxl\:origin-left {
-    -webkit-transform-origin: left;
-            transform-origin: left;
+    transform-origin: left;
   }
 
   .xxl\:origin-center {
-    -webkit-transform-origin: center;
-            transform-origin: center;
+    transform-origin: center;
   }
 
   .xxl\:origin-top-left {
-    -webkit-transform-origin: top left;
-            transform-origin: top left;
+    transform-origin: top left;
   }
 
   .xxl\:origin-top-right {
-    -webkit-transform-origin: top right;
-            transform-origin: top right;
+    transform-origin: top right;
   }
 
   .xxl\:origin-bottom-left {
-    -webkit-transform-origin: bottom left;
-            transform-origin: bottom left;
+    transform-origin: bottom left;
   }
 
   .xxl\:origin-bottom-right {
-    -webkit-transform-origin: bottom right;
-            transform-origin: bottom right;
+    transform-origin: bottom right;
   }
 
   .xxl\:transform-none {
-    -webkit-transform: none;
-            transform: none;
+    transform: none;
   }
 
   .xxl\:translate-x-0 {
@@ -59049,30 +57496,19 @@ table {
   }
 
   .xxl\:user-select-none {
-    -webkit-user-select: none;
-       -moz-user-select: none;
-        -ms-user-select: none;
-            user-select: none;
+    user-select: none;
   }
 
   .xxl\:user-select-text {
-    -webkit-user-select: text;
-       -moz-user-select: text;
-        -ms-user-select: text;
-            user-select: text;
+    user-select: text;
   }
 
   .xxl\:user-select-all {
-    -webkit-user-select: all;
-       -moz-user-select: all;
-            user-select: all;
+    user-select: all;
   }
 
   .xxl\:user-select-auto {
-    -webkit-user-select: auto;
-       -moz-user-select: auto;
-        -ms-user-select: auto;
-            user-select: auto;
+    user-select: auto;
   }
 
   .xxl\:vertical-align-baseline {
@@ -59472,14 +57908,10 @@ table {
   }
 
   .xxl\:width-min-content {
-    width: -webkit-min-content;
-    width: -moz-min-content;
     width: min-content;
   }
 
   .xxl\:width-max-content {
-    width: -webkit-max-content;
-    width: -moz-max-content;
     width: max-content;
   }
 
@@ -59884,12 +58316,10 @@ table {
   }
 
   .xxl\:grid-auto-columns-min {
-    grid-auto-columns: -webkit-min-content;
     grid-auto-columns: min-content;
   }
 
   .xxl\:grid-auto-columns-max {
-    grid-auto-columns: -webkit-max-content;
     grid-auto-columns: max-content;
   }
 
@@ -59898,12 +58328,10 @@ table {
   }
 
   .xxl\:grid-auto-rows-min {
-    grid-auto-rows: -webkit-min-content;
     grid-auto-rows: min-content;
   }
 
   .xxl\:grid-auto-rows-max {
-    grid-auto-rows: -webkit-max-content;
     grid-auto-rows: max-content;
   }
 
@@ -60012,81 +58440,55 @@ table {
   }
 
   .xxl\:column-gap-0 {
-    -webkit-column-gap: 0;
-       -moz-column-gap: 0;
-            column-gap: 0;
+    column-gap: 0;
   }
 
   .xxl\:column-gap-1 {
-    -webkit-column-gap: 0.125rem;
-       -moz-column-gap: 0.125rem;
-            column-gap: 0.125rem;
+    column-gap: 0.125rem;
   }
 
   .xxl\:column-gap-2 {
-    -webkit-column-gap: 0.25rem;
-       -moz-column-gap: 0.25rem;
-            column-gap: 0.25rem;
+    column-gap: 0.25rem;
   }
 
   .xxl\:column-gap-3 {
-    -webkit-column-gap: 0.375rem;
-       -moz-column-gap: 0.375rem;
-            column-gap: 0.375rem;
+    column-gap: 0.375rem;
   }
 
   .xxl\:column-gap-4 {
-    -webkit-column-gap: 0.5;
-       -moz-column-gap: 0.5;
-            column-gap: 0.5;
+    column-gap: 0.5;
   }
 
   .xxl\:column-gap-5 {
-    -webkit-column-gap: 0.625rem;
-       -moz-column-gap: 0.625rem;
-            column-gap: 0.625rem;
+    column-gap: 0.625rem;
   }
 
   .xxl\:column-gap-6 {
-    -webkit-column-gap: 0.75rem;
-       -moz-column-gap: 0.75rem;
-            column-gap: 0.75rem;
+    column-gap: 0.75rem;
   }
 
   .xxl\:column-gap-7 {
-    -webkit-column-gap: 0.875rem;
-       -moz-column-gap: 0.875rem;
-            column-gap: 0.875rem;
+    column-gap: 0.875rem;
   }
 
   .xxl\:column-gap-8 {
-    -webkit-column-gap: 1rem;
-       -moz-column-gap: 1rem;
-            column-gap: 1rem;
+    column-gap: 1rem;
   }
 
   .xxl\:column-gap-9 {
-    -webkit-column-gap: 1.25rem;
-       -moz-column-gap: 1.25rem;
-            column-gap: 1.25rem;
+    column-gap: 1.25rem;
   }
 
   .xxl\:column-gap-10 {
-    -webkit-column-gap: 1.5rem;
-       -moz-column-gap: 1.5rem;
-            column-gap: 1.5rem;
+    column-gap: 1.5rem;
   }
 
   .xxl\:column-gap-11 {
-    -webkit-column-gap: 1.75rem;
-       -moz-column-gap: 1.75rem;
-            column-gap: 1.75rem;
+    column-gap: 1.75rem;
   }
 
   .xxl\:column-gap-12 {
-    -webkit-column-gap: 2rem;
-       -moz-column-gap: 2rem;
-            column-gap: 2rem;
+    column-gap: 2rem;
   }
 
   .xxl\:isolation-isolate {
@@ -60145,6 +58547,10 @@ table {
     mix-blend-mode: exclusion;
   }
 
+  .xxl\:mix-blend-mode-hue {
+    mix-blend-mode: hue;
+  }
+
   .xxl\:mix-blend-mode-saturation {
     mix-blend-mode: saturation;
   }
@@ -60156,67 +58562,117 @@ table {
   .xxl\:mix-blend-mode-luminosity {
     mix-blend-mode: luminosity;
   }
+
+  .xxl\:background-blend-mode-normal {
+    background-blend-mode: normal;
+  }
+
+  .xxl\:background-blend-mode-multiply {
+    background-blend-mode: multiply;
+  }
+
+  .xxl\:background-blend-mode-screen {
+    background-blend-mode: screen;
+  }
+
+  .xxl\:background-blend-mode-overlay {
+    background-blend-mode: overlay;
+  }
+
+  .xxl\:background-blend-mode-darken {
+    background-blend-mode: darken;
+  }
+
+  .xxl\:background-blend-mode-lighten {
+    background-blend-mode: lighten;
+  }
+
+  .xxl\:background-blend-mode-color-dodge {
+    background-blend-mode: color-dodge;
+  }
+
+  .xxl\:background-blend-mode-color-burn {
+    background-blend-mode: color-burn;
+  }
+
+  .xxl\:background-blend-mode-hard-light {
+    background-blend-mode: hard-light;
+  }
+
+  .xxl\:background-blend-mode-soft-light {
+    background-blend-mode: soft-light;
+  }
+
+  .xxl\:background-blend-mode-difference {
+    background-blend-mode: difference;
+  }
+
+  .xxl\:background-blend-mode-exclusion {
+    background-blend-mode: exclusion;
+  }
+
+  .xxl\:background-blend-mode-hue {
+    background-blend-mode: hue;
+  }
+
+  .xxl\:background-blend-mode-saturation {
+    background-blend-mode: saturation;
+  }
+
+  .xxl\:background-blend-mode-color {
+    background-blend-mode: color;
+  }
+
+  .xxl\:background-blend-mode-luminosity {
+    background-blend-mode: luminosity;
+  }
 }
 .appearance-auto {
-  -webkit-appearance: auto;
-     -moz-appearance: auto;
-          appearance: auto;
+  appearance: auto;
 }
 
 .appearance-none {
-  -webkit-appearance: none;
-     -moz-appearance: none;
-          appearance: none;
+  appearance: none;
 }
 
 .align-items-start {
-  -ms-flex-align: start;
-      align-items: flex-start;
+  align-items: flex-start;
 }
 
 .align-items-end {
-  -ms-flex-align: end;
-      align-items: flex-end;
+  align-items: flex-end;
 }
 
 .align-items-center {
-  -ms-flex-align: center;
-      align-items: center;
+  align-items: center;
 }
 
 .align-items-baseline {
-  -ms-flex-align: baseline;
-      align-items: baseline;
+  align-items: baseline;
 }
 
 .align-items-stretch {
-  -ms-flex-align: stretch;
-      align-items: stretch;
+  align-items: stretch;
 }
 
 .align-self-auto {
-  -ms-flex-item-align: auto;
-      align-self: auto;
+  align-self: auto;
 }
 
 .align-self-start {
-  -ms-flex-item-align: start;
-      align-self: flex-start;
+  align-self: flex-start;
 }
 
 .align-self-end {
-  -ms-flex-item-align: end;
-      align-self: flex-end;
+  align-self: flex-end;
 }
 
 .align-self-center {
-  -ms-flex-item-align: center;
-      align-self: center;
+  align-self: center;
 }
 
 .align-self-stretch {
-  -ms-flex-item-align: stretch;
-      align-self: stretch;
+  align-self: stretch;
 }
 
 .background-attachment-fixed {
@@ -60244,8 +58700,7 @@ table {
 }
 
 .background-clip-text {
-  -webkit-background-clip: text;
-          background-clip: text;
+  background-clip: text;
 }
 
 .bg-red-600 {
@@ -60855,220 +59310,44 @@ table {
   border-color: #ffffff;
 }
 
-.placeholder-transparent::-webkit-input-placeholder {
-  color: transparent;
-}
-
-.placeholder-transparent::-moz-placeholder {
-  color: transparent;
-}
-
-.placeholder-transparent:-ms-input-placeholder {
-  color: transparent;
-}
-
-.placeholder-transparent::-ms-input-placeholder {
-  color: transparent;
-}
-
 .placeholder-transparent::placeholder {
   color: transparent;
-}
-
-.placeholder-primary::-webkit-input-placeholder {
-  color: #FAE898;
-}
-
-.placeholder-primary::-moz-placeholder {
-  color: #FAE898;
-}
-
-.placeholder-primary:-ms-input-placeholder {
-  color: #FAE898;
-}
-
-.placeholder-primary::-ms-input-placeholder {
-  color: #FAE898;
 }
 
 .placeholder-primary::placeholder {
   color: #FAE898;
 }
 
-.placeholder-secondary::-webkit-input-placeholder {
-  color: #999999;
-}
-
-.placeholder-secondary::-moz-placeholder {
-  color: #999999;
-}
-
-.placeholder-secondary:-ms-input-placeholder {
-  color: #999999;
-}
-
-.placeholder-secondary::-ms-input-placeholder {
-  color: #999999;
-}
-
 .placeholder-secondary::placeholder {
   color: #999999;
-}
-
-.placeholder-success::-webkit-input-placeholder {
-  color: #198754;
-}
-
-.placeholder-success::-moz-placeholder {
-  color: #198754;
-}
-
-.placeholder-success:-ms-input-placeholder {
-  color: #198754;
-}
-
-.placeholder-success::-ms-input-placeholder {
-  color: #198754;
 }
 
 .placeholder-success::placeholder {
   color: #198754;
 }
 
-.placeholder-info::-webkit-input-placeholder {
-  color: #0dcaf0;
-}
-
-.placeholder-info::-moz-placeholder {
-  color: #0dcaf0;
-}
-
-.placeholder-info:-ms-input-placeholder {
-  color: #0dcaf0;
-}
-
-.placeholder-info::-ms-input-placeholder {
-  color: #0dcaf0;
-}
-
 .placeholder-info::placeholder {
   color: #0dcaf0;
-}
-
-.placeholder-warning::-webkit-input-placeholder {
-  color: #ffc107;
-}
-
-.placeholder-warning::-moz-placeholder {
-  color: #ffc107;
-}
-
-.placeholder-warning:-ms-input-placeholder {
-  color: #ffc107;
-}
-
-.placeholder-warning::-ms-input-placeholder {
-  color: #ffc107;
 }
 
 .placeholder-warning::placeholder {
   color: #ffc107;
 }
 
-.placeholder-danger::-webkit-input-placeholder {
-  color: #dc3545;
-}
-
-.placeholder-danger::-moz-placeholder {
-  color: #dc3545;
-}
-
-.placeholder-danger:-ms-input-placeholder {
-  color: #dc3545;
-}
-
-.placeholder-danger::-ms-input-placeholder {
-  color: #dc3545;
-}
-
 .placeholder-danger::placeholder {
   color: #dc3545;
-}
-
-.placeholder-dark::-webkit-input-placeholder {
-  color: #333333;
-}
-
-.placeholder-dark::-moz-placeholder {
-  color: #333333;
-}
-
-.placeholder-dark:-ms-input-placeholder {
-  color: #333333;
-}
-
-.placeholder-dark::-ms-input-placeholder {
-  color: #333333;
 }
 
 .placeholder-dark::placeholder {
   color: #333333;
 }
 
-.placeholder-light::-webkit-input-placeholder {
-  color: #f1f1f1;
-}
-
-.placeholder-light::-moz-placeholder {
-  color: #f1f1f1;
-}
-
-.placeholder-light:-ms-input-placeholder {
-  color: #f1f1f1;
-}
-
-.placeholder-light::-ms-input-placeholder {
-  color: #f1f1f1;
-}
-
 .placeholder-light::placeholder {
   color: #f1f1f1;
 }
 
-.placeholder-black::-webkit-input-placeholder {
-  color: #000000;
-}
-
-.placeholder-black::-moz-placeholder {
-  color: #000000;
-}
-
-.placeholder-black:-ms-input-placeholder {
-  color: #000000;
-}
-
-.placeholder-black::-ms-input-placeholder {
-  color: #000000;
-}
-
 .placeholder-black::placeholder {
   color: #000000;
-}
-
-.placeholder-white::-webkit-input-placeholder {
-  color: #ffffff;
-}
-
-.placeholder-white::-moz-placeholder {
-  color: #ffffff;
-}
-
-.placeholder-white:-ms-input-placeholder {
-  color: #ffffff;
-}
-
-.placeholder-white::-ms-input-placeholder {
-  color: #ffffff;
 }
 
 .placeholder-white::placeholder {
@@ -63318,12 +61597,10 @@ table {
 }
 
 .cursor-grab {
-  cursor: -webkit-grab;
   cursor: grab;
 }
 
 .cursor-grabbing {
-  cursor: -webkit-grabbing;
   cursor: grabbing;
 }
 
@@ -63428,7 +61705,6 @@ table {
 }
 
 .display-flex {
-  display: -ms-flexbox;
   display: flex;
 }
 
@@ -63445,7 +61721,6 @@ table {
 }
 
 .display-inline-flex {
-  display: -ms-inline-flexbox;
   display: inline-flex;
 }
 
@@ -63510,188 +61785,151 @@ table {
 }
 
 .flex-direction-row {
-  -ms-flex-direction: row;
-      flex-direction: row;
+  flex-direction: row;
 }
 
 .flex-direction-row-reverse {
-  -ms-flex-direction: row-reverse;
-      flex-direction: row-reverse;
+  flex-direction: row-reverse;
 }
 
 .flex-direction-column {
-  -ms-flex-direction: column;
-      flex-direction: column;
+  flex-direction: column;
 }
 
 .flex-direction-column-reverse {
-  -ms-flex-direction: column-reverse;
-      flex-direction: column-reverse;
+  flex-direction: column-reverse;
 }
 
 .flex-grow-0 {
-  -ms-flex-positive: 0;
-      flex-grow: 0;
+  flex-grow: 0;
 }
 
 .flex-grow-1 {
-  -ms-flex-positive: 1;
-      flex-grow: 1;
+  flex-grow: 1;
 }
 
 .flex-grow-2 {
-  -ms-flex-positive: 2;
-      flex-grow: 2;
+  flex-grow: 2;
 }
 
 .flex-grow-3 {
-  -ms-flex-positive: 3;
-      flex-grow: 3;
+  flex-grow: 3;
 }
 
 .flex-grow-4 {
-  -ms-flex-positive: 4;
-      flex-grow: 4;
+  flex-grow: 4;
 }
 
 .flex-grow-5 {
-  -ms-flex-positive: 5;
-      flex-grow: 5;
+  flex-grow: 5;
 }
 
 .flex-grow-6 {
-  -ms-flex-positive: 6;
-      flex-grow: 6;
+  flex-grow: 6;
 }
 
 .flex-grow-7 {
-  -ms-flex-positive: 7;
-      flex-grow: 7;
+  flex-grow: 7;
 }
 
 .flex-grow-8 {
-  -ms-flex-positive: 8;
-      flex-grow: 8;
+  flex-grow: 8;
 }
 
 .flex-grow-9 {
-  -ms-flex-positive: 9;
-      flex-grow: 9;
+  flex-grow: 9;
 }
 
 .flex-grow-10 {
-  -ms-flex-positive: 10;
-      flex-grow: 10;
+  flex-grow: 10;
 }
 
 .flex-grow-11 {
-  -ms-flex-positive: 11;
-      flex-grow: 11;
+  flex-grow: 11;
 }
 
 .flex-grow-12 {
-  -ms-flex-positive: 12;
-      flex-grow: 12;
+  flex-grow: 12;
 }
 
 .flex-shrink-0 {
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
+  flex-shrink: 0;
 }
 
 .flex-shrink-1 {
-  -ms-flex-negative: 1;
-      flex-shrink: 1;
+  flex-shrink: 1;
 }
 
 .flex-shrink-2 {
-  -ms-flex-negative: 2;
-      flex-shrink: 2;
+  flex-shrink: 2;
 }
 
 .flex-shrink-3 {
-  -ms-flex-negative: 3;
-      flex-shrink: 3;
+  flex-shrink: 3;
 }
 
 .flex-shrink-4 {
-  -ms-flex-negative: 4;
-      flex-shrink: 4;
+  flex-shrink: 4;
 }
 
 .flex-shrink-5 {
-  -ms-flex-negative: 5;
-      flex-shrink: 5;
+  flex-shrink: 5;
 }
 
 .flex-shrink-6 {
-  -ms-flex-negative: 6;
-      flex-shrink: 6;
+  flex-shrink: 6;
 }
 
 .flex-shrink-7 {
-  -ms-flex-negative: 7;
-      flex-shrink: 7;
+  flex-shrink: 7;
 }
 
 .flex-shrink-8 {
-  -ms-flex-negative: 8;
-      flex-shrink: 8;
+  flex-shrink: 8;
 }
 
 .flex-shrink-9 {
-  -ms-flex-negative: 9;
-      flex-shrink: 9;
+  flex-shrink: 9;
 }
 
 .flex-shrink-10 {
-  -ms-flex-negative: 10;
-      flex-shrink: 10;
+  flex-shrink: 10;
 }
 
 .flex-shrink-11 {
-  -ms-flex-negative: 11;
-      flex-shrink: 11;
+  flex-shrink: 11;
 }
 
 .flex-shrink-12 {
-  -ms-flex-negative: 12;
-      flex-shrink: 12;
+  flex-shrink: 12;
 }
 
 .flex-wrap-wrap {
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .flex-wrap-reverse {
-  -ms-flex-wrap: wrap-reverse;
-      flex-wrap: wrap-reverse;
+  flex-wrap: wrap-reverse;
 }
 
 .flex-wrap-nowrap {
-  -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap;
+  flex-wrap: nowrap;
 }
 
 .flex-1 {
-  -ms-flex: 1 1 0%;
-      flex: 1 1 0%;
+  flex: 1 1 0%;
 }
 
 .flex-auto {
-  -ms-flex: 1 1 auto;
-      flex: 1 1 auto;
+  flex: 1 1 auto;
 }
 
 .flex-initial {
-  -ms-flex: 0 1 auto;
-      flex: 0 1 auto;
+  flex: 0 1 auto;
 }
 
 .flex-none {
-  -ms-flex: none;
-      flex: none;
+  flex: none;
 }
 
 .float-right {
@@ -64039,33 +62277,27 @@ table {
 }
 
 .justify-content-start {
-  -ms-flex-pack: start;
-      justify-content: flex-start;
+  justify-content: flex-start;
 }
 
 .justify-content-end {
-  -ms-flex-pack: end;
-      justify-content: flex-end;
+  justify-content: flex-end;
 }
 
 .justify-content-center {
-  -ms-flex-pack: center;
-      justify-content: center;
+  justify-content: center;
 }
 
 .justify-content-between {
-  -ms-flex-pack: justify;
-      justify-content: space-between;
+  justify-content: space-between;
 }
 
 .justify-content-around {
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
 }
 
 .justify-content-evenly {
-  -ms-flex-pack: space-evenly;
-      justify-content: space-evenly;
+  justify-content: space-evenly;
 }
 
 .justify-items-baseline {
@@ -66173,78 +64405,63 @@ table {
 }
 
 .object-fit-contain {
-  -o-object-fit: contain;
-     object-fit: contain;
+  object-fit: contain;
 }
 
 .object-fit-cover {
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .object-fit-fill {
-  -o-object-fit: fill;
-     object-fit: fill;
+  object-fit: fill;
 }
 
 .object-fit-none {
-  -o-object-fit: none;
-     object-fit: none;
+  object-fit: none;
 }
 
 .object-fit-scale-down {
-  -o-object-fit: scale-down;
-     object-fit: scale-down;
+  object-fit: scale-down;
 }
 
 .object-fit-inherit {
-  -o-object-fit: inherit;
-     object-fit: inherit;
+  object-fit: inherit;
 }
 
 .object-position-top {
-  -o-object-position: top;
-     object-position: top;
+  object-position: top;
 }
 
 .object-position-right {
-  -o-object-position: right;
-     object-position: right;
+  object-position: right;
 }
 
 .object-position-bottom {
-  -o-object-position: bottom;
-     object-position: bottom;
+  object-position: bottom;
 }
 
 .object-position-left {
-  -o-object-position: left;
-     object-position: left;
+  object-position: left;
 }
 
 .object-position-center {
-  -o-object-position: center;
-     object-position: center;
+  object-position: center;
 }
 
 .object-position-left-top {
-  -o-object-position: left top;
-     object-position: left top;
+  object-position: left top;
 }
 
 .object-position-left-bottom {
-  -o-object-position: left bottom;
-     object-position: left bottom;
+  object-position: left bottom;
 }
 
 .object-position-right-top {
-  -o-object-position: right top;
-     object-position: right top;
+  object-position: right top;
 }
 
 .object-position-right-bottom {
-  -o-object-position: right bottom;
-     object-position: right bottom;
+  object-position: right bottom;
 }
 
 .opacity-0 {
@@ -66332,58 +64549,47 @@ table {
 }
 
 .order-0 {
-  -ms-flex-order: 0;
-      order: 0;
+  order: 0;
 }
 
 .order-1 {
-  -ms-flex-order: 1;
-      order: 1;
+  order: 1;
 }
 
 .order-2 {
-  -ms-flex-order: 2;
-      order: 2;
+  order: 2;
 }
 
 .order-3 {
-  -ms-flex-order: 3;
-      order: 3;
+  order: 3;
 }
 
 .order-4 {
-  -ms-flex-order: 4;
-      order: 4;
+  order: 4;
 }
 
 .order-5 {
-  -ms-flex-order: 5;
-      order: 5;
+  order: 5;
 }
 
 .order-6 {
-  -ms-flex-order: 6;
-      order: 6;
+  order: 6;
 }
 
 .order-7 {
-  -ms-flex-order: 7;
-      order: 7;
+  order: 7;
 }
 
 .order-8 {
-  -ms-flex-order: 8;
-      order: 8;
+  order: 8;
 }
 
 .order-9 {
-  -ms-flex-order: 9;
-      order: 9;
+  order: 9;
 }
 
 .order-10 {
-  -ms-flex-order: 10;
-      order: 10;
+  order: 10;
 }
 
 .overflow-wrap-normal {
@@ -66447,18 +64653,15 @@ table {
 }
 
 .overscroll-behavior-auto {
-  -ms-scroll-chaining: chained;
-      overscroll-behavior: auto;
+  overscroll-behavior: auto;
 }
 
 .overscroll-behavior-contain {
-  -ms-scroll-chaining: none;
-      overscroll-behavior: contain;
+  overscroll-behavior: contain;
 }
 
 .overscroll-behavior-none {
-  -ms-scroll-chaining: none;
-      overscroll-behavior: none;
+  overscroll-behavior: none;
 }
 
 .overscroll-behavior-y-auto {
@@ -67418,7 +65621,6 @@ table {
 }
 
 .position-sticky {
-  position: -webkit-sticky;
   position: sticky;
 }
 
@@ -68467,58 +66669,47 @@ table {
 }
 
 .origin-top {
-  -webkit-transform-origin: top;
-          transform-origin: top;
+  transform-origin: top;
 }
 
 .origin-right {
-  -webkit-transform-origin: right;
-          transform-origin: right;
+  transform-origin: right;
 }
 
 .origin-bottom {
-  -webkit-transform-origin: bottom;
-          transform-origin: bottom;
+  transform-origin: bottom;
 }
 
 .origin-left {
-  -webkit-transform-origin: left;
-          transform-origin: left;
+  transform-origin: left;
 }
 
 .origin-center {
-  -webkit-transform-origin: center;
-          transform-origin: center;
+  transform-origin: center;
 }
 
 .origin-top-left {
-  -webkit-transform-origin: top left;
-          transform-origin: top left;
+  transform-origin: top left;
 }
 
 .origin-top-right {
-  -webkit-transform-origin: top right;
-          transform-origin: top right;
+  transform-origin: top right;
 }
 
 .origin-bottom-left {
-  -webkit-transform-origin: bottom left;
-          transform-origin: bottom left;
+  transform-origin: bottom left;
 }
 
 .origin-bottom-right {
-  -webkit-transform-origin: bottom right;
-          transform-origin: bottom right;
+  transform-origin: bottom right;
 }
 
 .transform-none {
-  -webkit-transform: none;
-          transform: none;
+  transform: none;
 }
 
 .transform {
-  -webkit-transform: translateX(var(--translate-x)) translateY(var(--translate-y)) rotate(var(--rotate)) skewX(var(--skew-x)) skewY(var(--skew-y)) scaleX(var(--scale-x)) scaleY(var(--scale-y));
-          transform: translateX(var(--translate-x)) translateY(var(--translate-y)) rotate(var(--rotate)) skewX(var(--skew-x)) skewY(var(--skew-y)) scaleX(var(--scale-x)) scaleY(var(--scale-y));
+  transform: translateX(var(--translate-x)) translateY(var(--translate-y)) rotate(var(--rotate)) skewX(var(--skew-x)) skewY(var(--skew-y)) scaleX(var(--scale-x)) scaleY(var(--scale-y));
 }
 
 .transform {
@@ -69072,30 +67263,19 @@ table {
 }
 
 .user-select-none {
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
+  user-select: none;
 }
 
 .user-select-text {
-  -webkit-user-select: text;
-     -moz-user-select: text;
-      -ms-user-select: text;
-          user-select: text;
+  user-select: text;
 }
 
 .user-select-all {
-  -webkit-user-select: all;
-     -moz-user-select: all;
-          user-select: all;
+  user-select: all;
 }
 
 .user-select-auto {
-  -webkit-user-select: auto;
-     -moz-user-select: auto;
-      -ms-user-select: auto;
-          user-select: auto;
+  user-select: auto;
 }
 
 .vertical-align-baseline {
@@ -69495,14 +67675,10 @@ table {
 }
 
 .width-min-content {
-  width: -webkit-min-content;
-  width: -moz-min-content;
   width: min-content;
 }
 
 .width-max-content {
-  width: -webkit-max-content;
-  width: -moz-max-content;
   width: max-content;
 }
 
@@ -69907,12 +68083,10 @@ table {
 }
 
 .grid-auto-columns-min {
-  grid-auto-columns: -webkit-min-content;
   grid-auto-columns: min-content;
 }
 
 .grid-auto-columns-max {
-  grid-auto-columns: -webkit-max-content;
   grid-auto-columns: max-content;
 }
 
@@ -69921,12 +68095,10 @@ table {
 }
 
 .grid-auto-rows-min {
-  grid-auto-rows: -webkit-min-content;
   grid-auto-rows: min-content;
 }
 
 .grid-auto-rows-max {
-  grid-auto-rows: -webkit-max-content;
   grid-auto-rows: max-content;
 }
 
@@ -70035,81 +68207,55 @@ table {
 }
 
 .column-gap-0 {
-  -webkit-column-gap: 0;
-     -moz-column-gap: 0;
-          column-gap: 0;
+  column-gap: 0;
 }
 
 .column-gap-1 {
-  -webkit-column-gap: 0.125rem;
-     -moz-column-gap: 0.125rem;
-          column-gap: 0.125rem;
+  column-gap: 0.125rem;
 }
 
 .column-gap-2 {
-  -webkit-column-gap: 0.25rem;
-     -moz-column-gap: 0.25rem;
-          column-gap: 0.25rem;
+  column-gap: 0.25rem;
 }
 
 .column-gap-3 {
-  -webkit-column-gap: 0.375rem;
-     -moz-column-gap: 0.375rem;
-          column-gap: 0.375rem;
+  column-gap: 0.375rem;
 }
 
 .column-gap-4 {
-  -webkit-column-gap: 0.5;
-     -moz-column-gap: 0.5;
-          column-gap: 0.5;
+  column-gap: 0.5;
 }
 
 .column-gap-5 {
-  -webkit-column-gap: 0.625rem;
-     -moz-column-gap: 0.625rem;
-          column-gap: 0.625rem;
+  column-gap: 0.625rem;
 }
 
 .column-gap-6 {
-  -webkit-column-gap: 0.75rem;
-     -moz-column-gap: 0.75rem;
-          column-gap: 0.75rem;
+  column-gap: 0.75rem;
 }
 
 .column-gap-7 {
-  -webkit-column-gap: 0.875rem;
-     -moz-column-gap: 0.875rem;
-          column-gap: 0.875rem;
+  column-gap: 0.875rem;
 }
 
 .column-gap-8 {
-  -webkit-column-gap: 1rem;
-     -moz-column-gap: 1rem;
-          column-gap: 1rem;
+  column-gap: 1rem;
 }
 
 .column-gap-9 {
-  -webkit-column-gap: 1.25rem;
-     -moz-column-gap: 1.25rem;
-          column-gap: 1.25rem;
+  column-gap: 1.25rem;
 }
 
 .column-gap-10 {
-  -webkit-column-gap: 1.5rem;
-     -moz-column-gap: 1.5rem;
-          column-gap: 1.5rem;
+  column-gap: 1.5rem;
 }
 
 .column-gap-11 {
-  -webkit-column-gap: 1.75rem;
-     -moz-column-gap: 1.75rem;
-          column-gap: 1.75rem;
+  column-gap: 1.75rem;
 }
 
 .column-gap-12 {
-  -webkit-column-gap: 2rem;
-     -moz-column-gap: 2rem;
-          column-gap: 2rem;
+  column-gap: 2rem;
 }
 
 .isolation-isolate {
@@ -70168,6 +68314,10 @@ table {
   mix-blend-mode: exclusion;
 }
 
+.mix-blend-mode-hue {
+  mix-blend-mode: hue;
+}
+
 .mix-blend-mode-saturation {
   mix-blend-mode: saturation;
 }
@@ -70178,6 +68328,70 @@ table {
 
 .mix-blend-mode-luminosity {
   mix-blend-mode: luminosity;
+}
+
+.background-blend-mode-normal {
+  background-blend-mode: normal;
+}
+
+.background-blend-mode-multiply {
+  background-blend-mode: multiply;
+}
+
+.background-blend-mode-screen {
+  background-blend-mode: screen;
+}
+
+.background-blend-mode-overlay {
+  background-blend-mode: overlay;
+}
+
+.background-blend-mode-darken {
+  background-blend-mode: darken;
+}
+
+.background-blend-mode-lighten {
+  background-blend-mode: lighten;
+}
+
+.background-blend-mode-color-dodge {
+  background-blend-mode: color-dodge;
+}
+
+.background-blend-mode-color-burn {
+  background-blend-mode: color-burn;
+}
+
+.background-blend-mode-hard-light {
+  background-blend-mode: hard-light;
+}
+
+.background-blend-mode-soft-light {
+  background-blend-mode: soft-light;
+}
+
+.background-blend-mode-difference {
+  background-blend-mode: difference;
+}
+
+.background-blend-mode-exclusion {
+  background-blend-mode: exclusion;
+}
+
+.background-blend-mode-hue {
+  background-blend-mode: hue;
+}
+
+.background-blend-mode-saturation {
+  background-blend-mode: saturation;
+}
+
+.background-blend-mode-color {
+  background-blend-mode: color;
+}
+
+.background-blend-mode-luminosity {
+  background-blend-mode: luminosity;
 }
 
 /*# sourceMappingURL=madosel.css.map*/

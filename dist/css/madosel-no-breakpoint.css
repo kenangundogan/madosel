@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /*!
- * Madosel 1.0.0-alpha6
+ * Madosel 1.0.0-alpha7
  * Copyright 2020-2021 Kenan Gündoğan
  * https://www.madosel.com
  * Licensed under MIT https://github.com/kenangundogan/madosel/blob/master/LICENSE
@@ -56,15 +56,11 @@ table {
 }
 
 .appearance-auto {
-  -webkit-appearance: auto;
-     -moz-appearance: auto;
-          appearance: auto;
+  appearance: auto;
 }
 
 .appearance-none {
-  -webkit-appearance: none;
-     -moz-appearance: none;
-          appearance: none;
+  appearance: none;
 }
 
 .align-items-start {
@@ -132,8 +128,7 @@ table {
 }
 
 .background-clip-text {
-  -webkit-background-clip: text;
-          background-clip: text;
+  background-clip: text;
 }
 
 .bg-red-600 {
@@ -743,88 +738,44 @@ table {
   border-color: #ffffff;
 }
 
-.placeholder-transparent::-moz-placeholder {
-  color: transparent;
-}
-
 .placeholder-transparent::placeholder {
   color: transparent;
-}
-
-.placeholder-primary::-moz-placeholder {
-  color: #FAE898;
 }
 
 .placeholder-primary::placeholder {
   color: #FAE898;
 }
 
-.placeholder-secondary::-moz-placeholder {
-  color: #999999;
-}
-
 .placeholder-secondary::placeholder {
   color: #999999;
-}
-
-.placeholder-success::-moz-placeholder {
-  color: #198754;
 }
 
 .placeholder-success::placeholder {
   color: #198754;
 }
 
-.placeholder-info::-moz-placeholder {
-  color: #0dcaf0;
-}
-
 .placeholder-info::placeholder {
   color: #0dcaf0;
-}
-
-.placeholder-warning::-moz-placeholder {
-  color: #ffc107;
 }
 
 .placeholder-warning::placeholder {
   color: #ffc107;
 }
 
-.placeholder-danger::-moz-placeholder {
-  color: #dc3545;
-}
-
 .placeholder-danger::placeholder {
   color: #dc3545;
-}
-
-.placeholder-dark::-moz-placeholder {
-  color: #333333;
 }
 
 .placeholder-dark::placeholder {
   color: #333333;
 }
 
-.placeholder-light::-moz-placeholder {
-  color: #f1f1f1;
-}
-
 .placeholder-light::placeholder {
   color: #f1f1f1;
 }
 
-.placeholder-black::-moz-placeholder {
-  color: #000000;
-}
-
 .placeholder-black::placeholder {
   color: #000000;
-}
-
-.placeholder-white::-moz-placeholder {
-  color: #ffffff;
 }
 
 .placeholder-white::placeholder {
@@ -3074,12 +3025,10 @@ table {
 }
 
 .cursor-grab {
-  cursor: -webkit-grab;
   cursor: grab;
 }
 
 .cursor-grabbing {
-  cursor: -webkit-grabbing;
   cursor: grabbing;
 }
 
@@ -5884,78 +5833,63 @@ table {
 }
 
 .object-fit-contain {
-  -o-object-fit: contain;
-     object-fit: contain;
+  object-fit: contain;
 }
 
 .object-fit-cover {
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .object-fit-fill {
-  -o-object-fit: fill;
-     object-fit: fill;
+  object-fit: fill;
 }
 
 .object-fit-none {
-  -o-object-fit: none;
-     object-fit: none;
+  object-fit: none;
 }
 
 .object-fit-scale-down {
-  -o-object-fit: scale-down;
-     object-fit: scale-down;
+  object-fit: scale-down;
 }
 
 .object-fit-inherit {
-  -o-object-fit: inherit;
-     object-fit: inherit;
+  object-fit: inherit;
 }
 
 .object-position-top {
-  -o-object-position: top;
-     object-position: top;
+  object-position: top;
 }
 
 .object-position-right {
-  -o-object-position: right;
-     object-position: right;
+  object-position: right;
 }
 
 .object-position-bottom {
-  -o-object-position: bottom;
-     object-position: bottom;
+  object-position: bottom;
 }
 
 .object-position-left {
-  -o-object-position: left;
-     object-position: left;
+  object-position: left;
 }
 
 .object-position-center {
-  -o-object-position: center;
-     object-position: center;
+  object-position: center;
 }
 
 .object-position-left-top {
-  -o-object-position: left top;
-     object-position: left top;
+  object-position: left top;
 }
 
 .object-position-left-bottom {
-  -o-object-position: left bottom;
-     object-position: left bottom;
+  object-position: left bottom;
 }
 
 .object-position-right-top {
-  -o-object-position: right top;
-     object-position: right top;
+  object-position: right top;
 }
 
 .object-position-right-bottom {
-  -o-object-position: right bottom;
-     object-position: right bottom;
+  object-position: right bottom;
 }
 
 .opacity-0 {
@@ -7115,7 +7049,6 @@ table {
 }
 
 .position-sticky {
-  position: -webkit-sticky;
   position: sticky;
 }
 
@@ -8758,27 +8691,19 @@ table {
 }
 
 .user-select-none {
-  -webkit-user-select: none;
-     -moz-user-select: none;
-          user-select: none;
+  user-select: none;
 }
 
 .user-select-text {
-  -webkit-user-select: text;
-     -moz-user-select: text;
-          user-select: text;
+  user-select: text;
 }
 
 .user-select-all {
-  -webkit-user-select: all;
-     -moz-user-select: all;
-          user-select: all;
+  user-select: all;
 }
 
 .user-select-auto {
-  -webkit-user-select: auto;
-     -moz-user-select: auto;
-          user-select: auto;
+  user-select: auto;
 }
 
 .vertical-align-baseline {
@@ -9178,14 +9103,10 @@ table {
 }
 
 .width-min-content {
-  width: -webkit-min-content;
-  width: -moz-min-content;
   width: min-content;
 }
 
 .width-max-content {
-  width: -webkit-max-content;
-  width: -moz-max-content;
   width: max-content;
 }
 
@@ -9590,12 +9511,10 @@ table {
 }
 
 .grid-auto-columns-min {
-  grid-auto-columns: -webkit-min-content;
   grid-auto-columns: min-content;
 }
 
 .grid-auto-columns-max {
-  grid-auto-columns: -webkit-max-content;
   grid-auto-columns: max-content;
 }
 
@@ -9604,12 +9523,10 @@ table {
 }
 
 .grid-auto-rows-min {
-  grid-auto-rows: -webkit-min-content;
   grid-auto-rows: min-content;
 }
 
 .grid-auto-rows-max {
-  grid-auto-rows: -webkit-max-content;
   grid-auto-rows: max-content;
 }
 
@@ -9718,68 +9635,55 @@ table {
 }
 
 .column-gap-0 {
-  -moz-column-gap: 0;
-       column-gap: 0;
+  column-gap: 0;
 }
 
 .column-gap-1 {
-  -moz-column-gap: 0.125rem;
-       column-gap: 0.125rem;
+  column-gap: 0.125rem;
 }
 
 .column-gap-2 {
-  -moz-column-gap: 0.25rem;
-       column-gap: 0.25rem;
+  column-gap: 0.25rem;
 }
 
 .column-gap-3 {
-  -moz-column-gap: 0.375rem;
-       column-gap: 0.375rem;
+  column-gap: 0.375rem;
 }
 
 .column-gap-4 {
-  -moz-column-gap: 0.5;
-       column-gap: 0.5;
+  column-gap: 0.5;
 }
 
 .column-gap-5 {
-  -moz-column-gap: 0.625rem;
-       column-gap: 0.625rem;
+  column-gap: 0.625rem;
 }
 
 .column-gap-6 {
-  -moz-column-gap: 0.75rem;
-       column-gap: 0.75rem;
+  column-gap: 0.75rem;
 }
 
 .column-gap-7 {
-  -moz-column-gap: 0.875rem;
-       column-gap: 0.875rem;
+  column-gap: 0.875rem;
 }
 
 .column-gap-8 {
-  -moz-column-gap: 1rem;
-       column-gap: 1rem;
+  column-gap: 1rem;
 }
 
 .column-gap-9 {
-  -moz-column-gap: 1.25rem;
-       column-gap: 1.25rem;
+  column-gap: 1.25rem;
 }
 
 .column-gap-10 {
-  -moz-column-gap: 1.5rem;
-       column-gap: 1.5rem;
+  column-gap: 1.5rem;
 }
 
 .column-gap-11 {
-  -moz-column-gap: 1.75rem;
-       column-gap: 1.75rem;
+  column-gap: 1.75rem;
 }
 
 .column-gap-12 {
-  -moz-column-gap: 2rem;
-       column-gap: 2rem;
+  column-gap: 2rem;
 }
 
 .isolation-isolate {
@@ -9838,6 +9742,10 @@ table {
   mix-blend-mode: exclusion;
 }
 
+.mix-blend-mode-hue {
+  mix-blend-mode: hue;
+}
+
 .mix-blend-mode-saturation {
   mix-blend-mode: saturation;
 }
@@ -9848,6 +9756,70 @@ table {
 
 .mix-blend-mode-luminosity {
   mix-blend-mode: luminosity;
+}
+
+.background-blend-mode-normal {
+  background-blend-mode: normal;
+}
+
+.background-blend-mode-multiply {
+  background-blend-mode: multiply;
+}
+
+.background-blend-mode-screen {
+  background-blend-mode: screen;
+}
+
+.background-blend-mode-overlay {
+  background-blend-mode: overlay;
+}
+
+.background-blend-mode-darken {
+  background-blend-mode: darken;
+}
+
+.background-blend-mode-lighten {
+  background-blend-mode: lighten;
+}
+
+.background-blend-mode-color-dodge {
+  background-blend-mode: color-dodge;
+}
+
+.background-blend-mode-color-burn {
+  background-blend-mode: color-burn;
+}
+
+.background-blend-mode-hard-light {
+  background-blend-mode: hard-light;
+}
+
+.background-blend-mode-soft-light {
+  background-blend-mode: soft-light;
+}
+
+.background-blend-mode-difference {
+  background-blend-mode: difference;
+}
+
+.background-blend-mode-exclusion {
+  background-blend-mode: exclusion;
+}
+
+.background-blend-mode-hue {
+  background-blend-mode: hue;
+}
+
+.background-blend-mode-saturation {
+  background-blend-mode: saturation;
+}
+
+.background-blend-mode-color {
+  background-blend-mode: color;
+}
+
+.background-blend-mode-luminosity {
+  background-blend-mode: luminosity;
 }
 
 /*# sourceMappingURL=madosel-no-breakpoint.css.map*/

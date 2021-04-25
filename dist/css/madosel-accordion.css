@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /*!
- * Madosel Accordion 1.0.0-alpha6
+ * Madosel Accordion 1.0.0-alpha7
  * Copyright 2020-2021 Kenan Gündoğan
  * https://www.madosel.com
  * Licensed under MIT https://github.com/kenangundogan/madosel/blob/master/LICENSE
@@ -27,10 +27,8 @@
   display: block;
 }
 .accordion-container .accordion-item .head {
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-align: center;
-      align-items: center;
+  align-items: center;
   border-radius: 5px;
   padding: 20px;
   cursor: pointer;
@@ -39,14 +37,10 @@
   background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 185.04 185.04'%3E%3Cg id='Layer_2' data-name='Layer 2'%3E%3Cg id='Layer_1-2' data-name='Layer 1'%3E%3Cpath d='M180.41,87.89H97.15V4.63a4.63,4.63,0,0,0-9.26,0V87.89H4.63a4.63,4.63,0,0,0,0,9.26H87.89v83.26a4.63,4.63,0,0,0,9.26,0V97.15h83.26a4.63,4.63,0,0,0,0-9.26Z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E") no-repeat center/50%;
   width: 30px;
   height: 30px;
-  -ms-flex: 0 0 30px;
-      flex: 0 0 30px;
-  display: -ms-inline-flexbox;
+  flex: 0 0 30px;
   display: inline-flex;
-  -ms-flex-align: center;
-      align-items: center;
-  -ms-flex-pack: center;
-      justify-content: center;
+  align-items: center;
+  justify-content: center;
   border-radius: 100%;
   margin-right: 10px;
   background-color: #fff;
