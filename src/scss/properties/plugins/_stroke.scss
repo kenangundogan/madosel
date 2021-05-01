@@ -1,0 +1,15 @@
+$stroke:(
+    "stroke": (
+        type: 1,
+        status: $stroke-status,
+        responsive: $stroke-responsive,
+        property: (
+            name: stroke,
+            class: null,
+            name-alternative: null,
+            list: (
+                current: currentColor,
+            )
+        )
+    )
+);

@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /*!
- * Madosel 1.0.0-alpha8
+ * Madosel 1.0.0-alpha9
  * Copyright 2020-2021 Kenan Gündoğan
  * https://www.madosel.com
  * Licensed under MIT https://github.com/kenangundogan/madosel/blob/master/LICENSE
@@ -10320,6 +10320,110 @@ table {
   .xs\:backdrop-filter-sepia-1 {
     --backdrop-filter-sepia: sepia(1);
   }
+
+  .xs\:fill-current {
+    fill: currentColor;
+  }
+
+  .xs\:stroke-current {
+    stroke: currentColor;
+  }
+
+  .xs\:stroke-width-0 {
+    stroke-width: 0;
+  }
+
+  .xs\:stroke-width-1 {
+    stroke-width: 1;
+  }
+
+  .xs\:stroke-width-2 {
+    stroke-width: 2;
+  }
+
+  .xs\:stroke-width-3 {
+    stroke-width: 3;
+  }
+
+  .xs\:stroke-width-4 {
+    stroke-width: 4;
+  }
+
+  .xs\:stroke-width-5 {
+    stroke-width: 5;
+  }
+
+  .xs\:stroke-width-6 {
+    stroke-width: 6;
+  }
+
+  .xs\:stroke-width-7 {
+    stroke-width: 7;
+  }
+
+  .xs\:stroke-width-8 {
+    stroke-width: 8;
+  }
+
+  .xs\:stroke-width-9 {
+    stroke-width: 9;
+  }
+
+  .xs\:stroke-width-10 {
+    stroke-width: 10;
+  }
+
+  .xs\:stroke-linecap-butt {
+    stroke-linecap: butt;
+  }
+
+  .xs\:stroke-linecap-round {
+    stroke-linecap: round;
+  }
+
+  .xs\:stroke-linecap-square {
+    stroke-linecap: square;
+  }
+
+  .xs\:stroke-dasharray-5 {
+    stroke-dasharray: 5;
+  }
+
+  .xs\:stroke-dasharray-10 {
+    stroke-dasharray: 10;
+  }
+
+  .xs\:stroke-dasharray-15 {
+    stroke-dasharray: 15;
+  }
+
+  .xs\:stroke-dasharray-20 {
+    stroke-dasharray: 20;
+  }
+
+  .xs\:stroke-dasharray-25 {
+    stroke-dasharray: 25;
+  }
+
+  .xs\:stroke-dasharray-30 {
+    stroke-dasharray: 30;
+  }
+
+  .xs\:stroke-dasharray-35 {
+    stroke-dasharray: 35;
+  }
+
+  .xs\:stroke-dasharray-40 {
+    stroke-dasharray: 40;
+  }
+
+  .xs\:stroke-dasharray-45 {
+    stroke-dasharray: 45;
+  }
+
+  .xs\:stroke-dasharray-50 {
+    stroke-dasharray: 50;
+  }
 }
 @media (min-width: 425px) {
   .sm\:appearance-auto {
@@ -20585,6 +20689,110 @@ table {
 
   .sm\:backdrop-filter-sepia-1 {
     --backdrop-filter-sepia: sepia(1);
+  }
+
+  .sm\:fill-current {
+    fill: currentColor;
+  }
+
+  .sm\:stroke-current {
+    stroke: currentColor;
+  }
+
+  .sm\:stroke-width-0 {
+    stroke-width: 0;
+  }
+
+  .sm\:stroke-width-1 {
+    stroke-width: 1;
+  }
+
+  .sm\:stroke-width-2 {
+    stroke-width: 2;
+  }
+
+  .sm\:stroke-width-3 {
+    stroke-width: 3;
+  }
+
+  .sm\:stroke-width-4 {
+    stroke-width: 4;
+  }
+
+  .sm\:stroke-width-5 {
+    stroke-width: 5;
+  }
+
+  .sm\:stroke-width-6 {
+    stroke-width: 6;
+  }
+
+  .sm\:stroke-width-7 {
+    stroke-width: 7;
+  }
+
+  .sm\:stroke-width-8 {
+    stroke-width: 8;
+  }
+
+  .sm\:stroke-width-9 {
+    stroke-width: 9;
+  }
+
+  .sm\:stroke-width-10 {
+    stroke-width: 10;
+  }
+
+  .sm\:stroke-linecap-butt {
+    stroke-linecap: butt;
+  }
+
+  .sm\:stroke-linecap-round {
+    stroke-linecap: round;
+  }
+
+  .sm\:stroke-linecap-square {
+    stroke-linecap: square;
+  }
+
+  .sm\:stroke-dasharray-5 {
+    stroke-dasharray: 5;
+  }
+
+  .sm\:stroke-dasharray-10 {
+    stroke-dasharray: 10;
+  }
+
+  .sm\:stroke-dasharray-15 {
+    stroke-dasharray: 15;
+  }
+
+  .sm\:stroke-dasharray-20 {
+    stroke-dasharray: 20;
+  }
+
+  .sm\:stroke-dasharray-25 {
+    stroke-dasharray: 25;
+  }
+
+  .sm\:stroke-dasharray-30 {
+    stroke-dasharray: 30;
+  }
+
+  .sm\:stroke-dasharray-35 {
+    stroke-dasharray: 35;
+  }
+
+  .sm\:stroke-dasharray-40 {
+    stroke-dasharray: 40;
+  }
+
+  .sm\:stroke-dasharray-45 {
+    stroke-dasharray: 45;
+  }
+
+  .sm\:stroke-dasharray-50 {
+    stroke-dasharray: 50;
   }
 }
 @media (min-width: 768px) {
@@ -30852,6 +31060,110 @@ table {
   .md\:backdrop-filter-sepia-1 {
     --backdrop-filter-sepia: sepia(1);
   }
+
+  .md\:fill-current {
+    fill: currentColor;
+  }
+
+  .md\:stroke-current {
+    stroke: currentColor;
+  }
+
+  .md\:stroke-width-0 {
+    stroke-width: 0;
+  }
+
+  .md\:stroke-width-1 {
+    stroke-width: 1;
+  }
+
+  .md\:stroke-width-2 {
+    stroke-width: 2;
+  }
+
+  .md\:stroke-width-3 {
+    stroke-width: 3;
+  }
+
+  .md\:stroke-width-4 {
+    stroke-width: 4;
+  }
+
+  .md\:stroke-width-5 {
+    stroke-width: 5;
+  }
+
+  .md\:stroke-width-6 {
+    stroke-width: 6;
+  }
+
+  .md\:stroke-width-7 {
+    stroke-width: 7;
+  }
+
+  .md\:stroke-width-8 {
+    stroke-width: 8;
+  }
+
+  .md\:stroke-width-9 {
+    stroke-width: 9;
+  }
+
+  .md\:stroke-width-10 {
+    stroke-width: 10;
+  }
+
+  .md\:stroke-linecap-butt {
+    stroke-linecap: butt;
+  }
+
+  .md\:stroke-linecap-round {
+    stroke-linecap: round;
+  }
+
+  .md\:stroke-linecap-square {
+    stroke-linecap: square;
+  }
+
+  .md\:stroke-dasharray-5 {
+    stroke-dasharray: 5;
+  }
+
+  .md\:stroke-dasharray-10 {
+    stroke-dasharray: 10;
+  }
+
+  .md\:stroke-dasharray-15 {
+    stroke-dasharray: 15;
+  }
+
+  .md\:stroke-dasharray-20 {
+    stroke-dasharray: 20;
+  }
+
+  .md\:stroke-dasharray-25 {
+    stroke-dasharray: 25;
+  }
+
+  .md\:stroke-dasharray-30 {
+    stroke-dasharray: 30;
+  }
+
+  .md\:stroke-dasharray-35 {
+    stroke-dasharray: 35;
+  }
+
+  .md\:stroke-dasharray-40 {
+    stroke-dasharray: 40;
+  }
+
+  .md\:stroke-dasharray-45 {
+    stroke-dasharray: 45;
+  }
+
+  .md\:stroke-dasharray-50 {
+    stroke-dasharray: 50;
+  }
 }
 @media (min-width: 1024px) {
   .lg\:appearance-auto {
@@ -41117,6 +41429,110 @@ table {
 
   .lg\:backdrop-filter-sepia-1 {
     --backdrop-filter-sepia: sepia(1);
+  }
+
+  .lg\:fill-current {
+    fill: currentColor;
+  }
+
+  .lg\:stroke-current {
+    stroke: currentColor;
+  }
+
+  .lg\:stroke-width-0 {
+    stroke-width: 0;
+  }
+
+  .lg\:stroke-width-1 {
+    stroke-width: 1;
+  }
+
+  .lg\:stroke-width-2 {
+    stroke-width: 2;
+  }
+
+  .lg\:stroke-width-3 {
+    stroke-width: 3;
+  }
+
+  .lg\:stroke-width-4 {
+    stroke-width: 4;
+  }
+
+  .lg\:stroke-width-5 {
+    stroke-width: 5;
+  }
+
+  .lg\:stroke-width-6 {
+    stroke-width: 6;
+  }
+
+  .lg\:stroke-width-7 {
+    stroke-width: 7;
+  }
+
+  .lg\:stroke-width-8 {
+    stroke-width: 8;
+  }
+
+  .lg\:stroke-width-9 {
+    stroke-width: 9;
+  }
+
+  .lg\:stroke-width-10 {
+    stroke-width: 10;
+  }
+
+  .lg\:stroke-linecap-butt {
+    stroke-linecap: butt;
+  }
+
+  .lg\:stroke-linecap-round {
+    stroke-linecap: round;
+  }
+
+  .lg\:stroke-linecap-square {
+    stroke-linecap: square;
+  }
+
+  .lg\:stroke-dasharray-5 {
+    stroke-dasharray: 5;
+  }
+
+  .lg\:stroke-dasharray-10 {
+    stroke-dasharray: 10;
+  }
+
+  .lg\:stroke-dasharray-15 {
+    stroke-dasharray: 15;
+  }
+
+  .lg\:stroke-dasharray-20 {
+    stroke-dasharray: 20;
+  }
+
+  .lg\:stroke-dasharray-25 {
+    stroke-dasharray: 25;
+  }
+
+  .lg\:stroke-dasharray-30 {
+    stroke-dasharray: 30;
+  }
+
+  .lg\:stroke-dasharray-35 {
+    stroke-dasharray: 35;
+  }
+
+  .lg\:stroke-dasharray-40 {
+    stroke-dasharray: 40;
+  }
+
+  .lg\:stroke-dasharray-45 {
+    stroke-dasharray: 45;
+  }
+
+  .lg\:stroke-dasharray-50 {
+    stroke-dasharray: 50;
   }
 }
 @media (min-width: 1280px) {
@@ -51384,6 +51800,110 @@ table {
   .xl\:backdrop-filter-sepia-1 {
     --backdrop-filter-sepia: sepia(1);
   }
+
+  .xl\:fill-current {
+    fill: currentColor;
+  }
+
+  .xl\:stroke-current {
+    stroke: currentColor;
+  }
+
+  .xl\:stroke-width-0 {
+    stroke-width: 0;
+  }
+
+  .xl\:stroke-width-1 {
+    stroke-width: 1;
+  }
+
+  .xl\:stroke-width-2 {
+    stroke-width: 2;
+  }
+
+  .xl\:stroke-width-3 {
+    stroke-width: 3;
+  }
+
+  .xl\:stroke-width-4 {
+    stroke-width: 4;
+  }
+
+  .xl\:stroke-width-5 {
+    stroke-width: 5;
+  }
+
+  .xl\:stroke-width-6 {
+    stroke-width: 6;
+  }
+
+  .xl\:stroke-width-7 {
+    stroke-width: 7;
+  }
+
+  .xl\:stroke-width-8 {
+    stroke-width: 8;
+  }
+
+  .xl\:stroke-width-9 {
+    stroke-width: 9;
+  }
+
+  .xl\:stroke-width-10 {
+    stroke-width: 10;
+  }
+
+  .xl\:stroke-linecap-butt {
+    stroke-linecap: butt;
+  }
+
+  .xl\:stroke-linecap-round {
+    stroke-linecap: round;
+  }
+
+  .xl\:stroke-linecap-square {
+    stroke-linecap: square;
+  }
+
+  .xl\:stroke-dasharray-5 {
+    stroke-dasharray: 5;
+  }
+
+  .xl\:stroke-dasharray-10 {
+    stroke-dasharray: 10;
+  }
+
+  .xl\:stroke-dasharray-15 {
+    stroke-dasharray: 15;
+  }
+
+  .xl\:stroke-dasharray-20 {
+    stroke-dasharray: 20;
+  }
+
+  .xl\:stroke-dasharray-25 {
+    stroke-dasharray: 25;
+  }
+
+  .xl\:stroke-dasharray-30 {
+    stroke-dasharray: 30;
+  }
+
+  .xl\:stroke-dasharray-35 {
+    stroke-dasharray: 35;
+  }
+
+  .xl\:stroke-dasharray-40 {
+    stroke-dasharray: 40;
+  }
+
+  .xl\:stroke-dasharray-45 {
+    stroke-dasharray: 45;
+  }
+
+  .xl\:stroke-dasharray-50 {
+    stroke-dasharray: 50;
+  }
 }
 @media (min-width: 1366px) {
   .xxl\:appearance-auto {
@@ -61649,6 +62169,110 @@ table {
 
   .xxl\:backdrop-filter-sepia-1 {
     --backdrop-filter-sepia: sepia(1);
+  }
+
+  .xxl\:fill-current {
+    fill: currentColor;
+  }
+
+  .xxl\:stroke-current {
+    stroke: currentColor;
+  }
+
+  .xxl\:stroke-width-0 {
+    stroke-width: 0;
+  }
+
+  .xxl\:stroke-width-1 {
+    stroke-width: 1;
+  }
+
+  .xxl\:stroke-width-2 {
+    stroke-width: 2;
+  }
+
+  .xxl\:stroke-width-3 {
+    stroke-width: 3;
+  }
+
+  .xxl\:stroke-width-4 {
+    stroke-width: 4;
+  }
+
+  .xxl\:stroke-width-5 {
+    stroke-width: 5;
+  }
+
+  .xxl\:stroke-width-6 {
+    stroke-width: 6;
+  }
+
+  .xxl\:stroke-width-7 {
+    stroke-width: 7;
+  }
+
+  .xxl\:stroke-width-8 {
+    stroke-width: 8;
+  }
+
+  .xxl\:stroke-width-9 {
+    stroke-width: 9;
+  }
+
+  .xxl\:stroke-width-10 {
+    stroke-width: 10;
+  }
+
+  .xxl\:stroke-linecap-butt {
+    stroke-linecap: butt;
+  }
+
+  .xxl\:stroke-linecap-round {
+    stroke-linecap: round;
+  }
+
+  .xxl\:stroke-linecap-square {
+    stroke-linecap: square;
+  }
+
+  .xxl\:stroke-dasharray-5 {
+    stroke-dasharray: 5;
+  }
+
+  .xxl\:stroke-dasharray-10 {
+    stroke-dasharray: 10;
+  }
+
+  .xxl\:stroke-dasharray-15 {
+    stroke-dasharray: 15;
+  }
+
+  .xxl\:stroke-dasharray-20 {
+    stroke-dasharray: 20;
+  }
+
+  .xxl\:stroke-dasharray-25 {
+    stroke-dasharray: 25;
+  }
+
+  .xxl\:stroke-dasharray-30 {
+    stroke-dasharray: 30;
+  }
+
+  .xxl\:stroke-dasharray-35 {
+    stroke-dasharray: 35;
+  }
+
+  .xxl\:stroke-dasharray-40 {
+    stroke-dasharray: 40;
+  }
+
+  .xxl\:stroke-dasharray-45 {
+    stroke-dasharray: 45;
+  }
+
+  .xxl\:stroke-dasharray-50 {
+    stroke-dasharray: 50;
   }
 }
 .appearance-auto {
@@ -71943,6 +72567,110 @@ table {
 
 .backdrop-filter-sepia-1 {
   --backdrop-filter-sepia: sepia(1);
+}
+
+.fill-current {
+  fill: currentColor;
+}
+
+.stroke-current {
+  stroke: currentColor;
+}
+
+.stroke-width-0 {
+  stroke-width: 0;
+}
+
+.stroke-width-1 {
+  stroke-width: 1;
+}
+
+.stroke-width-2 {
+  stroke-width: 2;
+}
+
+.stroke-width-3 {
+  stroke-width: 3;
+}
+
+.stroke-width-4 {
+  stroke-width: 4;
+}
+
+.stroke-width-5 {
+  stroke-width: 5;
+}
+
+.stroke-width-6 {
+  stroke-width: 6;
+}
+
+.stroke-width-7 {
+  stroke-width: 7;
+}
+
+.stroke-width-8 {
+  stroke-width: 8;
+}
+
+.stroke-width-9 {
+  stroke-width: 9;
+}
+
+.stroke-width-10 {
+  stroke-width: 10;
+}
+
+.stroke-linecap-butt {
+  stroke-linecap: butt;
+}
+
+.stroke-linecap-round {
+  stroke-linecap: round;
+}
+
+.stroke-linecap-square {
+  stroke-linecap: square;
+}
+
+.stroke-dasharray-5 {
+  stroke-dasharray: 5;
+}
+
+.stroke-dasharray-10 {
+  stroke-dasharray: 10;
+}
+
+.stroke-dasharray-15 {
+  stroke-dasharray: 15;
+}
+
+.stroke-dasharray-20 {
+  stroke-dasharray: 20;
+}
+
+.stroke-dasharray-25 {
+  stroke-dasharray: 25;
+}
+
+.stroke-dasharray-30 {
+  stroke-dasharray: 30;
+}
+
+.stroke-dasharray-35 {
+  stroke-dasharray: 35;
+}
+
+.stroke-dasharray-40 {
+  stroke-dasharray: 40;
+}
+
+.stroke-dasharray-45 {
+  stroke-dasharray: 45;
+}
+
+.stroke-dasharray-50 {
+  stroke-dasharray: 50;
 }
 
 /*# sourceMappingURL=madosel.css.map*/
