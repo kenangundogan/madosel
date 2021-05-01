@@ -1,0 +1,26 @@
+$outline-offset:(
+    "outline-offset": (
+        type: 2,
+        status: $outline-offset-status,
+        responsive: $outline-offset-responsive,
+        property: (
+            name: outline-offset,
+            class: null
+        ),
+        sub-property: (
+            list:(
+                outline-offset: outline-offset
+            ),
+            values: (
+                percent:(
+                    status: true,
+                    class: px,
+                    extension: px,
+                    start: 0,
+                    end: 10,
+                    rate: 1
+                )
+            )
+        )
+    )
+);
