@@ -1,0 +1,19 @@
+$outline-style:(
+    "outline-style": (
+        type: 1,
+        status: $outline-style-status,
+        responsive: $outline-style-responsive,
+        property: (
+            name: outline-style,
+            class: null,
+            list: (
+                auto: auto,
+                solid: solid,
+                dashed: dashed,
+                dotted: dotted,
+                double: double,
+                none: none
+            )
+        )
+    )
+);

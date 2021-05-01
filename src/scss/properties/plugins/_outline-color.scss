@@ -1,0 +1,26 @@
+$outline-color:(
+    "outline-color": (
+        type: 3,
+        status: $outline-color-status,
+        responsive: $outline-color-responsive,
+        property: (
+            list:(
+                outline: outline-color
+            ),
+            color:(
+                "red":$red,
+                "green":$green,
+                "blue":$blue,
+                "yellow":$yellow,
+                "pink":$pink,
+                "purple":$purple,
+                "gray":$gray
+            ),
+            value:(
+                status: true,
+                light: 4,
+                dark: 4,
+            )
+        )
+    )
+);
