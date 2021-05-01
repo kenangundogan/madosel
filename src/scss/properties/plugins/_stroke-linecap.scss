@@ -1,0 +1,17 @@
+$stroke-linecap:(
+    "stroke-linecap": (
+        type: 1,
+        status: $stroke-linecap-status,
+        responsive: $stroke-linecap-responsive,
+        property: (
+            name: stroke-linecap,
+            class: null,
+            name-alternative: null,
+            list: (
+                butt: butt,
+                round: round,
+                square: square
+            )
+        )
+    )
+);
