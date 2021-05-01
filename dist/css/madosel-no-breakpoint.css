@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /*!
- * Madosel 1.0.0-alpha9
+ * Madosel 1.0.0-alpha10
  * Copyright 2020-2021 Kenan Gündoğan
  * https://www.madosel.com
  * Licensed under MIT https://github.com/kenangundogan/madosel/blob/master/LICENSE
@@ -10451,6 +10451,405 @@ table {
 
 .stroke-dasharray-50 {
   stroke-dasharray: 50;
+}
+
+.outline-style-auto {
+  outline-style: auto;
+}
+
+.outline-style-solid {
+  outline-style: solid;
+}
+
+.outline-style-dashed {
+  outline-style: dashed;
+}
+
+.outline-style-dotted {
+  outline-style: dotted;
+}
+
+.outline-style-double {
+  outline-style: double;
+}
+
+.outline-style-none {
+  outline-style: none;
+}
+
+.outline-width-medium {
+  outline-width: medium;
+}
+
+.outline-width-thin {
+  outline-width: thin;
+}
+
+.outline-width-thick {
+  outline-width: thick;
+}
+
+.outline-red-600 {
+  --outline-opacity: 1;
+  outline-color: rgba(237, 45, 45, var(--outline-opacity));
+}
+
+.outline-red-700 {
+  --outline-opacity: 1;
+  outline-color: rgba(235, 21, 21, var(--outline-opacity));
+}
+
+.outline-red-800 {
+  --outline-opacity: 1;
+  outline-color: rgba(212, 18, 18, var(--outline-opacity));
+}
+
+.outline-red-900 {
+  --outline-opacity: 1;
+  outline-color: rgba(189, 16, 16, var(--outline-opacity));
+}
+
+.outline-red-500 {
+  --outline-opacity: 1;
+  outline-color: rgba(239, 68, 68, var(--outline-opacity));
+}
+
+.outline-red-400 {
+  --outline-opacity: 1;
+  outline-color: rgba(242, 106, 106, var(--outline-opacity));
+}
+
+.outline-red-300 {
+  --outline-opacity: 1;
+  outline-color: rgba(245, 143, 143, var(--outline-opacity));
+}
+
+.outline-red-200 {
+  --outline-opacity: 1;
+  outline-color: rgba(249, 181, 181, var(--outline-opacity));
+}
+
+.outline-red-100 {
+  --outline-opacity: 1;
+  outline-color: rgba(252, 218, 218, var(--outline-opacity));
+}
+
+.outline-green-600 {
+  --outline-opacity: 1;
+  outline-color: rgba(14, 162, 113, var(--outline-opacity));
+}
+
+.outline-green-700 {
+  --outline-opacity: 1;
+  outline-color: rgba(12, 138, 96, var(--outline-opacity));
+}
+
+.outline-green-800 {
+  --outline-opacity: 1;
+  outline-color: rgba(10, 115, 80, var(--outline-opacity));
+}
+
+.outline-green-900 {
+  --outline-opacity: 1;
+  outline-color: rgba(8, 91, 64, var(--outline-opacity));
+}
+
+.outline-green-500 {
+  --outline-opacity: 1;
+  outline-color: rgba(16, 185, 129, var(--outline-opacity));
+}
+
+.outline-green-400 {
+  --outline-opacity: 1;
+  outline-color: rgba(19, 223, 155, var(--outline-opacity));
+}
+
+.outline-green-300 {
+  --outline-opacity: 1;
+  outline-color: rgba(46, 237, 174, var(--outline-opacity));
+}
+
+.outline-green-200 {
+  --outline-opacity: 1;
+  outline-color: rgba(83, 240, 188, var(--outline-opacity));
+}
+
+.outline-green-100 {
+  --outline-opacity: 1;
+  outline-color: rgba(121, 243, 203, var(--outline-opacity));
+}
+
+.outline-blue-600 {
+  --outline-opacity: 1;
+  outline-color: rgba(35, 114, 245, var(--outline-opacity));
+}
+
+.outline-blue-700 {
+  --outline-opacity: 1;
+  outline-color: rgba(11, 99, 243, var(--outline-opacity));
+}
+
+.outline-blue-800 {
+  --outline-opacity: 1;
+  outline-color: rgba(10, 89, 218, var(--outline-opacity));
+}
+
+.outline-blue-900 {
+  --outline-opacity: 1;
+  outline-color: rgba(9, 79, 194, var(--outline-opacity));
+}
+
+.outline-blue-500 {
+  --outline-opacity: 1;
+  outline-color: rgba(59, 130, 246, var(--outline-opacity));
+}
+
+.outline-blue-400 {
+  --outline-opacity: 1;
+  outline-color: rgba(98, 155, 248, var(--outline-opacity));
+}
+
+.outline-blue-300 {
+  --outline-opacity: 1;
+  outline-color: rgba(137, 180, 250, var(--outline-opacity));
+}
+
+.outline-blue-200 {
+  --outline-opacity: 1;
+  outline-color: rgba(176, 205, 251, var(--outline-opacity));
+}
+
+.outline-blue-100 {
+  --outline-opacity: 1;
+  outline-color: rgba(215, 230, 253, var(--outline-opacity));
+}
+
+.outline-yellow-600 {
+  --outline-opacity: 1;
+  outline-color: rgba(251, 184, 11, var(--outline-opacity));
+}
+
+.outline-yellow-700 {
+  --outline-opacity: 1;
+  outline-color: rgba(232, 168, 4, var(--outline-opacity));
+}
+
+.outline-yellow-800 {
+  --outline-opacity: 1;
+  outline-color: rgba(207, 150, 4, var(--outline-opacity));
+}
+
+.outline-yellow-900 {
+  --outline-opacity: 1;
+  outline-color: rgba(182, 132, 3, var(--outline-opacity));
+}
+
+.outline-yellow-500 {
+  --outline-opacity: 1;
+  outline-color: rgba(251, 191, 36, var(--outline-opacity));
+}
+
+.outline-yellow-400 {
+  --outline-opacity: 1;
+  outline-color: rgba(252, 203, 76, var(--outline-opacity));
+}
+
+.outline-yellow-300 {
+  --outline-opacity: 1;
+  outline-color: rgba(252, 214, 116, var(--outline-opacity));
+}
+
+.outline-yellow-200 {
+  --outline-opacity: 1;
+  outline-color: rgba(253, 226, 156, var(--outline-opacity));
+}
+
+.outline-yellow-100 {
+  --outline-opacity: 1;
+  outline-color: rgba(254, 238, 196, var(--outline-opacity));
+}
+
+.outline-pink-600 {
+  --outline-opacity: 1;
+  outline-color: rgba(234, 49, 140, var(--outline-opacity));
+}
+
+.outline-pink-700 {
+  --outline-opacity: 1;
+  outline-color: rgba(231, 26, 127, var(--outline-opacity));
+}
+
+.outline-pink-800 {
+  --outline-opacity: 1;
+  outline-color: rgba(210, 22, 115, var(--outline-opacity));
+}
+
+.outline-pink-900 {
+  --outline-opacity: 1;
+  outline-color: rgba(187, 19, 102, var(--outline-opacity));
+}
+
+.outline-pink-500 {
+  --outline-opacity: 1;
+  outline-color: rgba(236, 72, 153, var(--outline-opacity));
+}
+
+.outline-pink-400 {
+  --outline-opacity: 1;
+  outline-color: rgba(240, 109, 174, var(--outline-opacity));
+}
+
+.outline-pink-300 {
+  --outline-opacity: 1;
+  outline-color: rgba(244, 146, 194, var(--outline-opacity));
+}
+
+.outline-pink-200 {
+  --outline-opacity: 1;
+  outline-color: rgba(248, 183, 215, var(--outline-opacity));
+}
+
+.outline-pink-100 {
+  --outline-opacity: 1;
+  outline-color: rgba(251, 220, 235, var(--outline-opacity));
+}
+
+.outline-purple-600 {
+  --outline-opacity: 1;
+  outline-color: rgba(122, 68, 245, var(--outline-opacity));
+}
+
+.outline-purple-700 {
+  --outline-opacity: 1;
+  outline-color: rgba(105, 44, 243, var(--outline-opacity));
+}
+
+.outline-purple-800 {
+  --outline-opacity: 1;
+  outline-color: rgba(87, 20, 242, var(--outline-opacity));
+}
+
+.outline-purple-900 {
+  --outline-opacity: 1;
+  outline-color: rgba(77, 12, 224, var(--outline-opacity));
+}
+
+.outline-purple-500 {
+  --outline-opacity: 1;
+  outline-color: rgba(139, 92, 246, var(--outline-opacity));
+}
+
+.outline-purple-400 {
+  --outline-opacity: 1;
+  outline-color: rgba(167, 131, 248, var(--outline-opacity));
+}
+
+.outline-purple-300 {
+  --outline-opacity: 1;
+  outline-color: rgba(194, 169, 250, var(--outline-opacity));
+}
+
+.outline-purple-200 {
+  --outline-opacity: 1;
+  outline-color: rgba(222, 208, 252, var(--outline-opacity));
+}
+
+.outline-purple-100 {
+  --outline-opacity: 1;
+  outline-color: rgba(249, 247, 255, var(--outline-opacity));
+}
+
+.outline-gray-600 {
+  --outline-opacity: 1;
+  outline-color: rgba(95, 102, 114, var(--outline-opacity));
+}
+
+.outline-gray-700 {
+  --outline-opacity: 1;
+  outline-color: rgba(84, 89, 100, var(--outline-opacity));
+}
+
+.outline-gray-800 {
+  --outline-opacity: 1;
+  outline-color: rgba(72, 77, 86, var(--outline-opacity));
+}
+
+.outline-gray-900 {
+  --outline-opacity: 1;
+  outline-color: rgba(61, 65, 72, var(--outline-opacity));
+}
+
+.outline-gray-500 {
+  --outline-opacity: 1;
+  outline-color: rgba(107, 114, 128, var(--outline-opacity));
+}
+
+.outline-gray-400 {
+  --outline-opacity: 1;
+  outline-color: rgba(127, 134, 148, var(--outline-opacity));
+}
+
+.outline-gray-300 {
+  --outline-opacity: 1;
+  outline-color: rgba(150, 155, 167, var(--outline-opacity));
+}
+
+.outline-gray-200 {
+  --outline-opacity: 1;
+  outline-color: rgba(172, 176, 186, var(--outline-opacity));
+}
+
+.outline-gray-100 {
+  --outline-opacity: 1;
+  outline-color: rgba(194, 197, 204, var(--outline-opacity));
+}
+
+.outline-offset-0px {
+  outline-offset: 0;
+}
+
+.outline-offset-1px {
+  outline-offset: 1px;
+}
+
+.outline-offset-2px {
+  outline-offset: 2px;
+}
+
+.outline-offset-3px {
+  outline-offset: 3px;
+}
+
+.outline-offset-4px {
+  outline-offset: 4px;
+}
+
+.outline-offset-5px {
+  outline-offset: 5px;
+}
+
+.outline-offset-6px {
+  outline-offset: 6px;
+}
+
+.outline-offset-7px {
+  outline-offset: 7px;
+}
+
+.outline-offset-8px {
+  outline-offset: 8px;
+}
+
+.outline-offset-9px {
+  outline-offset: 9px;
+}
+
+.outline-offset-10px {
+  outline-offset: 10px;
+}
+
+.outline-none {
+  outline: none;
 }
 
 /*# sourceMappingURL=madosel-no-breakpoint.css.map*/
