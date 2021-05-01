@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /*!
- * Madosel 1.0.0-alpha8
+ * Madosel 1.0.0-alpha9
  * Copyright 2020-2021 Kenan Gündoğan
  * https://www.madosel.com
  * Licensed under MIT https://github.com/kenangundogan/madosel/blob/master/LICENSE
@@ -10347,6 +10347,110 @@ table {
 
 .backdrop-filter-sepia-1 {
   --backdrop-filter-sepia: sepia(1);
+}
+
+.fill-current {
+  fill: currentColor;
+}
+
+.stroke-current {
+  stroke: currentColor;
+}
+
+.stroke-width-0 {
+  stroke-width: 0;
+}
+
+.stroke-width-1 {
+  stroke-width: 1;
+}
+
+.stroke-width-2 {
+  stroke-width: 2;
+}
+
+.stroke-width-3 {
+  stroke-width: 3;
+}
+
+.stroke-width-4 {
+  stroke-width: 4;
+}
+
+.stroke-width-5 {
+  stroke-width: 5;
+}
+
+.stroke-width-6 {
+  stroke-width: 6;
+}
+
+.stroke-width-7 {
+  stroke-width: 7;
+}
+
+.stroke-width-8 {
+  stroke-width: 8;
+}
+
+.stroke-width-9 {
+  stroke-width: 9;
+}
+
+.stroke-width-10 {
+  stroke-width: 10;
+}
+
+.stroke-linecap-butt {
+  stroke-linecap: butt;
+}
+
+.stroke-linecap-round {
+  stroke-linecap: round;
+}
+
+.stroke-linecap-square {
+  stroke-linecap: square;
+}
+
+.stroke-dasharray-5 {
+  stroke-dasharray: 5;
+}
+
+.stroke-dasharray-10 {
+  stroke-dasharray: 10;
+}
+
+.stroke-dasharray-15 {
+  stroke-dasharray: 15;
+}
+
+.stroke-dasharray-20 {
+  stroke-dasharray: 20;
+}
+
+.stroke-dasharray-25 {
+  stroke-dasharray: 25;
+}
+
+.stroke-dasharray-30 {
+  stroke-dasharray: 30;
+}
+
+.stroke-dasharray-35 {
+  stroke-dasharray: 35;
+}
+
+.stroke-dasharray-40 {
+  stroke-dasharray: 40;
+}
+
+.stroke-dasharray-45 {
+  stroke-dasharray: 45;
+}
+
+.stroke-dasharray-50 {
+  stroke-dasharray: 50;
 }
 
 /*# sourceMappingURL=madosel-no-breakpoint.css.map*/
