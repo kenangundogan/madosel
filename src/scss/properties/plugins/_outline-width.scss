@@ -1,0 +1,17 @@
+$outline-width:(
+    "outline-width": (
+        type: 1,
+        status: $outline-width-status,
+        responsive: $outline-width-responsive,
+        property: (
+            name: outline-width,
+            class: null,
+            name-alternative: null,
+            list: (
+                medium: medium,
+                thin: thin,
+                thick: thick
+            )
+        )
+    )
+);

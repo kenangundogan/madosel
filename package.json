@@ -7,7 +7,7 @@
     "style": "dist/css/madosel-component.min.css",
     "script": "dist/js/madosel-component.js",
     "license": "MIT",
-    "version": "1.0.0-alpha9",
+    "version": "1.0.0-alpha10",
     "repository": {
         "type": "git",
         "url": "https://github.com/kenangundogan/madosel.git"
