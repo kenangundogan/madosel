@@ -1,0 +1,16 @@
+$writing-mode:(
+    "writing-mode": (
+        type: 1,
+        status: $writing-mode-status,
+        responsive: $writing-mode-responsive,
+        property: (
+            name: writing-mode,
+            class: null,
+            list: (
+                tb: horizontal-tb,
+                lr: vertical-lr,
+                rl: vertical-rl
+            )
+        )
+    )
+);
