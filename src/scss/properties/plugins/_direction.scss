@@ -1,0 +1,15 @@
+$direction:(
+    "direction": (
+        type: 1,
+        status: $direction-status,
+        responsive: $direction-responsive,
+        property: (
+            name: direction,
+            class: null,
+            list: (
+                ltr: ltr,
+                rtl: rtl
+            )
+        )
+    )
+);
