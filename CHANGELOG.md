@@ -5,6 +5,40 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.0.0-alpha11](https://github.com/kenangundogan/madosel/compare/v1.0.0-alpha10...v1.0.0-alpha11) - 2021-05-05
+
+### Merged
+
+- Update CHANGELOG.md [`#22`](https://github.com/kenangundogan/madosel/pull/22)
+- Added direction and writing-mode property [`#21`](https://github.com/kenangundogan/madosel/pull/21)
+- Update preflight [`#20`](https://github.com/kenangundogan/madosel/pull/20)
+- Added writing-mode property [`#19`](https://github.com/kenangundogan/madosel/pull/19)
+- Direction property [`#18`](https://github.com/kenangundogan/madosel/pull/18)
+- Merge Preflight [`#16`](https://github.com/kenangundogan/madosel/pull/16)
+
+### Commits
+
+- Update version (madosel style) [`df0b72b`](https://github.com/kenangundogan/madosel/commit/df0b72b61740aada7188b4c12c2e5191ee807d48)
+- Update version (madosel-no-breakpoint style) [`054ff30`](https://github.com/kenangundogan/madosel/commit/054ff30bc476d5f54b2de1a77c51afe1004dfb25)
+- Update version (component style) [`1b6c9ab`](https://github.com/kenangundogan/madosel/commit/1b6c9ab30efc8703d0ce97da5684dd1399ac8917)
+- Added direction property [`f3da5c0`](https://github.com/kenangundogan/madosel/commit/f3da5c0a22cf36a5b430ee1f6d7b26eaf43ecfaa)
+- Update version (component script) [`7cad7f8`](https://github.com/kenangundogan/madosel/commit/7cad7f873f80ba57240391c6f0aa7831270d7383)
+- Update version (component scss) [`7aef0b2`](https://github.com/kenangundogan/madosel/commit/7aef0b27a5886a8f07d5841c229721729eb43e70)
+- Update version (component script) [`2e9e947`](https://github.com/kenangundogan/madosel/commit/2e9e9470d3dc2ff450cbfca62aec8c6d1045a131)
+- Update version (offcanvas style) [`9a5a9f9`](https://github.com/kenangundogan/madosel/commit/9a5a9f96093d1c8e4860d37346b614baca2a2f51)
+- Update version (navigation-tabs style) [`fa08281`](https://github.com/kenangundogan/madosel/commit/fa082813ff7149fb4648d712e8f3081a0a1390a7)
+- Update version (modal style) [`88532b5`](https://github.com/kenangundogan/madosel/commit/88532b53bd8136f26d4220a10aef22b129572b51)
+- Update version (dropdown style) [`1d23ba0`](https://github.com/kenangundogan/madosel/commit/1d23ba0ca7a6faa289fceb9ce6227d51f9ff44c3)
+- Update version (accordion style) [`bc01f1f`](https://github.com/kenangundogan/madosel/commit/bc01f1f7e4647cede722f2a66dbf0fb99e725287)
+- Update version (offcanvas script) [`cdc7d70`](https://github.com/kenangundogan/madosel/commit/cdc7d7031efc831051dad4e0a13052b79ae0be45)
+- Update version (navigation-tabs script) [`3194905`](https://github.com/kenangundogan/madosel/commit/31949058ba0069a4b44a4dbcf85c3b4656cadc5d)
+- Update version (modal script) [`c984538`](https://github.com/kenangundogan/madosel/commit/c984538e2401e0a3108400bce9ad9db073469f96)
+- Update version (dropdown script) [`b0518cc`](https://github.com/kenangundogan/madosel/commit/b0518cc06196055ee625250f1d18fc7b98e87060)
+- Update version (accordion script) [`869a811`](https://github.com/kenangundogan/madosel/commit/869a8114272b90df74353297a94712cb1c20cf3f)
+- Update version (package.json) [`dc14a7d`](https://github.com/kenangundogan/madosel/commit/dc14a7d5132eee5e9f71a5d2d5591117ef7fe3d3)
+- Update README.md [`f75ea70`](https://github.com/kenangundogan/madosel/commit/f75ea704fc69d6dce6011d196ece745f3ca53bb9)
+- Update version (properties scss) [`9a11fe3`](https://github.com/kenangundogan/madosel/commit/9a11fe32f17298c04c82d1cbfb4210ce905911fb)
+
 ## [v1.0.0-alpha10](https://github.com/kenangundogan/madosel/compare/v1.0.0-alpha1...v1.0.0-alpha10) - 2021-05-01
 
 ### Merged
@@ -190,50 +224,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Update README.md [`880adad`](https://github.com/kenangundogan/madosel/commit/880adadf786902c90bd41eeb30b1e64ff396c434)
 - Update README.md [`223e081`](https://github.com/kenangundogan/madosel/commit/223e081e4ee29af5f0dad6240428d40eb9be1af6)
 
-## [Unreleased](https://github.com/kenangundogan/madosel/compare/v1.0.0-alpha9...HEAD)
-
-### Merged
-
-- Update preflight [`#20`](https://github.com/kenangundogan/madosel/pull/20)
-- Added writing-mode property [`#19`](https://github.com/kenangundogan/madosel/pull/19)
-- Direction property [`#18`](https://github.com/kenangundogan/madosel/pull/18)
-- Added outline property, version updated [`#15`](https://github.com/kenangundogan/madosel/pull/15)
-- Added outline property [`#14`](https://github.com/kenangundogan/madosel/pull/14)
-
-### Commits
-
-- Update version (madosel style) [`337a1d3`](https://github.com/kenangundogan/madosel/commit/337a1d370eb8fcec699f73db0c40967f8f5309d6)
-- Update version (madosel-no-breakpoint style) [`c4aa688`](https://github.com/kenangundogan/madosel/commit/c4aa6887f674ecb4e582753290a788bad55da047)
-- Update CHANGELOG.md [`a0cb1e2`](https://github.com/kenangundogan/madosel/commit/a0cb1e248dee05e21c62aa007d33db95d928de53)
-- Update CHANGELOG.md [`7a6bfd4`](https://github.com/kenangundogan/madosel/commit/7a6bfd49e642d14adf1db308ccaafde46a7049bb)
-- Update version (madosel style) [`df0b72b`](https://github.com/kenangundogan/madosel/commit/df0b72b61740aada7188b4c12c2e5191ee807d48)
-- Update version (style) [`a38018e`](https://github.com/kenangundogan/madosel/commit/a38018e1a84d1b31704de73b1e7d2d1c5baba6dc)
-- Update version (script) [`3b492df`](https://github.com/kenangundogan/madosel/commit/3b492df69f21968ebf6c68ddd6791eb5bf51a73b)
-- Update version (madosel-no-breakpoint style) [`054ff30`](https://github.com/kenangundogan/madosel/commit/054ff30bc476d5f54b2de1a77c51afe1004dfb25)
-- Update version (component style) [`1b6c9ab`](https://github.com/kenangundogan/madosel/commit/1b6c9ab30efc8703d0ce97da5684dd1399ac8917)
-- Added direction property [`f3da5c0`](https://github.com/kenangundogan/madosel/commit/f3da5c0a22cf36a5b430ee1f6d7b26eaf43ecfaa)
-- Update version (component script) [`7cad7f8`](https://github.com/kenangundogan/madosel/commit/7cad7f873f80ba57240391c6f0aa7831270d7383)
-- Update version (scss) [`94f0f58`](https://github.com/kenangundogan/madosel/commit/94f0f58d9ec3508a1396e6fabf1e7b221a590644)
-- Update version (component scss) [`7aef0b2`](https://github.com/kenangundogan/madosel/commit/7aef0b27a5886a8f07d5841c229721729eb43e70)
-- Update version (component script) [`2e9e947`](https://github.com/kenangundogan/madosel/commit/2e9e9470d3dc2ff450cbfca62aec8c6d1045a131)
-- Update version (script) [`0e7daf3`](https://github.com/kenangundogan/madosel/commit/0e7daf387efc0ecd765ed2bb4583cb4ebab811e1)
-- Update version (offcanvas style) [`9a5a9f9`](https://github.com/kenangundogan/madosel/commit/9a5a9f96093d1c8e4860d37346b614baca2a2f51)
-- Update version (navigation-tabs style) [`fa08281`](https://github.com/kenangundogan/madosel/commit/fa082813ff7149fb4648d712e8f3081a0a1390a7)
-- Update version (modal style) [`88532b5`](https://github.com/kenangundogan/madosel/commit/88532b53bd8136f26d4220a10aef22b129572b51)
-- Update version (dropdown style) [`1d23ba0`](https://github.com/kenangundogan/madosel/commit/1d23ba0ca7a6faa289fceb9ce6227d51f9ff44c3)
-- Update version (accordion style) [`bc01f1f`](https://github.com/kenangundogan/madosel/commit/bc01f1f7e4647cede722f2a66dbf0fb99e725287)
-- Update version (offcanvas script) [`cdc7d70`](https://github.com/kenangundogan/madosel/commit/cdc7d7031efc831051dad4e0a13052b79ae0be45)
-- Update version (navigation-tabs script) [`3194905`](https://github.com/kenangundogan/madosel/commit/31949058ba0069a4b44a4dbcf85c3b4656cadc5d)
-- Update version (modal script) [`c984538`](https://github.com/kenangundogan/madosel/commit/c984538e2401e0a3108400bce9ad9db073469f96)
-- Update version (dropdown script) [`b0518cc`](https://github.com/kenangundogan/madosel/commit/b0518cc06196055ee625250f1d18fc7b98e87060)
-- Update version (accordion script) [`869a811`](https://github.com/kenangundogan/madosel/commit/869a8114272b90df74353297a94712cb1c20cf3f)
-- Update CHANGELOG.md [`ce1f163`](https://github.com/kenangundogan/madosel/commit/ce1f163177bce703cf6bacd0022295d787209e03)
-- Update version (package.json) [`dc14a7d`](https://github.com/kenangundogan/madosel/commit/dc14a7d5132eee5e9f71a5d2d5591117ef7fe3d3)
-- Update README.md [`f75ea70`](https://github.com/kenangundogan/madosel/commit/f75ea704fc69d6dce6011d196ece745f3ca53bb9)
-- Update version (properties scss) [`9a11fe3`](https://github.com/kenangundogan/madosel/commit/9a11fe32f17298c04c82d1cbfb4210ce905911fb)
-- Update version (README.md) [`87304d2`](https://github.com/kenangundogan/madosel/commit/87304d25fcaeec5b29e64843f1074c5319947ba0)
-- Update version (package.json) [`eee3128`](https://github.com/kenangundogan/madosel/commit/eee312882b07711c1750ca9b4380455baed67f31)
-
 ## [v1.0.0-alpha9](https://github.com/kenangundogan/madosel/compare/v1.0.0-alpha8...v1.0.0-alpha9) - 2021-05-01
 
 ### Merged
@@ -400,7 +390,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Update package.json [`ab7b6a9`](https://github.com/kenangundogan/madosel/commit/ab7b6a971c844fabf870084e41c100dd97ff36c9)
 - Added madosel-accordion.js [`ddac30c`](https://github.com/kenangundogan/madosel/commit/ddac30c678a7997d1c0f46964dd91bbd530af65d)
 
-## [v1.0.0-alpha2](https://github.com/kenangundogan/madosel/compare/v1.0.0-alpha10...v1.0.0-alpha2) - 2021-03-30
+## [v1.0.0-alpha2](https://github.com/kenangundogan/madosel/compare/v1.0.0-alpha11...v1.0.0-alpha2) - 2021-03-30
 
 ## v1.0.0-alpha1 - 2021-03-28
 
