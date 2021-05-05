@@ -25,7 +25,7 @@
 
 ## Quick start
 #### Several quick start options are available:
-- [Download the latest release.](https://github.com/kenangundogan/madosel/archive/refs/tags/v1.0.0-alpha10.zip)
+- [Download the latest release.](https://github.com/kenangundogan/madosel/archive/refs/tags/v1.0.0-alpha11.zip)
 - Clone the repo: `git clone https://github.com/kenangundogan/madosel.git`
 - Install with [npm](https://www.npmjs.com/package/madosel): `npm install madosel`
 - Install with [yarn](https://yarnpkg.com/en/package/madosel): `yarn add madosel`
