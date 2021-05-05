@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /*!
- * Madosel 1.0.0-alpha10
+ * Madosel 1.0.0-alpha11
  * Copyright 2020-2021 Kenan Gündoğan
  * https://www.madosel.com
  * Licensed under MIT https://github.com/kenangundogan/madosel/blob/master/LICENSE
@@ -22,6 +22,7 @@ time, mark, audio, video {
   margin: 0;
   padding: 0;
   border: 0;
+  outline: 0;
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
@@ -10823,6 +10824,26 @@ table {
   .xs\:outline-none {
     outline: none;
   }
+
+  .xs\:direction-ltr {
+    direction: ltr;
+  }
+
+  .xs\:direction-rtl {
+    direction: rtl;
+  }
+
+  .xs\:writing-mode-tb {
+    writing-mode: horizontal-tb;
+  }
+
+  .xs\:writing-mode-lr {
+    writing-mode: vertical-lr;
+  }
+
+  .xs\:writing-mode-rl {
+    writing-mode: vertical-rl;
+  }
 }
 @media (min-width: 425px) {
   .sm\:appearance-auto {
@@ -21591,6 +21612,26 @@ table {
 
   .sm\:outline-none {
     outline: none;
+  }
+
+  .sm\:direction-ltr {
+    direction: ltr;
+  }
+
+  .sm\:direction-rtl {
+    direction: rtl;
+  }
+
+  .sm\:writing-mode-tb {
+    writing-mode: horizontal-tb;
+  }
+
+  .sm\:writing-mode-lr {
+    writing-mode: vertical-lr;
+  }
+
+  .sm\:writing-mode-rl {
+    writing-mode: vertical-rl;
   }
 }
 @media (min-width: 768px) {
@@ -32361,6 +32402,26 @@ table {
   .md\:outline-none {
     outline: none;
   }
+
+  .md\:direction-ltr {
+    direction: ltr;
+  }
+
+  .md\:direction-rtl {
+    direction: rtl;
+  }
+
+  .md\:writing-mode-tb {
+    writing-mode: horizontal-tb;
+  }
+
+  .md\:writing-mode-lr {
+    writing-mode: vertical-lr;
+  }
+
+  .md\:writing-mode-rl {
+    writing-mode: vertical-rl;
+  }
 }
 @media (min-width: 1024px) {
   .lg\:appearance-auto {
@@ -43129,6 +43190,26 @@ table {
 
   .lg\:outline-none {
     outline: none;
+  }
+
+  .lg\:direction-ltr {
+    direction: ltr;
+  }
+
+  .lg\:direction-rtl {
+    direction: rtl;
+  }
+
+  .lg\:writing-mode-tb {
+    writing-mode: horizontal-tb;
+  }
+
+  .lg\:writing-mode-lr {
+    writing-mode: vertical-lr;
+  }
+
+  .lg\:writing-mode-rl {
+    writing-mode: vertical-rl;
   }
 }
 @media (min-width: 1280px) {
@@ -53899,6 +53980,26 @@ table {
   .xl\:outline-none {
     outline: none;
   }
+
+  .xl\:direction-ltr {
+    direction: ltr;
+  }
+
+  .xl\:direction-rtl {
+    direction: rtl;
+  }
+
+  .xl\:writing-mode-tb {
+    writing-mode: horizontal-tb;
+  }
+
+  .xl\:writing-mode-lr {
+    writing-mode: vertical-lr;
+  }
+
+  .xl\:writing-mode-rl {
+    writing-mode: vertical-rl;
+  }
 }
 @media (min-width: 1366px) {
   .xxl\:appearance-auto {
@@ -64667,6 +64768,26 @@ table {
 
   .xxl\:outline-none {
     outline: none;
+  }
+
+  .xxl\:direction-ltr {
+    direction: ltr;
+  }
+
+  .xxl\:direction-rtl {
+    direction: rtl;
+  }
+
+  .xxl\:writing-mode-tb {
+    writing-mode: horizontal-tb;
+  }
+
+  .xxl\:writing-mode-lr {
+    writing-mode: vertical-lr;
+  }
+
+  .xxl\:writing-mode-rl {
+    writing-mode: vertical-rl;
   }
 }
 .appearance-auto {
@@ -75464,6 +75585,26 @@ table {
 
 .outline-none {
   outline: none;
+}
+
+.direction-ltr {
+  direction: ltr;
+}
+
+.direction-rtl {
+  direction: rtl;
+}
+
+.writing-mode-tb {
+  writing-mode: horizontal-tb;
+}
+
+.writing-mode-lr {
+  writing-mode: vertical-lr;
+}
+
+.writing-mode-rl {
+  writing-mode: vertical-rl;
 }
 
 /*# sourceMappingURL=madosel.css.map*/
