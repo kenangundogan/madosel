@@ -19,6 +19,26 @@ $border-color-responsive: true;
 $background-color-status: true;
 $background-color-responsive: true;
 
+// background-gradient-color
+$background-gradient-color-status: true;
+$background-gradient-color-responsive: true;
+
+// text-opacity
+$text-opacity-status: true;
+$text-opacity-responsive: true;
+
+// background-opacity
+$background-opacity-status: true;
+$background-opacity-responsive: true;
+
+// background-gradient-opacity
+$background-gradient-opacity-status: true;
+$background-gradient-opacity-responsive: true;
+
+// border-opacity
+$border-opacity-status: true;
+$border-opacity-responsive: true;
+
 // background-attachment
 $background-attachment-status: true;
 $background-attachment-responsive: true;
@@ -94,18 +114,6 @@ $place-self-responsive: true;
 // opacity
 $opacity-status: true;
 $opacity-responsive: true;
-
-// text-opacity
-$text-opacity-status: true;
-$text-opacity-responsive: true;
-
-// background-opacity
-$background-opacity-status: true;
-$background-opacity-responsive: true;
-
-// border-opacity
-$border-opacity-status: true;
-$border-opacity-responsive: true;
 
 // flex-direction
 $flex-direction-status: true;
