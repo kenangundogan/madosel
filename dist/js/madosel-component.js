@@ -1,5 +1,5 @@
 /*!
- * Madosel Accordion 1.0.0-alpha11
+ * Madosel Accordion 1.0.0-alpha12
  * Copyright 2020-2021 Kenan Gündoğan
  * https://www.madosel.com
  * Licensed under MIT https://github.com/kenangundogan/madosel/blob/master/LICENSE
@@ -67,7 +67,7 @@ var Accordion = function Accordion(options) {
 window.Accordion = Accordion;
 
 /*!
- * Madosel Dropdown 1.0.0-alpha11
+ * Madosel Dropdown 1.0.0-alpha12
  * Copyright 2020-2021 Kenan Gündoğan
  * https://www.madosel.com
  * Licensed under MIT https://github.com/kenangundogan/madosel/blob/master/LICENSE
@@ -154,7 +154,7 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 /*!
- * Madosel Modal 1.0.0-alpha11
+ * Madosel Modal 1.0.0-alpha12
  * Copyright 2020-2021 Kenan Gündoğan
  * https://www.madosel.com
  * Licensed under MIT https://github.com/kenangundogan/madosel/blob/master/LICENSE
@@ -240,7 +240,7 @@ var Modal = function Modal() {
 window.Modal = Modal;
 
 /*!
- * Madosel Navigation Tabs 1.0.0-alpha11
+ * Madosel Navigation Tabs 1.0.0-alpha12
  * Copyright 2020-2021 Kenan Gündoğan
  * https://www.madosel.com
  * Licensed under MIT https://github.com/kenangundogan/madosel/blob/master/LICENSE
@@ -302,7 +302,7 @@ var NavigationTabs = function NavigationTabs(options) {
 window.NavigationTabs = NavigationTabs;
 
 /*!
- * Madosel Offcanvas 1.0.0-alpha11
+ * Madosel Offcanvas 1.0.0-alpha12
  * Copyright 2020-2021 Kenan Gündoğan
  * https://www.madosel.com
  * Licensed under MIT https://github.com/kenangundogan/madosel/blob/master/LICENSE
