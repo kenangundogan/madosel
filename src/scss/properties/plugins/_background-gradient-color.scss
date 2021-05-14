@@ -1,0 +1,29 @@
+$background-gradient-color:(
+    "background-gradient-color": (
+        type: 3,
+        status: $background-gradient-color-status,
+        responsive: $background-gradient-color-responsive,
+        property: (
+            list:(
+                start: --gradient-start,
+                end: --gradient-end
+            ),
+            color:(
+                "red":$red,
+                "green":$green,
+                "blue":$blue,
+                "yellow":$yellow,
+                "pink":$pink,
+                "purple":$purple,
+                "gray":$gray
+            ),
+            value:(
+                status: true,
+                light: 4,
+                dark: 4,
+            )
+        )
+    )
+);
+
+
