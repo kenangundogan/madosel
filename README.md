@@ -11,6 +11,7 @@
 <p align="center">
     <a href="https://github.com/kenangundogan/madosel/blob/master/LICENSE"><img src="https://img.shields.io/npm/l/madosel.svg" alt="License"></a>
     <a href="https://www.codefactor.io/repository/github/kenangundogan/madosel/overview/master"><img src="https://www.codefactor.io/repository/github/kenangundogan/madosel/badge/master" alt="CodeFactor" /></a>
+    <a href="https://david-dm.org/kenangundogan/madosel?type=dev" title="devDependencies status"><img src="https://status.david-dm.org/gh/kenangundogan/madosel.svg?type=dev"/></a>
     <a href="https://www.npmjs.org/package/madosel"><img src="https://img.shields.io/npm/v/madosel.svg" alt="npm version"></a>
     <a href="https://www.jsdelivr.com/package/npm/madosel"><img src="https://data.jsdelivr.com/v1/package/npm/madosel/badge" alt="jsdeliver"></a>
     <a href="https://www.npmjs.com/package/madosel"><img src="https://img.shields.io/npm/dt/madosel.svg" alt="Total Downloads"></a>
