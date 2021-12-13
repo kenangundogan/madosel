@@ -48,7 +48,7 @@
         "@babel/preset-env": "^7.14.2",
         "autoprefixer": "^10.2.5",
         "babel-loader": "^8.2.2",
-        "compression-webpack-plugin": "^8.0.0",
+        "compression-webpack-plugin": "^9.1.2",
         "css-loader": "^5.2.4",
         "mini-css-extract-plugin": "^2.0.0",
         "postcss": "^8.2.15",
